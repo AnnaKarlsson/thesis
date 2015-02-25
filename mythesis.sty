@@ -1,0 +1,89 @@
+\setupThesis{
+  author={Anna Karlsson},
+  swetitle={Tvåfaktorauthentisering mellan maskiner},
+  swesubtitle={Använding av mobila enheters fingeravtryck för tvåfaktorautentisering mellan enheterna},
+  title={Two factor authentication in M2M},
+  subtitle={Fingerprinting of mobile devices for making a two factor authentication between the devices},
+  year=2015,
+  month=6,
+  day=12,
+  type=msc,
+  subject={säkra system},
+  division={Information Coding},
+  department=isy,
+  examiner={Jan-Åke Larsson, Ph.D \AT \textsc{isy}, Linköping university},
+  supervisor={Jonathan Jogenfors, PhD student \AT \textsc{isy}, Linköping university \AND Engineer Philip Engström \AT Cybercom AB},
+  keywords={computer security, M2M, authentication},
+  isrn=LiTH-ISY-EX-{}-YY/NNNN-{}-SE,
+  url={http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-XXXXX},
+  dedication={Till våra föräldrar}
+}
+
+%%% Define the abstract that goes on the library page here.  This makes it easy to get the same text in two places.
+\newcommand{\myabstract}{%
+}
+
+%%% Since macros that define notation may be useful also to produce figures, these macros are kept in a separate file.
+\RequirePackage{mynotation}
+
+
+
+%%% Setup for natbib (natbib is loaded by rtthesis).
+\AtBeginDocument{%
+  \bibliographystyle{plainnat}%
+}
+
+
+%%% Tell \includegraphics where to search for files.
+\graphicspath{{fig/}}
+
+
+%%% For consistent formatting of lengths and other physical quantities.
+\RequirePackage[squaren]{SIunits}
+
+
+%%% Define command for playing around with margin paragraphs.
+\definecolor{Warning}{rgb}{1.0,0.5,0.0}
+\newcommand{\Warning}[2][Warning]{\marginpar{\fcolorbox{Warning}{white}{\begin{minipage}{\linewidth}\textbf{\textcolor{Warning}{\emph{#1:}}}\par \tiny \sf #2\end{minipage}}}}
+
+
+%%% Customize captions.
+\captionsetup[table]{position=bottom}% Some say that this should be 'top'.  This overrides the default of rtthesis.cls!
+
+
+%%% Define font size command to use for all verbatim environments.
+\newcommand{\verbatimsize}{\small}
+
+
+%%% Define some convenient referencing commands.
+\newcommand{\chapterref}[1]{\hyperref[#1]{chapter~\ref*{#1}}}
+\newcommand{\Chapterref}[1]{\hyperref[#1]{Chapter~\ref*{#1}}}
+
+\newcommand{\sectionref}[1]{\hyperref[#1]{section~\ref*{#1}}}
+\newcommand{\Sectionref}[1]{\hyperref[#1]{Section~\ref*{#1}}}
+
+\newcommand{\theoremref}[1]{\hyperref[#1]{teorem~\ref*{#1}}}
+\newcommand{\Theoremref}[1]{\hyperref[#1]{Teorem~\ref*{#1}}}
+
+\newcommand{\exampleref}[1]{\hyperref[#1]{exemple~\ref*{#1}}}
+\newcommand{\Exampleref}[1]{\hyperref[#1]{Example~\ref*{#1}}}
+
+\newcommand{\figureref}[1]{\hyperref[#1]{figure~\ref*{#1}}}
+\newcommand{\Figureref}[1]{\hyperref[#1]{Figure~\ref*{#1}}}
+
+\newcommand{\tableref}[1]{\hyperref[#1]{table~\ref*{#1}}}
+\newcommand{\Tableref}[1]{\hyperref[#1]{Table~\ref*{#1}}}
+
+\newcommand{\pagepageref}[1]{\hyperref[#1]{page~\pageref*{#1}}}
+
+
+% Flowchart def. 
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+\tikzstyle{justtext} = [text width=2.5cm, text centered]
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+\tikzstyle{process} = [rectangle, text width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+\tikzstyle{decision} = [diamond, text width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\tikzstyle{darrow} = [dashed,->,>=stealth]

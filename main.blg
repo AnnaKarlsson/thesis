@@ -1,0 +1,34 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+The style file: plainnat.bst
+A level-1 auxiliary file: content/0-3-tack.aux
+A level-1 auxiliary file: content/0-4-notation.aux
+A level-1 auxiliary file: content/1-introduktion.aux
+A level-1 auxiliary file: content/2-authentication.aux
+A level-1 auxiliary file: content/3-characteristics.aux
+A level-1 auxiliary file: content/4-tests.aux
+A level-1 auxiliary file: content/5-result.aux
+A level-1 auxiliary file: content/6-conclusions.aux
+A level-1 auxiliary file: content/detaljer.aux
+Illegal, another \bibstyle command---line 67 of file main.aux
+ : \bibstyle
+ :          {plainnat}
+I'm skipping whatever remains of this command
+Database file #1: IEEEfull.bib
+Database file #2: myrefs.bib
+I was expecting a `,' or a `}'---line 68 of file myrefs.bib
+ :   
+ :   year={2008},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 119 of file myrefs.bib
+ : @techreport{auth:M2Mcom
+ :                        ,
+I'm skipping whatever remains of this entry
+You're missing a field part---line 243 of file myrefs.bib
+ :   year = 
+ :          ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "spoofMaciPhone"
+Warning--I didn't find a database entry for "spoofMacAndriod"
+Warning--empty institution in auth:M2Mcom
+(There were 4 error messages)

@@ -1,0 +1,35 @@
+\chapter{TEST \& DESIGN}\label{cha:test}
+In this chapter the methods used for testing the mobile devices for different characteristics is described. 
+
+\section{Accelerometer \& Gyroscope}\label{sec:test:motion}
+I decided to collect the data via a web-page since JavaScript can access gyroscope and accelerometer data without any permission or knowledge from the user \cite{sensor:DeviceOrientation:spec}. This only require that the device has Internet and a browser installed, no additional installations and completely cross-platform. \\
+To collect the accelometer- and gyroscope-data in JavaScript a event-listener is added:
+\input{code/motionlistner.tex}
+There are two types of acceleration with and without gravity, which according to Mozilla means that \texttt{accelerationIncludingGravity} is acceleration by the device in $m/s^2$. In context to \texttt{acceleration} not depending on influence of gravity only by the acceleration made on the device, but that acceleration is made because of gravity. Since without gravity gives no difference in scene of meters above sea level, I'll use that one. The accelerometer also comes with the nice feature of rotation rate which is the acceleration made from the axes, see picture below.
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \begin{center}
+    \includegraphics[width=0.48\textwidth]{img/device-axes}
+  \end{center}
+  \caption{A gull}
+\end{wrapfigure}
+
+\cite{sensor:accIncludingGravity}
+
+\section{Sound}\label{sec:test:sound}
+For distinguish these error characteristics for fingerprinting \cite{sensor:micSpek} used an application in the mobile device. The application played a sound from the speakers, recorded by the microphone that send its output back to the application. This were applied in a quiet environment due to minimizing signal noise.
+
+\section{Camera}\label{sec:test:camera}
+e basic algorithm for linking a camera to an image is quite simple. First we calculate the camera reference patterns (essentially an approximation to f), then we look for a correlation between each of these patterns and the noise of an image. e easiest way to calculate an approximation to the camera reference pattern is to average multiple images. To speed up this process we can first remove the scene content using a denoising filter and then average the noise residuals instead. Based on experimentation, Lukáš et al. found a wavelet-based filter gave the best results as it removed the most traces of the scene. e technique also works better with uniformly lit images with no features so we only get noise from the sensor. e larger the number of images we average over, the more we suppress random noise
+and the impact of any scene data; a minimum of 50 images is recommended. Once we have established this reference pattern, we can see if there is a correlation with the noise of a particular image. To find the noise, we employ the same trick as before: Use the denoising filter to approximate the noise-free image and subtract this (on a pixel-wise basis) from the original, leaving only the noise residual. We then find the correlation between this noise n and a particular reference pattern r using the standard formula:
+By experimentally determining the distribution of this correlation for images taken with a camera and images not taken with that camera we can find a threshold for acceptance and estimate the false rejection rate, subject to an upper bound on
+the false acceptance rate. \cite[p.2]{sensor:camera:DCIdent}
+
+\section{Gyroscope Accelerometer}\label{sec:test:gyro}
+TIPS TESTMETOD: In this section we describe a technique known as Allan Variance, which can be used to detect and determine the properties of such processes. We then apply this technique to the accelerometer and gyroscope signals emitted from an Xsens Mtx device \cite{sensor:inertialNav} \\
+ACC KANSKE SKA ANVÄNDA DENNA: \cite{sensor:micSpek} \\
+
+Testa först:
+Hämta data från acc o gyro när mobilen ligger stilla och data från vibration.
+
+\section{Radio signal}\label{sec:test:rff}
+PARADIS ?

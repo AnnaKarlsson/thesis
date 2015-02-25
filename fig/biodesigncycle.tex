@@ -1,0 +1,36 @@
+\begin{tikzpicture}[node distance=1.6cm]
+	\node (start) [justtext] {Start};
+	\node (understand) [process, below of=start] {Understand nature of application};
+	\draw [arrow] (start) -- (understand);
+		
+	\node (choose) [process, below of=understand] {Choose biometric characteristics};
+	\draw [arrow] (understand) -- (choose);
+		
+	\node (collect) [process, below of=choose] {Collect biometric data};
+	\draw [arrow] (choose) -- (collect);
+	\node (coll) [right of=collect, xshift=1.3cm] {};
+
+	\node (algorithm) [process, below of=collect] {Choose features and matching algorithm};
+	\draw [arrow] (collect) -- (algorithm);
+	\node (alg) [right of=algorithm, xshift=1.3cm] {};
+
+	\node (evaluate) [process, below of=algorithm] {Evaluate the biometric system};
+	\draw [arrow] (algorithm) -- (evaluate);
+
+	\node (end) [justtext, below of=evaluate] {End};
+	\draw [arrow] (evaluate) -- (end);
+
+	\node (req) [justtext, text=blue, left of=understand, xshift=-3cm, yshift=-1cm] {Performance requirements};
+	\draw (understand) -| (req);
+	\draw [->,>=stealth] (req) |- (evaluate);
+		
+	\node (knowledge) [justtext, text=red, left of=algorithm, xshift=-1.5cm] {Prior knowledge};
+
+	\draw [arrow, draw=red, very thick] (knowledge) |- (algorithm);
+
+	\draw [dashed] (evaluate) -| (alg);
+	\draw [darrow, dashed] (alg) -- (algorithm);
+	\draw [dashed] (alg) -- (coll);
+	\draw [darrow] (coll) -- (collect);
+	\draw [darrow] (coll) |- (choose);
+\end{tikzpicture}

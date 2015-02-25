@@ -1,0 +1,134 @@
+\begin{thebibliography}{17}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Anderson(2008)]{rosssec}
+R.~Anderson.
+\newblock \emph{Security Engineering: A Guide to Building Dependable
+  Distributed Systems}.
+\newblock Wiley, 2008.
+\newblock ISBN 9780470068526.
+
+\bibitem[Block and Popescu(2011)]{sensor:DeviceOrientation:spec}
+S.~Block and A.~Popescu.
+\newblock {DeviceOrientation Event Specification}.
+\newblock \emph{W3C Working Draft}, December 2011.
+\newblock URL \url{http://www.w3.org/TR/orientation-event/}.
+
+\bibitem[Bojinov et~al.(2014)Bojinov, Michalevsky, Nakibly, and
+  Boneh]{sensor:micSpek}
+Hristo Bojinov, Yan Michalevsky, Gabi Nakibly, and Dan Boneh.
+\newblock Mobile device identification via sensor fingerprinting.
+\newblock \emph{CoRR}, abs/1408.1416, 2014.
+\newblock URL \url{http://arxiv.org/abs/1408.1416}.
+
+\bibitem[Boswarthick et~al.(2012)Boswarthick, Elloumi, and Hersent]{m2mComm}
+D.~Boswarthick, O.~Elloumi, and O.~Hersent.
+\newblock \emph{M2M Communications: A Systems Approach}.
+\newblock Wiley, 2012.
+\newblock ISBN 9781119994756.
+
+\bibitem[Brik et~al.(2008)Brik, Banerjee, Gruteser, and Oh]{rff:wifiDeviceSign}
+V.~Brik, S.~Banerjee, M.~Gruteser, and S.~Oh.
+\newblock {Wireless Device Identification with Radiometric Signatures}.
+\newblock Technical Report ACM 978-1-60558-096-8/08/0, MobiCom’08, San
+  Francisco, California, USA, September 2008.
+\newblock URL
+  \url{http://www.winlab.rutgers.edu/~gruteser/papers/brik_paradis.pdf}.
+
+\bibitem[Contributors(2015)]{sensor:accIncludingGravity}
+Mozilla Contributors.
+\newblock {DeviceMotionEvent.accelerationIncludingGravity}.
+\newblock \emph{W3C Working Draft}, February 2015.
+\newblock URL
+  \url{https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent/accelerationIncludingGravity}.
+\newblock Accessed: 2015-02-24.
+
+\bibitem[Das et~al.(2014)Das, Borisov, and Caesar]{sensor:acoustic}
+Anupam Das, Nikita Borisov, and Matthew Caesar.
+\newblock {Fingerprinting Smart Devices Through Embedded Acoustic Components}.
+\newblock Technical Report arXiv:1403.3366v1, University of Illinois at
+  Urbana-Champaign, March 2014.
+\newblock URL \url{http://arxiv.org/pdf/1403.3366v1.pdf}.
+
+\bibitem[Franklin et~al.(2006)Franklin, McCoy, Tabriz, Neagoe, Randwyk, and
+  Sicker]{rff:passiveDLLwifi}
+J.~Franklin, D.~McCoy, P.~Tabriz, V.~Neagoe, J.~Van Randwyk, and D.~Sicker.
+\newblock {Passive Data Link Layer 802.11 Wireless Device Driver
+  Fingerprinting}.
+\newblock Technical report, Proceedings of USENIX Security, August 2006.
+\newblock URL
+  \url{http://www.cs.gmu.edu/~mccoy/papers/wireless-fingerprinting.pdf}.
+
+\bibitem[He(2012)]{auth:M2M}
+Dinghua He.
+\newblock {Remote Authentication of Software Based on Machine's Fingerprint}.
+\newblock Technical report, Wuhan Polytechnic, Department of Computer, 2012.
+
+\bibitem[Jain et~al.(2011)Jain, Ross, and Nandakumar]{introbio}
+Anil.K. Jain, Arun.A. Ross, and K.~Nandakumar.
+\newblock \emph{Introduction to Biometrics}.
+\newblock SpringerLink : B{\"u}cher. Springer, 2011.
+\newblock ISBN 9780387773261.
+
+\bibitem[Jenkins(2009)]{sensor:camera:DCIdent}
+Neil Jenkins.
+\newblock {Digital Camera Identification}.
+\newblock Technical report, Forensic Signal Analysis, University of Cambridge,
+  November 2009.
+\newblock URL
+  \url{https://www.cl.cam.ac.uk/teaching/0910/R08/work/essay-nmj27-cameraid.pdf}.
+
+\bibitem[Lanze et~al.(2012)Lanze, Panchenko, Braatz, and Zinnen]{clockSkew}
+Fabian Lanze, Andriy Panchenko, Benjamin Braatz, and Andreas Zinnen.
+\newblock {Clock Skew Based Remote Device Fingerprinting Demystified}.
+\newblock Technical report, Interdisciplinary Centre for Security, Reliability
+  and Trust, University of Luxembourg, December 2012.
+\newblock URL
+  \url{http://lorre.uni.lu/~andriy/papers/clock-skew-ntp-ieee-globecom2012.pdf}.
+
+\bibitem[Padilla et~al.(2007)Padilla, Padilla, Valenzuela-Valdés, Ramírez,
+  and a]{rff:identWiFi}
+J.L. Padilla, P.~Padilla, J.F. Valenzuela-Valdés, J.~Ramírez, and
+  J.M.~Górriz a.
+\newblock {RF fingerprint measurements for the identification of devices in
+  wireless communication networks based on feature reduction and subspace
+  transformation}.
+\newblock \emph{Security and Privacy in Communications Networks and the
+  Workshops}, Third International Conference on:\penalty0 331--340, September
+  2007.
+
+\bibitem[Polsonetti(2014)]{cpM2MIoT}
+Chantal Polsonetti.
+\newblock Understand the difference between iot and m2m, April 2014.
+\newblock URL
+  \url{http://www.chemicalprocessing.com/articles/2014/understand-the-difference-between-iot-and-m2m/}.
+\newblock [Online; posted 24-April-2014].
+
+\bibitem[Ren et~al.(2013)Ren, Yu, Ma, and Ren]{auth:M2Mcom}
+Wei Ren, Linchen Yu, Liangli Ma, and Yi~Ren.
+\newblock {How to Authenticate a Device? Formal Authentication Models for M2M
+  Communications Defending against Ghost Compromising Attack}.
+\newblock Technical Report Article ID 679450, 2013.
+\newblock URL
+  \url{http://downloads.hindawi.com/journals/ijdsn/2013/679450.pdf}.
+
+\bibitem[Rodriguez and Shala(2011)]{sensors:allref}
+Angel Rodriguez and Ubejd Shala.
+\newblock {Indoor Positioning using Sensor-fusion in Android Devices}.
+\newblock Technical report, Kristianstad University, School of Health and
+  Society, Department Computer Science, September 2011.
+\newblock URL
+  \url{http://hkr.diva-portal.org/smash/get/diva2:475619/FULLTEXT02.pdf}.
+
+\bibitem[Woodman(2007)]{sensor:inertialNav}
+Oliver~J. Woodman.
+\newblock {An introduction to inertial navigation}.
+\newblock Technical Report UCAM-CL-TR-696, University of Cambridge, Computer
+  Laboratory, August 2007.
+\newblock URL \url{http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-696.pdf}.
+
+\end{thebibliography}
