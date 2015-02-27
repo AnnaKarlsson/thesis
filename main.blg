@@ -9,12 +9,7 @@ A level-1 auxiliary file: content/4-tests.aux
 A level-1 auxiliary file: content/5-result.aux
 A level-1 auxiliary file: content/6-conclusions.aux
 A level-1 auxiliary file: content/detaljer.aux
-Illegal, another \bibstyle command---line 67 of file main.aux
- : \bibstyle
- :          {plainnat}
-I'm skipping whatever remains of this command
-Database file #1: IEEEfull.bib
-Database file #2: myrefs.bib
+Database file #1: myrefs.bib
 I was expecting a `,' or a `}'---line 68 of file myrefs.bib
  :   
  :   year={2008},
@@ -31,4 +26,4 @@ I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "spoofMaciPhone"
 Warning--I didn't find a database entry for "spoofMacAndriod"
 Warning--empty institution in auth:M2Mcom
-(There were 4 error messages)
+(There were 3 error messages)

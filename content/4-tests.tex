@@ -3,17 +3,53 @@ In this chapter the methods used for testing the mobile devices for different ch
 
 \section{Accelerometer \& Gyroscope}\label{sec:test:motion}
 I decided to collect the data via a web-page since JavaScript can access gyroscope and accelerometer data without any permission or knowledge from the user \cite{sensor:DeviceOrientation:spec}. This only require that the device has Internet and a browser installed, no additional installations and completely cross-platform. \\
-To collect the accelometer- and gyroscope-data in JavaScript a event-listener is added:
-\input{code/motionlistner.tex}
-There are two types of acceleration with and without gravity, which according to Mozilla means that \texttt{accelerationIncludingGravity} is acceleration by the device in $m/s^2$. In context to \texttt{acceleration} not depending on influence of gravity only by the acceleration made on the device, but that acceleration is made because of gravity. Since without gravity gives no difference in scene of meters above sea level, I'll use that one. The accelerometer also comes with the nice feature of rotation rate which is the acceleration made from the axes, see picture below.
-\begin{wrapfigure}{r}{0.5\textwidth}
-  \begin{center}
-    \includegraphics[width=0.48\textwidth]{img/device-axes}
-  \end{center}
-  \caption{A gull}
-\end{wrapfigure}
+\begin{figure}[H]
+  \hspace{-2cm}
+  \centering
+  \begin{minipage}[c]{.23\textwidth}
+    \centering
+    \includegraphics[scale=0.2]{img/device-alpha}
+  \end{minipage}
+  \hspace{1.5cm}
+  \begin{minipage}[c]{.23\textwidth}
+    \centering
+    \includegraphics[scale=0.2]{img/device-beta}
+  \end{minipage}
+  \hspace{1.5cm}
+  \begin{minipage}[c]{.23\textwidth}
+    \centering
+    \includegraphics[scale=0.2]{img/device-gamma}
+    \hspace{1cm}
+  \end{minipage}
+  \caption{The device axes for the JavaScript \texttt{DeviceOrientation} and \texttt{DeviceMotion}}
+  \label{fig:device-axes}
+\end{figure}
 
-\cite{sensor:accIncludingGravity}
+\subsection{Accelerometer}
+For the measurements of the accelerometer a event listener is added:
+\lstinputlisting{code/acc-listener.js}
+In JavaScript there are two types of acceleration with and without gravity, which according to Mozilla means that \texttt{accelerationIncludingGravity} is acceleration made by the device. In context to \texttt{acceleration} not depending on influence of gravity only by the acceleration made on the device. But as I see it that acceleration is made because of gravity so it is just different point of views. Since without gravity gives no difference in scene of meters above sea level, I'll use that one. The accelerometer also comes with the nice feature of \texttt{rotationRate} which is the acceleration made from the axes in alpha, beta and gamma direction, see~\Figureref{fig:device-axes}. \cite{sensor:accIncludingGravity}\\
+\\
+The recording of the accelerometer is done by taking 1000 accelerator-data samples during a few seconds and saved in a CSV for analyzing. Since there are six different measurements that gives a 6-by-1000 matrix for each device as a base for accelerometer characteristics. When gather all devices together in a six-dimension space that includes clusters of all device samples. For knowing the distance between this measurements MATLAB is used. To know the difference between measurements from the devices, the Euclidean norm value is calculated. Norm is a function that gives a size to a vector.  The norm for one vector is calculated like;
+$$\|\boldsymbol{x}\| := \sqrt{x_1^2 + \cdots + x_n^2}.$$
+This is done for each of the six measurement-vectors. And then summed up like
+$$(abs(V_x)^6 + abs(V_y)^6 + abs(V_z)^6 + abs(V_alpha)^6 + abs(V_beta)^6 + abs(V_gamma)^6)^(1/6)$$
+In MATLAB this looks like:
+\begin{lstlisting}[language=Matlab]
+ motion = importdata(motion.csv);
+ norm = norm(motions.data, 6);
+\end{lstlisting}
+A nearest neighbor algorithm called \texttt{pdist2} that calculates the pairwise euclidean distance between two sets of observations;
+\begin{lstlisting} 
+ D = pdist2(X,Y,`euclidean'); 
+ 
+\end{lstlisting}
+Where X us an x-by-n matrix and Y is an y-by-n matrix. 
+
+\subsection{Gyroscope}
+For the measurements of the gyroscope another event listener is added:
+\lstinputlisting{code/gyro-listener.js}
+The \texttt{DeviceOrientation} is using the same axes as the accelerometer but the gyroscope is measuring how much the device is rotating along the \texttt{alpha, beta} and \texttt{gamma} axes in degrees (\Figureref{fig:device-axes}). The \texttt{alpha} is between 0 and 360 degrees, \texttt{beta} -180 to 180 degrees and \texttt{gamma} -90 to 90 degrees. \citet{sensor:DeviceOrientation:spec}
 
 \section{Sound}\label{sec:test:sound}
 For distinguish these error characteristics for fingerprinting \cite{sensor:micSpek} used an application in the mobile device. The application played a sound from the speakers, recorded by the microphone that send its output back to the application. This were applied in a quiet environment due to minimizing signal noise.

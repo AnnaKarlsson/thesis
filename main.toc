@@ -34,10 +34,12 @@
 \contentsline {section}{\numberline {3.3}Radio signal}{16}{section.3.3}
 \contentsline {chapter}{\numberline {4}TEST \& DESIGN}{19}{chapter.4}
 \contentsline {section}{\numberline {4.1}Accelerometer \& Gyroscope}{19}{section.4.1}
-\contentsline {section}{\numberline {4.2}Sound}{20}{section.4.2}
-\contentsline {section}{\numberline {4.3}Camera}{20}{section.4.3}
+\contentsline {subsection}{\numberline {4.1.1}Accelerometer}{19}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Gyroscope}{20}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Sound}{21}{section.4.2}
+\contentsline {section}{\numberline {4.3}Camera}{21}{section.4.3}
 \contentsline {section}{\numberline {4.4}Gyroscope Accelerometer}{21}{section.4.4}
-\contentsline {section}{\numberline {4.5}Radio signal}{21}{section.4.5}
+\contentsline {section}{\numberline {4.5}Radio signal}{22}{section.4.5}
 \contentsline {chapter}{\numberline {5}RESULT}{23}{chapter.5}
 \contentsline {section}{\numberline {5.1}Result of the test for characteristics in mobile device}{23}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Result of sensor tests}{23}{subsection.5.1.1}
