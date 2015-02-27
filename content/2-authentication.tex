@@ -1,5 +1,5 @@
 \chapter{COMMUNICATION \& AUTHENTICATION}\label{cha:auth} \index{authentication}
-Since every device connected to some network that is in almost all of the cases connected to Internet is they in a untenanted or malicious environment. Everything connected to the Internet is very likely to be hacked. Thus, authentication is needed for remote sensing devices to communicate. \cite{auth:M2Mcom}\\
+Since every device connected to some network that is in almost all of the cases connected to Internet is they in a untenanted or malicious environment. Everything connected to the Internet is very likely to be hacked. Thus, authentication is needed for remote sensing devices to communicate. \cite[]{auth:M2Mcom}\\
 In this chapter will show ways of authentication (two factor, M2M and biometric) that is in the area of this thesis. The biometric part is in the area because it has good ways of measure strength in a biometric trait (especially fingerprint) that will be used when comparing strength of my tests of characteristic noise in the mobile device.
 
 \section{Two factor authentication}\label{sec:2fauth} \index{two factor authentication}
@@ -28,12 +28,12 @@ All this devices with no human control is like told above very different, but ma
 
 \subsection{Difference between M2M and IoT}
 Internet-of-Things, meaning to making everything connected to everything in the Internet. IoT is now in its starting pits and ready to start the race. Machine-to-machine communication is a part of that, but it also covers other areas and IoT some that M2M doesn't. The common denominator is according to Polsonetti \textit{remote device access}, where the embedded hardware modules in a machine that communicate wireless or not is M2M applications. Remote device access for IoT has a much more wider perspective that not only including same device communication but also passive and other low-power sensors that not can be motivated as a M2M hardware module.
-\cite{cpM2MIoT}\\
+\cite[]{cpM2MIoT}\\
 In this thesis is M2M a subset of IoT, since it always one mobile device that wants to authenticate then it can communicate with other deceives.
 
 \subsection{M2M authentication}
-There are no standardized way of authenticate in M2M, but effort is done in the area. An example is \cite{auth:M2M} where he based authentication on a machines fingerprint. But this fingerprint isn't of the same character as the one this thesis is focusing on. In his article the fingerprint consist of hardware message of computers, such serial number of CPU, MAC address of network card, Machine ID etc. These things have through the years been proven to bee pretty easy to spoof. There are hundreds of guides of how to do that in many platforms like mobile devices (iPhone \cite{spoofMaciPhone} and Android \cite{spoofMacAndriod}) that is the thesis area. \\
-Like \cite{auth:M2Mcom} that states in their article that ``\dots traditional methods such as “what you know and who you are” may not be applied''. But the aim in section~\ref{sec:aim} is to do precisely that and with the advantage that using ``regular'' authentication that is more  tried and tested. Thus the next section will be about biometric systems and how they authentication which is used for who you are.
+There are no standardized way of authenticate in M2M, but effort is done in the area. An example is \cite[]{auth:M2M} where he based authentication on a machines fingerprint. But this fingerprint isn't of the same character as the one this thesis is focusing on. In his article the fingerprint consist of hardware message of computers, such serial number of CPU, MAC address of network card, Machine ID etc. These things have through the years been proven to bee pretty easy to spoof. There are hundreds of guides of how to do that in many platforms like mobile devices (iPhone \cite[]{spoofMaciPhone} and Android \cite[]{spoofMacAndriod}) that is the thesis area. \\
+Like \cite[]{auth:M2Mcom} that states in their article that ``\dots traditional methods such as “what you know and who you are” may not be applied''. But the aim in section~\ref{sec:aim} is to do precisely that and with the advantage that using ``regular'' authentication that is more  tried and tested. Thus the next section will be about biometric systems and how they authentication which is used for who you are.
 
 \section{The biometric process}\label{sec:biometric}
 This section will be about the biometric authentication process that is implemented in to mobile device instead of a user in section~\ref{sec:implement}. \\
@@ -71,7 +71,7 @@ where $p(s\geq \eta | \omega_{x})$ us the probability density function of the au
 \cite[p.~18]{introbio}
 
 \subsection{Design a biometric system}
-When designing a biometric system it is done in a five activity cycle. Depending on the outcome of one activity, the next step could be forward or redoing earlier activity. The design cycle is represented as a flow-chart below (from page 27 in \cite{introbio}), followed by a description of the five activities. \\
+When designing a biometric system it is done in a five activity cycle. Depending on the outcome of one activity, the next step could be forward or redoing earlier activity. The design cycle is represented as a flow-chart below (from page 27 in \cite[]{introbio}), followed by a description of the five activities. \\
 \\
 \textbf{Understand nature of application -} is about deciding functionality type and classified based on how well the system fits this six different behaviors; cooperative, overt, habituated users, attended, untenanted operation, controlled operation and open system. The first is if the user will be \textit{cooperative} or not, like if the user wants to access something it is likely to cooperate. \textit{Overt} is if the user knows that it is object for biometric recognition. If the user interacts with the system a lot it is likely that the user will be \textit{habituated}. The enrollment and recognition operations can either be \textit{attended} by a human or not. The environment of the operations may have to be \textit{controlled} in terms of temperature, pressure, etc. in order to work. Last there are also the question if the system will be closed or \textit{open}, such if the database of biometric data will be shared between applications or be in one closed application.) \\
 \\
@@ -90,7 +90,7 @@ When designing a biometric system it is done in a five activity cycle. Depending
 \\
 \textbf{Choose features and matching algorithm -} is a critical step since this is the heart of the system and has to bee done with a great deal of knowledge if the selected characteristics and the data extracted from it. \\
 \\
-\textbf{Evaluate the biometric system -} by asking different questions. There are no framework for doing this and it has to account different perspective as require experts of different field such psychology, business, computer science and statistics. There exists no framework for these types of evaluation but \cite{introbio} propose doing it in three evaluation-stages technology, scenario and operational.
+\textbf{Evaluate the biometric system -} by asking different questions. There are no framework for doing this and it has to account different perspective as require experts of different field such psychology, business, computer science and statistics. There exists no framework for these types of evaluation but \cite[]{introbio} propose doing it in three evaluation-stages technology, scenario and operational.
 
 \begin{figure}[!h]
 	\input{fig/biodesigncycle.tex}
