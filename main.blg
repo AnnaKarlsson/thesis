@@ -19,11 +19,13 @@ Repeated entry---line 119 of file myrefs.bib
  : @techreport{auth:M2Mcom
  :                        ,
 I'm skipping whatever remains of this entry
-You're missing a field part---line 243 of file myrefs.bib
+You're missing a field part---line 265 of file myrefs.bib
  :   year = 
  :          ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "spoofMaciPhone"
 Warning--I didn't find a database entry for "spoofMacAndriod"
+Warning--empty journal in acc:kionixerr
+Warning--there's a number but no volume in acc:kionixerr
 Warning--empty institution in auth:M2Mcom
 (There were 3 error messages)

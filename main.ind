@@ -7,6 +7,8 @@
 
   \item camera, \hyperpage{15}
   \item camera fingerprinting, \hyperpage{15}
+  \item CFA
+    \subitem abberviation, \hyperpage{xi}
   \item characteristics, \hyperpage{13}
   \item clock skew, \hyperpage{16}
   \item constant bias, \hyperpage{15}
@@ -16,6 +18,8 @@
   \item FAR, \hyperpage{9}
     \subitem abbreviation, \hyperpage{xi}
   \item fixed pattern noise, \hyperpage{16}
+  \item FPN
+    \subitem abberviation, \hyperpage{xi}
   \item frequency response graph, \hyperpage{15}
   \item FRR, \hyperpage{9}
     \subitem abbreviation, \hyperpage{xi}
@@ -53,6 +57,7 @@
   \item photo-response non-uniformity noise, \hyperpage{16}
   \item PRNU, \hyperpage{16}
     \subitem abberviation, \hyperpage{xi}
+    \subitem abbreviation, \hyperpage{xi}
 
   \indexspace
 

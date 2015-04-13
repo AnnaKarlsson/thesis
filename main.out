@@ -32,19 +32,19 @@
 \BOOKMARK [1][-]{section.3.3}{3.3 Radio signal}{chapter.3}% 32
 \BOOKMARK [0][]{chapter.4}{4 TEST \046 DESIGN}{}% 33
 \BOOKMARK [1][-]{section.4.1}{4.1 Accelerometer \046 Gyroscope}{chapter.4}% 34
-\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Accelerometer}{section.4.1}% 35
-\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Gyroscope}{section.4.1}% 36
-\BOOKMARK [1][-]{section.4.2}{4.2 Sound}{chapter.4}% 37
-\BOOKMARK [1][-]{section.4.3}{4.3 Camera}{chapter.4}% 38
-\BOOKMARK [1][-]{section.4.4}{4.4 Gyroscope Accelerometer}{chapter.4}% 39
-\BOOKMARK [1][-]{section.4.5}{4.5 Radio signal}{chapter.4}% 40
-\BOOKMARK [0][]{chapter.5}{5 RESULT}{}% 41
-\BOOKMARK [1][-]{section.5.1}{5.1 Result of the test for characteristics in mobile device}{chapter.5}% 42
-\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Result of sensor tests}{section.5.1}% 43
-\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Result of clock skew rate test}{section.5.1}% 44
-\BOOKMARK [2][-]{subsection.5.1.3}{5.1.3 Result of radio signal test}{section.5.1}% 45
-\BOOKMARK [2][-]{subsection.5.1.4}{5.1.4 Comparing of characteristics}{section.5.1}% 46
-\BOOKMARK [1][-]{section.5.2}{5.2 Implementation}{chapter.5}% 47
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Accelerometer \046 Gyroscope-test I}{section.4.1}% 35
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Accelerometer \046 Gyroscope-test II}{section.4.1}% 36
+\BOOKMARK [1][-]{section.4.2}{4.2 Camera}{chapter.4}% 37
+\BOOKMARK [1][-]{section.4.3}{4.3 Camera test I}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.4}{4.4 Camera test II}{chapter.4}% 39
+\BOOKMARK [0][]{chapter.5}{5 RESULT}{}% 40
+\BOOKMARK [1][-]{section.5.1}{5.1 Result Accelerometer \046 Gyroscope-test}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Test I}{section.5.1}% 42
+\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Test II}{section.5.1}% 43
+\BOOKMARK [1][-]{section.5.2}{5.2 Result Camera-test}{chapter.5}% 44
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Test I}{section.5.2}% 45
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Test II}{section.5.2}% 46
+\BOOKMARK [1][-]{section.5.3}{5.3 Implementation}{chapter.5}% 47
 \BOOKMARK [0][]{chapter.6}{6 CONCLUSIONS}{}% 48
 \BOOKMARK [1][-]{section.6.1}{6.1 Conclusions}{chapter.6}% 49
 \BOOKMARK [1][-]{section.6.2}{6.2 Ethical aspects}{chapter.6}% 50
@@ -52,6 +52,6 @@
 \BOOKMARK [0][]{appendix.A}{A Trista saker}{}% 52
 \BOOKMARK [1][-]{section.A.1}{A.1 B\344dda s\344ngen}{appendix.A}% 53
 \BOOKMARK [1][-]{section.A.2}{A.2 Diska}{appendix.A}% 54
-\BOOKMARK [0][]{appendix*.12}{Bibliography}{}% 55
-\BOOKMARK [0][]{appendix*.12}{Index}{}% 56
+\BOOKMARK [0][]{appendix*.15}{Bibliography}{}% 55
+\BOOKMARK [0][]{appendix*.15}{Index}{}% 56
 \BOOKMARK [0][]{Copyright.0}{Copyright}{}% 57
