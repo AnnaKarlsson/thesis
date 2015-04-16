@@ -1,41 +1,38 @@
 \chapter{UNIQUE HARDWARE CHARACTERISTICS OF A MOBILE DEVICE}\label{cha:character}\index{characteristics}
-In the hardware of a device there are some features that can be used to distinguish devices from each other. In the pyramid below showing features from a mobile device that can be used for fingerprinting a device. This chapter will cover explanation on why and how this can be done for the sensors and radio signal.
+In the hardware of a device there are some features that can be used to distinguish devices from each other. In most cases it is not called features rather error sources. In the aim of this thesis it is feature characteristics that can be seen as an uniqueness of an mobile device. \textit{Device fingerprint(ing)}\index{device fingerprint} is the term used for this feature characteristics and the pyramid seen in figure~\ref{fig:pyramid} from ~\cite[]{sensor:acoustic} shows the different types of sources of device fingerprint. This thesis will focus on the top of quarter of that pyramid, that is the sensors. All error sources of sensors comes in form of bias and the bias from each sensor covered by the thesis is further explained in this chapter. There is also an explanation on how the sensors is measured from Android respective JavaScript depending on the preformed tests that is described in ~\chapterref{cha:test}.
+
 \begin{figure}[!h]
 	\input{fig/3-featurePyramid.tex}
 	\caption{\label{fig:pyramid} The pyramid of features in a mobile device that can be used for fingerprinting.\cite[]{sensor:acoustic}}
 \end{figure}
-The clock skew rate will not be covered in this thesis because it is proven REFERENSER!! not to be unique enough for authentication purposes.The bottom layer of the pyramid, OS and protocol stack will not be covered since it vary across vendors and has vendor specific protocols that will be out of the time frame to look in to.
 
-\section{Sensors}\label{sec:sensors}\index{sensor}
-As seen above in~\figureref{fig:pyramid} are sensors an untapped source of fingerprints in mobile devices and example of sensors are microphone, accelerometer, barometer, speakers and gyroscope. In this chapter will accelerometer, gyroscope, microphone and speaker sensors in mobile devices be presented and how collecting characteristic noise from them is done.
+As seen above in~\figureref{fig:pyramid} are sensors an untapped source of fingerprints in mobile devices and example of sensors are microphone, accelerometer, barometer, speakers and gyroscope. The sensors investigated in this work is the accelerometer-, gyroscope-, magnetometer- and camera- sensors. All of them are common sensors in most of the mobile devices used today.
 
-\subsection{Accelerometer\index{accelerometer}}\label{sec:accelerometer}
-The accelerometer is the sensor that detect movement on a mobile device, like when you changing orientation on your device. Acceleration is measured by sensing how much pressure the device has in terms of force. A mobile device in rest relative to the surface of the earth has about 1G\index{G} (gravitational-force). \cite[]{sensors:allref}\\
-In mobile devices is done using a micro-electro-mechanical system (MEMS\index{MEMS}) that translates electrical property-changes (as voltage) and translated into signals. Processing is then done by software in the mobile device. Mobile devices today uses three different accelerometers; \textit{micro-electromechanical system} that reacts when forces affect them which is changing an electrical property. \textit{Capacitive accelerometer} reacts when a net force is applied on the mechanical system, that is resulting a change in capacitance. The \textit{piezoelectric accelerometer} uses as the name implies the structures of piezoelectric crystals. These are crystals that reacts on forces applied to the mobile device trough creating electrical charges that generate voltage. 
-\url{http://www.techopedia.com/definition/24430/accelerometer} \\
-\\
-Measure the error characteristics from the accelerometer is done by taking the long term average of the output when the accelerometer is in rest. That is the biggest error source in the accelerometer and it grows quadratically over time, but when the accelerometer is in rest the error $epsilon$ can be calculated as a function of time $t$;
+
+\section{Accelerometer\index{accelerometer}}\label{sec:accelerometer}
+The accelerometer is the sensor that detect movement on a mobile device, like when you changing orientation on your device. Acceleration is measured by sensing how much pressure the device has in terms of force. The type of accelerometer sensor found in a mobile device is a micro-electromechanical systems known as MEMS sensor. \cite[]{sensors:fusion}
+\subsection{Fingerprinting feature / Bias}
+Measure the characteristics from the accelerometer is done by taking the long term average of the output when the accelerometer is in rest. That is the biggest error source in the accelerometer and it grows quadratically over time, but when the accelerometer is in rest the error $\epsilon$ can be calculated as a function of time $t$;
 $$s(t)=\epsilon * \frac{t^2}{2} $$
-\cite[]{sensor:inertialNav}\\
-\\
+\cite[]{sensor:inertialNav}\cite[]{sensors:fusion}
 
 
 \subsection{Gyroscope\index{gyroscope}}\label{sec:gyroscope}
 The gyroscope is sensing how the device is moving in terms of angles, for maintaining or measure the orientation. This is originally  a mechanical system based on the principle of conservation of angular momentum. The most popular Gyroscope for devices today is a MEMS that is using silicon micro-mechanical techniques. Coriolis effect is measured with vibrating elements in the MEMS gyroscope. Coriolis effect is a change of moving objects direction when looking at it from a rotating reference system. The difference from the accelerometer is that the gyroscope measures relative to the device body rather than relative to earth. The equations of Coriolis force;  
 $$\boldsymbol{ F}_C = -2 \, m \, (\omega *  v)$$
 Where $m$ is the mass of the particle, $\omega$ the angular velocity and $v$ the velocity of the particle in the rotating system. 
-\cite[]{sensor:inertialNav} \\
-\\
-The MEMS sensors is common used because has many pros such small (like a hair), light, cheap, low powered, etc. The MEMS gyro is also known for high reliability but it has some error characteristics like constant bias, white noise, bias instability, calibration error and temperature effects. One of these error characteristics that can be tested by reading the output from a gyroscope in rest is the \\\textit{constant bias}\index{constant bias}. That is bias of the gyroscope output when not having any rotation on it. This constant error $\epsilon$ of the bias over time $t$ leads to an angular error that grows linear; 
+\cite[]{sensor:inertialNav}
+\subsection{Fingerprinting feature / Bias}
+The gyroscope has some error characteristics like constant bias, white noise, bias instability, calibration error and temperature effects. One of these error characteristics that can be tested by reading the output from a gyroscope in rest is the \\\textit{constant bias}\index{constant bias}. That is bias of the gyroscope output when not having any rotation on it. This constant error $\epsilon$ of the bias over time $t$ leads to an angular error that grows linear; 
 $$\theta (t)= \epsilon * t $$
-If take the long term average output from the gyro in rest, the constant error of a rate gyro can be estimated.  
+If take the long term average output from the gyro in rest, the constant error of a rate gyro can be estimated.\cite[]{sensors:fusion}
 
 
-\subsection{Microphone \& Speaker}\label{sec:char:micSpeak}\index{microphone}
-A microphone or speaker on a mobile device is like accelerometer and gyroscope a MEMS. Today mobile devices has one, two or three MEMS microphone. When a sound reaches the microphone sets a diaphragm in motion by the pressure from the sound wave. The motion causes capacitive change and that leads to a change of voltage. In short terms is the pressure of the sound converted to electrical signals. \cite[]{sensor:acoustic}\\
-A normalized output gain over a given frequency range is the response from a microphone that has specification in a \index{frequency response graph} frequency response graph.The range should ideally be the same as for the speaker. In the real world however the response curve varies between different frequencies, depending on the design of the mobile device.  \cite[]{sensor:micSpek}\\
-\\ 
-The error characteristics in the microphone or speaker due to inconsistent in the manufacturing. This inconsistencies does that not even microphones of the same model are identical. Every manufacturer of microphones and speaker specifies a tolerance for these errors and it is typical $\pm$2db.  \cite[]{sensor:micSpek}
+\section{Magnetometer\index{magnetometer}}
+The magnetometer was originally used for navigation and tracking. The type found in mobile devices is like accelerometer and gyroscope a MEMS sensor. They are known as e-compasses gaussmeters that is measuring of magnetic fields larger than 1 nT.
+~\cite{sensor:magn}
+\subsection{Fingerprinting feature / Bias}
+The two main error sources from measurements of magnetometer are magnetic contamination in the sensor. One of those is iron containing material on the operator and in the instrument and the other one is errors made in the measurements of the frequency. Another type of error is generated if the devices is rotated while the measurements are made. \cite[]{sensors:fusion}
 
 \subsection{Camera}\label{sec:char:camera}\index{camera fingerprinting}\index{camera}
 The digital camera of a mobile device also includes sensors and other hardware that can be used as fingerprinting characteristics. The basic is that light travels trough a lens and hits a imaging sensor which contains pixels that has a filter array in front. The filter is for gives each pixel a detected color. The pixels is then put together again to a resulting signal which is send to some final post processing (color correction, white balance, etc.) steps before the image is written to the memory card. In this process there are different kind of noise that effects the image;
@@ -50,17 +47,65 @@ where $f_{ij}$ is a multiple factor close to one that captures PRNU noise, $x_{i
 \cite[]{sensor:camera:DCIdent}
 
 
-\section{Clock skew rate}\label{sec:clockskew}\index{clock skew}
-Mobile devices today have a lot of clocks both in hardware and software. These clocks isn't all that synced as you may think and have what is called a clock skew rate between them, which is the time difference between them. This could be a thing to measure as unique characteristics if the clocks always is equally wrong. \cite[]{clockSkew}\\
-\\
-Measuring the clock skew rate remotely is done by comparing different clocks from the device with a more correct clock, like an atomic clock.
-In the paper~\cite[]{clockSkew} and... LÄGG TILL FLER KÄLLOR!! they conclude that the clock skew rate isn't unique enough for fingerprinting device. Due to that it's proven not completely unique it will not be good enough for a fingerprint and something the mobile devise \textit{are} in two-factor authentication purpose. 
+\section{Measurements of sensors on mobile devices}
+Measurements of sensors from mobile devices can be gather in different ways. In the work of this thesis two approaches where used by the browser application and by an Android application. The camera is an exception where pictures provides the sensor characteristics.
+\begin{figure}[H]
+	\centering
+    \includegraphics[scale=0.2]{img/device-axes}
+    \caption{The coordinate system used for both Android and JavaScript\cite[]{sensor:DeviceOrientation:spec}}
+  \label{fig:device-axes}
+\end{figure}
 
-\section{Radio signal}\label{sec:radiosignal}\index{radio signal}\index{RFF}
-Wireless devices that want to connect to another device sends radio signals. This signals can be used for fingerprinting the device by passively analyzing radio-frequency\index{radio-frequency} (RF) in IEEE 802.11 and finding the source network interface card (\index{NIC}NIC) . Where you can find characteristic errors for each device due to transmitter-specific imperfections in the signal. There are different artifacts that can be taken into account for fingerprinting. This is known as radio frequency fingerprinting\index{radio frequency fingerprinting} (RFF\index{RFF}). \cite[]{rff:wifiDeviceSign}\\
-\\
+\subsection{Android}
+Android sensor framework provides raw data with high precision from sensor that are built in the device such as different motions sensors (including accelerometer and gyroscope), environmental sensors and position sensors (e.g. magnetometer). \cite[]{android:sensor}
+Android sensor framework classes that is used for gather sensor data is; 
+\begin{itemize}
+	\item[] \texttt{SensorManager}, a manager used to access the sensor of the device. 
+	\item[] \texttt{Sensor}, representing a sensor
+	\item[] \texttt{SensorEvent}, an event from a Sensor such data from the sensor, time-stamp or accuracy
+	\item[] \texttt{SensorEventListener}, gets a SensorEvent when a sensor or accuracy has changed 
+\end{itemize}
 
 
-ish funkar \cite[]{rff:identWiFi} , \cite[]{rff:passiveDLLwifi}, \cite[]{rff:wifiDeviceSign}\\
-\\
-följt av ett stycke om hur man mäter bruset.
+\subsubsection{Accelerometer in Android}
+\texttt{TYPE\_ACCELEROMETER} is the hardware measurements that measures the force of acceleration with $m/s^2$ as unit. 
+This measurements includes the force of gravity, Android also provide \texttt{TYPE\_LINEAR\_ACCELERATION} that is without gravity but that is a combined hardware and software sensor. 
+
+\subsubsection{Gyroscope in Android}
+
+\subsubsection{Fingerprinting in Android}
+
+
+\subsection{JavaScript}
+\end{figure}
+\begin{figure}[H]
+  \hspace{-2cm}
+  \centering
+  \begin{minipage}[c]{.23\textwidth}
+    \centering
+    \includegraphics[scale=0.2]{img/device-alpha}
+  \end{minipage}
+  \hspace{1.5cm}
+  \begin{minipage}[c]{.23\textwidth}
+    \centering
+    \includegraphics[scale=0.2]{img/device-beta}
+  \end{minipage}
+  \hspace{1.5cm}
+  \begin{minipage}[c]{.23\textwidth}
+    \centering
+    \includegraphics[scale=0.2]{img/device-gamma}
+    \hspace{1cm}
+  \end{minipage}
+  \caption{The device axes for the JavaScript \texttt{DeviceOrientation} and \texttt{DeviceMotion}}
+  \label{fig:device-rot}
+\end{figure}
+
+\subsubsection{Accelerometer in JavaScript}
+To access the accelerometer data in JavaScript no permission is needed, thus the user do not have to know that the accelerometer is measured. To get measurements from the accelerometer an event listener called \texttt{devicemotion} is added. The output from measurements is the acceleration force in $m/s^2$ according to x-, y- and z-axes as in~\figureref{fig:device-axes} below. 
+
+In JavaScript there are two types of acceleration, \texttt{accelerationIncludingGravity} and \texttt{acceleration}.\texttt{accelerationIncludingGravity} is acceleration made by the device. In context to \texttt{acceleration} not depending on influence of gravity only by the acceleration made on the device. 
+The JavaScript for measurements of the accelerometer:
+\lstinputlisting{code/acc-listener.js}
+\cite[]{sensor:DeviceOrientation:spec}
+
+\subsubsection{Gyroscope in JavaScript}

@@ -19,24 +19,14 @@
 \indexentry {FRR|hyperpage}{9}
 \indexentry {FAR|hyperpage}{9}
 \indexentry {characteristics|hyperpage}{13}
-\indexentry {sensor|hyperpage}{14}
+\indexentry {device fingerprint|hyperpage}{13}
 \indexentry {accelerometer|hyperpage}{14}
-\indexentry {G|hyperpage}{14}
-\indexentry {MEMS|hyperpage}{14}
 \indexentry {gyroscope|hyperpage}{14}
-\indexentry {constant bias|hyperpage}{15}
-\indexentry {microphone|hyperpage}{15}
-\indexentry {frequency response graph|hyperpage}{15}
+\indexentry {constant bias|hyperpage}{14}
+\indexentry {magnetometer|hyperpage}{15}
 \indexentry {camera fingerprinting|hyperpage}{15}
 \indexentry {camera|hyperpage}{15}
-\indexentry {shot noise|hyperpage}{16}
-\indexentry {fixed pattern noise|hyperpage}{16}
-\indexentry {photo-response non-uniformity noise|hyperpage}{16}
-\indexentry {PRNU|hyperpage}{16}
-\indexentry {clock skew|hyperpage}{16}
-\indexentry {radio signal|hyperpage}{16}
-\indexentry {RFF|hyperpage}{16}
-\indexentry {radio-frequency|hyperpage}{16}
-\indexentry {NIC|hyperpage}{17}
-\indexentry {radio frequency fingerprinting|hyperpage}{17}
-\indexentry {RFF|hyperpage}{17}
+\indexentry {shot noise|hyperpage}{15}
+\indexentry {fixed pattern noise|hyperpage}{15}
+\indexentry {photo-response non-uniformity noise|hyperpage}{15}
+\indexentry {PRNU|hyperpage}{15}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{15}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -31,29 +31,12 @@ D.~Boswarthick, O.~Elloumi, and O.~Hersent.
 \newblock Wiley, 2012.
 \newblock ISBN 9781119994756.
 
-\bibitem[Brik et~al.(2008)Brik, Banerjee, Gruteser, and Oh]{rff:wifiDeviceSign}
-V.~Brik, S.~Banerjee, M.~Gruteser, and S.~Oh.
-\newblock Wireless device identification with radiometric signatures.
-\newblock Technical Report ACM 978-1-60558-096-8/08/0, MobiCom’08, San
-  Francisco, California, USA, September 2008.
-\newblock URL
-  \url{http://www.winlab.rutgers.edu/~gruteser/papers/brik_paradis.pdf}.
-
 \bibitem[Das et~al.(2014)Das, Borisov, and Caesar]{sensor:acoustic}
 Anupam Das, Nikita Borisov, and Matthew Caesar.
 \newblock {Fingerprinting Smart Devices Through Embedded Acoustic Components}.
 \newblock Technical Report arXiv:1403.3366v1, University of Illinois at
   Urbana-Champaign, March 2014.
 \newblock URL \url{http://arxiv.org/pdf/1403.3366v1.pdf}.
-
-\bibitem[Franklin et~al.(2006)Franklin, McCoy, Tabriz, Neagoe, Randwyk, and
-  Sicker]{rff:passiveDLLwifi}
-J.~Franklin, D.~McCoy, P.~Tabriz, V.~Neagoe, J.~Van Randwyk, and D.~Sicker.
-\newblock {Passive Data Link Layer 802.11 Wireless Device Driver
-  Fingerprinting}.
-\newblock Technical report, Proceedings of USENIX Security, August 2006.
-\newblock URL
-  \url{http://www.cs.gmu.edu/~mccoy/papers/wireless-fingerprinting.pdf}.
 
 \bibitem[He(2012)]{auth:M2M}
 Dinghua He.
@@ -81,14 +64,6 @@ Kionix.
 \newblock URL
   \url{http://www.kionix.com/sites/default/files/AN012\%20Accelerometer\%20Errors.pdf}.
 
-\bibitem[Lanze et~al.(2012)Lanze, Panchenko, Braatz, and Zinnen]{clockSkew}
-Fabian Lanze, Andriy Panchenko, Benjamin Braatz, and Andreas Zinnen.
-\newblock {Clock Skew Based Remote Device Fingerprinting Demystified}.
-\newblock Technical report, Interdisciplinary Centre for Security, Reliability
-  and Trust, University of Luxembourg, December 2012.
-\newblock URL
-  \url{http://lorre.uni.lu/~andriy/papers/clock-skew-ntp-ieee-globecom2012.pdf}.
-
 \bibitem[Mozilla(2015)]{sensor:accIncludingGravity}
 Contributors Mozilla.
 \newblock {DeviceMotionEvent.accelerationIncludingGravity}.
@@ -96,17 +71,6 @@ Contributors Mozilla.
 \newblock URL
   \url{https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent/accelerationIncludingGravity}.
 \newblock Accessed: 2015-02-24.
-
-\bibitem[Padilla et~al.(2007)Padilla, Padilla, Valenzuela-Valdés, Ramírez,
-  and a]{rff:identWiFi}
-J.L. Padilla, P.~Padilla, J.F. Valenzuela-Valdés, J.~Ramírez, and
-  J.M.~Górriz a.
-\newblock {RF fingerprint measurements for the identification of devices in
-  wireless communication networks based on feature reduction and subspace
-  transformation}.
-\newblock \emph{Security and Privacy in Communications Networks and the
-  Workshops}, Third International Conference on:\penalty0 331--340, September
-  2007.
 
 \bibitem[Polsonetti(2014)]{cpM2MIoT}
 Chantal Polsonetti.
@@ -123,7 +87,7 @@ Wei Ren, Linchen Yu, Liangli Ma, and Yi~Ren.
 \newblock URL
   \url{http://downloads.hindawi.com/journals/ijdsn/2013/679450.pdf}.
 
-\bibitem[Rodriguez and Shala(2011)]{sensors:allref}
+\bibitem[Rodriguez and Shala(2011)]{sensors:fusion}
 Angel Rodriguez and Ubejd Shala.
 \newblock {Indoor Positioning using Sensor-fusion in Android Devices}.
 \newblock Technical report, Kristianstad University, School of Health and
@@ -137,5 +101,12 @@ Oliver~J. Woodman.
 \newblock Technical Report UCAM-CL-TR-696, University of Cambridge, Computer
   Laboratory, August 2007.
 \newblock URL \url{http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-696.pdf}.
+
+\bibitem[Y.~Cai and Feneelly(2012)]{sensor:magn}
+X.~Ding Y.~Cai, Y.~Zhao and J.~Feneelly.
+\newblock {Magnetometer basics for mobile phone applications}.
+\newblock Technical report, February 2012.
+\newblock URL
+  \url{http://www.memsic.com/userfiles/files/publications/Articles/Electronic_Products_Feb_\%202012_Magnetometer.pdf}.
 
 \end{thebibliography}

@@ -13,6 +13,9 @@
 \contentsline {section}{\numberline {1.2}Aims \& Objectives}{2}{section.1.2}
 \contentsline {section}{\numberline {1.3}Thesis Outline}{3}{section.1.3}
 \contentsline {section}{\numberline {1.4}Related Work}{3}{section.1.4}
+\contentsline {section}{\numberline {1.5}RECAP}{3}{section.1.5}
+\contentsline {section}{\numberline {1.6}JavaScript}{3}{section.1.6}
+\contentsline {section}{\numberline {1.7}Android \texttt {SensorEvent}}{3}{section.1.7}
 \contentsline {chapter}{\numberline {2}COMMUNICATION \& AUTHENTICATION}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Two factor authentication}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}M2M\p@index {M2M} (Machine-to-machine)}{6}{section.2.2}
@@ -25,20 +28,28 @@
 \contentsline {subsection}{\numberline {2.3.4}Measurements}{9}{subsection.2.3.4}
 \contentsline {subsection}{\numberline {2.3.5}Design a biometric system}{9}{subsection.2.3.5}
 \contentsline {chapter}{\numberline {3}UNIQUE HARDWARE CHARACTERISTICS OF A MOBILE DEVICE}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}Sensors}{14}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Accelerometer\p@index {accelerometer}}{14}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.1}Accelerometer\p@index {accelerometer}}{14}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Fingerprinting feature / Bias}{14}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Gyroscope\p@index {gyroscope}}{14}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Microphone \& Speaker}{15}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Camera}{15}{subsection.3.1.4}
-\contentsline {section}{\numberline {3.2}Clock skew rate}{16}{section.3.2}
-\contentsline {section}{\numberline {3.3}Radio signal}{16}{section.3.3}
+\contentsline {subsection}{\numberline {3.1.3}Fingerprinting feature / Bias}{14}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Magnetometer\p@index {magnetometer}}{15}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Fingerprinting feature / Bias}{15}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Camera}{15}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Measurements of sensors on mobile devices}{16}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Android}{16}{subsection.3.3.1}
+\contentsline {subsubsection}{Accelerometer in Android}{16}{section*.11}
+\contentsline {subsubsection}{Gyroscope in Android}{16}{section*.12}
+\contentsline {subsubsection}{Fingerprinting in Android}{16}{section*.13}
+\contentsline {subsection}{\numberline {3.3.2}JavaScript}{16}{subsection.3.3.2}
+\contentsline {subsubsection}{Accelerometer in JavaScript}{16}{section*.14}
+\contentsline {subsubsection}{Gyroscope in JavaScript}{17}{section*.16}
 \contentsline {chapter}{\numberline {4}TEST \& DESIGN}{19}{chapter.4}
 \contentsline {section}{\numberline {4.1}Accelerometer \& Gyroscope}{19}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Accelerometer \& Gyroscope-test I}{20}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Accelerometer \& Gyroscope-test II}{21}{subsection.4.1.2}
 \contentsline {section}{\numberline {4.2}Camera}{21}{section.4.2}
 \contentsline {section}{\numberline {4.3}Camera test I}{22}{section.4.3}
-\contentsline {section}{\numberline {4.4}Camera test II}{23}{section.4.4}
+\contentsline {section}{\numberline {4.4}Camera test II}{24}{section.4.4}
 \contentsline {chapter}{\numberline {5}RESULT}{25}{chapter.5}
 \contentsline {section}{\numberline {5.1}Result Accelerometer \& Gyroscope-test}{25}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Test I}{25}{subsection.5.1.1}
@@ -54,8 +65,8 @@
 \contentsline {chapter}{\numberline {A}Trista saker}{33}{appendix.A}
 \contentsline {section}{\numberline {A.1}B\IeC {\"a}dda s\IeC {\"a}ngen}{33}{section.A.1}
 \contentsline {section}{\numberline {A.2}Diska}{33}{section.A.2}
-\contentsline {chapter}{Bibliography}{35}{appendix*.15}
-\contentsline {chapter}{Index}{38}{appendix*.15}
+\contentsline {chapter}{Bibliography}{35}{appendix*.21}
+\contentsline {chapter}{Index}{37}{appendix*.21}
 \select@language {swedish}
 \select@language {english}
 \select@language {english}

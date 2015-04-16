@@ -3,27 +3,7 @@ In this chapter the methods used for testing the mobile devices for different ch
 
 \section{Accelerometer \& Gyroscope}\label{sec:test:motion}
 I decided to collect the data via a web-page since JavaScript can access gyroscope and accelerometer data without any permission or knowledge from the user \cite[]{sensor:DeviceOrientation:spec}. This only require that the device has Internet and a browser installed, no additional installations and completely cross-platform. \\
-\begin{figure}[H]
-  \hspace{-2cm}
-  \centering
-  \begin{minipage}[c]{.23\textwidth}
-    \centering
-    \includegraphics[scale=0.2]{img/device-alpha}
-  \end{minipage}
-  \hspace{1.5cm}
-  \begin{minipage}[c]{.23\textwidth}
-    \centering
-    \includegraphics[scale=0.2]{img/device-beta}
-  \end{minipage}
-  \hspace{1.5cm}
-  \begin{minipage}[c]{.23\textwidth}
-    \centering
-    \includegraphics[scale=0.2]{img/device-gamma}
-    \hspace{1cm}
-  \end{minipage}
-  \caption{The device axes for the JavaScript \texttt{DeviceOrientation} and \texttt{DeviceMotion}}
-  \label{fig:device-axes}
-\end{figure}
+
 
 For the measurements of the accelerometer a event listener is added:
 \lstinputlisting{code/acc-listener.js}
@@ -52,6 +32,7 @@ The recording of the first accelerometer test is done by taking thousand acceler
 \end{figure}
 
 \subsection{Accelerometer \& Gyroscope-test II}
+
 From the last test some changes were made to improve the test result:
 \begin{itemize}
   \item Adding time-stamp to every recording sample to know exactly recording frequency
@@ -60,6 +41,7 @@ From the last test some changes were made to improve the test result:
   % Ta bort ngn av pubkterna nedan?
   \item Make 2 recordings with the difference of a 180 degree rotation alpha wise (see \figureref{fig:device-axes}) for better bias estimation \cite{acc:kionixerr}.
   \item Added vibration in the recording to remove environmental noise which is one of the largest noise sources ~\cite[p.8]{acc:kionixerr} 
+  \item An additional recording with the device placed in hand to make 
 \end{itemize}
 
 \section{Camera}\label{sec:test:camera}

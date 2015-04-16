@@ -10,17 +10,19 @@
   \item CFA
     \subitem abberviation, \hyperpage{xi}
   \item characteristics, \hyperpage{13}
-  \item clock skew, \hyperpage{16}
-  \item constant bias, \hyperpage{15}
+  \item constant bias, \hyperpage{14}
+
+  \indexspace
+
+  \item device fingerprint, \hyperpage{13}
 
   \indexspace
 
   \item FAR, \hyperpage{9}
     \subitem abbreviation, \hyperpage{xi}
-  \item fixed pattern noise, \hyperpage{16}
+  \item fixed pattern noise, \hyperpage{15}
   \item FPN
     \subitem abberviation, \hyperpage{xi}
-  \item frequency response graph, \hyperpage{15}
   \item FRR, \hyperpage{9}
     \subitem abbreviation, \hyperpage{xi}
   \item FTE
@@ -28,7 +30,7 @@
 
   \indexspace
 
-  \item G, \hyperpage{14}
+  \item G
     \subitem abbreviation, \hyperpage{xi}
   \item gyroscope, \hyperpage{14}
 
@@ -43,36 +45,32 @@
 
   \item M2M, \hyperpage{6}
     \subitem abbreviation, \hyperpage{xi}
-  \item MEMS, \hyperpage{14}
-    \subitem abbreviation, \hyperpage{xi}
-  \item microphone, \hyperpage{15}
-
-  \indexspace
-
-  \item NIC, \hyperpage{17}
-    \subitem abberviation, \hyperpage{xi}
-
-  \indexspace
-
-  \item photo-response non-uniformity noise, \hyperpage{16}
-  \item PRNU, \hyperpage{16}
-    \subitem abberviation, \hyperpage{xi}
+  \item magnetometer, \hyperpage{15}
+  \item MEMS
     \subitem abbreviation, \hyperpage{xi}
 
   \indexspace
 
-  \item radio frequency fingerprinting, \hyperpage{17}
-  \item radio signal, \hyperpage{16}
-  \item radio-frequency, \hyperpage{16}
-  \item RFF, \hyperpage{16, 17}
+  \item NIC
+    \subitem abberviation, \hyperpage{xi}
+
+  \indexspace
+
+  \item photo-response non-uniformity noise, \hyperpage{15}
+  \item PRNU, \hyperpage{15}
+    \subitem abberviation, \hyperpage{xi}
+    \subitem abbreviation, \hyperpage{xi}
+
+  \indexspace
+
+  \item RFF
     \subitem abbreviation, \hyperpage{xi}
   \item RFID
     \subitem abbreviation, \hyperpage{xi}
 
   \indexspace
 
-  \item sensor, \hyperpage{14}
-  \item shot noise, \hyperpage{16}
+  \item shot noise, \hyperpage{15}
 
   \indexspace
 
