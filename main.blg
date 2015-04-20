@@ -23,10 +23,60 @@ You're missing a field part---line 266 of file myrefs.bib
  :   year = 
  :          ,
 I'm skipping whatever remains of this entry
+You're missing a field name---line 320 of file myrefs.bib
+ :     
+ :     %type     = "diploma thesis",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 331 of file myrefs.bib
+ :  
+ :  %address = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 339 of file myrefs.bib
+ :     
+ :     %author    = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 351 of file myrefs.bib
+ :     
+ :     %type     = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 363 of file myrefs.bib
+ :  
+ :  %editor  = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 382 of file myrefs.bib
+ :  
+ :  %editor = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 403 of file myrefs.bib
+ :  
+ :  %volume = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 415 of file myrefs.bib
+ :     
+ :     %author   = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 428 of file myrefs.bib
+ :     
+ :     %volume   = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 442 of file myrefs.bib
+ :     
+ :     %volume   = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "spoofMaciPhone"
 Warning--I didn't find a database entry for "spoofMacAndriod"
 Warning--empty journal in acc:kionixerr
 Warning--there's a number but no volume in acc:kionixerr
 Warning--empty institution in auth:M2Mcom
 Warning--empty institution in sensor:magn
-(There were 3 error messages)
+(There were 13 error messages)

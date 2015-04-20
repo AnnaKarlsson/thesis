@@ -1,0 +1,17 @@
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\draw[->,color=black] (-1.500130470417328,0.) -- (1.5002743955178048,0.);
+\foreach \x in {-1.4,-1.2,-1.,-0.8,-0.6,-0.4,-0.2,0.2,0.4,0.6,0.8,1.,1.2,1.4}
+\draw[shift={(\x,0)},color=black] (0pt,-2pt);
+\draw[color=black] (1.3548385432174719,0.012646598999199708) node [anchor=south west] {X};
+\draw[->,color=black] (0.,-1.500215870948452) -- (0.,1.5001897416116785);
+\foreach \y in {-1.4,-1.2,-1.,-0.8,-0.6,-0.4,-0.2,0.2,0.4,0.6,0.8,1.,1.2,1.4}
+\draw[shift={(0,\y)},color=black]  (-2pt,0pt);
+\draw[color=black] (0.015808244815253596,1.4306334471160802) node [anchor=west] {Y};
+\clip(-1.500130470417328,-1.500215870948452) rectangle (1.5002743955178048,1.5001897416116785);
+\draw [rotate around={0.059845574260994405:(4.8164851529053886E-4,7.838801032565946E-4)}] (4.8164851529053886E-4,7.838801032565946E-4) ellipse (1.2496624710485813cm and 0.9992161789727994cm);
+\begin{scriptsize}
+\draw [color=xdxdff] (0.,0.)-- ++(-2.0pt,-2.0pt) -- ++(4.0pt,4.0pt) ++(-4.0pt,0) -- ++(4.0pt,-4.0pt);
+\draw [fill=qqqqff] (0.,1.) circle (1.5pt);
+\draw[color=qqqqff] (-0.15,1.1) node {0\textrm{\degre}};
+\end{scriptsize}
+\end{tikzpicture}

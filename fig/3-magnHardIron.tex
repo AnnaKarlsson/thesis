@@ -1,0 +1,17 @@
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\draw[->,color=black] (-1.5,0.) -- (1.5,0.);
+\foreach \x in {-1.4,-1.2,-1.,-0.8,-0.6,-0.4,-0.2,0.2,0.4,0.6,0.8,1.,1.2,1.4}
+\draw[shift={(\x,0)},color=black] (0pt,-2pt);
+\draw[color=black] (1.3548383992423672,0.012646598999199708) node [anchor=south west] {X};
+\draw[->,color=black] (0.,-1.5) -- (0.,1.5);
+\foreach \y in {-1.4,-1.2,-1.,-0.8,-0.6,-0.4,-0.2,0.2,0.4,0.6,0.8,1.,1.2,1.4}
+\draw[shift={(0,\y)},color=black] (-2pt,0pt);
+\draw[color=black] (0.015808248748999637,1.4306334471160802) node [anchor=west] {Y};
+\clip(-1.5,-1.5) rectangle (1.5,1.5);
+\draw(-0.2,-0.2) circle (1.003958800671448cm);
+\begin{scriptsize}
+\draw [fill=qqqqff] (-0.18558461983368865,0.8038553034478191) circle (1.5pt);
+\draw[color=qqqqff] (-0.16,1) node {0\textrm{\degre}};
+\draw [color=xdxdff] (-0.2,-0.2)-- ++(-2.0pt,-2.0pt) -- ++(4.0pt,4.0pt) ++(-4.0pt,0) -- ++(4.0pt,-4.0pt);
+\end{scriptsize}
+\end{tikzpicture}

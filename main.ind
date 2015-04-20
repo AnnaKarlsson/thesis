@@ -5,12 +5,12 @@
 
   \indexspace
 
-  \item camera, \hyperpage{15}
-  \item camera fingerprinting, \hyperpage{15}
+  \item camera, \hyperpage{16}
+  \item camera fingerprinting, \hyperpage{16}
   \item CFA
     \subitem abberviation, \hyperpage{xi}
   \item characteristics, \hyperpage{13}
-  \item constant bias, \hyperpage{14}
+  \item constant bias, \hyperpage{15}
 
   \indexspace
 
@@ -20,7 +20,7 @@
 
   \item FAR, \hyperpage{9}
     \subitem abbreviation, \hyperpage{xi}
-  \item fixed pattern noise, \hyperpage{15}
+  \item fixed pattern noise, \hyperpage{17}
   \item FPN
     \subitem abberviation, \hyperpage{xi}
   \item FRR, \hyperpage{9}
@@ -56,8 +56,10 @@
 
   \indexspace
 
-  \item photo-response non-uniformity noise, \hyperpage{15}
-  \item PRNU, \hyperpage{15}
+  \item PCB
+    \subitem abberviation, \hyperpage{xi}
+  \item photo-response non-uniformity noise, \hyperpage{17}
+  \item PRNU, \hyperpage{17}
     \subitem abberviation, \hyperpage{xi}
     \subitem abbreviation, \hyperpage{xi}
 
@@ -70,7 +72,7 @@
 
   \indexspace
 
-  \item shot noise, \hyperpage{15}
+  \item shot noise, \hyperpage{17}
 
   \indexspace
 

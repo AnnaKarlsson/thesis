@@ -13,6 +13,7 @@
 \indexentry {PRNU!abbreviation|hyperpage}{xi}
 \indexentry {FPN!abberviation|hyperpage}{xi}
 \indexentry {CFA!abberviation|hyperpage}{xi}
+\indexentry {PCB!abberviation|hyperpage}{xi}
 \indexentry {authentication|hyperpage}{5}
 \indexentry {two factor authentication|hyperpage}{5}
 \indexentry {M2M|hyperpage}{6}
@@ -22,11 +23,11 @@
 \indexentry {device fingerprint|hyperpage}{13}
 \indexentry {accelerometer|hyperpage}{14}
 \indexentry {gyroscope|hyperpage}{14}
-\indexentry {constant bias|hyperpage}{14}
+\indexentry {constant bias|hyperpage}{15}
 \indexentry {magnetometer|hyperpage}{15}
-\indexentry {camera fingerprinting|hyperpage}{15}
-\indexentry {camera|hyperpage}{15}
-\indexentry {shot noise|hyperpage}{15}
-\indexentry {fixed pattern noise|hyperpage}{15}
-\indexentry {photo-response non-uniformity noise|hyperpage}{15}
-\indexentry {PRNU|hyperpage}{15}
+\indexentry {camera fingerprinting|hyperpage}{16}
+\indexentry {camera|hyperpage}{16}
+\indexentry {shot noise|hyperpage}{17}
+\indexentry {fixed pattern noise|hyperpage}{17}
+\indexentry {photo-response non-uniformity noise|hyperpage}{17}
+\indexentry {PRNU|hyperpage}{17}

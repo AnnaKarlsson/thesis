@@ -49,7 +49,7 @@ For the test of the camera sensor the PRNU value is calculated as an approximati
 \begin{figure}[H]
   \centering
   \input{fig/4-medfilt2.tex}
-  \caption{\label{fig:pyramid} the MATLAB \texttt{medfilt2} outputs the median of each pixel by it's 3-by-3 neighbors}
+  \caption{\label{fig:medfilt2} the MATLAB \texttt{medfilt2} outputs the median of each pixel by it's 3-by-3 neighbors}
 \end{figure}
 From the \texttt{medfilt2} we gain a picture without noise which is then subtracted from the original to get the noise. This technique works best if there are no features on the image such auto-fix, black and white etc. The more images used for the average value the better noise is, thus the amount random noise is less and the fixed noise is more. \cite{sensor:camera:DCIdent} recommend a minimum of 50 images. This is then seen as the reference pattern used for correlating the noise from another image. This correlation is calculated like:
 $$
