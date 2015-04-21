@@ -1,5 +1,5 @@
 \chapter{HARDWARE CHARACTERISTICS OF A MOBILE DEVICE}\label{cha:character}\index{characteristics}
-In the hardware of a device there are some features that can be used to distinguish devices from each other. In most cases it is not called features rather error sources. In the aim of this thesis it is feature characteristics that can be seen as an uniqueness of an mobile device. \textit{Device fingerprint(ing)}\index{device fingerprint} is the term used for this feature characteristics and the pyramid seen in~\figureref{fig:pyramid} from ~\cite[]{sensor:acoustic} shows the different types of sources of device fingerprint. This thesis will focus on the top of quarter of that pyramid, that is the sensors. All error sources of sensors comes in form of bias and the bias from each sensor covered by the thesis is further explained in this chapter. There is also an explanation on how the sensors is measured from Android respective JavaScript depending on the preformed tests that is described in ~\chapterref{cha:test}.
+In the hardware of a device there are some features that can be used to distinguish devices from each other. In most cases it is not called features rather error sources. In the aim of this thesis it is feature characteristics that can be seen as an uniqueness of an mobile device. \textit{Device fingerprint(ing)}\index{device fingerprint} is the term used for this feature characteristics and the pyramid seen in~\figureref{fig:pyramid} from ~\cite[]{sensor:acoustic} shows the different types of sources of device fingerprint. This thesis will focus on the top of quarter of that pyramid, that is the sensors. All error sources of sensors comes in form of bias and the bias from each sensor covered by the thesis is further explained in this chapter. There is also an explanation on how the sensors is measured from Android respective JavaScript depending on the preformed tests that is described in ~\chapterref{cha:measurements}.
 
 \begin{figure}[!h]
 	\input{fig/3-featurePyramid.tex}
@@ -24,7 +24,7 @@ The gyroscope is sensing how the device is moving in terms of angles, for mainta
 $$\boldsymbol{ F}_C = -2 \, m \, (\omega *  v)$$
 Where $m$ is the mass of the particle, $\omega$ the angular velocity and $v$ the velocity of the particle in the rotating system. 
 \cite[]{sensor:inertialNav}
-\subsection{Fingerprinting feature (Bias)}
+\subsection{Fingerprinting feature / Bias}
 The gyroscope has some error characteristics like constant bias, white noise, bias instability, calibration error and temperature effects. One of these error characteristics that can be tested by reading the output from a gyroscope in rest is the \textit{constant bias}\index{constant bias}. That is bias of the gyroscope output when not having any rotation on it. This constant error $\epsilon$ of the bias over time $t$ leads to an angular error that grows linear; 
 \begin{equation} \label{eq:gyroBias}
 \theta (t)= \epsilon * t
@@ -36,8 +36,9 @@ If take the long term average output from the gyro in rest, the constant error o
 The magnetometer measures the magnetic field and was originally used for navigation and tracking. When it is used as a compass the Earth's magnetic field is measured. The type of sensor found in mobile devices is like accelerometer and gyroscope a MEMS sensor. They are known as e-compasses gaussmeters that is measuring of magnetic fields larger than 1 nT.
 ~\cite[]{sensor:magn}
 
-\subsection{Fingerprinting feature (Bias)}
-When try to measure the magnetic field of Earth with a magnetometer it also gets affected by other magnetic fields. The error from magnetometer is called offset, not bias. The two main error sources from measurements of magnetometer are magnetic contamination in the sensor, called Soft and Hard-Iron distortion. \\
+\subsection{Fingerprinting feature / Bias}
+\textit{Note that normally bias in a magnetometer is called \textbf{offset} but for uniformity reason of this report it will be referenced to \textbf{bias}.}\\
+When try to measure the magnetic field of Earth with a magnetometer it also gets affected by other magnetic fields. The two main error sources from measurements of magnetometer are magnetic contamination in the sensor, called Soft and Hard-Iron distortion. \\
 The hard iron distortion is caused by metals and magnets around the magnetometer. This field is constant even if the device moves, thus it is additive to the earths magnetic field. This distortion can be caused of e.g. the device speaker mounted near the magnetometer. \\
 If there are magnetic fields in the surrounding environment of the device they will cause soft iron disorder. This error is smaller than the hard iron distortion. Any metal around the device can cause this error, such a car passing by.
 There are also a third bias that can effect the magnetometer and is as the hard iron distortion additive. This bias is the errors in the magnetometer itself such that all hardware has. But the result of this bias is similar to the soft iron distortion.  \\
@@ -52,7 +53,7 @@ If the device is rotated one turn (360\degree)around its own z-axes (see~\figure
         \vspace{0pt} \input{fig/3-magnGainMis.tex} \\
         \vspace{0pt} Ideal & Hard Iron distortion & Soft Iron distortion & Gain mismatch \\
 \end{tabular}
-\caption{Example of different magnetometer readings when affected by offset or bias.}\label{fig:magnCircle}
+\caption{Example of different magnetometer readings when affected by bias.}\label{fig:magnCircle}
 \end{figure}
 \cite[]{liu:magnAcc}
 
@@ -76,28 +77,30 @@ The soft iron is sometimes compensated for in the equations above and sometimes 
 
 
 \section{Camera}\label{sec:char:camera}\index{camera fingerprinting}\index{camera}
-The digital camera of a mobile device also includes sensors and other hardware that can be used as fingerprinting characteristics. The basic is that light travels trough a lens and hits a imaging sensor which contains pixels that has a filter array in front. The filter is for gives each pixel a detected color. The pixels is then put together again to a resulting signal which is send to some final post processing (color correction, white balance, etc.) steps before the image is written to the memory card. In this process there are different kind of noise that effects the image;
+\textit{Note that normally bias in a camera sensor is called \textbf{noise} but for uniformity reason of this report it will be referenced to \textbf{bias}.}\\
+\\
+The digital camera of a mobile device also includes sensors and other hardware that can be used as fingerprinting characteristics. The basic is that light travels trough a lens and hits a imaging sensor which contains pixels that has a filter array in front. The filter is for gives each pixel a detected color. The pixels is then put together again to a resulting signal which is send to some final post processing (color correction, white balance, etc.) steps before the image is written to the memory card. In this process there are different kind of bias that effects the image;
 \begin{itemize}
 	\item[] \textit{\index{shot noise}Shot noise -} the amount of photons hitting the sensor and each pixel varies a random amount
 	\item[] \textit{\index{fixed pattern noise}Fixed pattern noise - }there is a small electric current that leaks from photo-diodes in each pixel, caused by dark current
-	\item[] \textit{\index{photo-response non-uniformity noise}\index{PRNU}Photo-response non-uniformity noise (PRNU) -} is a noise that is not affected by temperature or humidity. When manufacturing sensors the silicon gets imperfection which causes that pixels aren't equally sensitive to light. This is the main source of pattern noise and makes it really unlikely for two cameras to have the same pattern.
+	\item[] \textit{\index{photo-response non-uniformity noise}\index{PRNU}Photo-response non-uniformity noise (PRNU) -} is a bias that is not affected by temperature or humidity. When manufacturing sensors the silicon gets imperfection which causes that pixels aren't equally sensitive to light. This is the main source of pattern bias and makes it really unlikely for two cameras to have the same pattern.
 \end{itemize}
-The three types of noise can be described as a mathematical model for getting the output of the sensor $y_{ij}$:
+The three types of bias can be described as a mathematical model for getting the output of the sensor $y_{ij}$:
 $$y_{ij}=f_{ij}(x_{ij}+\eta_{ij})+c_{ij}+\epsilon_{ij}$$
-where $f_{ij}$ is a multiple factor close to one that captures PRNU noise, $x_{ij}$ is the number of photons hitting the sensor, $\eta_{ij}$ the shot noise, $c_{ij}$ the dark current and $\epsilon_{ij}$ the additive random noise. The key for a unique fingerprint of the camera (in the mobile device) is to finding $f$.
+where $f_{ij}$ is a multiple factor close to one that captures PRNU, $x_{ij}$ is the number of photons hitting the sensor, $\eta_{ij}$ the shot noise, $c_{ij}$ the dark current and $\epsilon_{ij}$ the additive random bias. The key for a unique fingerprint of the camera (in the mobile device) is to finding $f$.
 \cite[]{sensor:camera:DCIdent}
 
 
-\section{Measurements of sensors on mobile devices}
-Measurements of sensors from mobile devices can be gather in different ways. In the work of this thesis two approaches where used by the browser application and by an Android application. The camera is an exception where pictures provides the sensor characteristics.
+\section{Measurements of sensors on mobile devices}\label{sec:charMeasureSensor}
+Measurements of sensors from mobile devices can be gather in different ways. In the work of this thesis two approaches is used, a browser application and an Android application. The camera is an exception where pictures provides the sensor characteristics.
 \begin{figure}[H]
 	\centering
     \includegraphics[scale=0.2]{img/device-axes}
-    \caption{The coordinate system used for both Android and JavaScript\cite[]{sensor:DeviceOrientation:spec}}
+    \caption{The coordinate system used for both Android and JavaScript\cite[]{sensor:W3C}}
   \label{fig:device-axes}
 \end{figure}
 
-\subsection{Android}
+\subsection{Android}\label{subsec:Android}\index{Android}
 Android sensor framework provides raw data with high precision from sensor that are built in the device such as different motions sensors (including accelerometer and gyroscope), environmental sensors and position sensors (e.g. magnetometer). \cite[]{android:sensor}
 Android sensor framework classes that is used for gather sensor data is; 
 \begin{itemize}
@@ -113,53 +116,64 @@ In Android you can't just read from the sensor whenever you need, instead the Se
 
 
 
-\subsubsection{Accelerometer in Android}
-\texttt{TYPE\_ACCELEROMETER} is the hardware measurements that measures the force of acceleration including the force of gravity with the SI unit $m/s^2$. Android also provide \texttt{TYPE\_LINEAR\_ACCELERATION} that is without gravity but that is a combined hardware and software sensor, thus this tests uses  \texttt{TYPE\_ACCELEROMETER} that provides almost raw data. There have been some noise removal from the sensor such noise from different temperature. \\
+\subsubsection{Accelerometer in Android}\label{subsec:accAndroid}
+\texttt{TYPE\_ACCELEROMETER} is the hardware measurements that measures the force of acceleration including the force of gravity with the SI unit $m/s^2$. Android also provide \texttt{TYPE\_LINEAR\_ACCELERATION} that is without gravity but that is a combined hardware and software sensor, thus this tests uses  \texttt{TYPE\_ACCELEROMETER} that provides almost raw data. There have been some bias removal from the sensor such bias from different temperature. \\
 To get the acceleration applied to the device ($a_d$) the measurements of the force ($F_s$) applied the sensor is calculated from Newtons second law using the mass ($m$) of the device :
 $$a_d=-\sum F_s / m $$ 
 These measurements from the \texttt{SensorEvent} is in the x-,y- and z-axes like in~\figureref{fig:device-axes} and collected from event like x=a, y=b and z=c in~\ref{code:androidSensor}. \cite[]{android:sensorEvent}
 
 
-\subsubsection{Gyroscope in Android}
+\subsubsection{Gyroscope in Android}\label{subsec:gyroAndroid}
 The data from the gyroscope sensor is collected from the \texttt{TYPE\_GYROSCOPE} that measures the rotation in rad/s around the x-, y- and z-axis of~\figureref{fig:device-axes}. The direction of the rotation is positive counter-clockwise if looking from a positive location of the axes. The values from the measurements when the gyroscope is changed is given like rotation in x=a, y=b and z=c in~\ref{code:androidSensor}. Additional output is \texttt{values[3], values[4]} and \texttt{values[5]} that is the estimated drift arounf the axis in also in rad/s.\\
 Android also provide a \texttt{TYPE\_GYROSCOPE\_UNCALIBRATED} that is the same as \texttt{TYPE\_GYROSCOPE} except that no drift has been compensated for. There is still factory calibration and temperature compensation applied. \cite[]{android:sensorEvent} This makes it possible to calculate the linear sensor bias (equation~\ref{eq:gyroBias}] without Androids own bias compensation that is not known what it is.
 
 
 
-\subsubsection{Magnetometer in Android}
-Measures the magnetic field in x-, y- and z-axis in micro-Tesla ($\mu T$). As for the gyroscope Android also provides a uncalibrated version that not has any calibration for the hard iron calibration.The output 
+\subsubsection{Magnetometer in Android}\label{subsec:magnAndroid}
+Measures the magnetic field in x-, y- and z-axis in micro-Tesla ($\mu T$), as for the other sensors is that output for \texttt{values[0], values[1]} and \texttt{values[2]} (see code~\ref{code:androidSensor}). Android also provides a uncalibrated version that not has any calibration for the hard iron calibration. The uncalibrated type in Android is \texttt{TYPE\_MAGNETIC\_FIELD\_UNCALIBRATED} and as for the gyrocope it also comes with an bias estimation in x, y and z-axis for event-values \texttt{values[3], values[4]} and \texttt{values[5]}. 
+
 \subsubsection{Fingerprinting: Sensor fusion in Android}
 \url{http://www.codeproject.com/Articles/729759/Android-Sensor-Fusion-Tutorial}
 
-\subsection{JavaScript}
+\subsection{JavaScript}\label{subsec:js}\index{JavaScript}
+JavaScript has since the use of smart-phones adapted a lot of new features, which makes it possible to access a lot of features in the devices. To access the gyroscope and accelerometer-data no permission from the user is needed, thus the user do not have to know that the sensors are measured.
+
+
+\subsubsection{Accelerometer in JavaScript}\label{subsec:accJS}
+To get measurements from the accelerometer an event listener called \texttt{devicemotion} is added. The output from measurements is the acceleration force in $m/s^2$ according to x-, y- and z-axes as in~\figureref{fig:device-axes}. \\
+\\
+In JavaScript there are two types of acceleration, \texttt{accelerationIncludingGravity} and \texttt{acceleration}.\texttt{accelerationIncludingGravity} is acceleration made by the device. In context to \texttt{acceleration} not depending on influence of gravity only by the acceleration made on the device. Since the accelerometer in the device measures with gravity I assume that that is the most raw data you can get of the two. There is no documentation on this made, thus that makes this some kind of a guess.\\
+\\
+The JavaScript for measurements of the accelerometer:
+\lstinputlisting{code/acc-listener.js}
+\cite[]{sensor:W3C}
+
+
+\subsubsection{Gyroscope in JavaScript}\label{subsec:gyroJS}
+A listener is implemented in the same way as for the accelerometer, this listener is called  \texttt{deviceorientation}. The output from this listener is made in degrees of rotation angle. JavaScript has named this rotations as the~\figureref{fig:device-rot} below.
 \begin{figure}[H]
-  \hspace{-2cm}
+  \hspace{-1cm}
   \centering
   \begin{minipage}[c]{.23\textwidth}
     \centering
     \includegraphics[scale=0.2]{img/device-alpha}
   \end{minipage}
-  \hspace{1.5cm}
+  \hspace{1cm}
   \begin{minipage}[c]{.23\textwidth}
     \centering
     \includegraphics[scale=0.2]{img/device-beta}
   \end{minipage}
-  \hspace{1.5cm}
+  \hspace{1cm}
   \begin{minipage}[c]{.23\textwidth}
     \centering
     \includegraphics[scale=0.2]{img/device-gamma}
     \hspace{1cm}
   \end{minipage}
-  \caption{The device axes for the JavaScript \texttt{DeviceOrientation} and \texttt{DeviceMotion}}
+  \caption{The device rotation axes for the JavaScript \texttt{DeviceOrientation}}
   \label{fig:device-rot}
 \end{figure}
-
-\subsubsection{Accelerometer in JavaScript}
-To access the accelerometer data in JavaScript no permission is needed, thus the user do not have to know that the accelerometer is measured. To get measurements from the accelerometer an event listener called \texttt{devicemotion} is added. The output from measurements is the acceleration force in $m/s^2$ according to x-, y- and z-axes as in~\figureref{fig:device-axes} below. 
-
-In JavaScript there are two types of acceleration, \texttt{accelerationIncludingGravity} and \texttt{acceleration}.\texttt{accelerationIncludingGravity} is acceleration made by the device. In context to \texttt{acceleration} not depending on influence of gravity only by the acceleration made on the device. 
-The JavaScript for measurements of the accelerometer:
-\lstinputlisting{code/acc-listener.js}
-\cite[]{sensor:DeviceOrientation:spec}
-
-\subsubsection{Gyroscope in JavaScript}
+Alpha is measured in the range of 0\degree to 360\degree around the z-axis, beta in in the range of -180\degree to 180\degree around x-axis and gamma in the range of -90\degree to 90\degree around y-axis.\\
+\\
+The JavaScript for measurements of the gyroscope:
+\lstinputlisting{code/gyro-listener.js}
+\cite[]{sensor:W3C}

@@ -24,42 +24,47 @@
   year={2012},
   publisher={Wiley}
 }
-@MISC{cpM2MIoT,
-   author =       {Polsonetti, Chantal},
-   title =        {Understand The Difference Between IoT and M2M},
-   editor =       {ChemicalProcessing.com},
-   month =        {April},
-   year =         {2014},
-   url = {http://www.chemicalprocessing.com/articles/2014/understand-the-difference-between-iot-and-m2m/},
-   note =         {[Online; posted 24-April-2014]},
- }
-@TechReport{auth:M2Mcom,
+ @Article{cpM2MIoT,
+    author    = "Polsonetti, C.",
+    title     = "Understand The Difference Between IoT and M2M",
+    journal   = "Chemical Processing",
+    year      = "2014",
+    month     = apr,
+    note      = "[Online; posted 24-April-2014]",
+    url 	  = {www.chemicalprocessing.com/articles/2014/understand-the-difference-between-iot-and-m2m/},
+}
+@Article{auth:M2Mcom,
    author ={Ren, Wei and Yu, Linchen and Ma, Liangli and Ren, Yi},
-   title ={{How to Authenticate a Device? Formal Authentication Models for M2M Communications Defending against Ghost Compromising Attack}},
+   title ={How to Authenticate a Device? Formal Authentication Models for M2M Communications Defending against Ghost Compromising Attack},
    journal = {International Journal of Distributed Sensor Networks},
    year = {2013},
    volume = {2013},
    number = {Article ID 679450},
    pages = {9},
-   url = {http://downloads.hindawi.com/journals/ijdsn/2013/679450.pdf},
+   %url = {http://downloads.hindawi.com/journals/ijdsn/2013/679450.pdf},
 }
 
-@TechReport{auth:M2M,
-   author ={He, Dinghua},
-   title ={{Remote Authentication of Software Based on Machine's Fingerprint}},
-   institution = {Wuhan Polytechnic, Department of Computer},
-   year = 2012,
-   isbn = {978-1-4673-2007-8},
-   pages = {543 - 546},
+@INPROCEEDINGS{auth:M2M, 
+	author={Dinghua He}, 
+	booktitle={Software Engineering and Service Science (ICSESS), 2012 IEEE 3rd International Conference on}, 
+	title={Remote authentication of software based on machine's fingerprint}, 
+	year={2012}, 
+	month={June}, 
+	pages={543-546}, 
+	doi={10.1109/ICSESS.2012.6269524},
 }
-@TechReport{sensor:acoustic,
-   author =	{Das, Anupam and Borisov, Nikita and Caesar, Matthew},
-   title =	{{Fingerprinting Smart Devices Through Embedded Acoustic Components}},
-   institution = {University of Illinois at Urbana-Champaign},
-   year = 2014,
-   month = mar,
-   number = {arXiv:1403.3366v1},
-   url = {http://arxiv.org/pdf/1403.3366v1.pdf},
+@Article{sensor:acoustic,
+  author    = {Anupam Das and
+               Nikita Borisov and
+               Matthew Caesar},
+  title     = {Fingerprinting Smart Devices Through Embedded Acoustic Components},
+  journal   = {CoRR},
+  volume    = {abs/1403.3366},
+  year      = {2014},
+  url       = {http://arxiv.org/abs/1403.3366},
+  timestamp = {Tue, 01 Apr 2014 11:56:46 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/DasBC14},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
 }
 @Book{randallknight,
   title={Physics for Scientists and Engineers: a strategic approach : with modern physics},
@@ -70,26 +75,28 @@
   publisher={Prentice Hall}
 }
 
-@TechReport{sensors:fusion,
-  title=	{{Indoor Positioning using Sensor-fusion in Android Devices}},
-  author=	{Rodriguez, Angel and Shala, Ubejd},
-  institution={Kristianstad University, School of Health and Society, Department Computer Science},
-  year = 2011,
-  month = sep,
-  url = {http://hkr.diva-portal.org/smash/get/diva2:475619/FULLTEXT02.pdf},
+@mastersthesis{sensors:fusion,
+    author    = "Rodriguez, Angel and Shala, Ubejd",
+    title     = "Indoor Positioning using Sensor-fusion in Android Devices",
+    school    = "Kristianstad University",
+    year      = "2011",
+    month    = sep,
+    %url = {http://hkr.diva-portal.org/smash/get/diva2:475619/FULLTEXT02.pdf}
 }
 
 @TechReport{sensor:inertialNav,
-  author =	 {Woodman, Oliver J.},
-  title = 	 {{An introduction to inertial navigation}},
-  year = 	 2007,
-  month = 	 aug,
-  url = 	 {http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-696.pdf},
-  institution =  {University of Cambridge, Computer Laboratory},
-  number = 	 {UCAM-CL-TR-696}
+    author = {Woodman, Oliver J.},
+    title = {An introduction to inertial navigation},
+    year = 2007,
+    type = "Technical report", 
+  	month = aug,
+  	issn = {1476-2986},
+  	institution = {University of Cambridge, Computer Laboratory},
+  	number = {UCAM-CL-TR-696},
+  	%url = {http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-696.pdf}
 }
 
-@article{sensor:micSpek,
+@Article{sensor:micSpek,
   author    = {Hristo Bojinov and
                Yan Michalevsky and
                Gabi Nakibly and
@@ -104,55 +111,50 @@
   bibsource = {dblp computer science bibliography, http://dblp.org}
 }
 
-@TechReport{clockSkew,
-  author =	{Fabian Lanze and 
-             Andriy Panchenko and
-             Benjamin Braatz and
-             Andreas Zinnen},
-  title = 	{{Clock Skew Based Remote Device Fingerprinting Demystified}},
-  institution = {Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg},
-  isbn = {978-1-4673-0919-6},
-  year = 2012,
-  month = dec,
-  url = {http://lorre.uni.lu/~andriy/papers/clock-skew-ntp-ieee-globecom2012.pdf}
+@INPROCEEDINGS{clockSkew, 
+	author={Lanze, F. and Panchenko, A. and Braatz, B. and Zinnen, A.}, 
+	booktitle={Global Communications Conference (GLOBECOM), 2012 IEEE}, 
+	title={Clock skew based remote device fingerprinting demystified}, 
+	year=2012, 
+	month=dec, 
+	pages={813-819}, 
+	doi={10.1109/GLOCOM.2012.6503213}, 
+	ISSN={1930-529X},
 }
 
-@TechReport{auth:M2Mcom,
+@Article{auth:M2Mcom,
    author ={Ren, Wei and Yu, Linchen and Ma, Liangli and Ren, Yi},
-   title ={{How to Authenticate a Device? Formal Authentication Models for M2M Communications Defending against Ghost Compromising Attack}},
+   title ={How to Authenticate a Device? Formal Authentication Models for M2M Communications Defending against Ghost Compromising Attack},
    journal = {International Journal of Distributed Sensor Networks},
-   year = {2013},
+   year = 2013,
    volume = {2013},
    number = {Article ID 679450},
    pages = {9},
-   url = {http://downloads.hindawi.com/journals/ijdsn/2013/679450.pdf},
-}
-@Article{rff:identWiFi,
-  author =	{J.L. Padilla and
-             P. Padilla and
-             J.F. Valenzuela-Valdés and
-             J. Ramírez and
-             J.M. Górriz a},
-  title = 	{{RF fingerprint measurements for the identification of devices in wireless communication networks based on feature reduction and subspace transformation}},
-  journal = {Security and Privacy in Communications Networks and the Workshops},
-  volume = {Third International Conference on},
-  year = 2007,
-  month = sep,
-  pages = {331--340},
-  isbn = {978-1-4244-0974-7}
+   doi = {10.1155/2013/679450},
+   %url = {http://downloads.hindawi.com/journals/ijdsn/2013/679450.pdf},
 }
 
-@Article{rff:implicationsOfRFF,
-  author =	{Rasmussen, Kasper Bonne and
-             Capkun, Srdjan},
-  title = 	{{Implications of Radio Fingerprinting on the Security of Sensor Networks}},
-  journal = {Journal of the International Measurement Confederation},
-  volume = 58,
-  year = 2014,
-  month = dec,
-  pages = {468–-475},
-  number = {doi:10.1016/j.measurement.2014.09.009},
-  url = {http://www.sciencedirect.com/science/article/pii/S0263224114003893}
+@Article{rff:identWiFi,
+	title = "\{RF\} fingerprint measurements for the identification of devices in wireless communication networks based on feature reduction and 	subspace transformation ",
+	journal = "Measurement ",
+	volume = "58",
+	number = "0",
+	pages = "468 - 475",
+	year = "2014",
+	issn = "0263-2241",
+	doi = "10.1016/j.measurement.2014.09.009",
+	%url = "http://www.sciencedirect.com/science/article/pii/S0263224114003893",
+	author = "J.L. Padilla and P. Padilla and J.F. Valenzuela-Valdés and J. Ramírez and J.M. Górriz",
+}
+
+@INPROCEEDINGS{rff:implicationsOfRFF, 
+	author={Bonne Rasmussen, Kasper and Capkun, S.}, 
+	booktitle={Security and Privacy in Communications Networks and the Workshops, 2007. SecureComm 2007. Third International Conference on}, 
+	title={Implications of radio fingerprinting on the security of sensor networks}, 
+	year=2007, 
+	month=sep, 
+	pages={331-340},
+	doi={10.1109/SECCOM.2007.4550352},
 }
 
 @Article{acc:kionixerr,
@@ -164,31 +166,23 @@
   url = {http://www.kionix.com/sites/default/files/AN012\%20Accelerometer\%20Errors.pdf}
 }
 
-@TechReport{rff:passiveDLLwifi,
-  author =	{J. Franklin and
-             D. McCoy and
-             P. Tabriz and
-             V. Neagoe and
-             J. Van Randwyk and
-             D. Sicker},
-  title = 	{{Passive Data Link Layer 802.11 Wireless Device Driver Fingerprinting}},
-  institution = {Proceedings of USENIX Security},
+@INPROCEEDINGS{rff:passiveDLLwifi,
+  author =	{J. Franklin and D. McCoy and P. Tabriz and V. Neagoe and J. Van Randwyk and D. Sicker},
+  booktitle={Proceedings of USENIX Security ’06, July 31 - August 4, 2006},
+  title = 	{Passive Data Link Layer 802.11 Wireless Device Driver Fingerprinting},
   year = 2006,
   month = aug,
-  url = {http://www.cs.gmu.edu/~mccoy/papers/wireless-fingerprinting.pdf}
+  pages = {167–178},
+  %url = {http://www.cs.gmu.edu/~mccoy/papers/wireless-fingerprinting.pdf}
 }
 
-@TechReport{rff:wifiDeviceSign,
-  author =	{Brik, V. and
-             Banerjee, S. and
-             Gruteser, M. and
-             Oh, S.},
-  title = 	{Wireless Device Identification with Radiometric Signatures},
-  institution = {MobiCom’08, San Francisco, California, USA},
-  number = 	{ACM 978-1-60558-096-8/08/0},
-  year = 2008,
-  month = sep,
-  url = {http://www.winlab.rutgers.edu/~gruteser/papers/brik_paradis.pdf}
+@INPROCEEDINGS{rff:wifiDeviceSign,
+    author = {Vladimir Brik and Suman Banerjee and Marco Gruteser},
+    title = {Wireless device identification with radiometric signatures},
+    booktitle = {in Proceedings of the 14th ACM international conference on mobile computing and networking, ser. MobiCom ’08},
+    year = 2008,
+    month = sep,
+    pages = {116--127}
 }
 
 @Article{sensor:camera:blind,
@@ -203,18 +197,30 @@
   pages = {553–-566},
   issn = {1556-6013}
 }
-@Article{sensor:camera:lukas,
-  author =	{Lukas, J. and
-             Fridrich, J. and
-             Goljan, M.},
-  title = 	{Digital camera identification from sensor noise},
-  journal = {IEEE Transactions on: Information Forensics and Security},
-  volume = 1,
-  no = 1,
-  year = 2006,
-  month = jun,
-  pages = {205-214},
-  issn = {1556-6013}
+@ARTICLE{sensor:camera:blind, 
+	author={Celiktutan, O. and Sankur, B. and Avcibas, I.}, 
+	journal={Information Forensics and Security, IEEE Transactions on}, 
+	title={Blind Identification of Source Cell-Phone Model}, 
+	year=2008, 
+	month=sept, 
+	volume={3}, 
+	number={3}, 
+	pages={553-566}, 
+	doi={10.1109/TIFS.2008.926993}, 
+	ISSN={1556-6013},
+}
+sensor:camera:frPattNoise
+@ARTICLE{sensor:camera:lukas, 
+	author={Lukas, J. and Fridrich, J. and Goljan, M.}, 
+	journal={Information Forensics and Security, IEEE Transactions on}, 
+	title={Digital camera identification from sensor pattern noise}, 
+	year=2006, 
+	month=jun, 
+	volume=1, 
+	number=2, 
+	pages={205-214}, 
+	doi={10.1109/TIFS.2006.873602}, 
+	ISSN={1556-6013},
 }
 
 @TechReport{sensor:camera:DCIdent,
@@ -226,66 +232,44 @@
   url = {https://www.cl.cam.ac.uk/teaching/0910/R08/work/essay-nmj27-cameraid.pdf}
 }
 
-@TechReport{sensor:camera:frPattNoise,
-  author =	{Lukas, J. and
-             Fridrich, J. and
-             Goljan, M.},
-  title = 	{{Digital camera identification from sensor pattern noise}},
-  journal = {IEEE Transactions on: Information Forensics and Security},
-  volume = 1,
-  issue = 2,
-  year = 2006,
-  month = jun,
-  pages = {205–-214},
-  issn = {1556-6013}
-}
-@Article{sensor:DeviceOrientation:spec,
-  author =	{Block, S. and
-             Popescu, A.},
-  title = 	{{DeviceOrientation Event Specification}},
-  journal = {W3C Working Draft},
-  year = 2011,
-  month = dec,
-  url = {http://www.w3.org/TR/orientation-event/}
+@Article{sensor:W3C,
+  author =	{Dixit, Shwetank},
+  title = 	{The W3C Device Orientation API: Detecting Orientation and Acceleration},
+  journal = {dev.opera.com/articles/},
+  year = 2012,
+  month = jul,
+  url = {https://dev.opera.com/articles/w3c-device-orientation-api/}
 }
 
-@Article{sensor:accIncludingGravity,
-  author =	{Contributors Mozilla},
+@MISC{sensor:accIncludingGravity,
+  author =	{Mozilla, Contributors},
   title = 	{{DeviceMotionEvent.accelerationIncludingGravity}},
   journal = {W3C Working Draft},
   year = 2015,
   month = feb,
   url = {https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent/accelerationIncludingGravity},
-  note = {Accessed: 2015-02-24}
+  note = {[Online; 24-Feb-2015]}
 }
-@TechReport{mall,
-  author =	{},
-  title = 	{{}},
-  institution = {},
-  number = 	{},
-  year = ,
-  month = ,
-  url = {}
-}
+
 @MISC{android:sensor,
-   author =       {Android Open Source Project},
+   author =       {Android, Open Source Project},
    title =        {{Sensors Overview}},
-   editor =       {http://developer.android.com/},
+   editor =       {developer.android.com/},
    month =        {April},
    year =         {2015},
    url = {http://developer.android.com/guide/topics/sensors/sensors_overview.html},
    note =         {[Online; 15-April-2015]},
  }
  @MISC{android:sensorEvent,
-   author =       {Android Open Source Project},
+   author =       {Android, Open Source Project},
    title =        {{SensorEvent}},
-   editor =       {http://developer.android.com/},
+   editor =       {developer.android.com/},
    month =        {April},
    year =         {2015},
    url = { http://developer.android.com/reference/android/hardware/SensorEvent.html},
    note =         {[Online; 15-April-2015]},
  }
-@TechReport{sensor:magn,
+@Article{sensor:magn,
   author =	{Y. Cai, Y. Zhao, X. Ding and J. Feneelly},
   title = 	{{Magnetometer basics for mobile phone applications}},
   editor = {MEMSIC.com},
@@ -300,6 +284,7 @@
   	edition = 3,
   	month = apr,
   	year = 2013,
+  	number = {AN4246},
 	url = {http://www.freescale.com/files/sensors/doc/app_note/AN4246.pdf}
 }
 @mastersthesis{liu:magnAcc,

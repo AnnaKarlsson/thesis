@@ -1,12 +1,13 @@
 \begin{theindex}
 
   \item accelerometer, \hyperpage{14}
+  \item Android, \hyperpage{18}
   \item authentication, \hyperpage{5}
 
   \indexspace
 
-  \item camera, \hyperpage{16}
-  \item camera fingerprinting, \hyperpage{16}
+  \item camera, \hyperpage{17}
+  \item camera fingerprinting, \hyperpage{17}
   \item CFA
     \subitem abberviation, \hyperpage{xi}
   \item characteristics, \hyperpage{13}
@@ -43,6 +44,10 @@
 
   \indexspace
 
+  \item JavaScript, \hyperpage{20}
+
+  \indexspace
+
   \item M2M, \hyperpage{6}
     \subitem abbreviation, \hyperpage{xi}
   \item magnetometer, \hyperpage{15}
@@ -61,7 +66,6 @@
   \item photo-response non-uniformity noise, \hyperpage{17}
   \item PRNU, \hyperpage{17}
     \subitem abberviation, \hyperpage{xi}
-    \subitem abbreviation, \hyperpage{xi}
 
   \indexspace
 
@@ -69,6 +73,8 @@
     \subitem abbreviation, \hyperpage{xi}
   \item RFID
     \subitem abbreviation, \hyperpage{xi}
+  \item RMS
+    \subitem abberviation, \hyperpage{xi}
 
   \indexspace
 

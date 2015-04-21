@@ -1,4 +1,4 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,18 +12,19 @@ R.~Anderson.
 \newblock Wiley, 2008.
 \newblock ISBN 9780470068526.
 
-\bibitem[Block and Popescu(2011)]{sensor:DeviceOrientation:spec}
-S.~Block and A.~Popescu.
-\newblock {DeviceOrientation Event Specification}.
-\newblock \emph{W3C Working Draft}, December 2011.
-\newblock URL \url{http://www.w3.org/TR/orientation-event/}.
+\bibitem[Android(2015{\natexlab{a}})]{android:sensor}
+Open Source~Project Android.
+\newblock {Sensors Overview}, April 2015{\natexlab{a}}.
+\newblock URL
+  \url{http://developer.android.com/guide/topics/sensors/sensors_overview.html}.
+\newblock [Online; 15-April-2015].
 
-\bibitem[Bojinov et~al.(2014)Bojinov, Michalevsky, Nakibly, and
-  Boneh]{sensor:micSpek}
-Hristo Bojinov, Yan Michalevsky, Gabi Nakibly, and Dan Boneh.
-\newblock Mobile device identification via sensor fingerprinting.
-\newblock \emph{CoRR}, abs/1408.1416, 2014.
-\newblock URL \url{http://arxiv.org/abs/1408.1416}.
+\bibitem[Android(2015{\natexlab{b}})]{android:sensorEvent}
+Open Source~Project Android.
+\newblock {SensorEvent}, April 2015{\natexlab{b}}.
+\newblock URL
+  \url{http://developer.android.com/reference/android/hardware/SensorEvent.html}.
+\newblock [Online; 15-April-2015].
 
 \bibitem[Boswarthick et~al.(2012)Boswarthick, Elloumi, and Hersent]{m2mComm}
 D.~Boswarthick, O.~Elloumi, and O.~Hersent.
@@ -33,15 +34,23 @@ D.~Boswarthick, O.~Elloumi, and O.~Hersent.
 
 \bibitem[Das et~al.(2014)Das, Borisov, and Caesar]{sensor:acoustic}
 Anupam Das, Nikita Borisov, and Matthew Caesar.
-\newblock {Fingerprinting Smart Devices Through Embedded Acoustic Components}.
-\newblock Technical Report arXiv:1403.3366v1, University of Illinois at
-  Urbana-Champaign, March 2014.
-\newblock URL \url{http://arxiv.org/pdf/1403.3366v1.pdf}.
+\newblock Fingerprinting smart devices through embedded acoustic components.
+\newblock \emph{CoRR}, abs/1403.3366, 2014.
+\newblock URL \url{http://arxiv.org/abs/1403.3366}.
+
+\bibitem[Dixit(2012)]{sensor:W3C}
+Shwetank Dixit.
+\newblock The w3c device orientation api: Detecting orientation and
+  acceleration.
+\newblock \emph{dev.opera.com/articles/}, July 2012.
+\newblock URL \url{https://dev.opera.com/articles/w3c-device-orientation-api/}.
 
 \bibitem[He(2012)]{auth:M2M}
 Dinghua He.
-\newblock {Remote Authentication of Software Based on Machine's Fingerprint}.
-\newblock Technical report, Wuhan Polytechnic, Department of Computer, 2012.
+\newblock Remote authentication of software based on machine's fingerprint.
+\newblock In \emph{Software Engineering and Service Science (ICSESS), 2012 IEEE
+  3rd International Conference on}, pages 543--546, June 2012.
+\newblock \doi{10.1109/ICSESS.2012.6269524}.
 
 \bibitem[Jain et~al.(2011)Jain, Ross, and Nandakumar]{introbio}
 Anil.K. Jain, Arun.A. Ross, and K.~Nandakumar.
@@ -69,62 +78,36 @@ J.~Merkel and J.~Säll.
 \newblock {Indoor Navigation Using Accelerometer and Magnetometer}.
 \newblock Master's thesis, Linköping university, October 2011.
 
-\bibitem[Mozilla(2015)]{sensor:accIncludingGravity}
-Contributors Mozilla.
-\newblock {DeviceMotionEvent.accelerationIncludingGravity}.
-\newblock \emph{W3C Working Draft}, February 2015.
-\newblock URL
-  \url{https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent/accelerationIncludingGravity}.
-\newblock Accessed: 2015-02-24.
-
 \bibitem[Polsonetti(2014)]{cpM2MIoT}
-Chantal Polsonetti.
-\newblock Understand the difference between iot and m2m, April 2014.
+C.~Polsonetti.
+\newblock Understand the difference between iot and m2m.
+\newblock \emph{Chemical Processing}, April 2014.
 \newblock URL
-  \url{http://www.chemicalprocessing.com/articles/2014/understand-the-difference-between-iot-and-m2m/}.
+  \url{www.chemicalprocessing.com/articles/2014/understand-the-difference-between-iot-and-m2m/}.
 \newblock [Online; posted 24-April-2014].
-
-\bibitem[Project(2015{\natexlab{a}})]{android:sensor}
-Android Open~Source Project.
-\newblock {Sensors Overview}, April 2015{\natexlab{a}}.
-\newblock URL
-  \url{http://developer.android.com/guide/topics/sensors/sensors_overview.html}.
-\newblock [Online; 15-April-2015].
-
-\bibitem[Project(2015{\natexlab{b}})]{android:sensorEvent}
-Android Open~Source Project.
-\newblock {SensorEvent}, April 2015{\natexlab{b}}.
-\newblock URL
-  \url{http://developer.android.com/reference/android/hardware/SensorEvent.html}.
-\newblock [Online; 15-April-2015].
 
 \bibitem[Ren et~al.(2013)Ren, Yu, Ma, and Ren]{auth:M2Mcom}
 Wei Ren, Linchen Yu, Liangli Ma, and Yi~Ren.
-\newblock {How to Authenticate a Device? Formal Authentication Models for M2M
-  Communications Defending against Ghost Compromising Attack}.
-\newblock Technical Report Article ID 679450, 2013.
-\newblock URL
-  \url{http://downloads.hindawi.com/journals/ijdsn/2013/679450.pdf}.
+\newblock How to authenticate a device? formal authentication models for m2m
+  communications defending against ghost compromising attack.
+\newblock \emph{International Journal of Distributed Sensor Networks},
+  2013\penalty0 (Article ID 679450):\penalty0 9, 2013.
 
 \bibitem[Rodriguez and Shala(2011)]{sensors:fusion}
 Angel Rodriguez and Ubejd Shala.
-\newblock {Indoor Positioning using Sensor-fusion in Android Devices}.
-\newblock Technical report, Kristianstad University, School of Health and
-  Society, Department Computer Science, September 2011.
-\newblock URL
-  \url{http://hkr.diva-portal.org/smash/get/diva2:475619/FULLTEXT02.pdf}.
+\newblock Indoor positioning using sensor-fusion in android devices.
+\newblock Master's thesis, Kristianstad University, September 2011.
 
 \bibitem[Woodman(2007)]{sensor:inertialNav}
 Oliver~J. Woodman.
-\newblock {An introduction to inertial navigation}.
-\newblock Technical Report UCAM-CL-TR-696, University of Cambridge, Computer
+\newblock An introduction to inertial navigation.
+\newblock Technical report UCAM-CL-TR-696, University of Cambridge, Computer
   Laboratory, August 2007.
-\newblock URL \url{http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-696.pdf}.
 
 \bibitem[Y.~Cai and Feneelly(2012)]{sensor:magn}
 X.~Ding Y.~Cai, Y.~Zhao and J.~Feneelly.
 \newblock {Magnetometer basics for mobile phone applications}.
-\newblock Technical report, February 2012.
+\newblock February 2012.
 \newblock URL
   \url{http://www.memsic.com/userfiles/files/publications/Articles/Electronic_Products_Feb_\%202012_Magnetometer.pdf}.
 
