@@ -19,9 +19,9 @@ The problem challenge-response protocols facing is often to achieve good randomn
 There are other applications than looks, like the HTTP Digest Authentication. It uses the authentication process  which a web server challenges a client or a proxy with the common secret of a password. The server sends nonce to the client or proxy, whom hash the nonce with the password and the requested URI. This authentication mechanism is not vulnerable to password snooping and is used in cases like; client-server-authentication in SIP or the protocol for Voice-Over-IP telephony. This protocol however is vulnerable to man-in-the-middle. \\
 \\
 Ross states however that a much more visible use of challenge response is in \textit{two-factor authentication} (~\sectionref{sec:2fauth}). An example of use is if you have and bank card reader when accessing your bank on the Internet. When you want to log in there are an random challenge of $n$ numbers. You put these numbers together with a PIN into your bank card reader. The reader encrypts these numbers (pin + $n$ numbers) using a secret key shard with the sever of the bank. The fist $n$ numbers of the encryption is displayed on the card reader and you enter this in the login screen as a password. 
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
-    \includegraphics[scale=0.5]{img/challenge-response-bank}
+    \includegraphics[scale=0.3]{img/challenge-response-bank}
     \caption{Challenge-response authentication with bank card reader}
   \label{fig:challengeResponse}
 \end{figure}

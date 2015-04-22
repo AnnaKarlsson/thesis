@@ -26,13 +26,14 @@ Another thing you can see from just these three measurements are that RMS (Root-
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=.7]{img/oneMonth-plot-RMS}
-	\caption{Scatter graph on accelerometer recordings of 6 Android devices, where two has one month apart}
+	\caption{Scatter graph on accelerometer recordings of 6 Android devices, where two has one month apart \textbf{OBS fixa axlar!}}
 	\label{fig:plot1mRMS}
 \end{figure}
 
 % ========== CAMERA TEST ==========
 \section{Result Camera-test}\label{sec:ResCam}
-\textbf{ ==== OBS!! ====}\\ Flyttad text som måste skrivas om.
+\textbf{ ==== OBS!! ====}\\ Flyttad text som måste skrivas om.\\
+\\
 For the test of the camera sensor the PRNU value is calculated as an approximation of the algorithm described in section ~\ref{sec:char:camera} and also used by \cite{sensor:camera:DCIdent}. That is the average of multiple pictures used and substantially an approximation of \textit{f}. The first step is to remove the pictures-content which leaves the noise, which is done using a denoising filter. For the test the MATLAB \texttt{medfilt2} is used, which is an 2-D median filtering that outputs the median value of each pixel by its 3-by-3 neighbors. 
 \begin{figure}[H]
   \centering

@@ -16,13 +16,13 @@
 \contentsline {chapter}{\numberline {2}COMMUNICATION \& AUTHENTICATION}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Two factor authentication}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}Challenge-Response authentication}{6}{section.2.2}
-\contentsline {section}{\numberline {2.3}M2M\p@index {M2M} (Machine-to-machine)}{6}{section.2.3}
+\contentsline {section}{\numberline {2.3}M2M\p@index {M2M} (Machine-to-machine)}{7}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Difference between M2M and IoT}{8}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}M2M authentication}{8}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}The biometric process}{9}{section.2.4}
+\contentsline {section}{\numberline {2.4}The biometric process}{8}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Recognition}{9}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Biometric systems}{9}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Biometric authentication}{10}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.3}Biometric authentication}{9}{subsection.2.4.3}
 \contentsline {subsection}{\numberline {2.4.4}Measurements}{10}{subsection.2.4.4}
 \contentsline {subsection}{\numberline {2.4.5}Design a biometric system}{10}{subsection.2.4.5}
 \contentsline {chapter}{\numberline {3}HARDWARE CHARACTERISTICS OF A MOBILE DEVICE}{13}{chapter.3}

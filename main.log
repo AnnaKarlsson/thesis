@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.19)  22 APR 2015 11:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.19)  22 APR 2015 14:53
 entering extended mode
 **C:/Users/ankar5/Documents/thesis/main.tex
 (C:/Users/ankar5/Documents/thesis/main.tex
@@ -2387,21 +2387,13 @@ File: img/challenge-response-bank.png Graphic file (type png)
 <use img/challenge-response-bank.png>
 Package pdftex.def Info: img/challenge-response-bank.png used on input line 24.
 
-(pdftex.def)             Requested size: 366.24237pt x 229.60724pt.
+(pdftex.def)             Requested size: 219.74765pt x 137.76575pt.
 
-Overfull \hbox (10.58293pt too wide) in paragraph at lines 24--25
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--29
+Underfull \hbox (badness 10000) in paragraph at lines 17--27
 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[6] [7 <C:/Users/ankar5/Documents/thesis/img/challenge-response-bank.png>]
+[6 <C:/Users/ankar5/Documents/thesis/img/challenge-response-bank.png>] [7]
 
 Package natbib Warning: Citation `spoofMaciPhone' on page 8 undefined on input 
 line 58.
@@ -2779,6 +2771,11 @@ Overfull \hbox (10.58133pt too wide) in paragraph at lines 28--29
  []
 
 (C:\Users\ankar5\Documents\thesis\fig/4-medfilt2.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 35--42
+
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31 <C:/Users/ankar5/Documents/thesis/img/oneMonth-plot-RMS.png (PNG copy)>]
@@ -2889,7 +2886,7 @@ Package natbib Warning: There were undefined citations.
 [42
 
 
-] <fig/LinkUniv_sv_vert_col.pdf, id=1001, 259.31279pt x 172.23546pt>
+] <fig/LinkUniv_sv_vert_col.pdf, id=1003, 259.31279pt x 172.23546pt>
 File: fig/LinkUniv_sv_vert_col.pdf Graphic file (type pdf)
 
 <use fig/LinkUniv_sv_vert_col.pdf>
@@ -2920,7 +2917,7 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 209D5F5F1656BCD652F640C902B9E044;3843.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 3C34440DF10BB02937BB2D2DCC5DEADA;2173.
+(rerunfilecheck)             Checksum: B482C8CA1654CCC721C3EF2F07A31541;2173.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
@@ -2956,9 +2953,9 @@ nkar5/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpsya.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrro8a.pfb><C:/Program Files (x86)/M
 iKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (59 pages, 10719258 bytes).
+Output written on main.pdf (59 pages, 10710743 bytes).
 PDF statistics:
- 1181 PDF objects out of 1200 (max. 8388607)
+ 1183 PDF objects out of 1200 (max. 8388607)
  263 named destinations out of 1000 (max. 500000)
  18970 words of extra memory for PDF output out of 20736 (max. 10000000)
 
