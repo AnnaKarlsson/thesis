@@ -17,14 +17,14 @@
 \contentsline {section}{\numberline {2.1}Two factor authentication}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}Challenge-Response authentication}{6}{section.2.2}
 \contentsline {section}{\numberline {2.3}M2M\p@index {M2M} (Machine-to-machine)}{6}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Difference between M2M and IoT}{7}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}M2M authentication}{7}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}The biometric process}{7}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Recognition}{8}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Biometric systems}{8}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Biometric authentication}{8}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Measurements}{9}{subsection.2.4.4}
-\contentsline {subsection}{\numberline {2.4.5}Design a biometric system}{9}{subsection.2.4.5}
+\contentsline {subsection}{\numberline {2.3.1}Difference between M2M and IoT}{8}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}M2M authentication}{8}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}The biometric process}{9}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Recognition}{9}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Biometric systems}{9}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Biometric authentication}{10}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Measurements}{10}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Design a biometric system}{10}{subsection.2.4.5}
 \contentsline {chapter}{\numberline {3}HARDWARE CHARACTERISTICS OF A MOBILE DEVICE}{13}{chapter.3}
 \contentsline {section}{\numberline {3.1}Accelerometer\p@index {accelerometer}}{14}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Fingerprinting feature / Bias}{14}{subsection.3.1.1}
@@ -36,13 +36,13 @@
 \contentsline {section}{\numberline {3.4}Camera}{17}{section.3.4}
 \contentsline {section}{\numberline {3.5}Measurements of sensors on mobile devices}{17}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Android}{18}{subsection.3.5.1}
-\contentsline {subsubsection}{Accelerometer in Android}{19}{section*.13}
-\contentsline {subsubsection}{Gyroscope in Android}{19}{section*.14}
-\contentsline {subsubsection}{Magnetometer in Android}{19}{section*.15}
-\contentsline {subsubsection}{Fingerprinting: Sensor fusion in Android}{20}{section*.16}
+\contentsline {subsubsection}{Accelerometer in Android}{19}{section*.14}
+\contentsline {subsubsection}{Gyroscope in Android}{19}{section*.15}
+\contentsline {subsubsection}{Magnetometer in Android}{20}{section*.16}
+\contentsline {subsubsection}{Fingerprinting: Sensor fusion in Android}{20}{section*.17}
 \contentsline {subsection}{\numberline {3.5.2}JavaScript}{20}{subsection.3.5.2}
-\contentsline {subsubsection}{Accelerometer in JavaScript}{20}{section*.17}
-\contentsline {subsubsection}{Gyroscope in JavaScript}{20}{section*.18}
+\contentsline {subsubsection}{Accelerometer in JavaScript}{20}{section*.18}
+\contentsline {subsubsection}{Gyroscope in JavaScript}{21}{section*.19}
 \contentsline {chapter}{\numberline {4}SENSOR MEASUREMENTS}{23}{chapter.4}
 \contentsline {section}{\numberline {4.1}Motion sensor measurement I: Web-page ``Gyrotion''}{23}{section.4.1}
 \contentsline {section}{\numberline {4.2}Motion sensor measurement II: Web-page ``SensorRec''}{24}{section.4.2}
@@ -51,15 +51,15 @@
 \contentsline {chapter}{\numberline {5}RESULT \& ANALYZE OF TEST}{29}{chapter.5}
 \contentsline {section}{\numberline {5.1}Result Accelerometer \& Gyroscope-test}{29}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Test I}{29}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Test II}{30}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Result Camera-test}{32}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Test I}{33}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.1.2}Test II}{29}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Result Camera-test}{31}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Test I}{32}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Test II}{34}{subsection.5.2.2}
 \contentsline {chapter}{\numberline {A}Trista saker}{37}{appendix.A}
 \contentsline {section}{\numberline {A.1}B\IeC {\"a}dda s\IeC {\"a}ngen}{37}{section.A.1}
 \contentsline {section}{\numberline {A.2}Diska}{37}{section.A.2}
-\contentsline {chapter}{Bibliography}{39}{appendix*.27}
-\contentsline {chapter}{Index}{41}{appendix*.27}
+\contentsline {chapter}{Bibliography}{39}{appendix*.28}
+\contentsline {chapter}{Index}{41}{appendix*.28}
 \select@language {swedish}
 \select@language {english}
 \select@language {english}

@@ -10,6 +10,7 @@
   \item camera fingerprinting, \hyperpage{17}
   \item CFA
     \subitem abberviation, \hyperpage{xi}
+  \item challenge-response, \hyperpage{6}
   \item characteristics, \hyperpage{13}
   \item constant bias, \hyperpage{15}
 
@@ -19,12 +20,12 @@
 
   \indexspace
 
-  \item FAR, \hyperpage{9}
+  \item FAR, \hyperpage{10}
     \subitem abbreviation, \hyperpage{xi}
   \item fixed pattern noise, \hyperpage{17}
   \item FPN
     \subitem abberviation, \hyperpage{xi}
-  \item FRR, \hyperpage{9}
+  \item FRR, \hyperpage{10}
     \subitem abbreviation, \hyperpage{xi}
   \item FTE
     \subitem abbreviation, \hyperpage{xi}
