@@ -1,0 +1,30 @@
+\begin{tikzpicture}[node distance=1.6cm]
+	\node (start) [justtext] {Start};
+	\node (startScreen) [decision, below of=start] {Log in / new device ?};
+
+	\node (vibChallenge) [process, below of=startScreen] {Vibration challenge};
+	\node (newDevice) [process, right of=vibChallenge] {New device};
+
+	\node (matchCh) [decision, below of=vibChallenge] {Match?};
+	\node (vibCali) [process, below of=newDevice]{Motion sensor enrollment};
+	\node (failCh) [decision, left of=matchCh]{Vibration challenge again?};
+
+	\node (success) [justtext, below of=matchCh] {Logged in};
+
+
+	\path [line] (start) -- (startScreen);
+
+	\path [line] (startScreen) -- (vibChallenge);
+	\path [line] (startScreen) -- (newDevice);
+
+	\path [line] (vibChallenge) -- (matchCh);
+	\path [line] (newDevice) -- (vibCali);
+
+	\path [line] (matchCh) -- node [near start, color=black] {Y}(success);
+	\path [line] (matchCh) -- node [near start, color=black] {N}(failCh);
+
+	\path [line] (vibCali) -- (startScreen);
+
+	\path [line] (failCh) -- node [near start, color=black] {Y, (max 3 times)}(vibChallenge);
+	\path [line] (failCh) -- node [near start, color=black] {N}(startScreen);
+\end{tikzpicture}
