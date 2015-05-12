@@ -5,7 +5,7 @@ A level-1 auxiliary file: content/0-4-notation.aux
 A level-1 auxiliary file: content/1-introduktion.aux
 A level-1 auxiliary file: content/2-authentication.aux
 A level-1 auxiliary file: content/3-characteristics.aux
-A level-1 auxiliary file: content/4-tests.aux
+A level-1 auxiliary file: content/4-measurements.aux
 A level-1 auxiliary file: content/5-result.aux
 A level-1 auxiliary file: content/6-demo.aux
 A level-1 auxiliary file: content/7-conclusions.aux
@@ -45,52 +45,52 @@ You're missing a field name---line 176 of file myrefs.bib
  :   %url = {http://www.cs.gmu.edu/~mccoy/papers/wireless-fingerprinting.pdf}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 305 of file myrefs.bib
+You're missing a field name---line 313 of file myrefs.bib
  :     
  :     %type     = "diploma thesis",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 316 of file myrefs.bib
+You're missing a field name---line 324 of file myrefs.bib
  :  
  :  %address = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 324 of file myrefs.bib
+You're missing a field name---line 332 of file myrefs.bib
  :     
  :     %author    = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 336 of file myrefs.bib
+You're missing a field name---line 344 of file myrefs.bib
  :     
  :     %type     = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 348 of file myrefs.bib
+You're missing a field name---line 356 of file myrefs.bib
  :  
  :  %editor  = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 367 of file myrefs.bib
+You're missing a field name---line 375 of file myrefs.bib
  :  
  :  %editor = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 388 of file myrefs.bib
+You're missing a field name---line 396 of file myrefs.bib
  :  
  :  %volume = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 400 of file myrefs.bib
+You're missing a field name---line 408 of file myrefs.bib
  :     
  :     %author   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 413 of file myrefs.bib
+You're missing a field name---line 421 of file myrefs.bib
  :     
  :     %volume   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 427 of file myrefs.bib
+You're missing a field name---line 435 of file myrefs.bib
  :     
  :     %volume   = "",
 (Error may have been on previous line)

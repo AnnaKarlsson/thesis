@@ -1,28 +1,47 @@
-\chapter{RESULT \& ANALYZE OF TEST}\label{cha:result}
-TODO!
+\chapter{RESULT OF MEASUREMENTS}\label{cha:result}
+This chapter covers the results of the measurements described in~\chapterref{cha:measurements}. The first two sections cover the measurements made on the accelerometer and gyroscope sensor. Third section cover the result of the two camera measurements.
 
-% ========== GYROTION TEST ==========
-\section{Result Accelerometer \& Gyroscope-test}
-As described in ~\chapterref{cha:measurements}, two test have been preformed on the accelerometer and gyroscope data with the result presented here.
-\subsection{Test I}
-The data were gathered as described in~\sectionref{sec:measurement:gyrotion} from the web-page in \figureref{fig:gyrotion} by sending the link of the page. When looking at devices with similar or same hardware you can see differences in measurements, for example here are the accelerometer recordings from 5 iPhone 6 and 1 iPhone 5S:
+\section{Result of measurements I}\label{res:testI}
+The data were gathered as described in~\sectionref{sec:measurementI} from the web-page in \figureref{fig:gyrotion} by spreading the the page. This resulted in over a hundred recordings, which had diversity in platforms, brands and models. Since the web-page where spread mostly to company employees the amount of devices with the same model is high as seen in ~\figureref{fig:measure1-topDevices}.
+The purpose of this measurement where to identify if there where differences in terms of bias characteristics between the JavaScript's \texttt{accelerationIncludingGravity} and \texttt{acceleration}. The result of the measurements can be showed by making scatter-plots of the output acceleration of the devices. As shown in the ~\figureref{fig:measure1-topDevices} the \textit{Sony Xperia} devices represents more than a fifth of the total devices in the measurement. 
 \begin{figure}[H]
-\centering
-\includegraphics[scale=.6]{img/scatteriPhone}
-\caption{Scatter graph on accelerometer recordings of 6 Apple devices}
-\label{fig:digraph}
+	\centering
+	\includegraphics[scale=0.3]{img/measure1-brand}
+	\caption{Diversity of device brand sampled in measurements I}
+	\label{fig:measure1-topDevices}
 \end{figure}
-The conclusion made from this made me ... SKRIV LITE OM RMS, SD, MEAN O LÄGG TILL PASSANDE GRAFER... \\
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{img/measure1-devices}
+	\caption{Most common devices models in measurements I}
+	\label{fig:measure1-topDevices}
+\end{figure}
+The result of scatter-plots of measurements of 12 \textit{Sony Xperia} devices with and without gravity in accelerometer readings is shown in~\figureref{fig:scatter-withoutGrav} and~\figureref{fig:scatter-withGrav}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{img/res-measure1-scatter-notG}
+	\caption{Bias from twelve \textit{Sony Xperia} deives measured with JavaScripts's \texttt{acceleration}}
+	\label{fig:scatter-withoutGrav}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{img/res-measure1-scatter-inclG}
+	\caption{Bias from twelve \textit{Sony Xperia} deives measured with JavaScripts's \texttt{accelerationIncludingGravity}}
+	\label{fig:scatter-withGrav}
+\end{figure}
+As stated in~\cite{acc:kionixerr} the sources of bias in an accelerometer has to be compensated for. The manufacturer of the mobile devices makes some of this compensation before JavaScript gets the data. The results of the figures above indicates that JavaScript also makes compensating to the output of the event \texttt{acceleration}, probably to ease the development of software using the accelerometer, e.g. games. This however is not anything that is public in any specifications such~\cite{sensor:W3Cspec} or~\cite{sensor:accIncludingGravity}. The Android developer page about sensor event \cite{android:sensorEvent} state that they make factory calibration and temperature compensation even on their uncalibrated sensor events of (only magnetometer and gyroscope) that is relativity new feature added in Android 4.3 Jelly Bean (API level 18~\cite{android:API18}) from 2013 but the original once used since Android 1.5 Cupcake (API level 3~\cite{android:API3}) from 2009 makes some more noise compensation and calibration. What kind of compensation and calibration done is not publicated. 
 
-\subsection{Test II}
-The page from Test I was developed by the test-result. The changes that were made is described in~\sectionref{sec:measurement:sensorrec} to improve that analyze data. The changes where improvements that as seen in~\figureref{fig:scatter1m} of six Android devices, that includes measurements for two of the devices with one month apart and you still see the measurements at the same spots.
+\section{\textbf{ToDo! }Result of measurements II}\label{res:testII}
+\textbf{=== OBS! Texten nedan ska in i underrubrikerna och utökas med analys }\\
+The link for this page where spread and 60 measurements where made. The page is on-line on address: \url{http://sensorrec.herokuapp.com}
+The page from Test I was developed by the test-result. The changes that were made is described in~\sectionref{sec:measurementII} to improve that analyze data. The changes where improvements that as seen in~\figureref{fig:scatter1m} of six Android devices, that includes measurements for two of the devices with one month apart and you still see the measurements at the same spots.
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=.7]{img/oneMonth-scatter}
 	\caption{Scatter graph on accelerometer recordings of 6 Android devices, where two has one month apart}
 	\label{fig:scatter1m}
 \end{figure}
-Another thing you can see from just these three measurements are that RMS (Root-mean-square) is still no good feature for fingerprinting eaven if the measurements are interpolated over time.
+Another thing you can see from just these three measurements are that RMS (Root-mean-square) is still no good feature for fingerprinting even if the measurements are interpolated over time.
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=.7]{img/oneMonth-plot-RMS}
@@ -30,8 +49,13 @@ Another thing you can see from just these three measurements are that RMS (Root-
 	\label{fig:plot1mRMS}
 \end{figure}
 
+\subsection{Raw data result}
+\subsection{50 days analysis}
+\subsection{Simulate authentication in MATLAB}
+
+
 % ========== CAMERA TEST ==========
-\section{Result Camera-test}\label{sec:ResCam}
+\section{\textbf{ToUpdate! }Result Camera-measurements}\label{sec:ResCam}
 \textbf{ ==== OBS!! ====}\\ Flyttad text som måste skrivas om.\\
 \\
 For the test of the camera sensor the PRNU value is calculated as an approximation of the algorithm described in section ~\ref{sec:char:camera} and also used by \cite{sensor:camera:DCIdent}. That is the average of multiple pictures used and substantially an approximation of \textit{f}. The first step is to remove the pictures-content which leaves the noise, which is done using a denoising filter. For the test the MATLAB \texttt{medfilt2} is used, which is an 2-D median filtering that outputs the median value of each pixel by its 3-by-3 neighbors. 
@@ -48,7 +72,7 @@ corr(\boldsymbol{n},\boldsymbol{r}) =
 $$
 A threshold for acceptance on correlation is found by experimental on images taken with or without the camera. Then there is a balance between FAR and FRR. 
 In section ~\ref{sec:measurement:camera} i described two test preformed on the camera sensor of mobile devices.
-\subsection{Test I}
+\subsection{\textbf{ToDo! }Result of camera measurement I}
 Since the purpose of this thesis compared to earlier work REFERENSER!! has the purpose of authentication and not forensics, is convenience for the collecting and measurability a factor to take in account. That is why the fist experiment is asked the users to record a 5 seconds video-clip with the device camera facing down on a flat object, like a table. Instead of making the user take 50 pictures or more which takes a lot of more time. This also makes it easier to get better noise since the same scene is used every time. \\
 The video is then shuttled into images (100-200 from a 5 seconds video depending on fps on recording camera) that is used for calculating the PRNU. The MATLAB code for this is:\\
 \rule{\textwidth}{0.5pt}
@@ -60,6 +84,6 @@ To compare an pictures between all collected PRNU the same calculation to get th
   \lstinputlisting{code/corrCamTest1.m}
 \rule{\textwidth}{0.5pt}
 
-\subsection{Test II}
+\subsection{\textbf{ToDo! }Result of camera measurement II}
 Since the earlier test leaved out some of the PRNU noise when recorded a video instead of taking a picture the new test consist of 10 images from every device. The recommendation from \cite{sensor:camera:DCIdent} to use at least 50 images is here compensated by again using black images (picture taking with device camera facing down). Since the scene is always the same the noise removal will be better in fewer images. The same code is used as above with the different that the video to image step is removed. The sizes of the images in this case is better since the camera on the mobile devices by default uses higher resolution when taking a picture then when recording. 
 

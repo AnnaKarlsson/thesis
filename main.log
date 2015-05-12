@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.19)  23 APR 2015 12:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.19)  12 MAY 2015 16:25
 entering extended mode
 **C:/Users/ankar5/Documents/thesis/main.tex
 (C:/Users/ankar5/Documents/thesis/main.tex
@@ -1300,19 +1300,27 @@ LaTeX Font Info:    Redeclaring font encoding TS1 on input line 46.
 \symgreek=\mathgroup9
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\latex\siunits\SIunits.cfg)
 Option `squaren' provided!
-) (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
+) (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
+\wrapoverhang=\dimen176
+\WF@size=\dimen177
+\c@WF@wrappedlines=\count155
+\WF@box=\box33
+\WF@everypar=\toks38
+Package: wrapfig 2003/01/31  v 3.6
+)
+(C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-c
 ommon.tex
-\pgfutil@everybye=\toks38
-\pgfutil@tempdima=\dimen176
-\pgfutil@tempdimb=\dimen177
+\pgfutil@everybye=\toks39
+\pgfutil@tempdima=\dimen178
+\pgfutil@tempdimb=\dimen179
 
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-c
 ommon-lists.tex))
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-l
 atex.def
-\pgfutil@abb=\box33
+\pgfutil@abb=\box34
  (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -1332,30 +1340,30 @@ Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.c
 ode.tex
-\pgfkeys@pathtoks=\toks39
-\pgfkeys@temptoks=\toks40
+\pgfkeys@pathtoks=\toks40
+\pgfkeys@temptoks=\toks41
 
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfi
 ltered.code.tex
-\pgfkeys@tmptoks=\toks41
+\pgfkeys@tmptoks=\toks42
 ))
-\pgf@x=\dimen178
-\pgf@y=\dimen179
-\pgf@xa=\dimen180
-\pgf@ya=\dimen181
-\pgf@xb=\dimen182
-\pgf@yb=\dimen183
-\pgf@xc=\dimen184
-\pgf@yc=\dimen185
+\pgf@x=\dimen180
+\pgf@y=\dimen181
+\pgf@xa=\dimen182
+\pgf@ya=\dimen183
+\pgf@xb=\dimen184
+\pgf@yb=\dimen185
+\pgf@xc=\dimen186
+\pgf@yc=\dimen187
 \w@pgf@writea=\write4
 \r@pgf@reada=\read1
-\c@pgf@counta=\count155
-\c@pgf@countb=\count156
-\c@pgf@countc=\count157
-\c@pgf@countd=\count158
-\t@pgf@toka=\toks42
-\t@pgf@tokb=\toks43
-\t@pgf@tokc=\toks44
+\c@pgf@counta=\count156
+\c@pgf@countb=\count157
+\c@pgf@countc=\count158
+\c@pgf@countd=\count159
+\t@pgf@toka=\toks43
+\t@pgf@tokb=\toks44
+\t@pgf@tokc=\toks45
 
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -1373,8 +1381,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyss
 oftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count159
-\pgfsyssoftpath@bigbuffer@items=\count160
+\pgfsyssoftpath@smallbuffer@items=\count160
+\pgfsyssoftpath@bigbuffer@items=\count161
 )
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsysp
 rotocol.code.tex
@@ -1392,12 +1400,12 @@ de.tex
 de.tex)
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.
 code.tex
-\pgfmath@dimen=\dimen186
-\pgfmath@count=\count161
-\pgfmath@box=\box34
-\pgfmath@toks=\toks45
-\pgfmath@stack@operand=\toks46
-\pgfmath@stack@operation=\toks47
+\pgfmath@dimen=\dimen188
+\pgfmath@count=\count162
+\pgfmath@box=\box35
+\pgfmath@toks=\toks46
+\pgfmath@stack@operand=\toks47
+\pgfmath@stack@operation=\toks48
 )
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
 ns.code.tex
@@ -1419,57 +1427,57 @@ ns.misc.code.tex)
 ns.integerarithmetics.code.tex)))
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.c
 ode.tex
-\c@pgfmathroundto@lastzeros=\count162
+\c@pgfmathroundto@lastzeros=\count163
 ))
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
 oints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen187
-\pgf@picmaxx=\dimen188
-\pgf@picminy=\dimen189
-\pgf@picmaxy=\dimen190
-\pgf@pathminx=\dimen191
-\pgf@pathmaxx=\dimen192
-\pgf@pathminy=\dimen193
-\pgf@pathmaxy=\dimen194
-\pgf@xx=\dimen195
-\pgf@xy=\dimen196
-\pgf@yx=\dimen197
-\pgf@yy=\dimen198
-\pgf@zx=\dimen199
-\pgf@zy=\dimen200
+\pgf@picminx=\dimen189
+\pgf@picmaxx=\dimen190
+\pgf@picminy=\dimen191
+\pgf@picmaxy=\dimen192
+\pgf@pathminx=\dimen193
+\pgf@pathmaxx=\dimen194
+\pgf@pathminy=\dimen195
+\pgf@pathmaxy=\dimen196
+\pgf@xx=\dimen197
+\pgf@xy=\dimen198
+\pgf@yx=\dimen199
+\pgf@yy=\dimen200
+\pgf@zx=\dimen201
+\pgf@zy=\dimen202
 )
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
 athconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen201
-\pgf@path@lasty=\dimen202
+\pgf@path@lastx=\dimen203
+\pgf@path@lasty=\dimen204
 )
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
 athusage.code.tex
 File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
-\pgf@shorten@end@additional=\dimen203
-\pgf@shorten@start@additional=\dimen204
+\pgf@shorten@end@additional=\dimen205
+\pgf@shorten@start@additional=\dimen206
 )
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcores
 copes.code.tex
 File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
-\pgfpic=\box35
-\pgf@hbox=\box36
-\pgf@layerbox@main=\box37
-\pgf@picture@serial@count=\count163
+\pgfpic=\box36
+\pgf@hbox=\box37
+\pgf@layerbox@main=\box38
+\pgf@picture@serial@count=\count164
 )
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreg
 raphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
-\pgflinewidth=\dimen205
+\pgflinewidth=\dimen207
 )
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoret
 ransformations.code.tex
 File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
-\pgf@pt@x=\dimen206
-\pgf@pt@y=\dimen207
-\pgf@pt@temp=\dimen208
+\pgf@pt@x=\dimen208
+\pgf@pt@y=\dimen209
+\pgf@pt@temp=\dimen210
 )
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreq
 uick.code.tex
@@ -1486,13 +1494,13 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorea
 rrows.code.tex
 File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
-\pgfarrowsep=\dimen209
+\pgfarrowsep=\dimen211
 )
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcores
 hade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen210
-\pgf@sys@shading@range@num=\count164
+\pgf@max=\dimen212
+\pgf@sys@shading@range@num=\count165
 )
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorei
 mage.code.tex
@@ -1501,7 +1509,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoree
 xternal.code.tex
 File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
-\pgfexternal@startupbox=\box38
+\pgfexternal@startupbox=\box39
 ))
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorel
 ayers.code.tex
@@ -1518,7 +1526,7 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulesh
 apes.code.tex
 File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
-\pgfnodeparttextbox=\box39
+\pgfnodeparttextbox=\box40
 )
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulepl
 ot.code.tex
@@ -1527,8 +1535,8 @@ File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp
 -version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen211
-\pgf@nodesepend=\dimen212
+\pgf@nodesepstart=\dimen213
+\pgf@nodesepend=\dimen214
 )
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp
 -version-1-18.sty
@@ -1550,10 +1558,10 @@ Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
 ex)
-\pgffor@iter=\dimen213
-\pgffor@skip=\dimen214
-\pgffor@stack=\toks48
-\pgffor@toks=\toks49
+\pgffor@iter=\dimen215
+\pgffor@skip=\dimen216
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
 ))
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
 tikz.code.tex
@@ -1562,32 +1570,32 @@ Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrar
 yplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
-\pgf@plot@mark@count=\count165
-\pgfplotmarksize=\dimen215
+\pgf@plot@mark@count=\count166
+\pgfplotmarksize=\dimen217
 )
-\tikz@lastx=\dimen216
-\tikz@lasty=\dimen217
-\tikz@lastxsaved=\dimen218
-\tikz@lastysaved=\dimen219
-\tikzleveldistance=\dimen220
-\tikzsiblingdistance=\dimen221
-\tikz@figbox=\box40
-\tikz@figbox@bg=\box41
-\tikz@tempbox=\box42
-\tikz@tempbox@bg=\box43
-\tikztreelevel=\count166
-\tikznumberofchildren=\count167
-\tikznumberofcurrentchild=\count168
-\tikz@fig@count=\count169
+\tikz@lastx=\dimen218
+\tikz@lasty=\dimen219
+\tikz@lastxsaved=\dimen220
+\tikz@lastysaved=\dimen221
+\tikzleveldistance=\dimen222
+\tikzsiblingdistance=\dimen223
+\tikz@figbox=\box41
+\tikz@figbox@bg=\box42
+\tikz@tempbox=\box43
+\tikz@tempbox@bg=\box44
+\tikztreelevel=\count167
+\tikznumberofchildren=\count168
+\tikznumberofcurrentchild=\count169
+\tikz@fig@count=\count170
 
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulema
 trix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count170
-\pgfmatrixcurrentcolumn=\count171
-\pgf@matrix@numberofcolumns=\count172
+\pgfmatrixcurrentrow=\count171
+\pgfmatrixcurrentcolumn=\count172
+\pgf@matrix@numberofcolumns=\count173
 )
-\tikz@expandcount=\count173
+\tikz@expandcount=\count174
 
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
 libraries\tikzlibrarytopaths.code.tex
@@ -1605,7 +1613,7 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrar
 yarrows.code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.0 (rcs-revision 1.16)
-\arrowsize=\dimen222
+\arrowsize=\dimen224
 ))
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
 libraries\tikzlibraryshapes.geometric.code.tex
@@ -1617,24 +1625,24 @@ flibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
 ))
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
-\lst@mode=\count174
-\lst@gtempboxa=\box44
-\lst@token=\toks50
-\lst@length=\count175
-\lst@currlwidth=\dimen223
-\lst@column=\count176
-\lst@pos=\count177
-\lst@lostspace=\dimen224
-\lst@width=\dimen225
-\lst@newlines=\count178
-\lst@lineno=\count179
-\lst@maxwidth=\dimen226
+\lst@mode=\count175
+\lst@gtempboxa=\box45
+\lst@token=\toks51
+\lst@length=\count176
+\lst@currlwidth=\dimen225
+\lst@column=\count177
+\lst@pos=\count178
+\lst@lostspace=\dimen226
+\lst@width=\dimen227
+\lst@newlines=\count179
+\lst@lineno=\count180
+\lst@maxwidth=\dimen228
 
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-\c@lstnumber=\count180
-\lst@skipnumbers=\count181
-\lst@framebox=\box45
+\c@lstnumber=\count181
+\lst@skipnumbers=\count182
+\lst@framebox=\box46
 )
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
 File: listings.cfg 2014/09/06 1.5e listings configuration
@@ -1653,9 +1661,12 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 (C:\Users\ankar5\Documents\thesis\content/1-introduktion.aux)
 (C:\Users\ankar5\Documents\thesis\content/2-authentication.aux)
 (C:\Users\ankar5\Documents\thesis\content/3-characteristics.aux)
-(C:\Users\ankar5\Documents\thesis\content/4-tests.aux)
-(C:\Users\ankar5\Documents\thesis\content/5-result.aux)
-(C:\Users\ankar5\Documents\thesis\content/6-demo.aux)
+(C:\Users\ankar5\Documents\thesis\content/4-measurements.aux)
+(C:\Users\ankar5\Documents\thesis\content/5-result.aux
+
+LaTeX Warning: Label `fig:measure1-topDevices' multiply defined.
+
+) (C:\Users\ankar5\Documents\thesis\content/6-demo.aux)
 (C:\Users\ankar5\Documents\thesis\content/7-conclusions.aux)
 (C:\Users\ankar5\Documents\thesis\content/detaljer.aux))
 LaTeX Font Info:    Checking defaults for OML/jkpw/m/it on input line 16.
@@ -1746,17 +1757,17 @@ File: t1jkpk.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkpk.
 
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count182
-\scratchdimen=\dimen227
-\scratchbox=\box46
-\nofMPsegments=\count183
-\nofMParguments=\count184
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count185
-\MPscratchDim=\dimen228
-\MPnumerator=\count186
-\makeMPintoPDFobject=\count187
-\everyMPtoPDFconversion=\toks52
+\scratchcounter=\count183
+\scratchdimen=\dimen229
+\scratchbox=\box47
+\nofMPsegments=\count184
+\nofMParguments=\count185
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count186
+\MPscratchDim=\dimen230
+\MPnumerator=\count187
+\makeMPintoPDFobject=\count188
+\everyMPtoPDFconversion=\toks53
 )
 Package pdfcprot Info: I didn't find jkpkbnT1.cpa.
 (pdfcprot)              As a fallback I will try pplmnT1.cpa. on input line 16.
@@ -2184,8 +2195,9 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box47
+\AtBeginShipoutBox=\box48
 Package backref Info: ** backref set up for natbib ** on input line 16.
 Package hyperref Info: Link coloring OFF on input line 16.
 
@@ -2195,7 +2207,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count188
+\c@section@level=\count189
 )
 LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
@@ -2213,7 +2225,7 @@ Option `squaren' provided!
  Command \squaren defined by SIunits package!
 
 ABD: EveryShipout initializing macros
-\c@lstlisting=\count189
+\c@lstlisting=\count190
 LaTeX Font Info:    Try loading font information for OT1+jkp on input line 19.
 
 (C:\Users\ankar5\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\ot1jkp.fd
@@ -2248,7 +2260,7 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 19.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-<fig/LiTH_sv_vert_blk.pdf, id=261, 259.3138pt x 190.20862pt>
+<fig/LiTH_sv_vert_blk.pdf, id=293, 259.3138pt x 190.20862pt>
 File: fig/LiTH_sv_vert_blk.pdf Graphic file (type pdf)
 
 <use fig/LiTH_sv_vert_blk.pdf>
@@ -2275,7 +2287,7 @@ Overfull \hbox (35.56596pt too wide) in paragraph at lines 21--21
 
 ] [2
 
-] <fig/LiTH_sigill_blk.pdf, id=328, 123.70515pt x 123.5817pt>
+] <fig/LiTH_sigill_blk.pdf, id=360, 123.70515pt x 123.5817pt>
 File: fig/LiTH_sigill_blk.pdf Graphic file (type pdf)
 
 <use fig/LiTH_sigill_blk.pdf>
@@ -2374,7 +2386,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.31 \begin{itemize}
+l.30 \begin{itemize}
                      [2]) [3]
 (C:\Users\ankar5\Documents\thesis\content/2-authentication.tex [4
 
@@ -2382,7 +2394,7 @@ l.31 \begin{itemize}
 
 ]
 Chapter 2.
-[5] <img/challenge-response-bank.png, id=526, 732.48656pt x 459.21562pt>
+[5] <img/challenge-response-bank.png, id=565, 732.48656pt x 459.21562pt>
 File: img/challenge-response-bank.png Graphic file (type png)
 
 <use img/challenge-response-bank.png>
@@ -2505,109 +2517,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--84
 
  []
 
-[16] <img/device-axes.png, id=676, 622.325pt x 364.36125pt>
-File: img/device-axes.png Graphic file (type png)
-
-<use img/device-axes.png>
-Package pdftex.def Info: img/device-axes.png used on input line 99.
-(pdftex.def)             Requested size: 124.46278pt x 72.87096pt.
-
-Underfull \hbox (badness 7649) in paragraph at lines 100--100
-[]\T1/jkpk/b/sl/10 Figure 3.3: |\T1/jkpk/m/sl/10 The co-or-di-nate sys-tem used
- for both An-droid and
- []
-
-
-Underfull \vbox (badness 1502) has occurred while \output is active []
-
- [17]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 114.
-
-(C:\Users\ankar5\Documents\thesis\code/android-sensor.java [18 <C:/Users/ankar5
-/Documents/thesis/img/device-axes.png>])
-Overfull \hbox (140.81674pt too wide) in paragraph at lines 134--135
-\T1/jkpk/m/n/10 tion for the hard iron cal-i-bra-tion. The un-cal-i-brated type
- in An-droid is \T1/pcr/m/n/10 TYPE_MAGNETIC_FIELD_UNCALIBRATED
- []
-
-[19]
-Overfull \hbox (83.84056pt too wide) in paragraph at lines 137--138
-[]$\T1/pcr/m/n/10 http : / / www . codeproject . com / Articles / 729759 / Andr
-oid-[]Sensor-[]Fusion-[]Tutorial$[] 
- []
-
-
-Overfull \hbox (16.22006pt too wide) in paragraph at lines 144--149
-\T1/jkpk/m/n/10 To get mea-sure-ments from the ac-celerom-e-ter an event lis-te
-ner called \T1/pcr/m/n/10 devicemotion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--149
-
- []
-
-
-Overfull \hbox (23.45221pt too wide) in paragraph at lines 144--149
-\T1/jkpk/m/n/10 In JavaScript there are two types of ac-cel-er-a-tion, \T1/pcr/
-m/n/10 accelerationIncludingGravity
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--149
-
- []
-
-(C:\Users\ankar5\Documents\thesis\code/acc-listener.js)
-<img/device-alpha.png, id=741, 622.325pt x 364.36125pt>
-File: img/device-alpha.png Graphic file (type png)
-
-<use img/device-alpha.png>
-Package pdftex.def Info: img/device-alpha.png used on input line 160.
-(pdftex.def)             Requested size: 124.46278pt x 72.87096pt.
-
-Overfull \hbox (42.66264pt too wide) in paragraph at lines 160--161
- [][] 
- []
-
-<img/device-beta.png, id=742, 622.325pt x 490.83376pt>
-File: img/device-beta.png Graphic file (type png)
-
-<use img/device-beta.png>
-Package pdftex.def Info: img/device-beta.png used on input line 165.
-(pdftex.def)             Requested size: 124.46278pt x 98.16501pt.
-
-Overfull \hbox (42.66264pt too wide) in paragraph at lines 165--166
- [][] 
- []
-
-<img/device-gamma.png, id=743, 622.325pt x 375.4025pt>
-File: img/device-gamma.png Graphic file (type png)
-
-<use img/device-gamma.png>
-Package pdftex.def Info: img/device-gamma.png used on input line 170.
-(pdftex.def)             Requested size: 124.46278pt x 75.07916pt.
-
-Overfull \hbox (42.66264pt too wide) in paragraph at lines 170--172
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
-[]\T1/jkpk/b/sl/10 Figure 3.4: |\T1/jkpk/m/sl/10 The de-vice ro-ta-tion axes fo
-r the JavaScript
- []
-
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 176--179
-
- []
-
-(C:\Users\ankar5\Documents\thesis\code/gyro-listener.js)) [21 <C:/Users/ankar5/
-Documents/thesis/img/device-alpha.png> <C:/Users/ankar5/Documents/thesis/img/de
-vice-beta.png> <C:/Users/ankar5/Documents/thesis/img/device-gamma.png>]
-(C:\Users\ankar5\Documents\thesis\content/4-tests.tex [22
+[16]) [17] (C:\Users\ankar5\Documents\thesis\content/4-measurements.tex
+[18
 
 
 
@@ -2618,174 +2529,290 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
 
-<img/Nexus-rec.png, id=788, 1204.5pt x 1927.2pt>
+
+Overfull \hbox (109.00685pt too wide) in paragraph at lines 6--7
+\T1/jkpk/m/n/10 us-ing a JavaScript web-page. The pur-pose to find out which of
+ \T1/pcr/m/n/10 accelerationIncludingGravity
+ []
+
+<img/device-axes.png, id=725, 622.325pt x 364.36125pt>
+File: img/device-axes.png Graphic file (type png)
+
+<use img/device-axes.png>
+Package pdftex.def Info: img/device-axes.png used on input line 16.
+(pdftex.def)             Requested size: 124.46278pt x 72.87096pt.
+
+Underfull \hbox (badness 7649) in paragraph at lines 17--17
+[]\T1/jkpk/b/sl/10 Figure 4.1: |\T1/jkpk/m/sl/10 The co-or-di-nate sys-tem used
+ for both An-droid and
+ []
+
+[19]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 32.
+ (C:\Users\ankar5\Documents\thesis\code/android-sensor.java [20 <C:/Users/ankar
+5/Documents/thesis/img/device-axes.png>])
+Overfull \hbox (140.81674pt too wide) in paragraph at lines 52--53
+\T1/jkpk/m/n/10 tion for the hard iron cal-i-bra-tion. The un-cal-i-brated type
+ in An-droid is \T1/pcr/m/n/10 TYPE_MAGNETIC_FIELD_UNCALIBRATED
+ []
+
+[21]
+Overfull \hbox (83.84056pt too wide) in paragraph at lines 55--56
+[]$\T1/pcr/m/n/10 http : / / www . codeproject . com / Articles / 729759 / Andr
+oid-[]Sensor-[]Fusion-[]Tutorial$[] 
+ []
+
+
+Overfull \hbox (16.22006pt too wide) in paragraph at lines 62--68
+\T1/jkpk/m/n/10 To get mea-sure-ments from the ac-celerom-e-ter an event lis-te
+ner called \T1/pcr/m/n/10 devicemotion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--68
+
+ []
+
+
+Overfull \hbox (23.45221pt too wide) in paragraph at lines 62--68
+\T1/jkpk/m/n/10 In JavaScript there are two types of ac-cel-er-a-tion, \T1/pcr/
+m/n/10 accelerationIncludingGravity
+ []
+
+
+Overfull \hbox (18.84976pt too wide) in paragraph at lines 62--68
+\T1/pcr/m/n/10 accelerationIncludingGravity \T1/jkpk/m/n/10 and x=0,y=0 and z=-
+G for the \T1/pcr/m/n/10 acceleration\T1/jkpk/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--68
+
+ []
+
+(C:\Users\ankar5\Documents\thesis\code/acc-listener.js) [22]
+<img/device-alpha.png, id=811, 622.325pt x 364.36125pt>
+File: img/device-alpha.png Graphic file (type png)
+
+<use img/device-alpha.png>
+Package pdftex.def Info: img/device-alpha.png used on input line 79.
+(pdftex.def)             Requested size: 124.46278pt x 72.87096pt.
+
+Overfull \hbox (42.66264pt too wide) in paragraph at lines 79--80
+ [][] 
+ []
+
+<img/device-beta.png, id=812, 622.325pt x 490.83376pt>
+File: img/device-beta.png Graphic file (type png)
+
+<use img/device-beta.png>
+Package pdftex.def Info: img/device-beta.png used on input line 84.
+(pdftex.def)             Requested size: 124.46278pt x 98.16501pt.
+
+Overfull \hbox (42.66264pt too wide) in paragraph at lines 84--85
+ [][] 
+ []
+
+<img/device-gamma.png, id=813, 622.325pt x 375.4025pt>
+File: img/device-gamma.png Graphic file (type png)
+
+<use img/device-gamma.png>
+Package pdftex.def Info: img/device-gamma.png used on input line 89.
+(pdftex.def)             Requested size: 124.46278pt x 75.07916pt.
+
+Overfull \hbox (42.66264pt too wide) in paragraph at lines 89--91
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]\T1/jkpk/b/sl/10 Figure 4.2: |\T1/jkpk/m/sl/10 The de-vice ro-ta-tion axes fo
+r the JavaScript
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
+
+ []
+
+(C:\Users\ankar5\Documents\thesis\code/gyro-listener.js)
+<img/Nexus-rec.png, id=817, 1204.5pt x 1927.2pt>
 File: img/Nexus-rec.png Graphic file (type png)
  <use img/Nexus-rec.png>
-Package pdftex.def Info: img/Nexus-rec.png used on input line 24.
+Package pdftex.def Info: img/Nexus-rec.png used on input line 112.
 (pdftex.def)             Requested size: 120.45705pt x 192.7313pt.
 
-Overfull \hbox (38.6569pt too wide) in paragraph at lines 24--25
+Overfull \hbox (38.6569pt too wide) in paragraph at lines 112--113
  [][] 
  []
 
-<img/Nexus-submit.png, id=789, 1204.5pt x 1927.2pt>
+<img/Nexus-submit.png, id=818, 1204.5pt x 1927.2pt>
 File: img/Nexus-submit.png Graphic file (type png)
  <use img/Nexus-submit.png>
-Package pdftex.def Info: img/Nexus-submit.png used on input line 29.
+Package pdftex.def Info: img/Nexus-submit.png used on input line 117.
 (pdftex.def)             Requested size: 120.45705pt x 192.7313pt.
 
-Overfull \hbox (38.6569pt too wide) in paragraph at lines 29--30
+Overfull \hbox (38.6569pt too wide) in paragraph at lines 117--118
  [][] 
  []
 
 
-Overfull \hbox (16.70993pt too wide) in paragraph at lines 15--33
-\T1/jkpk/m/n/10 Developed a web-page to col-lect the ac-celerom-e-ter and gy-ro
--scope data that JavaScript
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--33
+Underfull \hbox (badness 10000) in paragraph at lines 102--121
 
  []
 
-[23]
-Overfull \hbox (114.23029pt too wide) in paragraph at lines 42--43
-[]\T1/jkpk/m/n/10 Also switch the ac-celerom-e-ter lis-tener from \T1/pcr/m/n/1
-0 acceleration \T1/jkpk/m/n/10 to \T1/pcr/m/n/10 accelerationIncludingGravity\T
-1/jkpk/m/n/10 ,
+[23 <C:/Users/ankar5/Documents/thesis/img/device-alpha.png> <C:/Users/ankar5/Do
+cuments/thesis/img/device-beta.png> <C:/Users/ankar5/Documents/thesis/img/devic
+e-gamma.png>]
+Overfull \hbox (4.67003pt too wide) in paragraph at lines 124--125
+\T1/jkpk/m/n/10 The sec-ond mea-sure-ments where also per-formed from a web-pag
+e us-ing JavaScript
  []
 
 [24 <C:/Users/ankar5/Documents/thesis/img/Nexus-rec.png> <C:/Users/ankar5/Docum
 ents/thesis/img/Nexus-submit.png>]
-<img/sensorrec-nexus-2-notRec.png, id=804, 903.375pt x 1257.94969pt>
+<img/sensorrec-nexus-2-notRec.png, id=849, 903.375pt x 1257.94969pt>
 File: img/sensorrec-nexus-2-notRec.png Graphic file (type png)
 
 <use img/sensorrec-nexus-2-notRec.png>
-Package pdftex.def Info: img/sensorrec-nexus-2-notRec.png used on input line 50
-.
+Package pdftex.def Info: img/sensorrec-nexus-2-notRec.png used on input line 13
+9.
 (pdftex.def)             Requested size: 135.5004pt x 188.68431pt.
 
-Overfull \hbox (53.70026pt too wide) in paragraph at lines 50--51
+Overfull \hbox (53.70026pt too wide) in paragraph at lines 139--140
  [][] 
  []
 
-<img/sensorrec-nexus-1-rec.png, id=805, 903.375pt x 1260.96094pt>
+<img/sensorrec-nexus-1-rec.png, id=850, 903.375pt x 1260.96094pt>
 File: img/sensorrec-nexus-1-rec.png Graphic file (type png)
 
 <use img/sensorrec-nexus-1-rec.png>
-Package pdftex.def Info: img/sensorrec-nexus-1-rec.png used on input line 55.
+Package pdftex.def Info: img/sensorrec-nexus-1-rec.png used on input line 144.
 (pdftex.def)             Requested size: 135.5004pt x 189.13597pt.
 
-Overfull \hbox (53.70026pt too wide) in paragraph at lines 55--56
+Overfull \hbox (53.70026pt too wide) in paragraph at lines 144--145
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
+Underfull \hbox (badness 10000) in paragraph at lines 151--154
 
- []
-
-
-Overfull \hbox (8.33554pt too wide) in paragraph at lines 68--69
-\T1/jkpk/m/n/10 (REF TILL IM-PLE-MEN-TA-TION!!) of chal-lenge response-authenti
-cation made
  []
 
 [25 <C:/Users/ankar5/Documents/thesis/img/sensorrec-nexus-2-notRec.png> <C:/Use
 rs/ankar5/Documents/thesis/img/sensorrec-nexus-1-rec.png>]
-Overfull \hbox (0.27667pt too wide) in paragraph at lines 74--76
-\T1/jkpk/m/n/10 As most of the cam-era fin-ger-print-ing ar-ti-cles (REF-ER-ENS
-ER!!) the aim has mostly
- []
-
-<img/sensorrec-nexus-3-cam.png, id=830, 903.375pt x 1257.94969pt>
+<img/sensorrec-nexus-3-cam.png, id=869, 903.375pt x 1257.94969pt>
 File: img/sensorrec-nexus-3-cam.png Graphic file (type png)
 
 <use img/sensorrec-nexus-3-cam.png>
-Package pdftex.def Info: img/sensorrec-nexus-3-cam.png used on input line 87.
+Package pdftex.def Info: img/sensorrec-nexus-3-cam.png used on input line 165.
 (pdftex.def)             Requested size: 135.5004pt x 188.68431pt.
 
-Overfull \hbox (53.70026pt too wide) in paragraph at lines 87--88
+Overfull \hbox (53.70026pt too wide) in paragraph at lines 165--166
  [][] 
  []
 
-<img/sensorrec-nexus-4-send.png, id=831, 903.375pt x 1258.7025pt>
+<img/sensorrec-nexus-4-send.png, id=870, 903.375pt x 1258.7025pt>
 File: img/sensorrec-nexus-4-send.png Graphic file (type png)
 
 <use img/sensorrec-nexus-4-send.png>
-Package pdftex.def Info: img/sensorrec-nexus-4-send.png used on input line 92.
+Package pdftex.def Info: img/sensorrec-nexus-4-send.png used on input line 170.
+
 (pdftex.def)             Requested size: 135.5004pt x 188.79723pt.
 
-Overfull \hbox (53.70026pt too wide) in paragraph at lines 92--93
+Overfull \hbox (53.70026pt too wide) in paragraph at lines 170--171
  [][] 
  []
 
-)
+) [26 <C:/Users/ankar5/Documents/thesis/img/sensorrec-nexus-3-cam.png> <C:/User
+s/ankar5/Documents/thesis/img/sensorrec-nexus-4-send.png>]
+(C:\Users\ankar5\Documents\thesis\content/5-result.tex
+Chapter 5.
+<img/measure1-brand.png, id=882, 341.02406pt x 365.86688pt>
+File: img/measure1-brand.png Graphic file (type png)
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+<use img/measure1-brand.png>
+Package pdftex.def Info: img/measure1-brand.png used on input line 9.
+(pdftex.def)             Requested size: 170.51161pt x 182.93298pt.
 
-[26] [27 <C:/Users/ankar5/Documents/thesis/img/sensorrec-nexus-3-cam.png> <C:/U
-sers/ankar5/Documents/thesis/img/sensorrec-nexus-4-send.png>]
-(C:\Users\ankar5\Documents\thesis\content/5-result.tex [28
+<img/measure1-devices.png, id=883, 575.14874pt x 304.88907pt>
+File: img/measure1-devices.png Graphic file (type png)
+
+<use img/measure1-devices.png>
+Package pdftex.def Info: img/measure1-devices.png used on input line 15.
+(pdftex.def)             Requested size: 287.57367pt x 152.44415pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27
 
 
 
 ]
-Chapter 5.
-<img/scatteriPhone.png, id=851, 421.575pt x 316.18124pt>
-File: img/scatteriPhone.png Graphic file (type png)
+<img/res-measure1-scatter-notG.png, id=892, 563.85657pt x 398.23781pt>
+File: img/res-measure1-scatter-notG.png Graphic file (type png)
 
-<use img/scatteriPhone.png>
-Package pdftex.def Info: img/scatteriPhone.png used on input line 11.
-(pdftex.def)             Requested size: 252.94695pt x 189.7102pt.
+<use img/res-measure1-scatter-notG.png>
+Package pdftex.def Info: img/res-measure1-scatter-notG.png used on input line 2
+2.
+(pdftex.def)             Requested size: 281.9276pt x 199.11841pt.
+
+<img/res-measure1-scatter-inclG.png, id=893, 563.85657pt x 398.99063pt>
+File: img/res-measure1-scatter-inclG.png Graphic file (type png)
+
+<use img/res-measure1-scatter-inclG.png>
+Package pdftex.def Info: img/res-measure1-scatter-inclG.png used on input line 
+28.
+(pdftex.def)             Requested size: 281.9276pt x 199.49483pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-<img/oneMonth-scatter.png, id=858, 575.14874pt x 368.87813pt>
+ [28 <C:/Users/ankar5/Documents/thesis/img/measure1-brand.png> <C:/Users/ankar5
+/Documents/thesis/img/measure1-devices.png>] [29 <C:/Users/ankar5/Documents/the
+sis/img/res-measure1-scatter-notG.png (PNG copy)> <C:/Users/ankar5/Documents/th
+esis/img/res-measure1-scatter-inclG.png (PNG copy)>]
+<img/oneMonth-scatter.png, id=913, 575.14874pt x 368.87813pt>
 File: img/oneMonth-scatter.png Graphic file (type png)
 
 <use img/oneMonth-scatter.png>
-Package pdftex.def Info: img/oneMonth-scatter.png used on input line 21.
+Package pdftex.def Info: img/oneMonth-scatter.png used on input line 42.
 (pdftex.def)             Requested size: 402.60138pt x 258.21292pt.
 
-Overfull \hbox (46.94194pt too wide) in paragraph at lines 21--22
+Overfull \hbox (46.94194pt too wide) in paragraph at lines 42--43
  [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30 <C:/Users/ankar5/Documents/thesis/img/scatteriPhone.png (PNG copy)>]
-<img/oneMonth-plot-RMS.png, id=865, 523.20468pt x 316.18124pt>
+<img/oneMonth-plot-RMS.png, id=914, 523.20468pt x 316.18124pt>
 File: img/oneMonth-plot-RMS.png Graphic file (type png)
 
 <use img/oneMonth-plot-RMS.png>
-Package pdftex.def Info: img/oneMonth-plot-RMS.png used on input line 28.
+Package pdftex.def Info: img/oneMonth-plot-RMS.png used on input line 49.
 (pdftex.def)             Requested size: 366.24077pt x 221.32535pt.
 
-Overfull \hbox (10.58133pt too wide) in paragraph at lines 28--29
+Overfull \hbox (10.58133pt too wide) in paragraph at lines 49--50
  [][] 
+ []
+
+
+Underfull \vbox (badness 2846) has occurred while \output is active []
+
+ [30 <C:/Users/ankar5/Documents/thesis/img/oneMonth-scatter.png (PNG copy)>]
+(C:\Users\ankar5\Documents\thesis\fig/4-medfilt2.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 61--68
+
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31 <C:/Users/ankar5/Documents/thesis/img/oneMonth-scatter.png (PNG copy)>]
-(C:\Users\ankar5\Documents\thesis\fig/4-medfilt2.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 35--42
+ [31 <C:/Users/ankar5/Documents/thesis/img/oneMonth-plot-RMS.png (PNG copy)>]
+(C:\Users\ankar5\Documents\thesis\code/video2prnu1.m [32])
+(C:\Users\ankar5\Documents\thesis\code/corrCamTest1.m)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
-
-[32 <C:/Users/ankar5/Documents/thesis/img/oneMonth-plot-RMS.png (PNG copy)>]
-(C:\Users\ankar5\Documents\thesis\code/video2prnu1.m [33])
-(C:\Users\ankar5\Documents\thesis\code/corrCamTest1.m)) [34]
-(C:\Users\ankar5\Documents\thesis\content/6-demo.tex
+ [33])
+[34] (C:\Users\ankar5\Documents\thesis\content/6-demo.tex
 Chapter 6.
 (C:\Users\ankar5\Documents\thesis\fig/appDesign.tex)) [35
 
@@ -2794,17 +2821,22 @@ Chapter 6.
 ] [36]
 (C:\Users\ankar5\Documents\thesis\content/7-conclusions.tex
 Chapter 7.
-) [37
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--39
+
+ []
+
+[37
 
 
 
-] [38
-
-
-]
+]) [38]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 23.63593pt on input line 43.
- [39] [40] (C:\Users\ankar5\Documents\thesis\content/detaljer.tex
+ [39
+
+
+] [40] (C:\Users\ankar5\Documents\thesis\content/detaljer.tex
 Appendix A.
 ) [41
 
@@ -2846,39 +2878,45 @@ hardware /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
-$\T1/pcr/m/n/10 cam . ac . uk / teaching / 0910 / R08 / work / essay-[]nmj27-[]
-cameraid . pdf$[]\T1/jkpk/m/n/10 .
+Underfull \hbox (badness 2735) in paragraph at lines 34--34
+[]\T1/jkpk/m/n/10 Steve Block and An-drei Popescu.  De-vice-ori-en-ta-tion even
+t spec-i-fi-ca-tion.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-$\T1/pcr/m/n/10 kionix . com / sites / default / files / AN012 % 20Acceleromete
-r %$
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+$\T1/pcr/m/n/10 cam . ac . uk / teaching / 0910 / R08 / work / essay-[]nmj27-[]
+cameraid . pdf$[]\T1/jkpk/m/n/10 .
  []
 
 [43
 
 ]
-Underfull \hbox (badness 1603) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+$\T1/pcr/m/n/10 kionix . com / sites / default / files / AN012 % 20Acceleromete
+r %$
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 94--94
 $\T1/pcr/m/n/10 2014 / understand-[]the-[]difference-[]between-[]iot-[]and-[]m2
 m/$[]\T1/jkpk/m/n/10 .  [On-
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 113--113
+Underfull \hbox (badness 1571) in paragraph at lines 119--119
 []\T1/jkpk/m/n/10 X. Ding Y. Cai, Y. Zhao and J. Fe-neelly.  Mag-ne-tome-ter ba
 -sics for mo-
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 113--113
+Underfull \hbox (badness 1019) in paragraph at lines 119--119
 \T1/jkpk/m/n/10 bile phone ap-pli-ca-tions.  Febru-ary 2012.  URL []$\T1/pcr/m/
 n/10 http : / / www . memsic .$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 $\T1/pcr/m/n/10 com / userfiles / files / publications / Articles / Electronic 
 _$
  []
@@ -2897,7 +2935,7 @@ Package natbib Warning: There were undefined citations.
 [46
 
 
-] <fig/LinkUniv_sv_vert_col.pdf, id=1066, 259.31279pt x 172.23546pt>
+] <fig/LinkUniv_sv_vert_col.pdf, id=1123, 259.31279pt x 172.23546pt>
 File: fig/LinkUniv_sv_vert_col.pdf Graphic file (type pdf)
 
 <use fig/LinkUniv_sv_vert_col.pdf>
@@ -2919,7 +2957,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
 (C:\Users\ankar5\Documents\thesis\content/1-introduktion.aux)
 (C:\Users\ankar5\Documents\thesis\content/2-authentication.aux)
 (C:\Users\ankar5\Documents\thesis\content/3-characteristics.aux)
-(C:\Users\ankar5\Documents\thesis\content/4-tests.aux)
+(C:\Users\ankar5\Documents\thesis\content/4-measurements.aux)
 (C:\Users\ankar5\Documents\thesis\content/5-result.aux)
 (C:\Users\ankar5\Documents\thesis\content/6-demo.aux)
 (C:\Users\ankar5\Documents\thesis\content/7-conclusions.aux)
@@ -2927,17 +2965,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4C17E128C3D393FE78D1F7D8C051B242;4391.
+(rerunfilecheck)             Checksum: B0EAA97479D682FA0D04929DB360EADE;5105.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: BD0606CA5C34F9A6555218BA0CF48F58;2173.
+(rerunfilecheck)             Checksum: CF66AC93B0F8B72D79FAB830C0E53CA9;2194.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
- 26792 strings out of 495320
- 475188 string characters out of 3181654
- 604626 words of memory out of 3000000
- 28894 multiletter control sequences out of 15000+200000
- 231882 words of font info for 214 fonts, out of 3000000 for 9000
+ 26891 strings out of 495320
+ 477056 string characters out of 3181654
+ 616883 words of memory out of 3000000
+ 28975 multiletter control sequences out of 15000+200000
+ 232264 words of font info for 215 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  55i,17n,80p,1087b,1999s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{C:/Users/
@@ -2954,20 +2996,19 @@ s/type1/public/kpfonts/jkpbsc8a.pfb><C:/Users/ankar5/AppData/Roaming/MiKTeX/2.9
 /fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/ankar5/AppData/Roaming/MiKTeX/2
 .9/fonts/type1/public/kpfonts/jkpkmsc.pfb><C:/Users/ankar5/AppData/Roaming/MiKT
 eX/2.9/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/ankar5/AppData/Roaming/Mi
-KTeX/2.9/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/ankar5/AppData/Roaming
-/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/ankar5/AppData/Ro
-aming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/ankar5/AppDat
-a/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/ankar5/Ap
+KTeX/2.9/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/ankar5/AppData/Roami
+ng/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/ankar5/AppData/R
+oaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/ankar5/AppDa
+ta/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/ankar5/Ap
 pData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/ankar5
-/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/ank
-ar5/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/a
-nkar5/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpsya.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrro8a.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (63 pages, 10714443 bytes).
+/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/anka
+r5/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpsya.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrro8a.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb>
+Output written on main.pdf (63 pages, 10873948 bytes).
 PDF statistics:
- 1249 PDF objects out of 1440 (max. 8388607)
- 277 named destinations out of 1000 (max. 500000)
- 19042 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 1304 PDF objects out of 1440 (max. 8388607)
+ 287 named destinations out of 1000 (max. 500000)
+ 19121 words of extra memory for PDF output out of 20736 (max. 10000000)
 

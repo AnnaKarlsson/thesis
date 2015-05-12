@@ -10,9 +10,8 @@
 \contentsline {chapter}{Notation}{xi}{section*.7}
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Aims \& Objectives}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}Thesis Outline}{3}{section.1.3}
-\contentsline {section}{\numberline {1.4}Related Work}{3}{section.1.4}
+\contentsline {section}{\numberline {1.2}\textbf {ToUpdate! }Aims \& Objectives}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}\textbf {ToUpdate! }Thesis Outline}{3}{section.1.3}
 \contentsline {chapter}{\numberline {2}COMMUNICATION \& AUTHENTICATION}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Two factor authentication}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}Challenge-Response authentication}{6}{section.2.2}
@@ -34,41 +33,50 @@
 \contentsline {subsection}{\numberline {3.3.1}Fingerprinting feature / Bias}{15}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Magnetometer calibration}{16}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Camera}{17}{section.3.4}
-\contentsline {section}{\numberline {3.5}Measurements of sensors on mobile devices}{17}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Android}{18}{subsection.3.5.1}
-\contentsline {subsubsection}{Accelerometer in Android}{19}{section*.14}
-\contentsline {subsubsection}{Gyroscope in Android}{19}{section*.15}
-\contentsline {subsubsection}{Magnetometer in Android}{20}{section*.16}
-\contentsline {subsubsection}{Fingerprinting: Sensor fusion in Android}{20}{section*.17}
-\contentsline {subsection}{\numberline {3.5.2}JavaScript}{20}{subsection.3.5.2}
-\contentsline {subsubsection}{Accelerometer in JavaScript}{20}{section*.18}
-\contentsline {subsubsection}{Gyroscope in JavaScript}{21}{section*.19}
-\contentsline {chapter}{\numberline {4}SENSOR MEASUREMENTS}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Motion sensor measurement I: Web-page ``Gyrotion''}{23}{section.4.1}
-\contentsline {section}{\numberline {4.2}Motion sensor measurement II: Web-page ``SensorRec''}{24}{section.4.2}
-\contentsline {section}{\numberline {4.3}Motion sensor measurements III: Android application}{25}{section.4.3}
-\contentsline {section}{\numberline {4.4}Camera measurements}{26}{section.4.4}
-\contentsline {chapter}{\numberline {5}RESULT \& ANALYZE OF TEST}{29}{chapter.5}
-\contentsline {section}{\numberline {5.1}Result Accelerometer \& Gyroscope-test}{29}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Test I}{29}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Test II}{30}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Result Camera-test}{32}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Test I}{33}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Test II}{34}{subsection.5.2.2}
-\contentsline {chapter}{\numberline {6}Demonstration}{35}{chapter.6}
+\contentsline {subsection}{\numberline {3.4.1}\textbf {ToDo! } Previous studies of device sensor fingerprinting}{17}{subsection.3.4.1}
+\contentsline {chapter}{\numberline {4}METHOD OF MEASUREMENTS}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}Measurements of sensors on mobile devices}{19}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Android}{20}{subsection.4.1.1}
+\contentsline {subsubsection}{Accelerometer in Android}{21}{section*.14}
+\contentsline {subsubsection}{Gyroscope in Android}{21}{section*.15}
+\contentsline {subsubsection}{Magnetometer in Android}{22}{section*.16}
+\contentsline {subsubsection}{Fingerprinting: Sensor fusion in Android}{22}{section*.17}
+\contentsline {subsection}{\numberline {4.1.2}JavaScript}{22}{subsection.4.1.2}
+\contentsline {subsubsection}{Accelerometer in JavaScript}{22}{section*.18}
+\contentsline {subsubsection}{Gyroscope in JavaScript}{23}{section*.19}
+\contentsline {section}{\numberline {4.2}Measurement I - Motion}{23}{section.4.2}
+\contentsline {section}{\numberline {4.3}Measurement II - Motion}{24}{section.4.3}
+\contentsline {section}{\numberline {4.4}Camera measurements}{25}{section.4.4}
+\contentsline {chapter}{\numberline {5}RESULT OF MEASUREMENTS}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}Result of measurements I}{27}{section.5.1}
+\contentsline {section}{\numberline {5.2}\textbf {ToDo! }Result of measurements II}{30}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Raw data result}{31}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}50 days analysis}{31}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Simulate authentication in MATLAB}{31}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}\textbf {ToUpdate! }Result Camera-measurements}{31}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}\textbf {ToDo! }Result of camera measurement I}{32}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}\textbf {ToDo! }Result of camera measurement II}{34}{subsection.5.3.2}
+\contentsline {chapter}{\numberline {6}\textbf {TODO! }IMPLEMENTATION}{35}{chapter.6}
 \contentsline {section}{\numberline {6.1}User Manual}{35}{section.6.1}
 \contentsline {section}{\numberline {6.2}Choices}{35}{section.6.2}
 \contentsline {section}{\numberline {6.3}Authentication}{35}{section.6.3}
 \contentsline {section}{\numberline {6.4}Implementation}{35}{section.6.4}
-\contentsline {chapter}{\numberline {7}CONCLUSIONS}{37}{chapter.7}
-\contentsline {section}{\numberline {7.1}Conclusions}{37}{section.7.1}
-\contentsline {section}{\numberline {7.2}Ethical aspects}{37}{section.7.2}
-\contentsline {section}{\numberline {7.3}Further work}{37}{section.7.3}
+\contentsline {chapter}{\numberline {7}\textbf {ToDo! }CONCLUSIONS}{37}{chapter.7}
+\contentsline {section}{\numberline {7.1}Ethical aspects}{37}{section.7.1}
+\contentsline {section}{\numberline {7.2}Conclusions of measurements method}{37}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Motion sensors}{38}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Camera sensor}{38}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Conclusions of result}{38}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Accelerometer}{38}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Gyroscope}{38}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Camera}{38}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Implementation}{38}{subsection.7.3.4}
+\contentsline {section}{\numberline {7.4}Further work}{38}{section.7.4}
 \contentsline {chapter}{\numberline {A}Trista saker}{41}{appendix.A}
 \contentsline {section}{\numberline {A.1}B\IeC {\"a}dda s\IeC {\"a}ngen}{41}{section.A.1}
 \contentsline {section}{\numberline {A.2}Diska}{41}{section.A.2}
-\contentsline {chapter}{Bibliography}{43}{appendix*.29}
-\contentsline {chapter}{Index}{45}{appendix*.29}
+\contentsline {chapter}{Bibliography}{43}{appendix*.32}
+\contentsline {chapter}{Index}{45}{appendix*.32}
 \select@language {swedish}
 \select@language {english}
 \select@language {english}
