@@ -91,5 +91,42 @@ $$y_{ij}=f_{ij}(x_{ij}+\eta_{ij})+c_{ij}+\epsilon_{ij}$$
 where $f_{ij}$ is a multiple factor close to one that captures PRNU, $x_{ij}$ is the number of photons hitting the sensor, $\eta_{ij}$ the shot noise, $c_{ij}$ the dark current and $\epsilon_{ij}$ the additive random bias. The key for a unique fingerprint of the camera (in the mobile device) is to finding $f$.
 \cite[]{sensor:camera:DCIdent}
 
-\subsection{\textbf{ToDo! } Previous studies of device sensor fingerprinting}
-\textbf{=== OBS! TODO! ===}
+\section{\textbf{Previous work of device sensor fingerprinting}}
+Accelerometer fingerprinting is a recent field of studies compared to the camera fingerprint that had been around for a longer time. The camera has for a long time been an object of identification in forensic purposes and therefor many research has been made and are applied today. Most of them uses advanced algorithm to extract the fingerprint and time of extracting hasn't been a concern. However in the aim of authentication the process can't be to time-consuming. In the~\tableref{table:prevAcc} and~\tableref{table:prevCamera} previous studies is presented in brief, followed by a longer presentation. Studies of gyroscope fingerprinting haven't been found. The majority of recent studies regarding the gyroscope have been about speech recognition. \cite{sensor:speechGyro} 
+\begin{table}[H]
+\subsubsection*{Accelerometer}
+\begin{tabular}{| p{1cm} | p{1cm} | p{2.5cm} | p{1.8cm} | p{3.5cm} |}
+  Year & Devices & Purpose & Fingerprint & Ref. \\ \hline
+  2014 & 107 & Identification & Statistics &~\cite{sensor:accelPrint} \\
+  2014 & 3583 & Tracking & Bias offset &~\cite{sensor:micSpeak} \\
+  This & 100 & Authentication & Statistics & This thesis \\ \hline
+\end{tabular} 
+\caption[Table caption text]{Comparing previous studies of accelerometer fingerprinting} \label{table:prevAcc}
+\end{table}
+\subsubsection*{\cite{sensor:accelPrint}: \textit{AccelPrint: Imperfections of Accelerometers Make Smartphones Trackable}}
+This research shows that the accelerometer can be used in identification and tracking purposes of the device. It is performed on android devices with an android application and on stand alone accelerometer chips. Their fingerprint consists of statistics values of the recordings such mean, standard devation, skewness, min and max-values in both time and frequency domain. The research makes recordings with and without vibrations and in different circumstances; in car, running, walking, standing still. Their test environment uses machine learning that uses the statistics to build a fingerprint.\\
+The result is an accuracy on 98\% when having alien devices among the already known devices which. Alien devices means that they are not previous known for the system, e.g. separate new users from already register users. \\
+The research also states that the time needed for identifying a device is 30 seconds and that CPU-load less than 40\% is not affecting the result. Another important thing to notice is that since the also used stand alone accelerometer in different OS it rule out the possibility of that an OS can affect the output from the accelerometer.~\cite[]{sensor:accelPrint}
+
+\subsubsection*{\cite{sensor:micSpeak}: \textit{Mobile Device Identification via Sensor Fingerprinting}}
+This research shows a much larger scale experiments of 3583 devices. Experiments are preformed using JavaScript in a web-page. The fingerprint consists of calculating the bias offset on the accelerometer data. The result however isn't as good as the previous with successful identification on 15.1\%. To improve the result UserAgent-data were added and success rate rises to 58.7\% but that is software-based identification that more easily can be modified at the client side.~\cite[]{sensor:micSpeak}\\
+\\
+Since the research is in such different sizes they are difficult to compare it may be the case that \textit{AccelPrint} gets similar success rate if scaling it up and vice versa. \\
+
+\begin{table}[H]
+\subsubsection*{Camera}
+\begin{tabular}{| p{1cm} | p{1cm} | p{2.7cm} | p{3cm} | p{2.5cm} |}
+  Year & Devices & Purpose & Fingerprint & Ref. \\ \hline
+  2008 & 16 & Identification &  Probabilistic SVM classifier &~\cite{sensor:camera:blind} \\
+  2009 & 150 & Identification & PRNU correlation &~\cite{sensor:camera:DCIdent} \\
+  2014 & 20 & Authentication & PRNU correlation & This thesis \\ \hline
+\end{tabular}
+\caption[Table caption text]{Comparing previous studies of camera fingerprinting} \label{table:prevCamera}
+\end{table}
+
+\subsubsection*{\cite{sensor:camera:blind}: \textit{Blind Identification of Source Cell-Phone Model}}
+Using a probabilistic SVM classifier based on different features they manage to get good result (success rate on 95.1\%) even on images that are manipulated such cropped, resized or rotated. This however is a small scale experiment with more advanced techniques that not can be applied in authentication purposes rather in forensics. The thing to notice here is that the experiment is preformed on cell-phones from 2008 when the pictures had less quality than todays smart-phones.
+
+\subsubsection*{\cite{sensor:camera:DCIdent}: \textit{Digital Camera Identification}}
+One of the experiments performed in this research included 150 devices with images that had random motives, zoom and other post-processing. The fingerprint consisted of the PRNU correlation and resulted in a false reject rate on 2,4\% and a false acceptance rate on 0.043\%.\cite{sensor:camera:DCIdent} \\
+This research performed on digital cameras and can be relative fairly with tests performed on smart-phone cameras used today. Since the digital cameras of 2009 had around 11 mega-pixels, images size of 4000x3000 pixels, and digital zoom of 4 times and had HD video recording width 30 fps. Which is about the average smart-phones camera today.~\cite{gbg:kamera}

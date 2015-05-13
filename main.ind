@@ -1,7 +1,7 @@
 \begin{theindex}
 
   \item accelerometer, \hyperpage{14}
-  \item Android, \hyperpage{20}
+  \item Android, \hyperpage{22}
   \item authentication, \hyperpage{5}
 
   \indexspace
@@ -45,7 +45,7 @@
 
   \indexspace
 
-  \item JavaScript, \hyperpage{22}
+  \item JavaScript, \hyperpage{24}
 
   \indexspace
 
@@ -80,6 +80,8 @@
   \indexspace
 
   \item shot noise, \hyperpage{17}
+  \item SVM
+    \subitem abberviation, \hyperpage{xi}
 
   \indexspace
 

@@ -26,78 +26,93 @@ You're missing a field name---line 84 of file myrefs.bib
  :     %url = {http://hkr.diva-portal.org/smash/get/diva2:475619/FULLTEXT02.pdf}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 96 of file myrefs.bib
+Warning--entry type for "sensor:accelPrint" isn't style-file defined
+--line 87 of file myrefs.bib
+You're missing a field name---line 100 of file myrefs.bib
+ :    
+ :    %url = {http://dx.doi.org/10.14722/ndss.2014.23059}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 112 of file myrefs.bib
  :    
  :    %url = {http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-696.pdf}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 125 of file myrefs.bib
+Repeated entry---line 141 of file myrefs.bib
  : @article{auth:M2Mcom
  :                     ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 146 of file myrefs.bib
+You're missing a field name---line 162 of file myrefs.bib
  :  
  :  %url = "http://www.sciencedirect.com/science/article/pii/S0263224114003893",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 176 of file myrefs.bib
+You're missing a field name---line 192 of file myrefs.bib
  :   
  :   %url = {http://www.cs.gmu.edu/~mccoy/papers/wireless-fingerprinting.pdf}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 313 of file myrefs.bib
+Repeated entry---line 218 of file myrefs.bib
+ : @article{sensor:camera:blind
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--string name "july" is undefined
+--line 321 of file myrefs.bib
+You're missing a field name---line 369 of file myrefs.bib
  :     
  :     %type     = "diploma thesis",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 324 of file myrefs.bib
+You're missing a field name---line 380 of file myrefs.bib
  :  
  :  %address = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 332 of file myrefs.bib
+You're missing a field name---line 388 of file myrefs.bib
  :     
  :     %author    = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 344 of file myrefs.bib
+You're missing a field name---line 400 of file myrefs.bib
  :     
  :     %type     = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 356 of file myrefs.bib
+You're missing a field name---line 412 of file myrefs.bib
  :  
  :  %editor  = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 375 of file myrefs.bib
+You're missing a field name---line 431 of file myrefs.bib
  :  
  :  %editor = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 396 of file myrefs.bib
+You're missing a field name---line 452 of file myrefs.bib
  :  
  :  %volume = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 408 of file myrefs.bib
+You're missing a field name---line 464 of file myrefs.bib
  :     
  :     %author   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 421 of file myrefs.bib
+You're missing a field name---line 477 of file myrefs.bib
  :     
  :     %volume   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 435 of file myrefs.bib
+You're missing a field name---line 491 of file myrefs.bib
  :     
  :     %volume   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "spoofMaciPhone"
 Warning--I didn't find a database entry for "spoofMacAndriod"
+Warning--empty journal in gbg:kamera
 Warning--empty journal in acc:kionixerr
 Warning--there's a number but no volume in acc:kionixerr
+Warning--empty journal in android:API18
 Warning--empty journal in sensor:magn
-(There were 17 error messages)
+(There were 19 error messages)

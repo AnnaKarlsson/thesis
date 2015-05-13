@@ -14,6 +14,7 @@
 \indexentry {CFA!abberviation|hyperpage}{xi}
 \indexentry {PCB!abberviation|hyperpage}{xi}
 \indexentry {RMS!abberviation|hyperpage}{xi}
+\indexentry {SVM!abberviation|hyperpage}{xi}
 \indexentry {authentication|hyperpage}{5}
 \indexentry {two factor authentication|hyperpage}{5}
 \indexentry {challenge-response|hyperpage}{6}
@@ -32,5 +33,5 @@
 \indexentry {fixed pattern noise|hyperpage}{17}
 \indexentry {photo-response non-uniformity noise|hyperpage}{17}
 \indexentry {PRNU|hyperpage}{17}
-\indexentry {Android|hyperpage}{20}
-\indexentry {JavaScript|hyperpage}{22}
+\indexentry {Android|hyperpage}{22}
+\indexentry {JavaScript|hyperpage}{24}

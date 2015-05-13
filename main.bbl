@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{25}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -32,11 +32,34 @@ Steve Block and Andrei Popescu.
 \newblock \emph{W3C Working Draft}, December 2011.
 \newblock URL \url{http://www.w3.org/TR/orientation-event/}.
 
+\bibitem[Bojinov et~al.(2014)Bojinov, Michalevsky, Nakibly, and
+  Boneh]{sensor:micSpeak}
+Hristo Bojinov, Yan Michalevsky, Gabi Nakibly, and Dan Boneh.
+\newblock Mobile device identification via sensor fingerprinting.
+\newblock \emph{CoRR}, abs/1408.1416, 2014.
+\newblock URL \url{http://arxiv.org/abs/1408.1416}.
+
+\bibitem[Boström(2009)]{gbg:kamera}
+Martin Boström.
+\newblock Digitalkamera - test.
+\newblock October 2009.
+\newblock URL
+  \url{http://www.gp.se/konsument/tester/1.230520-digitalkamera-test}.
+\newblock [Online; 13-May-2015].
+
 \bibitem[Boswarthick et~al.(2012)Boswarthick, Elloumi, and Hersent]{m2mComm}
 D.~Boswarthick, O.~Elloumi, and O.~Hersent.
 \newblock \emph{M2M Communications: A Systems Approach}.
 \newblock Wiley, 2012.
 \newblock ISBN 9781119994756.
+
+\bibitem[Celiktutan et~al.(2008)Celiktutan, Sankur, and
+  Avcibas]{sensor:camera:blind}
+O~Celiktutan, B.~Sankur, and I.~Avcibas.
+\newblock Blind identification of source cell-phone model.
+\newblock \emph{IEEE Transactions on: Information Forensics and Security},
+  3:\penalty0 553–--566, August 2008.
+\newblock ISSN 1556-6013.
 
 \bibitem[Das et~al.(2014)Das, Borisov, and Caesar]{sensor:acoustic}
 Anupam Das, Nikita Borisov, and Matthew Caesar.
@@ -44,12 +67,25 @@ Anupam Das, Nikita Borisov, and Matthew Caesar.
 \newblock \emph{CoRR}, abs/1403.3366, 2014.
 \newblock URL \url{http://arxiv.org/abs/1403.3366}.
 
+\bibitem[Dey et~al.(2014)Dey, Roy, Xu, Choudhury, and
+  Nelakuditi]{sensor:accelPrint}
+S.~Dey, N.~Roy, W.~Xu, R.~Choudhury, and S.~Nelakuditi.
+\newblock Accelprint: Imperfections of accelerometers make smartphones
+  trackable, February 2014.
+
 \bibitem[Dixit(2012)]{sensor:W3C}
 Shwetank Dixit.
 \newblock The w3c device orientation api: Detecting orientation and
   acceleration.
 \newblock \emph{dev.opera.com/articles/}, July 2012.
 \newblock URL \url{https://dev.opera.com/articles/w3c-device-orientation-api/}.
+
+\bibitem[Ducrohet(2003)]{android:API3}
+Xavier Ducrohet.
+\newblock {Android 1.5 is here!}, April 2003.
+\newblock URL
+  \url{http://android-developers.blogspot.se/2009/04/android-15-is-here.html}.
+\newblock [Online; 12-May-2015].
 
 \bibitem[He(2012)]{auth:M2M}
 Dinghua He.
@@ -79,10 +115,34 @@ Kionix.
 \newblock URL
   \url{http://www.kionix.com/sites/default/files/AN012\%20Accelerometer\%20Errors.pdf}.
 
+\bibitem[McEntegart(2013)]{android:API18}
+Jane McEntegart.
+\newblock {Google Announces Android 4.3, Update Rolling Out Today}.
+\newblock 2013.
+\newblock URL
+  \url{http://www.tomshardware.com/news/Android-4.3-Update-Roll-out-Release-Nexus,23671.html}.
+
 \bibitem[Merkel and Säll(2011)]{liu:magnAcc}
 J.~Merkel and J.~Säll.
 \newblock {Indoor Navigation Using Accelerometer and Magnetometer}.
 \newblock Master's thesis, Linköping university, October 2011.
+
+\bibitem[Michalevsky et~al.(2014)Michalevsky, Boneh, and
+  Nakibly]{sensor:speechGyro}
+Yan Michalevsky, Dan Boneh, and Gabi Nakibly.
+\newblock Gyrophone: Recognizing speech from gyroscope signals.
+\newblock In \emph{23rd USENIX Security Symposium (USENIX Security 14)}, pages
+  1053--1067, San Diego, CA, August 2014. USENIX Association.
+\newblock ISBN 978-1-931971-15-7.
+\newblock URL
+  \url{https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/michalevsky}.
+
+\bibitem[Mozilla(2015)]{sensor:accIncludingGravity}
+Contributors Mozilla.
+\newblock {DeviceMotionEvent.accelerationIncludingGravity}, February 2015.
+\newblock URL
+  \url{https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent/accelerationIncludingGravity}.
+\newblock [Online; 24-Feb-2015].
 
 \bibitem[Polsonetti(2014)]{cpM2MIoT}
 C.~Polsonetti.
