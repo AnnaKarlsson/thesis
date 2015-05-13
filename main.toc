@@ -33,7 +33,7 @@
 \contentsline {subsection}{\numberline {3.3.1}Fingerprinting feature / Bias}{15}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Magnetometer calibration}{16}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Camera}{17}{section.3.4}
-\contentsline {section}{\numberline {3.5}\textbf {Previous work of device sensor fingerprinting}}{17}{section.3.5}
+\contentsline {section}{\numberline {3.5}Previous work of device sensor fingerprinting}{17}{section.3.5}
 \contentsline {chapter}{\numberline {4}METHOD OF MEASUREMENTS}{21}{chapter.4}
 \contentsline {section}{\numberline {4.1}Measurements of sensors on mobile devices}{21}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Android}{22}{subsection.4.1.1}
@@ -49,35 +49,37 @@
 \contentsline {section}{\numberline {4.4}Camera measurements}{27}{section.4.4}
 \contentsline {chapter}{\numberline {5}RESULT OF MEASUREMENTS}{29}{chapter.5}
 \contentsline {section}{\numberline {5.1}Pre-measurements}{29}{section.5.1}
-\contentsline {section}{\numberline {5.2}Result of measurements I}{29}{section.5.2}
-\contentsline {section}{\numberline {5.3}\textbf {ToDo! }Result of measurements II}{32}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Raw data result}{34}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}50 days analysis}{34}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Simulate authentication in MATLAB}{34}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}\textbf {ToUpdate! }Result Camera-measurements}{34}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}\textbf {ToDo! }Result of camera measurement I}{35}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}\textbf {ToDo! }Result of camera measurement II}{37}{subsection.5.4.2}
-\contentsline {chapter}{\numberline {6}\textbf {TODO! }IMPLEMENTATION}{39}{chapter.6}
-\contentsline {section}{\numberline {6.1}User Manual}{39}{section.6.1}
-\contentsline {section}{\numberline {6.2}Choices}{39}{section.6.2}
-\contentsline {section}{\numberline {6.3}Authentication}{39}{section.6.3}
-\contentsline {section}{\numberline {6.4}Implementation}{39}{section.6.4}
-\contentsline {chapter}{\numberline {7}\textbf {ToDo! }CONCLUSIONS}{41}{chapter.7}
-\contentsline {section}{\numberline {7.1}Ethical aspects}{41}{section.7.1}
-\contentsline {section}{\numberline {7.2}Conclusions of measurements method}{41}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Motion sensors}{42}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Camera sensor}{42}{subsection.7.2.2}
-\contentsline {section}{\numberline {7.3}Conclusions of result}{42}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Accelerometer}{42}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Gyroscope}{42}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Camera}{42}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Implementation}{42}{subsection.7.3.4}
-\contentsline {section}{\numberline {7.4}Further work}{42}{section.7.4}
-\contentsline {chapter}{\numberline {A}Trista saker}{47}{appendix.A}
-\contentsline {section}{\numberline {A.1}B\IeC {\"a}dda s\IeC {\"a}ngen}{47}{section.A.1}
-\contentsline {section}{\numberline {A.2}Diska}{47}{section.A.2}
-\contentsline {chapter}{Bibliography}{49}{appendix*.40}
-\contentsline {chapter}{Index}{52}{appendix*.40}
+\contentsline {section}{\numberline {5.2}Result of measurements I}{30}{section.5.2}
+\contentsline {section}{\numberline {5.3}\textbf {Doing! }Result of measurements II}{32}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Raw data result}{33}{subsection.5.3.1}
+\contentsline {subsubsection}{Accelerometer}{33}{section*.38}
+\contentsline {subsubsection}{Gyroscope}{33}{section*.39}
+\contentsline {subsection}{\numberline {5.3.2}Permanence of accelerometer}{33}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Simulate authentication of motion sensors in MATLAB}{36}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}\textbf {ToUpdate! }Result Camera-measurements}{36}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}\textbf {ToDo! }Result of camera measurement I}{37}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}\textbf {ToDo! }Result of camera measurement II}{39}{subsection.5.4.2}
+\contentsline {chapter}{\numberline {6}\textbf {TODO! }IMPLEMENTATION}{41}{chapter.6}
+\contentsline {section}{\numberline {6.1}User Manual}{41}{section.6.1}
+\contentsline {section}{\numberline {6.2}Choices}{41}{section.6.2}
+\contentsline {section}{\numberline {6.3}Authentication}{41}{section.6.3}
+\contentsline {section}{\numberline {6.4}Implementation}{41}{section.6.4}
+\contentsline {chapter}{\numberline {7}\textbf {ToDo! }CONCLUSIONS}{43}{chapter.7}
+\contentsline {section}{\numberline {7.1}Ethical aspects}{43}{section.7.1}
+\contentsline {section}{\numberline {7.2}Conclusions of measurements method}{43}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Motion sensors}{44}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Camera sensor}{44}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Conclusions of result}{44}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Accelerometer}{44}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Gyroscope}{45}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Camera}{45}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Implementation}{45}{subsection.7.3.4}
+\contentsline {section}{\numberline {7.4}Further work}{45}{section.7.4}
+\contentsline {chapter}{\numberline {A}Trista saker}{49}{appendix.A}
+\contentsline {section}{\numberline {A.1}B\IeC {\"a}dda s\IeC {\"a}ngen}{49}{section.A.1}
+\contentsline {section}{\numberline {A.2}Diska}{49}{section.A.2}
+\contentsline {chapter}{Bibliography}{51}{appendix*.46}
+\contentsline {chapter}{Index}{54}{appendix*.46}
 \select@language {swedish}
 \select@language {english}
 \select@language {english}
