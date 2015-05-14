@@ -26,8 +26,6 @@ You're missing a field name---line 84 of file myrefs.bib
  :     %url = {http://hkr.diva-portal.org/smash/get/diva2:475619/FULLTEXT02.pdf}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--entry type for "sensor:accelPrint" isn't style-file defined
---line 87 of file myrefs.bib
 You're missing a field name---line 100 of file myrefs.bib
  :    
  :    %url = {http://dx.doi.org/10.14722/ndss.2014.23059}

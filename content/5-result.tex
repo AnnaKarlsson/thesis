@@ -51,9 +51,40 @@ The diversity of the devices brands in the measurement is shown in the~\figurere
 \end{figure}
 
 \subsection{Raw data result}
-Mean, RMS, skewnes..........\dots
+As in ~\cite{sensor:accelPrint} I used statistical features calculated by the time domain. The features used and calculated as followed:
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=.35]{img/featureCalc}
+	\caption{Calculations of statistical accelerometer features. \\\textit{From~\cite[p.6]{sensor:accelPrint}}}
+	\label{fig:accFeatures}
+\end{figure}
 
-\subsubsection{Accelerometer}
+To know which features that separated the fingerprints of the devices the most the percentage of the distance between the features point were calculated as followed:
+% \begin{enumerate}
+% 	\item Extract vector $\overline{v}=\{\overline{x},\overline{y},\overline{z}\}}$ from each sample data of the devices .
+% 	\item Calculated each feature for all $V_{n} = \{\overline{v_{1}},\overline{v_{2}},...,\overline{v_{n}}$
+% 	\item Calculate the euclidean distance between all points for each feature in $V_{n}$ 
+% 	\item Calculated the minimum and mean value of the euclidean distances
+% 	\item The proportional differences between the distances $p=minimum/mean$, which gives the percentage of how close the minimum values are from each other. 	
+% \end{enumerate}
+This were formed in MATLAB on all of sampled data and the it resulted in the values of $p$:
+\begin{table}[H]
+	\centering
+	\begin{tabular}{| p{4cm} | p{1cm} |}
+	  Feature 			& $p$ 		\\ \hline
+	  RMS Amplitude 	& 3.2\% 	\\
+	  Skewness 			& 2.3\% 	\\
+	  Average Deviation & 1.1\% 	\\
+	  Highest value		& 0.36\% 	\\
+	  Lowest value		& 0.50\% 	\\
+	  Standard Deviation& 0.38\% 	\\
+	  Mean 				& 0.31\% 	\\
+	  Kurtosis 			& 0.30\% 	\\ \hline
+	\end{tabular}
+	\caption[Table caption text]{Comparing previous studies of camera fingerprinting} \label{table:prevCamera}
+\end{table}
+The order in the value above decides how the fingerprinting algorithm will decide if a device is matching or not. Since the values of 
+\subsection{Accelerometer}
 
 \subsubsection{Gyroscope}
 

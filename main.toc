@@ -7,7 +7,7 @@
 \select@language {english}
 \select@language {english}
 \select@language {english}
-\contentsline {chapter}{Notation}{xi}{section*.7}
+\contentsline {chapter}{Notation}{xiii}{section*.7}
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}\textbf {ToUpdate! }Aims \& Objectives}{2}{section.1.2}
@@ -49,16 +49,16 @@
 \contentsline {section}{\numberline {4.4}Camera measurements}{27}{section.4.4}
 \contentsline {chapter}{\numberline {5}RESULT OF MEASUREMENTS}{29}{chapter.5}
 \contentsline {section}{\numberline {5.1}Pre-measurements}{29}{section.5.1}
-\contentsline {section}{\numberline {5.2}Result of measurements I}{30}{section.5.2}
-\contentsline {section}{\numberline {5.3}\textbf {Doing! }Result of measurements II}{32}{section.5.3}
+\contentsline {section}{\numberline {5.2}Result of measurements I - Motion}{30}{section.5.2}
+\contentsline {section}{\numberline {5.3}\textbf {Doing! }Result of measurements II - Motion}{32}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Raw data result}{33}{subsection.5.3.1}
-\contentsline {subsubsection}{Accelerometer}{33}{section*.38}
-\contentsline {subsubsection}{Gyroscope}{33}{section*.39}
-\contentsline {subsection}{\numberline {5.3.2}Permanence of accelerometer}{33}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Simulate authentication of motion sensors in MATLAB}{36}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}\textbf {ToUpdate! }Result Camera-measurements}{36}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}\textbf {ToDo! }Result of camera measurement I}{37}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}\textbf {ToDo! }Result of camera measurement II}{39}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.3.2}Accelerometer}{34}{subsection.5.3.2}
+\contentsline {subsubsection}{Gyroscope}{34}{section*.40}
+\contentsline {subsection}{\numberline {5.3.3}Permanence of accelerometer}{34}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Simulate authentication of motion sensors in MATLAB}{37}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}\textbf {ToUpdate! }Result Camera-measurements}{37}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}\textbf {ToDo! }Result of camera measurement I}{38}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}\textbf {ToDo! }Result of camera measurement II}{40}{subsection.5.4.2}
 \contentsline {chapter}{\numberline {6}\textbf {TODO! }IMPLEMENTATION}{41}{chapter.6}
 \contentsline {section}{\numberline {6.1}User Manual}{41}{section.6.1}
 \contentsline {section}{\numberline {6.2}Choices}{41}{section.6.2}
@@ -75,11 +75,17 @@
 \contentsline {subsection}{\numberline {7.3.3}Camera}{45}{subsection.7.3.3}
 \contentsline {subsection}{\numberline {7.3.4}Implementation}{45}{subsection.7.3.4}
 \contentsline {section}{\numberline {7.4}Further work}{45}{section.7.4}
-\contentsline {chapter}{\numberline {A}Trista saker}{49}{appendix.A}
-\contentsline {section}{\numberline {A.1}B\IeC {\"a}dda s\IeC {\"a}ngen}{49}{section.A.1}
-\contentsline {section}{\numberline {A.2}Diska}{49}{section.A.2}
-\contentsline {chapter}{Bibliography}{51}{appendix*.46}
-\contentsline {chapter}{Index}{54}{appendix*.46}
+\contentsline {chapter}{\numberline {A}Motion measurements II: \\Feature plots}{49}{appendix.A}
+\contentsline {section}{\numberline {A.1}Scatter-plot of mean values}{49}{section.A.1}
+\contentsline {section}{\numberline {A.2}Scatter-plot of standard deviation values}{50}{section.A.2}
+\contentsline {section}{\numberline {A.3}Scatter-plot of average deviation values}{50}{section.A.3}
+\contentsline {section}{\numberline {A.4}Scatter-plot of skewness values}{50}{section.A.4}
+\contentsline {section}{\numberline {A.5}Scatter-plot of kurtosis values}{50}{section.A.5}
+\contentsline {section}{\numberline {A.6}Scatter-plot of RMS values}{50}{section.A.6}
+\contentsline {section}{\numberline {A.7}Scatter-plot of min values}{50}{section.A.7}
+\contentsline {section}{\numberline {A.8}Scatter-plot of max values}{50}{section.A.8}
+\contentsline {chapter}{Bibliography}{55}{appendix*.55}
+\contentsline {chapter}{Index}{58}{appendix*.55}
 \select@language {swedish}
 \select@language {english}
 \select@language {english}

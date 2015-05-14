@@ -55,7 +55,9 @@
 \backcite {android:sensorEvent}{{32}{5.2}{figure.caption.36}}
 \backcite {android:API18}{{32}{5.2}{figure.caption.36}}
 \backcite {android:API3}{{32}{5.2}{figure.caption.36}}
-\backcite {sensor:camera:DCIdent}{{36}{5.4}{section.5.4}}
-\backcite {sensor:camera:DCIdent}{{37}{5.4}{figure.caption.44}}
-\backcite {sensor:camera:DCIdent}{{39}{5.4.2}{subsection.5.4.2}}
+\backcite {sensor:accelPrint}{{33}{5.3.1}{subsection.5.3.1}}
+\backcite {sensor:accelPrint}{{33}{5.7}{figure.caption.38}}
+\backcite {sensor:camera:DCIdent}{{37}{5.4}{section.5.4}}
+\backcite {sensor:camera:DCIdent}{{38}{5.4}{figure.caption.45}}
+\backcite {sensor:camera:DCIdent}{{40}{5.4.2}{subsection.5.4.2}}
 \backcite {sensor:accelPrint}{{44}{7.3.1}{subsection.7.3.1}}
