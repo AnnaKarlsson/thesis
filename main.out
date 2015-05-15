@@ -43,9 +43,9 @@
 \BOOKMARK [1][-]{section.5.1}{5.1 Pre-measurements}{chapter.5}% 43
 \BOOKMARK [1][-]{section.5.2}{5.2 Result of measurements I - Motion}{chapter.5}% 44
 \BOOKMARK [1][-]{section.5.3}{5.3 Doing! Result of measurements II - Motion}{chapter.5}% 45
-\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 Raw data result}{section.5.3}% 46
-\BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 Accelerometer}{section.5.3}% 47
-\BOOKMARK [2][-]{subsection.5.3.3}{5.3.3 Permanence of accelerometer}{section.5.3}% 48
+\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 Permanence of accelerometer}{section.5.3}% 46
+\BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 Features of accelerometer data}{section.5.3}% 47
+\BOOKMARK [2][-]{subsection.5.3.3}{5.3.3 Gyroscope}{section.5.3}% 48
 \BOOKMARK [2][-]{subsection.5.3.4}{5.3.4 Simulate authentication of motion sensors in MATLAB}{section.5.3}% 49
 \BOOKMARK [1][-]{section.5.4}{5.4 ToUpdate! Result Camera-measurements}{chapter.5}% 50
 \BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 ToDo! Result of camera measurement I}{section.5.4}% 51
@@ -75,6 +75,6 @@
 \BOOKMARK [1][-]{section.A.6}{A.6 Scatter-plot of RMS values}{appendix.A}% 75
 \BOOKMARK [1][-]{section.A.7}{A.7 Scatter-plot of min values}{appendix.A}% 76
 \BOOKMARK [1][-]{section.A.8}{A.8 Scatter-plot of max values}{appendix.A}% 77
-\BOOKMARK [0][]{appendix*.55}{Bibliography}{}% 78
-\BOOKMARK [0][]{appendix*.55}{Index}{}% 79
+\BOOKMARK [0][]{appendix*.54}{Bibliography}{}% 78
+\BOOKMARK [0][]{appendix*.54}{Index}{}% 79
 \BOOKMARK [0][]{Copyright.0}{Copyright}{}% 80

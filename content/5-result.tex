@@ -50,44 +50,6 @@ The diversity of the devices brands in the measurement is shown in the~\figurere
 	\label{fig:brandII}
 \end{figure}
 
-\subsection{Raw data result}
-As in ~\cite{sensor:accelPrint} I used statistical features calculated by the time domain. The features used and calculated as followed:
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=.35]{img/featureCalc}
-	\caption{Calculations of statistical accelerometer features. \\\textit{From~\cite[p.6]{sensor:accelPrint}}}
-	\label{fig:accFeatures}
-\end{figure}
-
-To know which features that separated the fingerprints of the devices the most the percentage of the distance between the features point were calculated as followed:
-% \begin{enumerate}
-% 	\item Extract vector $\overline{v}=\{\overline{x},\overline{y},\overline{z}\}}$ from each sample data of the devices .
-% 	\item Calculated each feature for all $V_{n} = \{\overline{v_{1}},\overline{v_{2}},...,\overline{v_{n}}$
-% 	\item Calculate the euclidean distance between all points for each feature in $V_{n}$ 
-% 	\item Calculated the minimum and mean value of the euclidean distances
-% 	\item The proportional differences between the distances $p=minimum/mean$, which gives the percentage of how close the minimum values are from each other. 	
-% \end{enumerate}
-This were formed in MATLAB on all of sampled data and the it resulted in the values of $p$:
-\begin{table}[H]
-	\centering
-	\begin{tabular}{| p{4cm} | p{1cm} |}
-	  Feature 			& $p$ 		\\ \hline
-	  RMS Amplitude 	& 3.2\% 	\\
-	  Skewness 			& 2.3\% 	\\
-	  Average Deviation & 1.1\% 	\\
-	  Highest value		& 0.36\% 	\\
-	  Lowest value		& 0.50\% 	\\
-	  Standard Deviation& 0.38\% 	\\
-	  Mean 				& 0.31\% 	\\
-	  Kurtosis 			& 0.30\% 	\\ \hline
-	\end{tabular}
-	\caption[Table caption text]{Comparing previous studies of camera fingerprinting} \label{table:prevCamera}
-\end{table}
-The order in the value above decides how the fingerprinting algorithm will decide if a device is matching or not. Since the values of 
-\subsection{Accelerometer}
-
-\subsubsection{Gyroscope}
-
 \subsection{Permanence of accelerometer}
 When choosing biometric trait one of the factors is permanence described in \sectionref{auth:bio:character}, that is the trait not changing significantly over time. To test this measurement II were performed on a \textit{Sony Xperia Z1 Compact} over a period of 50 days. The choice of device was based on that \textit{Sony Xperia} devices is 30\% of the devices that data is collected from. The same test were also made on a \textit{Google Nexus 7} tablet. The graphs below shows the difference of accelerometer readings over time.
 \begin{figure}[H]
@@ -115,10 +77,44 @@ To get an perspective on this measurements among more devices the scatter-plot i
 	\includegraphics[scale=.3]{img/senrec-sony_scatter-2}
 	\caption{Scatter-plot of accelerometer readings \textit{Sony Xperia}-device, one of them with measurements performed on the same device with 50 days apart.}
 	\label{fig:scatterSony50days}
+\end{figure} 
+
+\subsection{Features of accelerometer data}\label{sec:featuresAcc}
+As in ~\cite{sensor:accelPrint} I used statistical features calculated by the time domain. The features used and calculated as followed:
+% === IfTime Gör en egen tabell!!
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=.35]{img/featureCalc}
+	\caption{Calculations of statistical accelerometer features. \\\textit{From~\cite[p.6]{sensor:accelPrint}}}
+	\label{fig:accFeatures}
 \end{figure}
+To compare these features and get a picture of if any of them are good for fingerprinting plots of devices were made. These can be found in~\appendixref{cha:matlabFeaturesPlot}. The chosen devices for the plots is the twelve \textit{Sony Xperia Z}-devices including the \textit{Sony Xperia Z1 Compact} that have measurements over 50 days. It becomes clear in the plots that almost all av the features is not changing over time. The only values that changing is the RMS and that the value would change was known even before because as seen in figure~\ref{fig:scatterSony50days} samples is changing over time, which is directly linked to the RMS.
+
+% ToDo Tabell med värderna från min mobil tillsammans 
+% med ngn form av snittdistans mellan punkterna om det går
+% Lägga till nexus också!!
+\begin{table}[H]
+\begin{tabular}{| p{1cm} | p{1cm} | p{2.5cm} | p{1.8cm} | p{3.5cm} |} 
+	\hline
+  Feature 	& Day 0 & Day 30 & Day 50 & Median dist. 	\\ \hline
+  Mean 		& 0 	& 		& 		& \%		\\ \hline
+  Std. dev. & 0 	& 30 	& 50 	& \%	\\ \hline
+  Avg. dev 	& 0 	& 30 	& 50 	& \%	\\ \hline
+  Skewness 	& 0 	& 30 	& 50 	& \%	\\ \hline
+  Kurtosis 	& 0 	& 30 	& 50 	& \%	\\ \hline
+  RMS 		& 0 	& 30 	& 50 	& \%	\\ \hline
+  Min 		& 0 	& 30 	& 50 	& \%	\\ \hline
+  Max 		& 0 	& 30 	& 50 	& \%	\\ \hline
+\end{tabular} 
+\caption[Table caption text]{Values of features of \textit{Sony Xperia Z1 Compact} over 50 days together with the median distance between points of all measured devices.} \label{table:feature50}
+\end{table}
+
+\subsection{Gyroscope}
+Lägg till ngn plot och visa hr ostabilt gyroskopet är mellan
 
 \subsection{Simulate authentication of motion sensors in MATLAB}
-
+To test that the features above is way of fingerprinting devices a simulation were performed in MATLAB. The concept is that a fingerprint of all devices is calculated. It contains all the features described in~\section{sec:featuresAcc}. When a new measurement is sent in to the simulation, features are calculated and compared to the once already known devices. The comparing is done by an algorithm that calculates the minimum distance between the features of the input device and the one already known. The distance is then used to decide if there is a match or not. As in biometric system there is a reashhold that decides how far from the values an input can be and sill be a match. This treashhold creates a rate of match error in the system called FRR and FAR (see~\sectionref{sec:bio:measure}). 
+%% FAR FRR dör tabell eller ngt
 
 % ========== CAMERA TEST ==========
 \section{\textbf{ToUpdate! }Result Camera-measurements}\label{sec:ResCam}
