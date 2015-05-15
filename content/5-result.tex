@@ -94,7 +94,8 @@ To compare these features and get a picture of if any of them are good for finge
 % med ngn form av snittdistans mellan punkterna om det går
 % Lägga till nexus också!!
 \begin{table}[H]
-\begin{tabular}{| p{1cm} | p{1cm} | p{2.5cm} | p{1.8cm} | p{3.5cm} |} 
+\centering
+\begin{tabular}{| p{2cm} | p{1cm} | p{1cm} | p{1cm} | p{1cm} |} 
 	\hline
   Feature 	& Day 0 & Day 30 & Day 50 & Median dist. 	\\ \hline
   Mean 		& 0 	& 		& 		& \%		\\ \hline
@@ -110,10 +111,10 @@ To compare these features and get a picture of if any of them are good for finge
 \end{table}
 
 \subsection{Gyroscope}
-Lägg till ngn plot och visa hr ostabilt gyroskopet är mellan
+\textbf{=== OBS!!! ===\\}Lägg till ngn plot och visa hr ostabilt gyroskopet är mellan o säg att inte gå vidare i anays med detta..
 
 \subsection{Simulate authentication of motion sensors in MATLAB}
-To test that the features above is way of fingerprinting devices a simulation were performed in MATLAB. The concept is that a fingerprint of all devices is calculated. It contains all the features described in~\section{sec:featuresAcc}. When a new measurement is sent in to the simulation, features are calculated and compared to the once already known devices. The comparing is done by an algorithm that calculates the minimum distance between the features of the input device and the one already known. The distance is then used to decide if there is a match or not. As in biometric system there is a reashhold that decides how far from the values an input can be and sill be a match. This treashhold creates a rate of match error in the system called FRR and FAR (see~\sectionref{sec:bio:measure}). 
+To test that the features above is way of fingerprinting devices a simulation were performed in MATLAB. The concept is that a fingerprint of all devices is calculated. It contains all the features described in~\sectionref{sec:featuresAcc}. When a new measurement is sent in to the simulation, features are calculated and compared to the once already known devices. The comparing is done by an algorithm that calculates the minimum distance between the features of the input device and the one already known. The distance is then used to decide if there is a match or not. As in biometric system there is a reashhold that decides how far from the values an input can be and sill be a match. This treashhold creates a rate of match error in the system called FRR and FAR (see~\sectionref{sec:bio:measure}). 
 %% FAR FRR dör tabell eller ngt
 
 % ========== CAMERA TEST ==========
