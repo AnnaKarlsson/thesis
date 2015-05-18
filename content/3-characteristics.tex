@@ -91,6 +91,9 @@ $$y_{ij}=f_{ij}(x_{ij}+\eta_{ij})+c_{ij}+\epsilon_{ij}$$
 where $f_{ij}$ is a multiple factor close to one that captures PRNU, $x_{ij}$ is the number of photons hitting the sensor, $\eta_{ij}$ the shot noise, $c_{ij}$ the dark current and $\epsilon_{ij}$ the additive random bias. The key for a unique fingerprint of the camera (in the mobile device) is to finding $f$.
 \cite[]{sensor:camera:DCIdent}
 
+\section{\textbf{ToDo!} Allan variance}\label{char:allan}\index{allan variance}
+A way of calculating bias stability measurements is Allan variance. blabla...
+
 \section{Previous work of device sensor fingerprinting}
 Accelerometer fingerprinting is a recent field of studies compared to the camera fingerprint that had been around for a longer time. The camera has for a long time been an object of identification in forensic purposes and therefor many research has been made and are applied today. Most of them uses advanced algorithm to extract the fingerprint and time of extracting hasn't been a concern. However in the aim of authentication the process can't be to time-consuming. In the~\tableref{table:prevAcc} and~\tableref{table:prevCamera} previous studies is presented in brief, followed by a longer presentation. Studies of gyroscope fingerprinting haven't been found. The majority of recent studies regarding the gyroscope have been about speech recognition. \cite{sensor:speechGyro} 
 \begin{table}[H]
@@ -116,7 +119,7 @@ This research shows a much larger scale experiments of 3583 devices. Experiments
 Since the research is in such different sizes they are difficult to compare it may be the case that \textit{AccelPrint} gets similar success rate if scaling it up and vice versa. \\
 
 \begin{table}[H]
-\subsubsection*{Camera}
+\subsubsection*{Camera}\label{earlier:camera}
 \centering
 \begin{tabular}{| p{1cm} | p{1cm} | p{2.7cm} | p{3cm} | p{2.5cm} |}
   Year & Devices & Purpose & Fingerprint & Ref. \\ \hline

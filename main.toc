@@ -33,13 +33,14 @@
 \contentsline {subsection}{\numberline {3.3.1}Fingerprinting feature / Bias}{15}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Magnetometer calibration}{16}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Camera}{17}{section.3.4}
-\contentsline {section}{\numberline {3.5}Previous work of device sensor fingerprinting}{17}{section.3.5}
+\contentsline {section}{\numberline {3.5}\textbf {ToDo!} Allan variance}{17}{section.3.5}
+\contentsline {section}{\numberline {3.6}Previous work of device sensor fingerprinting}{17}{section.3.6}
 \contentsline {chapter}{\numberline {4}METHOD OF MEASUREMENTS}{21}{chapter.4}
 \contentsline {section}{\numberline {4.1}Measurements of sensors on mobile devices}{21}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Android}{22}{subsection.4.1.1}
 \contentsline {subsubsection}{Accelerometer in Android}{23}{section*.22}
 \contentsline {subsubsection}{Gyroscope in Android}{23}{section*.23}
-\contentsline {subsubsection}{Magnetometer in Android}{23}{section*.24}
+\contentsline {subsubsection}{Magnetometer in Android}{24}{section*.24}
 \contentsline {subsubsection}{Fingerprinting: Sensor fusion in Android}{24}{section*.25}
 \contentsline {subsection}{\numberline {4.1.2}JavaScript}{24}{subsection.4.1.2}
 \contentsline {subsubsection}{Accelerometer in JavaScript}{24}{section*.26}
@@ -50,41 +51,43 @@
 \contentsline {chapter}{\numberline {5}RESULT OF MEASUREMENTS}{29}{chapter.5}
 \contentsline {section}{\numberline {5.1}Pre-measurements}{29}{section.5.1}
 \contentsline {section}{\numberline {5.2}Result of measurements I - Motion}{30}{section.5.2}
-\contentsline {section}{\numberline {5.3}\textbf {Doing! }Result of measurements II - Motion}{32}{section.5.3}
+\contentsline {section}{\numberline {5.3}Result of measurements II - Motion}{32}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Permanence of accelerometer}{33}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Features of accelerometer data}{35}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Gyroscope}{36}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Simulate authentication of motion sensors in MATLAB}{37}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}\textbf {ToUpdate! }Result Camera-measurements}{37}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}\textbf {ToDo! }Result of camera measurement I}{38}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}\textbf {ToDo! }Result of camera measurement II}{39}{subsection.5.4.2}
-\contentsline {chapter}{\numberline {6}\textbf {TODO! }IMPLEMENTATION}{41}{chapter.6}
-\contentsline {section}{\numberline {6.1}User Manual}{41}{section.6.1}
-\contentsline {section}{\numberline {6.2}Choices}{41}{section.6.2}
-\contentsline {section}{\numberline {6.3}Authentication}{41}{section.6.3}
-\contentsline {section}{\numberline {6.4}Implementation}{41}{section.6.4}
-\contentsline {chapter}{\numberline {7}\textbf {ToDo! }CONCLUSIONS}{43}{chapter.7}
-\contentsline {section}{\numberline {7.1}Ethical aspects}{43}{section.7.1}
-\contentsline {section}{\numberline {7.2}Conclusions of measurements method}{43}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Motion sensors}{44}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Camera sensor}{44}{subsection.7.2.2}
-\contentsline {section}{\numberline {7.3}Conclusions of result}{44}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Accelerometer}{44}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Gyroscope}{45}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Camera}{45}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Implementation}{45}{subsection.7.3.4}
-\contentsline {section}{\numberline {7.4}Further work}{45}{section.7.4}
-\contentsline {chapter}{\numberline {A}Motion measurements II: \\Feature plots}{49}{appendix.A}
-\contentsline {section}{\numberline {A.1}Scatter-plot of mean values}{49}{section.A.1}
-\contentsline {section}{\numberline {A.2}Scatter-plot of standard deviation values}{50}{section.A.2}
-\contentsline {section}{\numberline {A.3}Scatter-plot of average deviation values}{50}{section.A.3}
-\contentsline {section}{\numberline {A.4}Scatter-plot of skewness values}{51}{section.A.4}
-\contentsline {section}{\numberline {A.5}Scatter-plot of kurtosis values}{51}{section.A.5}
-\contentsline {section}{\numberline {A.6}Scatter-plot of RMS values}{52}{section.A.6}
-\contentsline {section}{\numberline {A.7}Scatter-plot of min values}{52}{section.A.7}
-\contentsline {section}{\numberline {A.8}Scatter-plot of max values}{53}{section.A.8}
-\contentsline {chapter}{Bibliography}{55}{appendix*.54}
-\contentsline {chapter}{Index}{58}{appendix*.54}
+\contentsline {subsection}{\numberline {5.3.2}Features of accelerometer data}{36}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Gyroscope}{37}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Allan variance}{38}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Simulate authentication of motion sensors in MATLAB}{38}{subsection.5.3.5}
+\contentsline {section}{\numberline {5.4}\textbf {Doing! }Result Camera-measurements}{40}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}\textbf {ToDo! }Result of camera measurement I}{41}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Result of camera measurement II}{43}{subsection.5.4.2}
+\contentsline {chapter}{\numberline {6}\textbf {TODO! }IMPLEMENTATION}{45}{chapter.6}
+\contentsline {section}{\numberline {6.1}User Manual}{45}{section.6.1}
+\contentsline {section}{\numberline {6.2}Choices}{45}{section.6.2}
+\contentsline {section}{\numberline {6.3}Authentication}{45}{section.6.3}
+\contentsline {section}{\numberline {6.4}Implementation}{45}{section.6.4}
+\contentsline {chapter}{\numberline {7}\textbf {ToDo! }CONCLUSIONS}{47}{chapter.7}
+\contentsline {section}{\numberline {7.1}Ethical aspects}{47}{section.7.1}
+\contentsline {section}{\numberline {7.2}Conclusions of measurements method}{47}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Motion sensors}{48}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Camera sensor}{48}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Conclusions of result}{48}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Accelerometer}{48}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Gyroscope}{49}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Camera}{49}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Implementation}{49}{subsection.7.3.4}
+\contentsline {section}{\numberline {7.4}Further work}{49}{section.7.4}
+\contentsline {chapter}{\numberline {A}Motion measurements II: \\Feature plots}{53}{appendix.A}
+\contentsline {section}{\numberline {A.1}Scatter-plot of mean values}{53}{section.A.1}
+\contentsline {section}{\numberline {A.2}Scatter-plot of standard deviation values}{54}{section.A.2}
+\contentsline {section}{\numberline {A.3}Scatter-plot of average deviation values}{54}{section.A.3}
+\contentsline {section}{\numberline {A.4}Scatter-plot of skewness values}{55}{section.A.4}
+\contentsline {section}{\numberline {A.5}Scatter-plot of kurtosis values}{55}{section.A.5}
+\contentsline {section}{\numberline {A.6}Scatter-plot of RMS values}{56}{section.A.6}
+\contentsline {section}{\numberline {A.7}Scatter-plot of min values}{56}{section.A.7}
+\contentsline {section}{\numberline {A.8}Scatter-plot of max values}{57}{section.A.8}
+\contentsline {chapter}{\numberline {B}MATLAB accelerometer fingerprinting simulation}{59}{appendix.B}
+\contentsline {chapter}{Bibliography}{61}{appendix*.56}
+\contentsline {chapter}{Index}{64}{appendix*.56}
 \select@language {swedish}
 \select@language {english}
 \select@language {english}
