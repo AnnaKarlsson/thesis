@@ -1,0 +1,23 @@
+========== PRIOLISTA ==========
+=== Tisdag 
+FM
+#1	Sammanställa alla bilder
+#2	Fixa kamera i MATLAB
+#3	Skriva klart kamera i resultat
+#5	Test MATLAB-acc med nga fler devices (ta andra samples eller ngt)
+EM
+#4	Skriva conslusions
+#5	Skiva en etik-del
+#6	Skriva om aims & objectives
+=== Onsdag
+FM
+#7	Skriva sammanfattning
+#8	Korrläsa
+EM
+#9 Fixa notation
+#10	Fixa index
+#11	Kolla layout
+#12	Skriva demo-del
+=== Torsdag
+#	Korrläsa
+#	Skicka in
