@@ -7,11 +7,11 @@
 \select@language {english}
 \select@language {english}
 \select@language {english}
-\contentsline {chapter}{Notation}{xiii}{section*.7}
+\contentsline {chapter}{Notation}{xi}{section*.7}
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}\textbf {ToUpdate! }Aims \& Objectives}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}\textbf {ToUpdate! }Thesis Outline}{3}{section.1.3}
+\contentsline {section}{\numberline {1.3}Thesis Outline}{3}{section.1.3}
 \contentsline {chapter}{\numberline {2}COMMUNICATION \& AUTHENTICATION}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Two factor authentication}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}Challenge-Response authentication}{6}{section.2.2}
@@ -33,18 +33,18 @@
 \contentsline {subsection}{\numberline {3.3.1}Fingerprinting feature / Bias}{15}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Magnetometer calibration}{16}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Camera}{17}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Fingerprinting feature / Bias}{17}{subsection.3.4.1}
 \contentsline {section}{\numberline {3.5}\textbf {ToDo!} Allan variance}{17}{section.3.5}
-\contentsline {section}{\numberline {3.6}Previous work of device sensor fingerprinting}{17}{section.3.6}
+\contentsline {section}{\numberline {3.6}Previous work of device sensor fingerprinting}{18}{section.3.6}
 \contentsline {chapter}{\numberline {4}METHOD OF MEASUREMENTS}{21}{chapter.4}
 \contentsline {section}{\numberline {4.1}Measurements of sensors on mobile devices}{21}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Android}{22}{subsection.4.1.1}
 \contentsline {subsubsection}{Accelerometer in Android}{23}{section*.22}
 \contentsline {subsubsection}{Gyroscope in Android}{23}{section*.23}
 \contentsline {subsubsection}{Magnetometer in Android}{24}{section*.24}
-\contentsline {subsubsection}{Fingerprinting: Sensor fusion in Android}{24}{section*.25}
 \contentsline {subsection}{\numberline {4.1.2}JavaScript}{24}{subsection.4.1.2}
-\contentsline {subsubsection}{Accelerometer in JavaScript}{24}{section*.26}
-\contentsline {subsubsection}{Gyroscope in JavaScript}{25}{section*.27}
+\contentsline {subsubsection}{Accelerometer in JavaScript}{24}{section*.25}
+\contentsline {subsubsection}{Gyroscope in JavaScript}{25}{section*.26}
 \contentsline {section}{\numberline {4.2}Measurement I - Motion}{25}{section.4.2}
 \contentsline {section}{\numberline {4.3}Measurement II - Motion}{26}{section.4.3}
 \contentsline {section}{\numberline {4.4}Camera measurements}{27}{section.4.4}
@@ -53,41 +53,32 @@
 \contentsline {section}{\numberline {5.2}Result of measurements I - Motion}{30}{section.5.2}
 \contentsline {section}{\numberline {5.3}Result of measurements II - Motion}{32}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Permanence of accelerometer}{33}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Features of accelerometer data}{36}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.2}Features of accelerometer data}{35}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}Gyroscope}{37}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Allan variance}{38}{subsection.5.3.4}
-\contentsline {subsection}{\numberline {5.3.5}Simulate authentication of motion sensors in MATLAB}{38}{subsection.5.3.5}
-\contentsline {section}{\numberline {5.4}\textbf {Doing! }Result Camera-measurements}{40}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}\textbf {ToDo! }Result of camera measurement I}{41}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Result of camera measurement II}{43}{subsection.5.4.2}
-\contentsline {chapter}{\numberline {6}\textbf {TODO! }IMPLEMENTATION}{45}{chapter.6}
-\contentsline {section}{\numberline {6.1}User Manual}{45}{section.6.1}
-\contentsline {section}{\numberline {6.2}Choices}{45}{section.6.2}
-\contentsline {section}{\numberline {6.3}Authentication}{45}{section.6.3}
-\contentsline {section}{\numberline {6.4}Implementation}{45}{section.6.4}
-\contentsline {chapter}{\numberline {7}\textbf {ToDo! }CONCLUSIONS}{47}{chapter.7}
-\contentsline {section}{\numberline {7.1}Ethical aspects}{47}{section.7.1}
-\contentsline {section}{\numberline {7.2}Conclusions of measurements method}{47}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Motion sensors}{48}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Camera sensor}{48}{subsection.7.2.2}
-\contentsline {section}{\numberline {7.3}Conclusions of result}{48}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Accelerometer}{48}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Gyroscope}{49}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Camera}{49}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Implementation}{49}{subsection.7.3.4}
-\contentsline {section}{\numberline {7.4}Further work}{49}{section.7.4}
-\contentsline {chapter}{\numberline {A}Motion measurements II: \\Feature plots}{53}{appendix.A}
-\contentsline {section}{\numberline {A.1}Scatter-plot of mean values}{53}{section.A.1}
-\contentsline {section}{\numberline {A.2}Scatter-plot of standard deviation values}{54}{section.A.2}
-\contentsline {section}{\numberline {A.3}Scatter-plot of average deviation values}{54}{section.A.3}
-\contentsline {section}{\numberline {A.4}Scatter-plot of skewness values}{55}{section.A.4}
-\contentsline {section}{\numberline {A.5}Scatter-plot of kurtosis values}{55}{section.A.5}
-\contentsline {section}{\numberline {A.6}Scatter-plot of RMS values}{56}{section.A.6}
-\contentsline {section}{\numberline {A.7}Scatter-plot of min values}{56}{section.A.7}
-\contentsline {section}{\numberline {A.8}Scatter-plot of max values}{57}{section.A.8}
-\contentsline {chapter}{\numberline {B}MATLAB accelerometer fingerprinting simulation}{59}{appendix.B}
-\contentsline {chapter}{Bibliography}{61}{appendix*.56}
-\contentsline {chapter}{Index}{64}{appendix*.56}
+\contentsline {subsection}{\numberline {5.3.4}Allan variance}{39}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Simulate authentication of motion sensors in MATLAB}{39}{subsection.5.3.5}
+\contentsline {section}{\numberline {5.4}Result Camera-measurements}{40}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Result of camera measurement I}{40}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Result of camera measurement II}{41}{subsection.5.4.2}
+\contentsline {chapter}{\numberline {6}DISCUSSION}{43}{chapter.6}
+\contentsline {section}{\numberline {6.1}\textbf {ToDo! }Accelerometer}{43}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Result}{43}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Method}{44}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Gyroscope}{44}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Result}{44}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Method}{44}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Camera}{45}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Result}{45}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Method}{45}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}The work in a wider context}{45}{section.6.4}
+\contentsline {chapter}{\numberline {7}\textbf {Doing! }CONCLUSIONS}{47}{chapter.7}
+\contentsline {subsection}{\numberline {7.0.1}\~Acc}{47}{subsection.7.0.1}
+\contentsline {subsection}{\numberline {7.0.2}\~Gyro}{47}{subsection.7.0.2}
+\contentsline {section}{\numberline {7.1}\textbf {ToDo! }Further work}{47}{section.7.1}
+\contentsline {chapter}{\numberline {A}Motion measurements II: \\Feature plots}{51}{appendix.A}
+\contentsline {chapter}{\numberline {B}MATLAB accelerometer fingerprinting simulation}{57}{appendix.B}
+\contentsline {chapter}{Bibliography}{59}{appendix*.63}
+\contentsline {chapter}{Index}{62}{appendix*.63}
 \select@language {swedish}
 \select@language {english}
 \select@language {english}

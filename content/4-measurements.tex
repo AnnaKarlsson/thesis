@@ -36,7 +36,7 @@ In Android you can't just read from the sensor whenever you need, instead the Se
 
 
 \subsubsection{Accelerometer in Android}\label{subsec:accAndroid}
-\texttt{TYPE\_ACCELEROMETER} is the hardware measurements that measures the force of acceleration including the force of gravity with the SI unit $m/s^2$. Android also provide \texttt{TYPE\_LINEAR\_ACCELERATION} that is without gravity but that is a combined hardware and software sensor, thus this tests uses  \texttt{TYPE\_ACCELEROMETER} that provides almost raw data. There have been some bias removal from the sensor such bias from different temperature. \\
+\texttt{TYPE\_ACCELEROMETER} is the hardware measurements that measures the force of acceleration including the force of gravity with the SI unit $m/s^2$. Android also provide \texttt{TYPE\_LINEAR\_ACCELERATION} that is without gravity but that is a combined hardware and software sensor, thus this tests uses  \texttt{TYPE\_ACCELEROMETER} were the measurements only comes from hardware. There have been some bias removal from the sensor such bias from different temperature. \\
 To get the acceleration applied to the device ($a_d$) the measurements of the force ($F_s$) applied the sensor is calculated from Newtons second law using the mass ($m$) of the device :
 $$a_d=-\sum F_s / m $$ 
 These measurements from the \texttt{SensorEvent} is in the x-,y- and z-axes like in~\figureref{fig:device-axes} and collected from event like x=a, y=b and z=c in~\coderef{code:androidSensor}. \cite[]{android:sensorEvent}
@@ -51,8 +51,6 @@ Android also provide a \texttt{TYPE\_GYROSCOPE\_UNCALIBRATED} that is the same a
 \subsubsection{Magnetometer in Android}\label{subsec:magnAndroid}
 Measures the magnetic field in x-, y- and z-axis in micro-Tesla ($\mu T$), as for the other sensors is that output for \texttt{values[0], values[1]} and \texttt{values[2]} (~\coderef{code:androidSensor}). Android also provides a uncalibrated version that not has any calibration for the hard iron calibration. The uncalibrated type in Android is \texttt{TYPE\_MAGNETIC\_FIELD\_UNCALIBRATED} and as for the gyrocope it also comes with an bias estimation in x, y and z-axis for event-values \texttt{values[3], values[4]} and \texttt{values[5]}. 
 
-\subsubsection{Fingerprinting: Sensor fusion in Android}
-\url{http://www.codeproject.com/Articles/729759/Android-Sensor-Fusion-Tutorial}
 
 \subsection{JavaScript}\label{subsec:js}\index{JavaScript}
 JavaScript has since the use of mobile devices adapted a lot of new features, which makes it possible to access a lot of hardware features in the devices. No permission is needed to access the gyroscope and accelerometer-data, thus the user do not have to know that the sensors are measured.
@@ -149,7 +147,7 @@ The second measurements where also performed from a web-page using JavaScript to
 
 \section{Camera measurements}\label{sec:measurement:camera}
 As most of the camera fingerprinting articles (REFERENSER!!) has mostly been in forensic purposes and not focusing on the measurability or integrity of the pictures. That is why some limitations has been made in these measurements. The black motive is used due to integrity, thus no information that could reveal the environment surrounding the camera is sent. Because of measurability (~\sectionref{auth:bio:character})) limited number of pictures that can be taken in a enrollment phase of a device fingerprinting authentication system.\\
-\\
+
 To measure the camera two measurements where gathered in both cases where the device on a flat surface which makes the camera result black. Both of this measurements is analyzed by the PRNU-method used by~\cite{sensor:camera:DCIdent} described in~\sectionref{sec:ResCam}.
 \begin{enumerate}
   \item \textbf{Black video:} The recommended number of pictures for camera fingerprinting is 50 ~\cite[]{sensor:camera:DCIdent}. But that is not a convenient gathering purposes, thus to ask someone to take 50 black photos and send will not make many answers. Thats why the first test asked for recording a 5 seconds video-recording with the camera towards a flat surface. This video is then shuttered into picture frames, 5 seconds generate 100-200 pictures depending on the recording rate of fps (frames per second).
@@ -171,3 +169,16 @@ Screen-shots from the camera-page of the second measurements:
   \end{minipage}
   \caption{Sensor measurements on a Google Nexus 7}\label{fig:sensorrecCamera}
 \end{figure}
+
+For calculating the bias the MATLAB \texttt{medfilt2} is used, which is an 2-D median filtering that outputs the median value of each pixel by its 3-by-3 neighbors. 
+\begin{figure}[H]
+  \centering
+  \input{fig/4-medfilt2.tex}
+  \caption{\label{fig:medfilt2} the MATLAB \texttt{medfilt2} outputs the median of each pixel by it's 3-by-3 neighbors}
+\end{figure}
+From the \texttt{medfilt2} is a picture gained without noise which is then subtracted from the original to get the noise. This technique works best if there are no features on the pictures such auto-fix, black and white etc. The more images used for the average value the better noise is, thus the amount random noise is less and the fixed noise is more. \cite{sensor:camera:DCIdent} recommend a minimum of 50 images. This is then seen as the reference pattern used for correlating the noise from another pictures. This correlation is calculated like:
+$$
+corr(\boldsymbol{n},\boldsymbol{r}) = 
+\frac{(\boldsymbol{n} - \bar{\boldsymbol{n}})(\boldsymbol{r} - \bar{\boldsymbol{r}})}
+{\|\boldsymbol{n} - \bar{\boldsymbol{n}}\| \|\boldsymbol{r} - \bar{\boldsymbol{r}}\|}
+$$

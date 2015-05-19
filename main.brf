@@ -24,41 +24,44 @@
 \backcite {liu:magnAcc}{{16}{3.3.1}{figure.caption.12}}
 \backcite {liu:magnAcc}{{16}{3.3.2}{equation.3.3.3f}}
 \backcite {sensor:camera:DCIdent}{{17}{3.4}{section.3.4}}
+\backcite {sensor:camera:DCIdent}{{17}{3.4.1}{subsection.3.4.1}}
 \backcite {sensor:speechGyro}{{18}{3.6}{section.3.6}}
-\backcite {sensor:accelPrint}{{18}{\caption@xref {??}{ on input line 104}}{section*.14}}
-\backcite {sensor:micSpeak}{{18}{\caption@xref {??}{ on input line 105}}{section*.14}}
+\backcite {sensor:accelPrint}{{18}{\caption@xref {??}{ on input line 118}}{section*.14}}
+\backcite {sensor:micSpeak}{{18}{\caption@xref {??}{ on input line 119}}{section*.14}}
 \backcite {sensor:accelPrint}{{18}{3.6}{section*.15}}
-\backcite {sensor:accelPrint}{{18}{3.6}{section*.15}}
-\backcite {sensor:micSpeak}{{18}{3.6}{section*.16}}
-\backcite {sensor:micSpeak}{{18}{3.6}{section*.16}}
-\backcite {sensor:camera:blind}{{19}{\caption@xref {earlier:camera}{ on input line 126}}{section*.18}}
-\backcite {sensor:camera:DCIdent}{{19}{\caption@xref {earlier:camera}{ on input line 127}}{section*.18}}
+\backcite {sensor:accelPrint}{{19}{3.6}{section*.15}}
+\backcite {sensor:micSpeak}{{19}{3.6}{section*.16}}
+\backcite {sensor:micSpeak}{{19}{3.6}{section*.16}}
+\backcite {sensor:camera:blind}{{19}{\caption@xref {earlier:camera}{ on input line 140}}{section*.18}}
+\backcite {sensor:camera:DCIdent}{{19}{\caption@xref {earlier:camera}{ on input line 141}}{section*.18}}
 \backcite {sensor:camera:blind}{{19}{3.6}{section*.19}}
 \backcite {sensor:camera:blind}{{19}{3.6}{section*.19}}
 \backcite {sensor:camera:DCIdent}{{19}{3.6}{section*.20}}
-\backcite {sensor:camera:DCIdent}{{19}{3.6}{section*.20}}
-\backcite {gbg:kamera}{{19}{3.6}{section*.20}}
+\backcite {sensor:camera:DCIdent}{{20}{3.6}{section*.20}}
 \backcite {sensor:W3C}{{22}{4.1}{figure.caption.21}}
 \backcite {android:sensor}{{22}{4.1.1}{subsection.4.1.1}}
 \backcite {android:sensorEvent}{{23}{4.1.1}{lstnumber.4.1.20}}
 \backcite {android:sensorEvent}{{23}{4.1.1}{section*.22}}
 \backcite {android:sensorEvent}{{23}{4.1.1}{section*.23}}
-\backcite {sensor:W3Cspec}{{24}{4.1.2}{section*.26}}
-\backcite {sensor:W3C}{{25}{4.1.2}{lstnumber.-1.8}}
+\backcite {sensor:W3Cspec}{{24}{4.1.2}{section*.25}}
+\backcite {sensor:W3C}{{24}{4.1.2}{lstnumber.-1.8}}
 \backcite {sensor:W3C}{{25}{4.1.2}{lstnumber.-2.7}}
 \backcite {sensor:camera:DCIdent}{{27}{4.4}{section.4.4}}
 \backcite {sensor:camera:DCIdent}{{27}{1}{Item.22}}
-\backcite {sensor:camera:DCIdent}{{28}{2}{Item.23}}
-\backcite {acc:kionixerr}{{32}{5.2}{figure.caption.36}}
-\backcite {sensor:W3Cspec}{{32}{5.2}{figure.caption.36}}
-\backcite {sensor:accIncludingGravity}{{32}{5.2}{figure.caption.36}}
-\backcite {android:sensorEvent}{{32}{5.2}{figure.caption.36}}
-\backcite {android:API18}{{32}{5.2}{figure.caption.36}}
-\backcite {android:API3}{{32}{5.2}{figure.caption.36}}
-\backcite {sensor:accelPrint}{{36}{5.3.2}{subsection.5.3.2}}
+\backcite {sensor:camera:DCIdent}{{27}{2}{Item.23}}
+\backcite {sensor:camera:DCIdent}{{28}{4.4}{figure.caption.31}}
+\backcite {sensor:accelPrint}{{35}{5.3.2}{subsection.5.3.2}}
 \backcite {sensor:accelPrint}{{36}{5.11}{figure.caption.42}}
 \backcite {sensor:camera:DCIdent}{{40}{5.4}{section.5.4}}
-\backcite {sensor:camera:DCIdent}{{41}{5.4}{figure.caption.46}}
-\backcite {sensor:camera:DCIdent}{{42}{5.4.1}{lstnumber.5.2.13}}
-\backcite {sensor:camera:DCIdent}{{43}{5.4.2}{subsection.5.4.2}}
-\backcite {sensor:accelPrint}{{48}{7.3.1}{subsection.7.3.1}}
+\backcite {sensor:camera:DCIdent}{{41}{5.4.1}{lstnumber.5.2.13}}
+\backcite {sensor:camera:DCIdent}{{41}{5.4.2}{subsection.5.4.2}}
+\backcite {acc:kionixerr}{{43}{6.1.1}{subsection.6.1.1}}
+\backcite {sensor:W3Cspec}{{43}{6.1.1}{subsection.6.1.1}}
+\backcite {sensor:accIncludingGravity}{{43}{6.1.1}{subsection.6.1.1}}
+\backcite {android:sensorEvent}{{43}{6.1.1}{subsection.6.1.1}}
+\backcite {android:API18}{{43}{6.1.1}{subsection.6.1.1}}
+\backcite {android:API3}{{43}{6.1.1}{subsection.6.1.1}}
+\backcite {android:API18}{{44}{6.2.2}{subsection.6.2.2}}
+\backcite {sensor:camera:DCIdent}{{45}{6.3.1}{subsection.6.3.1}}
+\backcite {gbg:kamera}{{45}{6.3.1}{subsection.6.3.1}}
+\backcite {sensor:accelPrint}{{47}{7.0.1}{subsection.7.0.1}}

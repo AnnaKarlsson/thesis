@@ -7,7 +7,7 @@ A level-1 auxiliary file: content/2-authentication.aux
 A level-1 auxiliary file: content/3-characteristics.aux
 A level-1 auxiliary file: content/4-measurements.aux
 A level-1 auxiliary file: content/5-result.aux
-A level-1 auxiliary file: content/6-demo.aux
+A level-1 auxiliary file: content/6-discussion.aux
 A level-1 auxiliary file: content/7-conclusions.aux
 A level-1 auxiliary file: appendix/accFeaturesScatters.aux
 A level-1 auxiliary file: appendix/fingerprintMatlab.aux
@@ -57,52 +57,57 @@ Repeated entry---line 218 of file myrefs.bib
 I'm skipping whatever remains of this entry
 Warning--string name "july" is undefined
 --line 321 of file myrefs.bib
-You're missing a field name---line 369 of file myrefs.bib
- :     
- :     %type     = "diploma thesis",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 380 of file myrefs.bib
- :  
- :  %address = "",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 388 of file myrefs.bib
- :     
- :     %author    = "",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 400 of file myrefs.bib
- :     
- :     %type     = "",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 412 of file myrefs.bib
+You're missing a field name---line 366 of file myrefs.bib
  :  
  :  %editor  = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 431 of file myrefs.bib
+You're missing a field name---line 385 of file myrefs.bib
+ :     
+ :     %type     = "diploma thesis",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 396 of file myrefs.bib
+ :  
+ :  %address = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 404 of file myrefs.bib
+ :     
+ :     %author    = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 416 of file myrefs.bib
+ :     
+ :     %type     = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 428 of file myrefs.bib
+ :  
+ :  %editor  = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 447 of file myrefs.bib
  :  
  :  %editor = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 452 of file myrefs.bib
+You're missing a field name---line 468 of file myrefs.bib
  :  
  :  %volume = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 464 of file myrefs.bib
+You're missing a field name---line 480 of file myrefs.bib
  :     
  :     %author   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 477 of file myrefs.bib
+You're missing a field name---line 493 of file myrefs.bib
  :     
  :     %volume   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 491 of file myrefs.bib
+You're missing a field name---line 507 of file myrefs.bib
  :     
  :     %volume   = "",
 (Error may have been on previous line)
@@ -114,4 +119,4 @@ Warning--empty journal in acc:kionixerr
 Warning--there's a number but no volume in acc:kionixerr
 Warning--empty journal in android:API18
 Warning--empty journal in sensor:magn
-(There were 19 error messages)
+(There were 20 error messages)
