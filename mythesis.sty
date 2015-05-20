@@ -1,9 +1,9 @@
 \setupThesis{
   author={Anna Karlsson},
-  swetitle={Tvåfaktorauthentisering mellan maskiner},
-  swesubtitle={Använding av mobila enheters fingeravtryck för tvåfaktorautentisering mellan enheterna},
-  title={Two factor authentication in M2M},
-  subtitle={Fingerprinting of mobile devices for making a two factor authentication between the devices},
+  swetitle={Fingeravtryck av Mobila Enheter},
+  swesubtitle={Användning av Mobila Enheters Sensorer i Autentiseringssyfte},
+  title={Sensor Device Fingerprinting},
+  subtitle={Mobile Device Sensor Fingerprinting With Authentication Purposes},
   year=2015,
   month=6,
   day=12,
@@ -74,8 +74,15 @@
 \newcommand{\tableref}[1]{\hyperref[#1]{table~\ref*{#1}}}
 \newcommand{\Tableref}[1]{\hyperref[#1]{Table~\ref*{#1}}}
 
+\newcommand{\appendixref}[1]{\hyperref[#1]{appendix~\ref*{#1}}}
+\newcommand{\Appendixref}[1]{\hyperref[#1]{Appendix~\ref*{#1}}}
+
+\newcommand{\coderef}[1]{\hyperref[#1]{listing~\ref*{#1}}}
+\newcommand{\Coderef}[1]{\hyperref[#1]{Listing~\ref*{#1}}}
+
 \newcommand{\pagepageref}[1]{\hyperref[#1]{page~\pageref*{#1}}}
 
+\usepackage{wrapfig}
 \usepackage{pgf,tikz}
 \usepackage{mathrsfs}
 \usetikzlibrary{arrows}
@@ -93,6 +100,7 @@
 \tikzstyle{decision} = [diamond, text width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
 \tikzstyle{arrow} = [thick,->,>=stealth]
 \tikzstyle{darrow} = [dashed,->,>=stealth]
+\tikzstyle{line} = [draw, very thick, color=black!50, -latex']
 
 % === Code
 \usepackage{listings}

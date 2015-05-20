@@ -8,3 +8,55 @@ with the rotations where $ \boldsymbol{R_x}(\phi)$,$\boldsymbol{R_y}(\theta)$ an
 \begin{equation}
 \end{equation}
 ~\cite[]{sensor:magnIron}
+
+  When looking at devices with similar or same hardware you can see differences in measurements, for example here are the accelerometer recordings from 5 iPhone 6 and 1 iPhone 5S:
+\begin{figure}[H]
+\centering
+\includegraphics[scale=.6]{img/scatteriPhone}
+\caption{Scatter graph on accelerometer recordings of 6 Apple devices}
+\label{fig:digraph}
+\end{figure}
+
+\section{Magnetometer\index{magnetometer}}
+The magnetometer measures the magnetic field and was originally used for navigation and tracking. When it is used as a compass the Earth's magnetic field is measured. The type of sensor found in mobile devices is like accelerometer and gyroscope a MEMS sensor. They are known as e-compasses gaussmeters that is measuring of magnetic fields larger than 1 nT.
+~\cite[]{sensor:magn}
+
+\subsection{Fingerprinting feature / Bias}
+\textit{Note that normally bias in a magnetometer is called \textbf{offset} but for uniformity reason of this report it will be referenced to \textbf{bias}.}\\
+\\
+When try to measure the magnetic field of Earth with a magnetometer it also gets affected by other magnetic fields. The two main error sources from measurements of magnetometer are magnetic contamination in the sensor, called Soft and Hard-Iron distortion. \\
+The hard iron distortion is caused by metals and magnets around the magnetometer. This field is constant even if the device moves, thus it is additive to the earths magnetic field. This distortion can be caused of e.g. the device speaker mounted near the magnetometer. \\
+If there are magnetic fields in the surrounding environment of the device they will cause soft iron disorder. This error is smaller than the hard iron distortion. Any metal around the device can cause this error, such a car passing by.
+There are also a third bias that can effect the magnetometer and is as the hard iron distortion additive. This bias is the errors in the magnetometer itself such that all hardware has. But the result of this bias is similar to the soft iron distortion.  \\
+The good thing with magnetometer bias is that it is constant over time, thus once it is calculated it stays the same. \\
+\\
+If the device is rotated one turn (360\degree)around its own z-axes (see~\figureref{fig:device-axes}) and plot x with respect to y there will be a circle. In a world without bias this circle will look like:
+\begin{figure}[H]
+\begin{tabular}{p{0.23\textwidth} p{0.23\textwidth} p{0.23\textwidth} p{0.23\textwidth}}
+        \vspace{0pt} \input{fig/3-magnIdeal.tex} & 
+        \vspace{0pt} \input{fig/3-magnHardIron.tex} & 
+        \vspace{0pt} \input{fig/3-magnSoftIron.tex} & 
+        \vspace{0pt} \input{fig/3-magnGainMis.tex} \\
+        \vspace{0pt} Ideal & Hard Iron distortion & Soft Iron distortion & Gain mismatch \\
+\end{tabular}
+\caption{Example of different magnetometer readings when affected by bias.}\label{fig:magnCircle}
+\end{figure}
+\cite[]{liu:magnAcc}
+
+\subsection{Magnetometer calibration}
+To do a magnetometer calibration the device is turned 360\degree around the z-axis (~\figureref{fig:device-axes}), with the device on a flat surface. This makes x and y-axis the surface and z-axis pointing (UP/DOWN?). To calculate the offset $O_{x,y,z}$ the average of min and max-value from each axis is calculated (the center of the circle) from the magnetic field $B_{x,y,z}$, like:
+\begin{subequations}
+\begin{align}
+  O_x = \frac{max(B_x) + min(B_x)}{2} \\
+  O_y = \frac{max(B_y) + min(B_y)}{2} \\
+  O_z = \frac{max(B_z) + min(B_z)}{2}
+\end{align} 
+And the hard iron compensated result $m_{x,y,z}^h$:
+\begin{align}
+  m_x^h = B_x - O_x \\
+  m_y^h = B_y - O_y \\
+  m_z^h = B_z - O_z
+\end{align}
+\end{subequations}
+The soft iron is sometimes compensated for in the equations above and sometimes additional compensation has to be done. Since soft iron offset is place specific it will not be considered in the thesis since a fingerprint of a device is not convenient if you have to be at the exact same spot every time the device tries to authenticate.
+\cite[]{liu:magnAcc}
