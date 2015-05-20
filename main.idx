@@ -1,16 +1,16 @@
-\indexentry {G!abbreviation|hyperpage}{xi}
-\indexentry {FAR!abbreviation|hyperpage}{xi}
-\indexentry {FRR@!abbreviation|hyperpage}{xi}
-\indexentry {FTE!abbreviation|hyperpage}{xi}
-\indexentry {ICT@!abbreviation|hyperpage}{xi}
-\indexentry {IoT@!abbreviation|hyperpage}{xi}
-\indexentry {M2M!abbreviation|hyperpage}{xi}
-\indexentry {MEMS!abbreviation|hyperpage}{xi}
-\indexentry {NIC!abberviation|hyperpage}{xi}
-\indexentry {OS!abberviation|hyperpage}{xi}
-\indexentry {PRNU!abberviation|hyperpage}{xi}
-\indexentry {RMS!abberviation|hyperpage}{xi}
-\indexentry {SVM!abberviation|hyperpage}{xi}
+\indexentry {G!abbreviation|hyperpage}{xv}
+\indexentry {FAR!abbreviation|hyperpage}{xv}
+\indexentry {FRR@!abbreviation|hyperpage}{xv}
+\indexentry {FTE!abbreviation|hyperpage}{xv}
+\indexentry {ICT@!abbreviation|hyperpage}{xv}
+\indexentry {IoT@!abbreviation|hyperpage}{xv}
+\indexentry {M2M!abbreviation|hyperpage}{xv}
+\indexentry {MEMS!abbreviation|hyperpage}{xv}
+\indexentry {NIC!abberviation|hyperpage}{xv}
+\indexentry {OS!abberviation|hyperpage}{xv}
+\indexentry {PRNU!abberviation|hyperpage}{xv}
+\indexentry {RMS!abberviation|hyperpage}{xv}
+\indexentry {SVM!abberviation|hyperpage}{xv}
 \indexentry {authentication|hyperpage}{5}
 \indexentry {two factor authentication|hyperpage}{5}
 \indexentry {challenge-response|hyperpage}{6}
@@ -22,13 +22,10 @@
 \indexentry {accelerometer|hyperpage}{14}
 \indexentry {gyroscope|hyperpage}{14}
 \indexentry {constant bias|hyperpage}{15}
-\indexentry {magnetometer|hyperpage}{15}
-\indexentry {camera fingerprinting|hyperpage}{17}
-\indexentry {camera|hyperpage}{17}
-\indexentry {shot noise|hyperpage}{17}
-\indexentry {fixed pattern noise|hyperpage}{17}
-\indexentry {photo-response non-uniformity noise|hyperpage}{17}
-\indexentry {PRNU|hyperpage}{17}
-\indexentry {allan variance|hyperpage}{17}
-\indexentry {Android|hyperpage}{22}
-\indexentry {JavaScript|hyperpage}{24}
+\indexentry {camera fingerprinting|hyperpage}{15}
+\indexentry {camera|hyperpage}{15}
+\indexentry {shot noise|hyperpage}{15}
+\indexentry {fixed pattern noise|hyperpage}{15}
+\indexentry {photo-response non-uniformity noise|hyperpage}{15}
+\indexentry {PRNU|hyperpage}{15}
+\indexentry {allan variance|hyperpage}{16}

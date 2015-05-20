@@ -15,3 +15,36 @@ Vad jag valde för protokol o lite sånt
 
 \section{Implementation}
 Visa själva demon.
+
+
+\subsection{Android}\label{subsec:Android}\index{Android}
+\textbf{==== OBS: Är detta mer relevant att ha i demo-delen?} \\
+Android sensor framework provides raw data with high precision from sensor that are built in the device such as different motions sensors (including accelerometer and gyroscope), environmental sensors and position sensors (e.g. magnetometer). \cite[]{android:sensor}
+Android sensor framework classes that is used for gather sensor data is; 
+\begin{itemize}
+	\item[] \texttt{SensorManager}, a manager used to access the sensor of the device. 
+	\item[] \texttt{Sensor}, representing a sensor
+	\item[] \texttt{SensorEvent}, an event from a Sensor such data from the sensor, time-stamp or accuracy
+	\item[] \texttt{SensorEventListener}, gets a SensorEvent when a sensor or accuracy has changed 
+\end{itemize}
+In Android you can't just read from the sensor whenever you need, instead the SensorEventListener has a function that is triggered every time the sensor is changed. You can however set how fast the delay from the sensor should be. The function provides the output of the sensor with a time-stamp of when (in nanoseconds) the change occurred. The template code for this function:
+\lstinputlisting[caption={Java code for Android sensor},label={code:androidSensor},language=Java]{code/android-sensor.java}
+\cite[]{android:sensorEvent} 
+
+
+
+\subsubsection{Accelerometer in Android}\label{subsec:accAndroid}
+\texttt{TYPE\_ACCELEROMETER} is the hardware measurements that measures the force of acceleration including the force of gravity with the SI unit $m/s^2$. Android also provide \texttt{TYPE\_LINEAR\_ACCELERATION} that is without gravity but that is a combined hardware and software sensor, thus this tests uses  \texttt{TYPE\_ACCELEROMETER} were the measurements only comes from hardware. There have been some bias removal from the sensor such bias from different temperature. \\
+To get the acceleration applied to the device ($a_d$) the measurements of the force ($F_s$) applied the sensor is calculated from Newtons second law using the mass ($m$) of the device :
+$$a_d=-\sum F_s / m $$ 
+These measurements from the \texttt{SensorEvent} is in the x-,y- and z-axes like in~\figureref{fig:device-axes} and collected from event like x=a, y=b and z=c in~\coderef{code:androidSensor}. \cite[]{android:sensorEvent}
+
+
+\subsubsection{Gyroscope in Android}\label{subsec:gyroAndroid}
+The data from the gyroscope sensor is collected from the \texttt{TYPE\_GYROSCOPE} that measures the rotation in rad/s around the x-, y- and z-axis of~\figureref{fig:device-axes}. The direction of the rotation is positive counter-clockwise if looking from a positive location of the axes. The values from the measurements when the gyroscope is changed is given like rotation in x=a, y=b and z=c in ~\coderef{code:androidSensor}. Additional output is \texttt{values[3], values[4]} and \texttt{values[5]} that is the estimated drift arounf the axis in also in rad/s.\\
+Android also provide a \texttt{TYPE\_GYROSCOPE\_UNCALIBRATED} that is the same as \texttt{TYPE\_GYROSCOPE} except that no drift has been compensated for. There is still factory calibration and temperature compensation applied. \cite[]{android:sensorEvent} This makes it possible to calculate the linear sensor bias (equation~\ref{eq:gyroBias}] without Androids own bias compensation that is not known what it is.
+
+
+
+\subsubsection{Magnetometer in Android}\label{subsec:magnAndroid}
+Measures the magnetic field in x-, y- and z-axis in micro-Tesla ($\mu T$), as for the other sensors is that output for \texttt{values[0], values[1]} and \texttt{values[2]} (~\coderef{code:androidSensor}). Android also provides a uncalibrated version that not has any calibration for the hard iron calibration. The uncalibrated type in Android is \texttt{TYPE\_MAGNETIC\_FIELD\_UNCALIBRATED} and as for the gyrocope it also comes with an bias estimation in x, y and z-axis for event-values \texttt{values[3], values[4]} and \texttt{values[5]}. 

@@ -1,4 +1,6 @@
-\chapter{METHOD OF MEASUREMENTS}\label{cha:measurements}
+\chapter{METHOD OF COLLECTING DATA}\label{cha:measurements}
+As the title of the chapter implies is this the part of~\textit{Collect biometric data} in the biometric design cycle.\\
+\\
 In this chapter the methods used for testing the mobile devices for different characteristics is described in~\chapterref{cha:character}. Different test where performed to get sensor data to analyze for bias and characteristics. \\
 \\
 Overview of the tests performed:
@@ -9,54 +11,18 @@ Overview of the tests performed:
   \item[] \textbf{Measurement III - Camera:} Collected ten pictures instead of video from the device. 
 \end{itemize}
 
-\section{Measurements of sensors on mobile devices}\label{sec:charMeasureSensor}
-Measurements of sensors from mobile devices can be gather in different ways. In the work of this thesis two approaches is used, a browser application and an Android application. The camera is an exception where pictures provides the sensor characteristics.
+\section{Measurements of motion sensors in JavaScript}\label{sec:charMeasureSensor}
+Measurements of sensors from mobile devices can be gather in different ways. In the work of this thesis a browser application in JavaScript is used for the data collection. \\
+\\
+JavaScript has since the use of mobile devices adapted a lot of new features, which makes it possible to access a lot of hardware features in the devices. No permission is needed to access the gyroscope and accelerometer-data, thus the user do not have to know that the sensors are measured.
 \begin{figure}[H]
-	\centering
+  \centering
     \includegraphics[scale=0.2]{img/device-axes}
-    \caption{The coordinate system used for both Android and JavaScript\cite[]{sensor:W3C}}
+    \caption{The coordinate system used in JavaScript\cite[]{sensor:W3C}}
   \label{fig:device-axes}
 \end{figure}
 
-\subsection{Android}\label{subsec:Android}\index{Android}
-\textbf{==== OBS: Är detta mer relevant att ha i demo-delen?} \\
-Android sensor framework provides raw data with high precision from sensor that are built in the device such as different motions sensors (including accelerometer and gyroscope), environmental sensors and position sensors (e.g. magnetometer). \cite[]{android:sensor}
-Android sensor framework classes that is used for gather sensor data is; 
-\begin{itemize}
-	\item[] \texttt{SensorManager}, a manager used to access the sensor of the device. 
-	\item[] \texttt{Sensor}, representing a sensor
-	\item[] \texttt{SensorEvent}, an event from a Sensor such data from the sensor, time-stamp or accuracy
-	\item[] \texttt{SensorEventListener}, gets a SensorEvent when a sensor or accuracy has changed 
-\end{itemize}
-In Android you can't just read from the sensor whenever you need, instead the SensorEventListener has a function that is triggered every time the sensor is changed. You can however set how fast the delay from the sensor should be. The function provides the output of the sensor with a time-stamp of when (in nanoseconds) the change occurred. The template code for this function:
-\lstinputlisting[caption={Java code for Android sensor},label={code:androidSensor},language=Java]{code/android-sensor.java}
-\cite[]{android:sensorEvent} 
-
-
-
-
-\subsubsection{Accelerometer in Android}\label{subsec:accAndroid}
-\texttt{TYPE\_ACCELEROMETER} is the hardware measurements that measures the force of acceleration including the force of gravity with the SI unit $m/s^2$. Android also provide \texttt{TYPE\_LINEAR\_ACCELERATION} that is without gravity but that is a combined hardware and software sensor, thus this tests uses  \texttt{TYPE\_ACCELEROMETER} were the measurements only comes from hardware. There have been some bias removal from the sensor such bias from different temperature. \\
-To get the acceleration applied to the device ($a_d$) the measurements of the force ($F_s$) applied the sensor is calculated from Newtons second law using the mass ($m$) of the device :
-$$a_d=-\sum F_s / m $$ 
-These measurements from the \texttt{SensorEvent} is in the x-,y- and z-axes like in~\figureref{fig:device-axes} and collected from event like x=a, y=b and z=c in~\coderef{code:androidSensor}. \cite[]{android:sensorEvent}
-
-
-\subsubsection{Gyroscope in Android}\label{subsec:gyroAndroid}
-The data from the gyroscope sensor is collected from the \texttt{TYPE\_GYROSCOPE} that measures the rotation in rad/s around the x-, y- and z-axis of~\figureref{fig:device-axes}. The direction of the rotation is positive counter-clockwise if looking from a positive location of the axes. The values from the measurements when the gyroscope is changed is given like rotation in x=a, y=b and z=c in ~\coderef{code:androidSensor}. Additional output is \texttt{values[3], values[4]} and \texttt{values[5]} that is the estimated drift arounf the axis in also in rad/s.\\
-Android also provide a \texttt{TYPE\_GYROSCOPE\_UNCALIBRATED} that is the same as \texttt{TYPE\_GYROSCOPE} except that no drift has been compensated for. There is still factory calibration and temperature compensation applied. \cite[]{android:sensorEvent} This makes it possible to calculate the linear sensor bias (equation~\ref{eq:gyroBias}] without Androids own bias compensation that is not known what it is.
-
-
-
-\subsubsection{Magnetometer in Android}\label{subsec:magnAndroid}
-Measures the magnetic field in x-, y- and z-axis in micro-Tesla ($\mu T$), as for the other sensors is that output for \texttt{values[0], values[1]} and \texttt{values[2]} (~\coderef{code:androidSensor}). Android also provides a uncalibrated version that not has any calibration for the hard iron calibration. The uncalibrated type in Android is \texttt{TYPE\_MAGNETIC\_FIELD\_UNCALIBRATED} and as for the gyrocope it also comes with an bias estimation in x, y and z-axis for event-values \texttt{values[3], values[4]} and \texttt{values[5]}. 
-
-
-\subsection{JavaScript}\label{subsec:js}\index{JavaScript}
-JavaScript has since the use of mobile devices adapted a lot of new features, which makes it possible to access a lot of hardware features in the devices. No permission is needed to access the gyroscope and accelerometer-data, thus the user do not have to know that the sensors are measured.
-
-
-\subsubsection{Accelerometer in JavaScript}\label{subsec:accJS}
+\subsection{Accelerometer in JavaScript}\label{subsec:accJS}
 To get measurements from the accelerometer an event listener called \texttt{devicemotion} is added. The output from measurements is the acceleration force in $m/s^2$ according to x-, y- and z-axes as in~\figureref{fig:device-axes}. \\
 \\
 In JavaScript there are two types of acceleration, \texttt{accelerationIncludingGravity} and \texttt{acceleration}. The \texttt{accelerationIncludingGravity} is acceleration made by the device. In context to \texttt{acceleration} not depending on influence of gravity only by the acceleration made on the device. What this actually means is that if a device lies still with the screen facing upwards the \texttt{acceleration} output will be zero in x, y and z-axes but the \texttt{accelerationIncludingGravity} will be zero along x and y-axes, the z-axis will be equal to G. If you put the device in free fall with the screen facing upwards the acceleration is zero with \texttt{accelerationIncludingGravity} and x=0,y=0 and z=-G for the \texttt{acceleration}. \cite{sensor:W3Cspec} \\
@@ -67,7 +33,7 @@ The JavaScript for measurements of the accelerometer:
 \cite[]{sensor:W3C}
 
 
-\subsubsection{Gyroscope in JavaScript}\label{subsec:gyroJS}
+\subsection{Gyroscope in JavaScript}\label{subsec:gyroJS}
 A listener is implemented in the same way as for the accelerometer, this listener is called  \texttt{deviceorientation}. The output from this listener is made in degrees of rotation angle. JavaScript has named this rotations as the~\figureref{fig:device-rot} below.
 \begin{figure}[H]
   \hspace{-1cm}

@@ -5,78 +5,130 @@ A level-1 auxiliary file: content/0-4-notation.aux
 A level-1 auxiliary file: content/1-introduktion.aux
 A level-1 auxiliary file: content/2-authentication.aux
 A level-1 auxiliary file: content/3-characteristics.aux
-A level-1 auxiliary file: content/4-tests.aux
+A level-1 auxiliary file: content/4-measurements.aux
 A level-1 auxiliary file: content/5-result.aux
-A level-1 auxiliary file: content/6-conclusions.aux
-A level-1 auxiliary file: content/detaljer.aux
+A level-1 auxiliary file: content/6-discussion.aux
+A level-1 auxiliary file: content/7-conclusions.aux
+A level-1 auxiliary file: appendix/accFeaturesScatters.aux
+A level-1 auxiliary file: appendix/fingerprintMatlab.aux
 Database file #1: myrefs.bib
-I was expecting a `,' or a `}'---line 69 of file myrefs.bib
+You're missing a field name---line 44 of file myrefs.bib
+ :    
+ :    %url = {http://downloads.hindawi.com/journals/ijdsn/2013/679450.pdf},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 74 of file myrefs.bib
  :   
  :   year={2008},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 120 of file myrefs.bib
- : @techreport{auth:M2Mcom
- :                        ,
-I'm skipping whatever remains of this entry
-You're missing a field part---line 266 of file myrefs.bib
- :   year = 
- :          ,
-I'm skipping whatever remains of this entry
-You're missing a field name---line 320 of file myrefs.bib
+You're missing a field name---line 84 of file myrefs.bib
  :     
- :     %type     = "diploma thesis",
+ :     %url = {http://hkr.diva-portal.org/smash/get/diva2:475619/FULLTEXT02.pdf}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 331 of file myrefs.bib
+You're missing a field name---line 100 of file myrefs.bib
+ :    
+ :    %url = {http://dx.doi.org/10.14722/ndss.2014.23059}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 112 of file myrefs.bib
+ :    
+ :    %url = {http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-696.pdf}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 141 of file myrefs.bib
+ : @article{auth:M2Mcom
+ :                     ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 162 of file myrefs.bib
  :  
- :  %address = "",
+ :  %url = "http://www.sciencedirect.com/science/article/pii/S0263224114003893",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 339 of file myrefs.bib
- :     
- :     %author    = "",
+You're missing a field name---line 192 of file myrefs.bib
+ :   
+ :   %url = {http://www.cs.gmu.edu/~mccoy/papers/wireless-fingerprinting.pdf}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 351 of file myrefs.bib
- :     
- :     %type     = "",
-(Error may have been on previous line)
+Repeated entry---line 218 of file myrefs.bib
+ : @article{sensor:camera:blind
+ :                             ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 363 of file myrefs.bib
+Warning--string name "july" is undefined
+--line 321 of file myrefs.bib
+You're missing a field name---line 366 of file myrefs.bib
  :  
  :  %editor  = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 382 of file myrefs.bib
+You're missing a field name---line 381 of file myrefs.bib
+ :     
+ :     %howpublished = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 392 of file myrefs.bib
+ :     
+ :     %number   = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 417 of file myrefs.bib
+ :     
+ :     %type     = "diploma thesis",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 428 of file myrefs.bib
+ :  
+ :  %address = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 436 of file myrefs.bib
+ :     
+ :     %author    = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 448 of file myrefs.bib
+ :     
+ :     %type     = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 460 of file myrefs.bib
+ :  
+ :  %editor  = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 479 of file myrefs.bib
  :  
  :  %editor = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 403 of file myrefs.bib
+You're missing a field name---line 500 of file myrefs.bib
  :  
  :  %volume = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 415 of file myrefs.bib
+You're missing a field name---line 512 of file myrefs.bib
  :     
  :     %author   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 428 of file myrefs.bib
+You're missing a field name---line 525 of file myrefs.bib
  :     
  :     %volume   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 442 of file myrefs.bib
+You're missing a field name---line 539 of file myrefs.bib
  :     
  :     %volume   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "spoofMaciPhone"
-Warning--I didn't find a database entry for "spoofMacAndriod"
+Warning--empty year in allan
+Warning--empty year in allan
+Warning--empty journal in gbg:kamera
 Warning--empty journal in acc:kionixerr
 Warning--there's a number but no volume in acc:kionixerr
-Warning--empty institution in auth:M2Mcom
-Warning--empty institution in sensor:magn
-(There were 13 error messages)
+Warning--empty year in allanGyro2
+Warning--empty year in allanGyro2
+Warning--empty journal in android:API18
+Warning--empty year in allanGyro1
+(There were 22 error messages)

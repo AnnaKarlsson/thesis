@@ -1,22 +1,22 @@
 function fingerprint_calc(device_id)
+%FINGERPRINT_CALC recivce the device id and save finerprint in a mat-file
+%   The CSV-file is recived and being extracted to a fingerprint
+
 file = ['recordning-' device_id '.csv'];
 if exist(file, 'file')
     file = importdata(file) ;
-    t = file.data(:,1) - file.data(1,1);
-    acc = file.data(:,5:7);
-    gyro = [sind(file.data(:,2)) cosd(file.data(:,3)) tand(file.data(:,4))];
-    rot = file.data(:,8:10);
-    
+    t = file.data(:,1) - file.data(1,1); %timestamps
+    acc = file.data(:,5:7); % accelerometer data
     f_acc = [min(acc);
         mean(acc);
         median(acc);
         max(acc)];
     id = device_id;
-    mat_name = ['fingerprint/' device_id '.mat'];
+    mat_name = ['db/' device_id '.mat'];
     if exist(mat_name, 'file')
+        disp('Not saved, %s already exists',device_id);
     else
-        disp(mat_name);
-        save(mat_name, 'id','t','acc','gyro','rot','f_acc');
+        save(mat_name, 'id','t','acc','f_acc'); %save to database
     end
 end
 end

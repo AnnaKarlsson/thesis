@@ -1,0 +1,30 @@
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {swedish}
+\select@language {english}
+\select@language {swedish}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Table caption text}}{16}{table.caption.14}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Table caption text}}{17}{table.caption.18}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Comparing distance between values of statistical features for the accelerometer. \textit {Z1Comp} and \textit {Nexus7} is the devices that have been measured over 50 days. (\textit {Z1Comp}=\textit {Sony Xperia Z1 Compact} \& \textit {Nexus7}=\textit {Google Nexus 7})\relax }}{35}{table.caption.39}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Comparing distance between values of statistical features for the gyroscope. \textit {Z1Comp} and \textit {Nexus7} is the devices that have been measured over 50 days. (\textit {Z1Comp}=\textit {Sony Xperia Z1 Compact} \& \textit {Nexus7}=\textit {Google Nexus 7})\relax }}{36}{table.caption.40}
+\contentsline {table}{\numberline {5.3}{\ignorespaces The Allan variance differences between measurements of all devices and same devices (Z1Comp \& Nexus7)\relax }}{37}{table.caption.41}
+\contentsline {table}{\numberline {5.4}{\ignorespaces The FAR and FRR of the MATLAB simulation when changing threshold values \texttt {th1} and \texttt {th2} see appendix~\ref {cha:matlabAccSim}\relax }}{38}{table.caption.42}
+\contentsline {table}{\numberline {5.5}{\ignorespaces False rate and time taken to compare PRNU of camera images.\relax }}{40}{table.caption.43}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Conclusions about the factors of choosing fingerprint sensor. (Factors from biometric characteristics see section~\ref {auth:bio:character}) *See explanation respective title above.\relax }}{47}{table.caption.52}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\select@language {swedish}
+\select@language {english}
+\select@language {english}
+\select@language {english}

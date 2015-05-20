@@ -1,14 +1,14 @@
 \begin{theindex}
 
   \item accelerometer, \hyperpage{14}
+  \item allan variance, \hyperpage{16}
   \item authentication, \hyperpage{5}
 
   \indexspace
 
-  \item camera, \hyperpage{16}
-  \item camera fingerprinting, \hyperpage{16}
-  \item CFA
-    \subitem abberviation, \hyperpage{xi}
+  \item camera, \hyperpage{15}
+  \item camera fingerprinting, \hyperpage{15}
+  \item challenge-response, \hyperpage{6}
   \item characteristics, \hyperpage{13}
   \item constant bias, \hyperpage{15}
 
@@ -18,61 +18,60 @@
 
   \indexspace
 
-  \item FAR, \hyperpage{9}
-    \subitem abbreviation, \hyperpage{xi}
-  \item fixed pattern noise, \hyperpage{17}
-  \item FPN
-    \subitem abberviation, \hyperpage{xi}
-  \item FRR, \hyperpage{9}
-    \subitem abbreviation, \hyperpage{xi}
+  \item FAR, \hyperpage{10}
+    \subitem abbreviation, \hyperpage{xv}
+  \item fixed pattern noise, \hyperpage{15}
+  \item FRR, \hyperpage{10}
+    \subitem abbreviation, \hyperpage{xv}
   \item FTE
-    \subitem abbreviation, \hyperpage{xi}
+    \subitem abbreviation, \hyperpage{xv}
 
   \indexspace
 
   \item G
-    \subitem abbreviation, \hyperpage{xi}
+    \subitem abbreviation, \hyperpage{xv}
   \item gyroscope, \hyperpage{14}
 
   \indexspace
 
   \item ICT
-    \subitem abbreviation, \hyperpage{xi}
+    \subitem abbreviation, \hyperpage{xv}
   \item IoT
-    \subitem abbreviation, \hyperpage{xi}
+    \subitem abbreviation, \hyperpage{xv}
 
   \indexspace
 
-  \item M2M, \hyperpage{6}
-    \subitem abbreviation, \hyperpage{xi}
-  \item magnetometer, \hyperpage{15}
+  \item M2M, \hyperpage{7}
+    \subitem abbreviation, \hyperpage{xv}
   \item MEMS
-    \subitem abbreviation, \hyperpage{xi}
+    \subitem abbreviation, \hyperpage{xv}
 
   \indexspace
 
   \item NIC
-    \subitem abberviation, \hyperpage{xi}
+    \subitem abberviation, \hyperpage{xv}
 
   \indexspace
 
-  \item PCB
-    \subitem abberviation, \hyperpage{xi}
-  \item photo-response non-uniformity noise, \hyperpage{17}
-  \item PRNU, \hyperpage{17}
-    \subitem abberviation, \hyperpage{xi}
-    \subitem abbreviation, \hyperpage{xi}
+  \item OS
+    \subitem abberviation, \hyperpage{xv}
 
   \indexspace
 
-  \item RFF
-    \subitem abbreviation, \hyperpage{xi}
-  \item RFID
-    \subitem abbreviation, \hyperpage{xi}
+  \item photo-response non-uniformity noise, \hyperpage{15}
+  \item PRNU, \hyperpage{15}
+    \subitem abberviation, \hyperpage{xv}
 
   \indexspace
 
-  \item shot noise, \hyperpage{17}
+  \item RMS
+    \subitem abberviation, \hyperpage{xv}
+
+  \indexspace
+
+  \item shot noise, \hyperpage{15}
+  \item SVM
+    \subitem abberviation, \hyperpage{xv}
 
   \indexspace
 

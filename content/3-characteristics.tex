@@ -1,5 +1,8 @@
 \chapter{CHARACTERISTICS OF A MOBILE DEVICE} \label{cha:character}\index{characteristics}
-In the hardware of a device there are some features that can be used to distinguish devices from each other. In most cases it is not called features rather error sources, noise or bias. In the aim of this thesis it is feature characteristics that can be seen as an uniqueness of an mobile device. \textit{Device fingerprint(ing)}\index{device fingerprint} is the term used for this feature characteristics and the pyramid seen in~\figureref{fig:pyramid} from ~\cite[]{sensor:acoustic} shows the different types of sources of device fingerprint. This thesis will focus on the top of quarter of that pyramid, that is the sensors. All error sources of sensors comes in form of bias and the bias from each sensor covered by the thesis is further explained in this chapter. There is also an explanation on how the sensors is measured in JavaScript that is used for measurements described in ~\chapterref{cha:measurements}.
+Compared to the biometric design is this a part of \textit{Choose biometric characteristics}\\
+\\
+In the hardware of a device there are some features that can be used to distinguish devices from each other. In most cases it is not called features rather error sources, noise or bias. In the aim of this thesis it is feature characteristics that can be seen as an uniqueness of an mobile device. \textit{Device fingerprint(ing)}\index{device fingerprint} is the term used for this feature characteristics and the pyramid seen in~\figureref{fig:pyramid} from ~\cite[]{sensor:acoustic} shows the different types of sources of device fingerprint. This thesis will focus on the top of quarter of that pyramid, that is the sensors. All error sources of sensors comes in form of bias and the bias from each sensor covered by the thesis is further explained in this chapter. There is also an explanation on how the sensors is measured in JavaScript that is used for measurements described in ~\chapterref{cha:measurements}. \\
+
 
 \begin{figure}[!h]
 	\input{fig/3-featurePyramid.tex}
@@ -49,15 +52,15 @@ where $f_{ij}$ is a multiple factor close to one that captures PRNU, $x_{ij}$ is
 In this work the PRNU will be used as bias as in the research by~\cite{sensor:camera:DCIdent}. PRNU is the average of multiple pictures used and substantially an approximation of \textit{f}. The first step is to remove the pictures-content which leaves the noise, which is done using a denoising filter. 
 
 \section{\textbf{ToDo!} Allan variance}\label{char:allan}\index{allan variance}
-In clocks, oscillators and amplifiers there is a measure of stability known as Allan variance. This variance is a estimation of bias processes and not imperfections that temperature effects and frequency drift.~\ref{allan}\\ 
-This is also a common variance to use when calibrating gyroscope.~\ref{allanGyro1}~\ref{allanGyro2}
+In clocks, oscillators and amplifiers there is a measure of stability known as Allan variance. This variance is a estimation of bias processes and not imperfections that temperature effects and frequency drift.~\cite[]{allan}\\ 
+This is also a common variance to use when calibrating gyroscope.~\cite[]{allanGyro1}~\cite[]{allanGyro2}
 
 The mathematical term of Allan variance is $\sigma_y^2(\tau)\, $ and the square root of Allan variance is called \textit{Allan deviation}, that mathematically becomes $\sigma_y(\tau)\,$. 
 Variance
 $$\sigma_y^2(\tau) = \frac{1}{2}\langle(\bar{y}_{n+1}-\bar{y}_n)^2\rangle = \frac{1}{2\tau^2}\langle(x_{n+2}-2x_{n+1}+x_n)^2\rangle$$
 Devation
 $$\sigma_y(\tau) = \sqrt{\sigma_y^2(\tau)} \, $$
-~\ref{allan}
+~\cite[]{allan}
 
 
 \section{Previous work of device sensor fingerprinting}

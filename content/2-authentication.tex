@@ -1,6 +1,9 @@
 \chapter{COMMUNICATION \& AUTHENTICATION}\label{cha:auth} \index{authentication}
+In the biometric design cycle is the part of \textit{Understand nature of application}, which is explained later in this chapter (\sectionref{sec:bioSys}).\\
+\\
 Because just about all devices that are connected to a network are one way or another connected to the Internet you can bet that they find themselves in an untenanted or malicious environment. Everything connected to the Internet is very likely to be hacked. Thus, authentication is needed for remote sensing devices to communicate. \cite[]{auth:M2Mcom}\\
-In this chapter will show ways of authentication (two factor, M2M and biometric) that is in the area of this thesis. The biometric part is in the area because it has good ways of measure strength in a biometric trait (especially fingerprint) that will be used when comparing strength of my tests of characteristic noise in the mobile device.
+In this chapter will show ways of authentication (two factor, M2M and biometric) that is in the area of this thesis. The biometric part is in the area because it has good ways of measure strength in a biometric trait (especially fingerprint) that will be used when comparing strength of my tests of characteristic noise in the mobile device. \\
+
 
 \section{Two factor authentication}\label{sec:2fauth} \index{two factor authentication}
 There are more ways to authenticate a user than password, however it is the most common. There are three different types of authentication; 
@@ -66,7 +69,7 @@ Like \cite[]{auth:M2Mcom} that states in their article that ``\dots traditional 
 \subsection{Recognition}
 As said before is biometric something you \textit{are} and the person who wants to be recognized to the system. Buy, showing his or her biometric identifier (fingerprint, iris, DNA, etc.) to the biometric system, thus seen as a \textit{user} of the system. The strength in biometrics is also the fact that it knows if a user is known to the system even if the user denies it. \cite[ch.~1]{introbio}
 
-\subsection{Biometric systems}
+\subsection{Biometric systems}\label{sec:bioSys}
 There are some blocks for building a biometric systems, which can measure characteristics of a user. In biometric these characteristics is called \textit{traits, indicators, identifiers, or modalities}, but for for the aim of this thesis will it still be called characteristics. For designing, implementation and evaluation when building a biometric system there are some steps that has to be done;\\
 \\
 The first step is to collect biometric data and store it in a database with the users identity. The recognition is then done by again collect biometric data from the user and compared to the database. This is the so called \textit{enrollment and recognition phase}. The raw biometric data is often destroyed after enrollment and the recognition is all about pattern matching. This matching is done in four steps;
