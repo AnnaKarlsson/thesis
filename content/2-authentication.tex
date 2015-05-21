@@ -17,12 +17,13 @@ Authentication in two factor means a combination of two of the three types of au
 \cite[p.~47]{rosssec}
 
 \section{Challenge-Response authentication}\label{sec:challResp} \index{challenge-response}
-The challenge-response protocol is build upon the idea that the user to a system first must complete a challenge decided by the system in order to access the system. An example is modern car keys when trying to start the engine, the engine controller give the key an challenge consisting of a random $n$-bit number. The key encrypt the challenge and response. \\
+The challenge-response protocol is built upon the idea that the user to a system first must complete a challenge decided by the system in order to access the system. An example is modern car keys when trying to start the engine, the engine controller give the key a challenge consisting of a random $n$-bit number. The key encrypt the challenge and response. \\
 The problem challenge-response protocols facing is often to achieve good randomness, thus is the challenge not random enough there is a risk for malicious user to calculate the $n$-bit number. \\
-There are other applications than looks, like the HTTP Digest Authentication. It uses the authentication process  which a web server challenges a client or a proxy with the common secret of a password. The server sends nonce to the client or proxy, whom hash the nonce with the password and the requested URI. This authentication mechanism is not vulnerable to password snooping and is used in cases like; client-server-authentication in SIP or the protocol for Voice-Over-IP telephony. This protocol however is vulnerable to man-in-the-middle. \\
+There are other applications than looks, like the HTTP Digest Authentication. It uses the authentication process which a web server challenges a client or a proxy with the common secret of a password. The server sends nonce to the client or proxy, whom hash the nonce with the password and the requested URI. This authentication mechanism is not vulnerable to password snooping and is used in cases like; client-server-authentication in SIP or the protocol for Voice-Over-IP telephony. This protocol however is vulnerable to man-in-the-middle. \\
 \\
-Ross states however that a much more visible use of challenge response is in \textit{two-factor authentication} (~\sectionref{sec:2fauth}). An example of use is if you have and bank card reader when accessing your bank on the Internet. When you want to log in there are an random challenge of $n$ numbers. You put these numbers together with a PIN into your bank card reader. The reader encrypts these numbers (pin + $n$ numbers) using a secret key shard with the sever of the bank. The fist $n$ numbers of the encryption is displayed on the card reader and you enter this in the login screen as a password. 
-\begin{figure}[H]
+Ross states however that a much more visible use of challenge response is in \textit{two-factor authentication} (~\sectionref{sec:2fauth}). An example of use is if you have and bank card reader when accessing your bank on the Internet. When you want to log in there are a random challenge of $n$ numbers. You put these numbers together with a PIN into your bank card reader. The reader encrypts these numbers (pin + $n$ numbers) using a secret key shard with the server of the bank. The first $n$ numbers of the encryption is displayed on the card reader and you enter this in the login screen as a password.
+\newpage
+\begin{figure}[h]
 	\centering
     \includegraphics[scale=0.3]{img/challenge-response-bank}
     \caption{Challenge-response authentication with bank card reader}
@@ -38,9 +39,9 @@ Describing of~\figureref{fig:challengeResponse}:
 ~\cite[ch.3]{rosssec}
 
 \section{M2M\index{M2M} (Machine-to-machine)}\label{sec:m2mauth}
-Information that is exchanged via a communication network between machines has to establish conditions for doing so, that is where M2M is used. M2M is often a short synonym for M2M communication, meaning the communication conditions between devices. M2M communication is only the communication made between machines without any human behind it. A mobile device interacting with a call center application is not M2M, cause there is a human behind the mobile device calling. The reason for that using mobile devices in this thesis is that they have many hardware parts that can be used for no human communication with other devices (see chapter ~\ref{cha:character}). These hardware parts can be found in other simpler devices such as accelerometer sensor probe that also can be applied on the result.
+Information that is exchanged via a communication network between machines has to establish conditions for doing so, that is where M2M is used. M2M is often a short synonym for M2M communication, meaning the communication conditions between devices. M2M communication is only the communication made between machines without any human behind it. A mobile device interacting with a call center application is not M2M, because there is a human behind the mobile device calling. The reason for that using mobile devices in this thesis is that they have many hardware parts that can be used for no human communication with other devices (see chapter~\ref{cha:character}). These hardware parts can be found in other simpler devices such as accelerometer sensor probe that also can be applied on the result.
 \\
-Often is M2M involving similar devices  in the same M2M area network, interacting with an application. This makes it possible for devices to access public networks as well, via a gateway or router. An example is the heating system in smart homes. 
+Often is M2M involving similar devices in the same M2M area network that is interacting with an application. This makes it possible for devices to access public networks as well, via a gateway or router. An example is the heating system in smart homes. 
 Devices are not a new thing, but when we have a growing world of IoT devices with very specific characteristics is growing. Thus makes the area of M2M more important to make these devises talk without a human behind. This affecting the requirements on the application and networks dealing with the devices. Characteristics of this devices is listed blow;
 \begin{itemize}
 	\item[] \textbf{Multitude}, they say that connected devise not directly interacting with humans, the big part of IoT is soon to be significant more than the ones which interact directly with humans. This will put more pressure on application and networks dealing with all devices.
@@ -58,9 +59,9 @@ Internet-of-Things, meaning to making everything connected to everything in the 
 In this thesis is M2M a subset of IoT, since it always one mobile device that wants to authenticate then it can communicate with other deceives.
 
 \subsection{M2M authentication}
-There are no standardized way of authenticate in M2M, but effort is done in the area. An example is \cite[]{auth:M2M} where he based authentication on a machines fingerprint. But this fingerprint isn't of the same character as the one this thesis is focusing on. In his article the fingerprint consist of hardware message of computers, such serial number of CPU, MAC address of network card, Machine ID etc. These things have through the years been proven to bee pretty easy to spoof. There are hundreds of guides on blogs and forums of how to do that in many platforms like mobile devices. \\
+There are no standardized way of authenticate in M2M, but effort is done in the area. An example is \cite[]{auth:M2M} where he based authentication on a machines fingerprint. But this fingerprint isn't of the same character as the one this thesis is focusing on. In his article the fingerprint consist of hardware message of computers, such serial number of CPU, MAC address of network card, Machine ID etc. These things have through the years been proven to be pretty easy to spoof. There are hundreds of guides on blogs and forums of how to do that in many platforms like mobile devices. \\
 \\
-Like \cite[]{auth:M2Mcom} that states in their article that ``\dots traditional methods such as “what you know and who you are” may not be applied''. As stated in the aim of the thesis  (section~\ref{sec:aim}) is to do precisely that and with the advantage that using ``regular'' authentication that is more  tried and tested. Thus the next section will be about biometric systems and how they authentication which is used for who you are.
+Like \cite[]{auth:M2Mcom} that states in their article that ``\dots traditional methods such as “what you know and who you are” may not be applied''. As stated in the aim of the thesis (section~\ref{sec:aim}) is to do precisely that and with the advantage that using ``regular'' authentication that is more  tried and tested. Thus the next section will be about biometric systems and how they authentication which is used for who you are.
 
 
 \section{The biometric process}\label{sec:biometric}
@@ -72,7 +73,7 @@ As said before is biometric something you \textit{are} and the person who wants 
 \subsection{Biometric systems}\label{sec:bioSys}
 There are some blocks for building a biometric systems, which can measure characteristics of a user. In biometric these characteristics is called \textit{traits, indicators, identifiers, or modalities}, but for for the aim of this thesis will it still be called characteristics. For designing, implementation and evaluation when building a biometric system there are some steps that has to be done;\\
 \\
-The first step is to collect biometric data and store it in a database with the users identity. The recognition is then done by again collect biometric data from the user and compared to the database. This is the so called \textit{enrollment and recognition phase}. The raw biometric data is often destroyed after enrollment and the recognition is all about pattern matching. This matching is done in four steps;
+The first step is to collect biometric data and store it in a database with the user’s identity. The recognition is then done by again collect biometric data from the user and compared to the database. This is the so called \textit{enrollment and recognition phase}. The raw biometric data is often destroyed after enrollment and the recognition is all about pattern matching. This matching is done in four steps;
 \begin{enumerate}
 	\item \textit{Sensor -} to collect the raw biometric samples, that can be a image, amplitude signal, online signature, odor or chemical-based.
 	\item \textit{Feature extractor -} first has to make the raw biometric samples comparable, mostly done in three pre-process operations; 
@@ -81,7 +82,7 @@ The first step is to collect biometric data and store it in a database with the 
 		\item Segmentation, remove background noise from sample
 		\item Enhancement, by using an algorithm to improve the sample 
     \end{itemize}
-	\item \textit{Database -} that has the data from the enrollment phase together with some identity data (like name orID). This database should having a access control mechanism for security reasons.
+	\item \textit{Database -} that has the data from the enrollment phase together with some identity data (like name or ID). This database should having an access control mechanism for security reasons.
 	\item \textit{Matcher -} where the sample from the enrollment is compared with the sample in recognition, to see if it's a match or not. This is done by having a match score to decide how close the enrolled and recognition sample is. The score is counted in different way depending on the characteristics that is used in the system. 
 \end{enumerate}
 \cite[ch.~1]{introbio}
@@ -90,11 +91,11 @@ The first step is to collect biometric data and store it in a database with the 
 Biometrics authentication, is sometimes also called verification that answers the question ``Are you the one you say you are?''. There is also biometric identification that answers ``Are you someone known to the system?'' but that is not what this thesis aim to answer. The practical difference between authentication and identification is that the user has to give the system some kind of information (username, passport, email etc.) on who they claim to be. But in identification the user just give the sample to the system, which then looks if the user is known to the system or not. The identification look-up takes longer time since you look for all samples in the database and compare them, in authentication you only look for the claimed identity. \cite[ch.~1]{introbio}
 
 \subsection{Measurements}\label{sec:bio:measure}
-Biometric measurements is a bit more tricky than in a password-based system where the answer just is `match' or `no match'. The accuracy of the biometric system must be consider when you choose characteristics. This is measured by two rates \index{FRR} (False Reject Rate) that is the probability that two samples from the same user is not a match and \index{FAR} (False Accept Rate) is the probability that two samples from different users is a match. A match is decided authentic between two samples from the same user is high enough and as a \textit{impostor} is there is similarity between two samples from different users.  \\
+Biometric measurements is a bit trickier than in a password-based system where the answer just is `match' or `no match'. The accuracy of the biometric system must be consider when you choose characteristics. This is measured by two rates \index{FRR} (False Reject Rate) that is the probability that two samples from the same user is not a match and \index{FAR} (False Accept Rate) is the probability that two samples from different users is a match. A match is decided authentic between two samples from the same user is high enough and as a \textit{impostor} is there is similarity between two samples from different users.  \\
 There are a threshold $\eta$ that is used to decide the FRR and FAR. The proportion of authentic scores ($\omega_{1})$) that are less than $\eta$ is defined as FRR and the impostor score ($\omega_{0})$) that are greater than or equal to $\eta$ is FAR. Which can be described mathematical as; 
 $$ FAR(\eta) = p(s\geq \eta | \omega_{0}) = \int_{\eta}^{\infty} p(s | \omega_{0}) ds, $$
 $$ FRR(\eta) = p(s\geq \eta | \omega_{1}) = \int_{-\infty}^{\eta} p(s | \omega_{1}) ds, $$
-where $p(s\geq \eta | \omega_{x})$ us the probability density function of the authentic respective impostor score. 
+Where $p(s\geq \eta | \omega_{x})$ us the probability density function of the authentic respective impostor score. 
 \cite[p.~18]{introbio}
 
 \subsection{Design a biometric system}

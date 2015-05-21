@@ -2,8 +2,8 @@
 This chapter covers the results of the measurements described in~\chapterref{cha:measurements}. The first two sections cover the measurements made on the accelerometer and gyroscope sensor. Third section cover the result of the two camera measurements.
 
 \section{Pre-measurements}
-To get a hint if accelerometer were a possible fingerprinting candidate some pre-measurements were preformed. This were in the early state of the development of the web-page used in measurements I and II. The measurement preformed on six different iPhones showed in~\figureref{fig:iPhoneScatter} indicates that the accelerometer is a sensor that may be good in fingerprinting purposes.
-\begin{figure}[H]
+To get a hint if accelerometer were a possible fingerprinting candidate some pre-measurements were performed. This were in the early state of the development of the web-page used in measurements I and II. The measurement preformed on six different iPhones showed in~\figureref{fig:iPhoneScatter} indicates that the accelerometer is a sensor that may be good in fingerprinting purposes.
+\begin{figure}[ht]
 \centering
 \includegraphics[scale=.6]{img/scatteriPhone}
 \caption{Scatter-plot on accelerometer recordings of 6 Apple devices}
@@ -12,30 +12,30 @@ To get a hint if accelerometer were a possible fingerprinting candidate some pre
 
 \section{Result of measurements I  - Motion}\label{res:testI}
 The data were gathered as described in~\sectionref{sec:measurementI} from the web-page in \figureref{fig:gyrotion} by spreading the the page. This resulted in over a hundred recordings with an FTE on 5\%, which had diversity in platforms, brands and models. Since the web-page where spread mostly to company employees the amount of devices with the same model is high as seen in ~\figureref{fig:measure1-topDevices}.
-The purpose of this measurement where to identify if there where differences in terms of bias characteristics between the JavaScript's \texttt{accelerationIncludingGravity} and \texttt{acceleration}. The result of the measurements can be showed by making scatter-plots of the output acceleration of the devices. As shown in the ~\figureref{fig:measure1-topDevices} the \textit{Sony Xperia} devices represents more than a fifth of the total devices in the measurement. 
-\begin{figure}[H]
+The purpose of this measurement where to identify if there were differences in terms of bias characteristics between the JavaScript's \texttt{accelerationIncludingGravity} and \texttt{acceleration}. The result of the measurements can be showed by making scatter-plots of the output acceleration of the devices. Shown in the ~\figureref{fig:measure1-topDevices} the \textit{Sony Xperia} devices represents more than a fifth of the total devices in the measurement. 
+\begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.3]{img/measure1-brand}
 	\caption{Diversity of device brand sampled in measurements I}
 	\label{fig:measure1-brand}
 \end{figure}
-\begin{figure}[H]
+\begin{figure}[ht]
 	\centering
 	\includegraphics[scale=0.5]{img/measure1-devices}
 	\caption{Most common devices models in measurements I}
 	\label{fig:measure1-topDevices}
 \end{figure}
 The result of scatter-plots of measurements of 12 \textit{Sony Xperia} devices with and without gravity in accelerometer readings is shown in~\figureref{fig:scatter-withoutGrav} and~\figureref{fig:scatter-withGrav}.
-\begin{figure}[H]
+\begin{figure}[ht]
 	\centering
 	\includegraphics[scale=0.6]{img/res-measure1-scatter-notG}
-	\caption{Bias from twelve \textit{Sony Xperia} deives measured with JavaScripts \texttt{acceleration}}
+	\caption{Bias from twelve \textit{Sony Xperia} devices measured with JavaScripts \texttt{acceleration}}
 	\label{fig:scatter-withoutGrav}
 \end{figure}
-\begin{figure}[H]
+\begin{figure}[ht]
 	\centering
 	\includegraphics[scale=0.6]{img/res-measure1-scatter-inclG}
-	\caption{Bias from twelve \textit{Sony Xperia} deives measured with JavaScripts \texttt{accelerationIncludingGravity}}
+	\caption{Bias from twelve \textit{Sony Xperia} devices measured with JavaScripts \texttt{accelerationIncludingGravity}}
 	\label{fig:scatter-withGrav}
 \end{figure}
 
@@ -51,27 +51,26 @@ The diversity of the devices brands in the measurement is shown in the~\figurere
 
 \subsection{Permanence of accelerometer}\label{sec:permanenceAcc}
 When choosing biometric trait one of the factors is permanence described in \sectionref{auth:bio:character}, that is the trait not changing significantly over time. To test this measurement II were performed on a \textit{Sony Xperia Z1 Compact} over a period of 50 days. The choice of device was based on that \textit{Sony Xperia} devices is 30\% of the devices that data is collected from. The same test were also made on a \textit{Google Nexus 7} tablet. The graphs below shows the difference of accelerometer readings over time.
-\begin{figure}[H]
+\begin{figure}[ht]
 	\centering
 	\includegraphics[scale=.7]{img/sensrec-nex-z1-acc-x}
 	\caption{Accelerometer readings of x-axes on a  \textit{Sony Xperia Z1 Compact} and a \textit{Google Nexus 7} over 50 days}
 	\label{fig:x50days}
 \end{figure}
-\begin{figure}[H]
+\begin{figure}[ht]
 	\centering
 	\includegraphics[scale=.7]{img/sensrec-nex-z1-acc-y}
 	\caption{Accelerometer readings of y-axes on a  \textit{Sony Xperia Z1 Compact} and a \textit{Google Nexus 7} over 50 days}
 	\label{fig:y50days}
 \end{figure}
-\begin{figure}[H]
+\begin{figure}[ht]
 	\centering
 	\includegraphics[scale=.7]{img/sensrec-nex-z1-acc-z}
 	\caption{Accelerometer readings of z-axes on a  \textit{Sony Xperia Z1 Compact} and a \textit{Google Nexus 7} over 50 days}
 	\label{fig:z50days}
 \end{figure}
-As seen in the figures the \textit{Google Nexus 7} hasn't changed much over the 50 days compared to the \textit{Sony Xperia Z1 Compact} that especially has changed in the y-axis. The reason for the difference of accelerometer change over time may be due to the \textit{Google Nexus 7} has only been in the same place during those 50 days and only used when the tests performed. Unlike Mobile used daily, may be dropped at some time. An additional fact about the measurements is that both devices has changed its OS between measurements 2 and 3. The \textit{Google Nexus 7} from Android KitKat 4.4.4 to Lollipop 5.1.1 and the \textit{Sony Xperia Z1 Compact} from Android KitKat 4.4.4 to CyanogenMod 12.1 ( Android version 5.1.1). \\
 To get an perspective on this measurements among more devices the scatter-plot in~\figureref{fig:scatterSony50days} that include the same measurements from \textit{Sony Xperia Z1 Compact} as in~\figureref{fig:x50days},~\figureref{fig:y50days} and~\figureref{fig:z50days}.
-\begin{figure}[H]
+\begin{figure}[ht]
 	\centering
 	\includegraphics[scale=.3]{img/senrec-sony_scatter-2}
 	\caption{Scatter-plot of accelerometer readings \textit{Sony Xperia}-device, one of them with measurements performed on the same device with 50 days apart.}
@@ -81,14 +80,14 @@ To get an perspective on this measurements among more devices the scatter-plot i
 \subsection{Features of accelerometer data}\label{sec:featuresAcc}
 As in ~\cite{sensor:accelPrint} I used statistical features calculated by the time domain. The features used and calculated as followed:
 % === IfTime Gör en egen tabell!!
-\begin{figure}[H]
+\begin{figure}[ht]
 	\centering
 	\includegraphics[scale=.35]{img/featureCalc}
 	\caption{Calculations of statistical accelerometer features. \\\textit{From~\cite[p.6]{sensor:accelPrint}}}
 	\label{fig:accFeatures}
 \end{figure}
 To compare these features and get a picture of if any of them are good for fingerprinting plots of devices were made. These can be found in~\appendixref{cha:matlabFeaturesPlot}. The chosen devices for the plots is the twelve \textit{Sony Xperia Z}-devices including the \textit{Sony Xperia Z1 Compact} that have measurements over 50 days. In these graphs it is possible to see that medium, min, max and the RMS paragraphs \textit{Sony Xperia Z1 Compact} measurements still are right gathered from the other device. Standard deviation looks to separate a bit more and kurtosis, and skewness means deviation looks nothing like being concerned.\\
-In order to compare the properties that are best the distance between these points for all the 60 units were calculated. From the distances are used so minimum and the median value to compare with the values calculated from only unit (\textit{Sony Xperia Z1 Compact} and \textit{Google Nexus 7}) over time. The choice to use the median and not average value because it could be outliers in the measurements. Also adding the median as a feature since mean-value can be unreliable if there are outliers. As seen in~\tableref{tab:addlabel} the values strengthens the result read from~\appendixref{cha:matlabFeaturesPlot}. The percentage calculated to compare if the the distances of features between all 60 devices is larger than the distances between measurements of one device. If the min-distance has a percentage more than 100\% that means that there are different devices that have closer feature-distance than the onces between one device, thus not a good candidate for fingerprinting. Average deviation, Kurtosis and Skewness were excluded from the table since their percentage were all to high. The median distance of the features gives a value of the normal case of the measurements. For example the median mean-distance between all devices is ten times longer than the median mean-distance between the measurements of \textit{Nexus7}. Thus the lower percentage the lower risk of that another device has similar values. From this point of view the Mean, Maximum, Minimum and Median makes the best features of fingerprinting.
+In order to compare the properties that are best the distance between these points for all the 60 units were calculated. A point contain the x-, y- and z-coordinates of the feature and the distance is the Euclidean distance. From the distances are used so minimum and the median value from all the sample points calculated into features to compare with the same values calculated from only one unit (\textit{Sony Xperia Z1 Compact} or \textit{Google Nexus 7}) over time. The choice to use the median and not average value because it could be outliers in the measurements. Also adding the median as a feature since mean-value can be unreliable if there are outliers. As seen in~\tableref{tab:addlabel} the values strengthens the result read from~\appendixref{cha:matlabFeaturesPlot}.
 
 \begin{table}[htbp]
   \centering
@@ -143,18 +142,18 @@ That however didn't result in the same stability in permanence as seen in table~
     Z1Comp/all & 48\%  & 19\%  & 56\%  & 75\%  & 17\% \\
     Nexus7 & 0,006013 & 0,003204 & 0,006512 & 0,000738 & 0,000126 \\
     Nexus7/all & 32\%  & 54\%  & 41\%  & 6\%   & 2\% \\ \midrule
-    \multicolumn{6}{l}{\textit{Mean distance}} \\
-    All   & 0,037951 & 0,01339 & 0,037246 & 0,040401 & 0,02367 \\
-    Z1Comp & 0,00924 & 0,001157 & 0,00896 & 0,009478 & 0,001348 \\
-    Z1Comp/all & 24\%  & 9\%   & 24\%  & 23\%  & 6\% \\
-    Nexus7 & 0,006013 & 0,003204 & 0,006512 & 0,000738 & 0,000126 \\
-    Nexus7/all & 16\%  & 24\%  & 17\%  & 2\%   & 1\% \\ \midrule
-    \multicolumn{6}{l}{\textit{Maximum distance}} \\
-    All   & 0,403261 & 0,081063 & 0,313883 & 0,371617 & 0,157767 \\
-    Z1Comp & 0,00924 & 0,001157 & 0,00896 & 0,009478 & 0,001348 \\
-    Z1Comp/all & 2\%   & 1\%   & 3\%   & 3\%   & 1\% \\
-    Nexus7 & 0,006013 & 0,003204 & 0,006512 & 0,000738 & 0,000126 \\
-    Nexus7/all & 1\%   & 4\%   & 2\%   & 0\%   & 0\% \\
+    %\multicolumn{6}{l}{\textit{Mean distance}} \\
+    %All   & 0,037951 & 0,01339 & 0,037246 & 0,040401 & 0,02367 \\
+    %Z1Comp & 0,00924 & 0,001157 & 0,00896 & 0,009478 & 0,001348 \\
+    %Z1Comp/all & 24\%  & 9\%   & 24\%  & 23\%  & 6\% \\
+    %Nexus7 & 0,006013 & 0,003204 & 0,006512 & 0,000738 & 0,000126 \\
+    %Nexus7/all & 16\%  & 24\%  & 17\%  & 2\%   & 1\% \\ \midrule
+    %\multicolumn{6}{l}{\textit{Maximum distance}} \\
+    %All   & 0,403261 & 0,081063 & 0,313883 & 0,371617 & 0,157767 \\
+    %Z1Comp & 0,00924 & 0,001157 & 0,00896 & 0,009478 & 0,001348 \\
+    %Z1Comp/all & 2\%   & 1\%   & 3\%   & 3\%   & 1\% \\
+    %Nexus7 & 0,006013 & 0,003204 & 0,006512 & 0,000738 & 0,000126 \\
+    %Nexus7/all & 1\%   & 4\%   & 2\%   & 0\%   & 0\% \\
     \bottomrule
     \end{tabular}%
     \caption{Comparing distance between values of statistical features for the gyroscope. \textit{Z1Comp} and \textit{Nexus7} is the devices that have been measured over 50 days. (\textit{Z1Comp}=\textit{Sony Xperia Z1 Compact} \& \textit{Nexus7}=\textit{Google Nexus 7})}
@@ -197,7 +196,7 @@ To test that the features above is way of fingerprinting devices a simulation we
 When a new measurement is sent in to the simulation, features are calculated and compared to the once already known devices. The comparing is done by an algorithm that calculates the point distance between all points of the input device and a known device. Point distance is the distance between two points. In this case all points of the input device is compared to all points in a known device. \\
 The min, max, mean and RMS is then calculated between the distances. The smaller values the closer to the input device. 
 The features is then used to decide if there is a match or not, by sorting out the smallest values. Since the percentage of features median distance for the accelerometer is around a twentieth a threshold of the 5\% the devices of each feature is chosen. If the most common device among the chosen devices is the input device there is a match. The code for the simulation can be found in~\ref{cha:matlabAccSim} (listing~\ref{code:fingerprintInput}).\\
-As in biometric system the threshold decides how far from the values an input can be and sill be a match. This threshold creates a rate of match error in the system called FRR and FAR (see~\sectionref{sec:bio:measure}). There are two numbers that can be changed in the simulation that affects the error rates that is  \texttt{th1} and \texttt{th2}. The result of these changed values is presented in table~\ref{tab:farfrr}.
+As in biometric system the threshold decides how far from the values an input can be and sill be a match. This threshold creates a rate of match error in the system called FRR and FAR (see~\sectionref{sec:bio:measure}). There are two numbers that can be changed in the simulation that affects the error rates that is \texttt{th1} and \texttt{th2}. The result of these changed values is presented in table~\ref{tab:farfrr}.
 
 \begin{table}[htbp]
   \centering
@@ -225,11 +224,11 @@ As in biometric system the threshold decides how far from the values an input ca
 For the test of the camera sensor the PRNU value is calculated as an approximation of the algorithm described in section ~\ref{sec:measurement:camera} and also used by \cite{sensor:camera:DCIdent}. 
 
 \subsection{Result of camera measurement I}
-Since the purpose of this thesis compared to earlier work (section~\ref{earlier:camera}) has the purpose of authentication and not forensics, is convenience for the collecting and measurability a factor to take in account. That is why the fist experiment is asked the users to record a 5 seconds video-clip with the device camera facing down on a flat object, like a table. Instead of making the user take 50 pictures or more which takes a lot of more time. \\
+Since the purpose of this thesis compared to earlier work (section~\ref{earlier:camera}) has the purpose of authentication and not forensics, is convenience for the collecting and measurability a factor to take in account. That is why the first experiment is asked the users to record a 5 seconds video-clip with the device camera facing down on a flat object, like a table. Instead of making the user take 50 pictures or more which takes a lot of more time. \\
 The video is then shuttled into images (100-200 from a 5 seconds video depending on fps on recording camera) that is used for calculating the PRNU. The MATLAB code for this is:\\
 \lstinputlisting[caption={Shutter a video into picture, calculating the PRNU of the pictures in MATLAB},label={code:videoToPRNU},language=MATLAB]{code/video2prnu1.m}
 
-To compare an pictures between all collected PRNU the same calculation to get the noise is done. Then the noise from the reference pictures is compared to all collected PRNU and correlation is calculated like the formula above in MATLAB:\\
+To compare a pictures between all collected PRNU the same calculation to get the noise is done. Then the noise from the reference pictures is compared to all collected PRNU and correlation is calculated like the formula above in MATLAB:\\
 \lstinputlisting[caption={Comparing the PRNU of an input picture with already known PRNU in MATLAB},label={code:PRNUinput},language=MATLAB]{code/corrCamTest1.m}
 
 The result of identify an input PRNU with the PRNU from already known devices head a limit on only six devices there only two of them were correctly identified. Since~\cite{sensor:camera:DCIdent} made better result than this, the conclusion that the bad result were due to the use of video instead of pictures. Thus the decision to redo the measurements but with picture instead of videos for calculating the PRNU. 
