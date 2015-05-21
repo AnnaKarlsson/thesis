@@ -3,36 +3,36 @@ This paper is the report for my master thesis in Computer Science and the last p
 This introduction chapter will give an overview of the work together with background and aims and objectives that is used as the basis for the work presented in this thesis. 
 
 \section{Background}\label{sec:bg}
-Cars, locks, birds, stoves, refrigerator, coffee maker, watches, cat feeder, sewing machines\dots, the world of connected devices is growing rapidly. This world is known under the term `Internet of Things'. For making this things connect to each other we need secure authentication methods for knowing that they are connecting to the device they are suppose to and not anything or anyone else. \\
+Cars, locks, birds, stoves, refrigerators, coffee makers, watches, cat feeders, sewing machines\dots, the world of connected devices is growing rapidly. This world is known under the term `Internet of Things'. Making these things connect to each other we need secure authentication methods for knowing that they are connecting to the device they are suppose to and not anything or anyone else. \\
 \\
-For us humans it has become an everyday thing to using two factor authentication when accessing buildings, part of networks, and our bank and so on. When talking about two factor authentication we usually use a combination of either three things; something you \textit{know} like passwords, something you \textit{have} like tag, passport, card, phone or something you \textit{are} like iris or fingerprint. (More about those in chapter ~\ref{cha:auth}.)  \\
-Something you know or have is things that can be copied, stolen or modified fairly easy and without know all that much about the person or thing you try to authenticate as. This compared to something you are as iris, fingerprint and DNA requires much more effort and time since you can only focus on one person at a time. Machines or devices don't have those attributes as us human, they are build on hardware parts.\\ 
+For us humans it has become an everyday thing to use two factor authentication when accessing buildings, part of networks, and our bank and so on. When talking about two factor authentication we usually use a combination of either three things; something you \textit{know} like passwords, something you \textit{have} like tag, passport, card, phone or something you \textit{are} like iris or fingerprint. (More about those in chapter ~\ref{cha:auth}.)  \\
+Something you know or have are things that can be copied, stolen or modified fairly easy and without knowing all that much about the person or thing you try to authenticate as. This compared to something you are as iris, fingerprint and DNA requires much more effort and time since you can only focus at one person a time. Machines or devices don't have those attributes as us human, they are build on hardware parts.\\ 
 \\
-The background of this thesis is to explore the possibility for a machine to have a fingerprint that can be used to more securely authenticate them. This can be applied in several areas for example in the new smart homes where fridges, stoves, coffee makers and doors should communicate with each other. Another example could be when you only want to limit the access to your bank account to your phone only to avoid that an malicious user accessing your account.
+The background of this thesis is to explore the possibility for a machine to have a fingerprint that can be used to more securely authenticate them. This can be applied in several areas for example in the new smart homes where fridges, stoves, coffee makers and doors should communicate with each other. Another example could be when you only want to limit the access to your bank account to your phone only to avoid that a malicious user accessing your account.
 
 \section{Aims \& Objectives}\label{sec:aim}
-Today most of the solutions for M2M authentication involves a certificate, token, UUID etc., this is something the machine know or have. The area of device fingerprinting has been more investigated in line with the world of connected devices that is called IoT (Internet of Things) has grown. The aim of this thesis is to look in to if the fingerprinting methods found today can be used as something the machine \textit{are} for two factor authentication between them. The problems this thesis aims to solve is:
+Today most of the solutions for machine-to-machine (M2M) authentication involves a certificate, token, UUID etc. This is something the machine knows or has. The area of device fingerprinting has been more investigated in line with the world of connected devices that is called IoT (Internet of Things) has grown. The aim of this thesis is to look into if the fingerprinting methods found today can be used as something the machine \textit{are} for two factor authentication between them. The problems this thesis aims to solve are:
 \begin{itemize}
-	\item[] Can you create a device fingerprint by using the sensor characteristics in a mobile device?
-	\item[] Is this fingerprint suitable for using as a second factor for authentication between devices?
+	\item[] \textit{Can you create a device fingerprint by using the sensor characteristics in a mobile device?
+	\item[] Is this fingerprint suitable to be used as a second factor for authentication between devices?}
 \end{itemize}
-The problems above state a mobile device and not a general machine, which is one of the limitations in the thesis. The focus is also set to an authentication process where you are able to collect a set of data from the device in a database in an enrolment phase. This means that new devices in the system has to go through some phase were collecting the sensor characteristics, just like the police has to collect fingerprint from the suspect to compare with the fingerprints from the crime scene. As the title of the thesis implies, authentication is the focus not identification. As said in the background is a device building stone its hardware and something the devices \textit{has} that is the point of view of the thesis, similar to biometric authentication for us humans. \\
+The problems above state a mobile device and not a general machine, which is one of the limitations in the thesis. The focus is also set to an authentication process where you are able to collect a set of data from the device in a database in an enrollment phase. This means that new devices in the system have to go through some phase where collecting the sensor characteristics, just like the police has to collect fingerprint from the suspect to compare with the fingerprints from the crime scene. As the title of the thesis implies, authentication is the focus not identification. Said in the background the devices building stone are hardware, thus something the devices \textit{has} that is the point of view of the thesis. This is similar to biometric authentication of us humans. \\
 \\
-The objectives of this work and can be summed up to:
+The objectives of this work can be summed up to:
 \begin{itemize}
 	\item[] \textbf{Explore different sensor characteristics of a mobile device} \\
-	Mobile devices today are equipped with a lot of sensors and since they like other hardware has some bias that may be unique enough to differ from a device of the same model. Measurements from the gyroscope-, accelerometer- and camera-sensor will be collected and valuated like a biometric fingerprints.
+	Mobile devices today are equipped with a lot of sensors and since they like other hardware has some bias that may be unique enough to differ from a device of the same model. Measurements from the gyroscope-, accelerometer- and camera-sensor will be collected and valuated like biometric fingerprints.
 	\item[] \textbf{Combining M2M, two factor and biometric authentication} \\
-	Biometric authentication has ways of measure and compare fingerprints, this measurements and methods will be used to make the two factor authentication between the devices.
+	Biometric authentication has methods of measure and compare fingerprints and designing such systems. These will be used to compare the characteristics of the sensors and evaluate the possibility of two factor authentication between the devices.
 \end{itemize}
 
 \section{Thesis Outline}\label{sec:outline}
-This introduction chapter including background, aims and objectives will give a quick view of what the thesis is about. The chapters that following is divided in different parts that maps to the different objectives listed above.
+This introduction chapter, includes background, aims and objectives, will give a quick view of what the thesis is about. The chapters that follows are divided into different parts that map to the different objectives listed above.
 \begin{itemize}
-	\item[Ch.2:]	How authentication is made today between machines, two factor and in biometric.
-	\item[Ch.3:]	The different hardware characteristics of a mobile device together with previously work in the area.
+	\item[Ch.2:]	Theory-chapter about how authentication is made today between machines, two factor, the challenge-response protocol and in biometrics.
+	\item[Ch.3:]	Theory-chapter about the different hardware characteristics of a mobile device. Together with previously work in the area of the thesis.
 	\item[Ch.4:]	The method used when doing measurements of the characteristics described in chapter 3.
 	\item[Ch.5:]	Result of the measurements.
-	\item[Ch.6:]	Discussion about the result and method used with an discussion about the work in a wider context.
-	\item[Ch.7:]	Conclusions that connect back to the aims and objectives and also includes further work of the thesis.
+	\item[Ch.6:]	Discussion about the result and method used. Followed by another discussion about the work in a wider context.
+	\item[Ch.7:]	Conclusions that refers back to the aims and objectives and also includes further work of the thesis.
 \end{itemize}

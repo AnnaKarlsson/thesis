@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.19)  20 MAY 2015 17:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.19)  21 MAY 2015 10:36
 entering extended mode
 **C:/Users/ankar5/Documents/thesis/main.tex
 (C:/Users/ankar5/Documents/thesis/main.tex
@@ -1666,7 +1666,9 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 (C:\Users\ankar5\Documents\thesis\content/6-discussion.aux)
 (C:\Users\ankar5\Documents\thesis\content/7-conclusions.aux)
 (C:\Users\ankar5\Documents\thesis\appendix/accFeaturesScatters.aux)
-(C:\Users\ankar5\Documents\thesis\appendix/fingerprintMatlab.aux))
+(C:\Users\ankar5\Documents\thesis\appendix/fingerprintMatlab.aux)
+(C:\Users\ankar5\Documents\thesis\appendix/csvraw.aux)
+(C:\Users\ankar5\Documents\thesis\appendix/sensorrec.aux))
 LaTeX Font Info:    Checking defaults for OML/jkpw/m/it on input line 16.
 LaTeX Font Info:    Try loading font information for OML+jkpw on input line 16.
 
@@ -2258,7 +2260,7 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 19.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-<fig/LiTH_sv_vert_blk.pdf, id=297, 259.3138pt x 190.20862pt>
+<fig/LiTH_sv_vert_blk.pdf, id=301, 259.3138pt x 190.20862pt>
 File: fig/LiTH_sv_vert_blk.pdf Graphic file (type pdf)
 
 <use fig/LiTH_sv_vert_blk.pdf>
@@ -2285,7 +2287,7 @@ Overfull \hbox (35.56596pt too wide) in paragraph at lines 21--21
 
 ] [2
 
-] <fig/LiTH_sigill_blk.pdf, id=364, 123.70515pt x 123.5817pt>
+] <fig/LiTH_sigill_blk.pdf, id=368, 123.70515pt x 123.5817pt>
 File: fig/LiTH_sigill_blk.pdf Graphic file (type pdf)
 
 <use fig/LiTH_sigill_blk.pdf>
@@ -2342,10 +2344,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 ])
 \tf@toc=\write6
 
-(C:\Users\ankar5\Documents\thesis\main.lof
-Underfull \vbox (badness 3746) has occurred while \output is active []
-
- [10]
+(C:\Users\ankar5\Documents\thesis\main.lof [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
@@ -2453,54 +2452,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
  []
 
-[5] <img/challenge-response-bank.png, id=700, 732.48656pt x 459.21562pt>
-File: img/challenge-response-bank.png Graphic file (type png)
-
-<use img/challenge-response-bank.png>
-Package pdftex.def Info: img/challenge-response-bank.png used on input line 27.
-
-(pdftex.def)             Requested size: 219.74765pt x 137.76575pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--30
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 20--25
 
  []
 
+[6] <img/challenge-response-bank.png, id=709, 732.48656pt x 459.21562pt>
+File: img/challenge-response-bank.png Graphic file (type png)
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<use img/challenge-response-bank.png>
+Package pdftex.def Info: img/challenge-response-bank.png used on input line 28.
 
- [6]
-[7 <C:/Users/ankar5/Documents/thesis/img/challenge-response-bank.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 61--64
+(pdftex.def)             Requested size: 219.74765pt x 137.76575pt.
+ [7 <C:/Users/ankar5/Documents/thesis/img/challenge-response-bank.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 62--65
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 73--76
+Underfull \hbox (badness 10000) in paragraph at lines 74--77
 
  []
 
 [9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 101--106
+Underfull \hbox (badness 10000) in paragraph at lines 102--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--106
+Underfull \hbox (badness 10000) in paragraph at lines 102--107
+
+ []
+
+(C:\Users\ankar5\Documents\thesis\fig/biodesigncycle.tex))
+Underfull \hbox (badness 10000) in paragraph at lines 117--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--121
+Underfull \hbox (badness 10000) in paragraph at lines 117--38
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--121
-
- []
-
-[11] (C:\Users\ankar5\Documents\thesis\fig/biodesigncycle.tex)) [12]
-(C:\Users\ankar5\Documents\thesis\content/3-characteristics.tex
+[11] [12] (C:\Users\ankar5\Documents\thesis\content/3-characteristics.tex
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--5
@@ -2523,13 +2517,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-)
-Overfull \hbox (20.08855pt too wide) in paragraph at lines 12--13
-\T1/jkpk/m/n/10 ter, speak-ers and gy-ro-scope. The sen-sors in-ves-ti-gated in
- this work is the accelerometer-
- []
-
-[13
+) [13
 
 
 
@@ -2545,6 +2533,11 @@ ro-scope. [[][]Vec-tor-Nav[]] [[][]Looney[]]
  []
 
 [15]
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
+
+ []
+
+
 Overfull \hbox (5.8672pt too wide) in paragraph at lines 75--75
 []|\T1/jkpk/m/n/10 Devices| 
  []
@@ -2564,20 +2557,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--92
  []
 
 
-Overfull \hbox (5.8672pt too wide) in paragraph at lines 97--97
+Overfull \hbox (5.8672pt too wide) in paragraph at lines 96--96
 []|\T1/jkpk/m/n/10 Devices| 
  []
 
 
-Underfull \hbox (badness 4024) in paragraph at lines 98--98
+Underfull \hbox (badness 4024) in paragraph at lines 97--97
 []|\T1/jkpk/m/n/10 Probabilistic SVM
  []
 
-)
-Underfull \vbox (badness 1924) has occurred while \output is active []
 
- [17]
-[18] (C:\Users\ankar5\Documents\thesis\content/4-measurements.tex
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+[]| \T1/jkpk/m/n/10 [[][]Ce-lik-tu-tan
+ []
+
+) [17] [18] (C:\Users\ankar5\Documents\thesis\content/4-measurements.tex
 Chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--7
@@ -2595,7 +2589,7 @@ Overfull \hbox (109.00685pt too wide) in paragraph at lines 8--9
  \T1/pcr/m/n/10 accelerationIncludingGravity
  []
 
-<img/device-axes.png, id=883, 622.325pt x 364.36125pt>
+<img/device-axes.png, id=889, 622.325pt x 364.36125pt>
 File: img/device-axes.png Graphic file (type png)
 
 <use img/device-axes.png>
@@ -2625,9 +2619,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--32
  []
 
 
-Overfull \hbox (23.45221pt too wide) in paragraph at lines 26--32
-\T1/jkpk/m/n/10 In JavaScript there are two types of ac-cel-er-a-tion, \T1/pcr/
-m/n/10 accelerationIncludingGravity
+Overfull \hbox (65.92216pt too wide) in paragraph at lines 26--32
+\T1/jkpk/m/n/10 There are two types of ac-celerom-e-ter out-put in JavaScript, 
+\T1/pcr/m/n/10 accelerationIncludingGravity
  []
 
 
@@ -2645,7 +2639,7 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 32.
 (C:\Users\ankar5\Documents\thesis\code/acc-listener.js [20 <C:/Users/ankar5/Doc
 uments/thesis/img/device-axes.png>])
-<img/device-alpha.png, id=912, 622.325pt x 364.36125pt>
+<img/device-alpha.png, id=918, 622.325pt x 364.36125pt>
 File: img/device-alpha.png Graphic file (type png)
 
 <use img/device-alpha.png>
@@ -2656,7 +2650,7 @@ Overfull \hbox (42.66264pt too wide) in paragraph at lines 43--44
  [][] 
  []
 
-<img/device-beta.png, id=913, 622.325pt x 490.83376pt>
+<img/device-beta.png, id=919, 622.325pt x 490.83376pt>
 File: img/device-beta.png Graphic file (type png)
 
 <use img/device-beta.png>
@@ -2667,7 +2661,7 @@ Overfull \hbox (42.66264pt too wide) in paragraph at lines 48--49
  [][] 
  []
 
-<img/device-gamma.png, id=914, 622.325pt x 375.4025pt>
+<img/device-gamma.png, id=920, 622.325pt x 375.4025pt>
 File: img/device-gamma.png Graphic file (type png)
 
 <use img/device-gamma.png>
@@ -2690,7 +2684,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--62
  []
 
 (C:\Users\ankar5\Documents\thesis\code/gyro-listener.js)
-<img/Nexus-rec.png, id=918, 1204.5pt x 1927.2pt>
+<img/Nexus-rec.png, id=924, 1204.5pt x 1927.2pt>
 File: img/Nexus-rec.png Graphic file (type png)
  <use img/Nexus-rec.png>
 Package pdftex.def Info: img/Nexus-rec.png used on input line 76.
@@ -2700,7 +2694,7 @@ Overfull \hbox (38.6569pt too wide) in paragraph at lines 76--77
  [][] 
  []
 
-<img/Nexus-submit.png, id=919, 1204.5pt x 1927.2pt>
+<img/Nexus-submit.png, id=925, 1204.5pt x 1927.2pt>
 File: img/Nexus-submit.png Graphic file (type png)
  <use img/Nexus-submit.png>
 Package pdftex.def Info: img/Nexus-submit.png used on input line 81.
@@ -2717,15 +2711,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--85
 
 [21 <C:/Users/ankar5/Documents/thesis/img/device-alpha.png> <C:/Users/ankar5/Do
 cuments/thesis/img/device-beta.png> <C:/Users/ankar5/Documents/thesis/img/devic
-e-gamma.png>]
-Overfull \hbox (4.67003pt too wide) in paragraph at lines 88--89
-\T1/jkpk/m/n/10 The sec-ond mea-sure-ments where also per-formed from a web-pag
-e us-ing JavaScript
- []
-
-[22 <C:/Users/ankar5/Documents/thesis/img/Nexus-rec.png> <C:/Users/ankar5/Docum
-ents/thesis/img/Nexus-submit.png>]
-<img/sensorrec-nexus-2-notRec.png, id=949, 903.375pt x 1257.94969pt>
+e-gamma.png>] [22 <C:/Users/ankar5/Documents/thesis/img/Nexus-rec.png> <C:/User
+s/ankar5/Documents/thesis/img/Nexus-submit.png>]
+<img/sensorrec-nexus-2-notRec.png, id=955, 903.375pt x 1257.94969pt>
 File: img/sensorrec-nexus-2-notRec.png Graphic file (type png)
 
 <use img/sensorrec-nexus-2-notRec.png>
@@ -2737,7 +2725,7 @@ Overfull \hbox (53.70026pt too wide) in paragraph at lines 103--104
  [][] 
  []
 
-<img/sensorrec-nexus-1-rec.png, id=950, 903.375pt x 1260.96094pt>
+<img/sensorrec-nexus-1-rec.png, id=956, 903.375pt x 1260.96094pt>
 File: img/sensorrec-nexus-1-rec.png Graphic file (type png)
 
 <use img/sensorrec-nexus-1-rec.png>
@@ -2761,7 +2749,7 @@ Overfull \hbox (0.62007pt too wide) in paragraph at lines 117--118
 
 [23 <C:/Users/ankar5/Documents/thesis/img/sensorrec-nexus-2-notRec.png> <C:/Use
 rs/ankar5/Documents/thesis/img/sensorrec-nexus-1-rec.png>]
-<img/sensorrec-nexus-3-cam.png, id=969, 903.375pt x 1257.94969pt>
+<img/sensorrec-nexus-3-cam.png, id=975, 903.375pt x 1257.94969pt>
 File: img/sensorrec-nexus-3-cam.png Graphic file (type png)
 
 <use img/sensorrec-nexus-3-cam.png>
@@ -2772,7 +2760,7 @@ Overfull \hbox (53.70026pt too wide) in paragraph at lines 129--130
  [][] 
  []
 
-<img/sensorrec-nexus-4-send.png, id=970, 903.375pt x 1258.7025pt>
+<img/sensorrec-nexus-4-send.png, id=976, 903.375pt x 1258.7025pt>
 File: img/sensorrec-nexus-4-send.png Graphic file (type png)
 
 <use img/sensorrec-nexus-4-send.png>
@@ -2793,35 +2781,28 @@ mg/sensorrec-nexus-4-send.png>]) [25]
 
 ]
 Chapter 5.
-<img/scatteriPhone.png, id=988, 421.575pt x 316.18124pt>
+<img/scatteriPhone.png, id=996, 421.575pt x 316.18124pt>
 File: img/scatteriPhone.png Graphic file (type png)
 
 <use img/scatteriPhone.png>
 Package pdftex.def Info: img/scatteriPhone.png used on input line 8.
 (pdftex.def)             Requested size: 252.94695pt x 189.7102pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27]
-<img/measure1-brand.png, id=997, 341.02406pt x 365.86688pt>
+<img/measure1-brand.png, id=1001, 341.02406pt x 365.86688pt>
 File: img/measure1-brand.png Graphic file (type png)
 
 <use img/measure1-brand.png>
 Package pdftex.def Info: img/measure1-brand.png used on input line 18.
 (pdftex.def)             Requested size: 102.308pt x 109.76091pt.
 
-<img/measure1-devices.png, id=998, 674.52pt x 309.40594pt>
+<img/measure1-devices.png, id=1002, 674.52pt x 309.40594pt>
 File: img/measure1-devices.png Graphic file (type png)
 
 <use img/measure1-devices.png>
 Package pdftex.def Info: img/measure1-devices.png used on input line 24.
 (pdftex.def)             Requested size: 337.25917pt x 154.70259pt.
 
-Underfull \vbox (badness 4193) has occurred while \output is active []
-
- [28 <C:/Users/ankar5/Documents/thesis/img/scatteriPhone.png (PNG copy)> <C:/Us
-ers/ankar5/Documents/thesis/img/measure1-brand.png>]
-<img/res-measure1-scatter-notG.png, id=1006, 563.85657pt x 398.23781pt>
+<img/res-measure1-scatter-notG.png, id=1005, 563.85657pt x 398.23781pt>
 File: img/res-measure1-scatter-notG.png Graphic file (type png)
 
 <use img/res-measure1-scatter-notG.png>
@@ -2829,7 +2810,7 @@ Package pdftex.def Info: img/res-measure1-scatter-notG.png used on input line 3
 1.
 (pdftex.def)             Requested size: 338.31654pt x 238.94452pt.
 
-<img/res-measure1-scatter-inclG.png, id=1007, 563.85657pt x 398.99063pt>
+<img/res-measure1-scatter-inclG.png, id=1006, 563.85657pt x 398.99063pt>
 File: img/res-measure1-scatter-inclG.png Graphic file (type png)
 
 <use img/res-measure1-scatter-inclG.png>
@@ -2837,164 +2818,149 @@ Package pdftex.def Info: img/res-measure1-scatter-inclG.png used on input line
 37.
 (pdftex.def)             Requested size: 338.31654pt x 239.39622pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29 <C:/Users/ankar5/Documents/thesis/img/measure1-devices.png> <C:/Users/anka
-r5/Documents/thesis/img/res-measure1-scatter-notG.png (PNG copy)>]
-<img/measure2-brands.png, id=1016, 286.82156pt x 288.3272pt>
+<img/measure2-brands.png, id=1009, 286.82156pt x 288.3272pt>
 File: img/measure2-brands.png Graphic file (type png)
 
 <use img/measure2-brands.png>
 Package pdftex.def Info: img/measure2-brands.png used on input line 47.
 (pdftex.def)             Requested size: 114.72658pt x 115.32883pt.
+ [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<img/sensrec-nex-z1-acc-x.png, id=1018, 421.575pt x 316.18124pt>
+ [28 <C:/Users/ankar5/Documents/thesis/img/scatteriPhone.png (PNG copy)> <C:/Us
+ers/ankar5/Documents/thesis/img/measure1-brand.png>]
+<img/sensrec-nex-z1-acc-x.png, id=1021, 421.575pt x 316.18124pt>
 File: img/sensrec-nex-z1-acc-x.png Graphic file (type png)
 
 <use img/sensrec-nex-z1-acc-x.png>
 Package pdftex.def Info: img/sensrec-nex-z1-acc-x.png used on input line 56.
 (pdftex.def)             Requested size: 295.10048pt x 221.32535pt.
- [30 <C:/Users/ankar5/Documents/thesis/img/res-measure1-scatter-inclG.png (PNG 
-copy)> <C:/Users/ankar5/Documents/thesis/img/measure2-brands.png>]
-<img/sensrec-nex-z1-acc-y.png, id=1025, 421.575pt x 316.18124pt>
+
+<img/sensrec-nex-z1-acc-y.png, id=1022, 421.575pt x 316.18124pt>
 File: img/sensrec-nex-z1-acc-y.png Graphic file (type png)
 
 <use img/sensrec-nex-z1-acc-y.png>
 Package pdftex.def Info: img/sensrec-nex-z1-acc-y.png used on input line 62.
 (pdftex.def)             Requested size: 295.10048pt x 221.32535pt.
 
-<img/sensrec-nex-z1-acc-z.png, id=1026, 421.575pt x 316.18124pt>
+<img/sensrec-nex-z1-acc-z.png, id=1023, 421.575pt x 316.18124pt>
 File: img/sensrec-nex-z1-acc-z.png Graphic file (type png)
 
 <use img/sensrec-nex-z1-acc-z.png>
 Package pdftex.def Info: img/sensrec-nex-z1-acc-z.png used on input line 68.
 (pdftex.def)             Requested size: 295.10048pt x 221.32535pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31 <C:/Users/ankar5/Documents/thesis/img/sensrec-nex-z1-acc-x.png (PNG copy)>
-]
-<img/senrec-sony_scatter-2.png, id=1036, 1264.725pt x 709.90219pt>
+<img/senrec-sony_scatter-2.png, id=1028, 1264.725pt x 709.90219pt>
 File: img/senrec-sony_scatter-2.png Graphic file (type png)
 
 <use img/senrec-sony_scatter-2.png>
-Package pdftex.def Info: img/senrec-sony_scatter-2.png used on input line 76.
+Package pdftex.def Info: img/senrec-sony_scatter-2.png used on input line 75.
 (pdftex.def)             Requested size: 379.42043pt x 212.97229pt.
 
-Overfull \hbox (23.76099pt too wide) in paragraph at lines 76--77
+Overfull \hbox (23.76099pt too wide) in paragraph at lines 75--76
  [][] 
  []
 
-[32 <C:/Users/ankar5/Documents/thesis/img/sensrec-nex-z1-acc-y.png (PNG copy)> 
-<C:/Users/ankar5/Documents/thesis/img/sensrec-nex-z1-acc-z.png (PNG copy)>]
-<img/featureCalc.png, id=1043, 639.5895pt x 544.434pt>
+<img/featureCalc.png, id=1031, 639.5895pt x 544.434pt>
 File: img/featureCalc.png Graphic file (type png)
 
 <use img/featureCalc.png>
-Package pdftex.def Info: img/featureCalc.png used on input line 86.
+Package pdftex.def Info: img/featureCalc.png used on input line 85.
 (pdftex.def)             Requested size: 223.85966pt x 190.55475pt.
+ [29 <C:/Users/ankar5/Documents/thesis/img/measure1-devices.png> <C:/Users/anka
+r5/Documents/thesis/img/measure2-brands.png>] [30 <C:/Users/ankar5/Documents/th
+esis/img/res-measure1-scatter-notG.png (PNG copy)>]
+[31 <C:/Users/ankar5/Documents/thesis/img/res-measure1-scatter-inclG.png (PNG c
+opy)>] [32]
+Underfull \hbox (badness 10000) in paragraph at lines 194--200
+
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33 <C:/Users/ankar5/Documents/thesis/img/senrec-sony_scatter-2.png (PNG copy)
->] [34 <C:/Users/ankar5/Documents/thesis/img/featureCalc.png>]
-Underfull \vbox (badness 3271) has occurred while \output is active []
+ [33 <C:/Users/ankar5/Documents/thesis/img/sensrec-nex-z1-acc-x.png (PNG copy)>
+]
+Underfull \vbox (badness 2205) has occurred while \output is active []
 
- [35]
-[36]
-Underfull \hbox (badness 10000) in paragraph at lines 195--201
-
- []
-
-[37]
-
-Package caption Warning: \label without proper \caption on input line 94.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `earlier:camera' on page 38 undefined on input line 22
-8.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
+ [34 <C:/Users/ankar5/Documents/thesis/img/sensrec-nex-z1-acc-y.png (PNG copy)>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 227--229
 
  []
 
-(C:\Users\ankar5\Documents\thesis\code/video2prnu1.m [38])
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
+[35 <C:/Users/ankar5/Documents/thesis/img/sensrec-nex-z1-acc-z.png (PNG copy)>]
+(C:\Users\ankar5\Documents\thesis\code/video2prnu1.m
+Underfull \vbox (badness 1087) has occurred while \output is active []
+
+ [36 <C:/Users/ankar5/Documents/thesis/img/senrec-sony_scatter-2.png (PNG copy)
+>])
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
-(C:\Users\ankar5\Documents\thesis\code/corrCamTest1.m) [39]) [40]
+(C:\Users\ankar5\Documents\thesis\code/corrCamTest1.m [37 <C:/Users/ankar5/Docu
+ments/thesis/img/featureCalc.png>])) [38]
 (C:\Users\ankar5\Documents\thesis\content/6-discussion.tex
 Chapter 6.
 
-Overfull \hbox (82.09969pt too wide) in paragraph at lines 6--13
-\T1/jkpk/m/n/10 data from An-droid's \T1/pcr/m/n/10 TYPE_ACCELEROMETER \T1/jkpk
-/m/n/10 and JavaScripts \T1/pcr/m/n/10 accelerationIncludingGravity
- []
-
-
-Overfull \hbox (44.13016pt too wide) in paragraph at lines 6--13
-\T1/jkpk/m/n/10 cal-cu-la-tions has been done on the out-put event from \T1/pcr
-/m/n/10 accelerationIncludingGravity\T1/jkpk/m/n/10 . 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--13
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--13
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
 
  []
 
-[41
+[39
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 21--29
+Overfull \hbox (4.12997pt too wide) in paragraph at lines 18--19
+\T1/jkpk/m/n/10 As dis-cussed in the be-gin-ning of the sec-tion above is the J
+avaScript or An-droid/iOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--31
 
  []
 
 
-Overfull \hbox (1.95001pt too wide) in paragraph at lines 21--29
-\T1/jkpk/m/n/10 The gy-ro-scope seems to much more sen-si-tive in mea-sure-ment
-s than the ac-celerom-
+Overfull \hbox (7.21pt too wide) in paragraph at lines 23--31
+\T1/jkpk/m/n/10 The gy-ro-scope seems too much more sen-si-tive in mea-sure-men
+ts than the ac-celerom-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--29
+Underfull \hbox (badness 10000) in paragraph at lines 23--31
 
  []
 
-[42]
-Underfull \hbox (badness 10000) in paragraph at lines 45--51
+[40] [41])
+Underfull \hbox (badness 10000) in paragraph at lines 47--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--51
+Underfull \hbox (badness 10000) in paragraph at lines 47--42
 
  []
 
-[43]) [44] (C:\Users\ankar5\Documents\thesis\content/7-conclusions.tex
+[42] [43] (C:\Users\ankar5\Documents\thesis\content/7-conclusions.tex [44
+
+
+
+]
 Chapter 7.
-
-LaTeX Warning: Reference `sensorrec' on page 45 undefined on input line 8.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-[45
-
-
-
-] [46])
+[45] [46])
 Underfull \hbox (badness 10000) in paragraph at lines 61--43
 
  []
@@ -3008,21 +2974,14 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 ] [50]
 (C:\Users\ankar5\Documents\thesis\appendix/accFeaturesScatters.tex
 Appendix A.
-
-LaTeX Warning: Hyper reference `sec:concl:acc' on page 51 undefined on input li
-ne 2.
-
-
-LaTeX Warning: Reference `sec:concl:acc' on page 51 undefined on input line 2.
-
-<img/features/mean.png, id=1248, 1156.32pt x 572.1375pt>
+<img/features/mean.png, id=1262, 1156.32pt x 572.1375pt>
 File: img/features/mean.png Graphic file (type png)
 
 <use img/features/mean.png>
 Package pdftex.def Info: img/features/mean.png used on input line 7.
 (pdftex.def)             Requested size: 346.89868pt x 171.64256pt.
 
-<img/features/std_dev.png, id=1249, 1156.32pt x 572.1375pt>
+<img/features/std_dev.png, id=1263, 1156.32pt x 572.1375pt>
 File: img/features/std_dev.png Graphic file (type png)
 
 <use img/features/std_dev.png>
@@ -3035,14 +2994,14 @@ Underfull \vbox (badness 1048) has occurred while \output is active []
 
 
  <C:/Users/ankar5/Documents/thesis/img/features/mean.png (PNG copy)>]
-<img/features/avg_dev.png, id=1255, 1156.32pt x 572.1375pt>
+<img/features/avg_dev.png, id=1270, 1156.32pt x 572.1375pt>
 File: img/features/avg_dev.png Graphic file (type png)
 
 <use img/features/avg_dev.png>
 Package pdftex.def Info: img/features/avg_dev.png used on input line 23.
 (pdftex.def)             Requested size: 346.89868pt x 171.64256pt.
 
-<img/features/skew.png, id=1256, 1156.32pt x 572.1375pt>
+<img/features/skew.png, id=1271, 1156.32pt x 572.1375pt>
 File: img/features/skew.png Graphic file (type png)
 
 <use img/features/skew.png>
@@ -3053,14 +3012,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [52 <C:/Users/ankar5/Documents/thesis/img/features/std_dev.png (PNG copy)> <C:
 /Users/ankar5/Documents/thesis/img/features/avg_dev.png (PNG copy)>]
-<img/features/kurt.png, id=1263, 1156.32pt x 572.1375pt>
+<img/features/kurt.png, id=1278, 1156.32pt x 572.1375pt>
 File: img/features/kurt.png Graphic file (type png)
 
 <use img/features/kurt.png>
 Package pdftex.def Info: img/features/kurt.png used on input line 39.
 (pdftex.def)             Requested size: 346.89868pt x 171.64256pt.
 
-<img/features/rms.png, id=1264, 1156.32pt x 572.1375pt>
+<img/features/rms.png, id=1279, 1156.32pt x 572.1375pt>
 File: img/features/rms.png Graphic file (type png)
 
 <use img/features/rms.png>
@@ -3071,14 +3030,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53 <C:/Users/ankar5/Documents/thesis/img/features/skew.png (PNG copy)> <C:/Us
 ers/ankar5/Documents/thesis/img/features/kurt.png (PNG copy)>]
-<img/features/min.png, id=1272, 1156.32pt x 572.1375pt>
+<img/features/min.png, id=1287, 1156.32pt x 572.1375pt>
 File: img/features/min.png Graphic file (type png)
 
 <use img/features/min.png>
 Package pdftex.def Info: img/features/min.png used on input line 55.
 (pdftex.def)             Requested size: 346.89868pt x 171.64256pt.
 
-<img/features/max.png, id=1273, 1156.32pt x 572.1375pt>
+<img/features/max.png, id=1288, 1156.32pt x 572.1375pt>
 File: img/features/max.png Graphic file (type png)
 
 <use img/features/max.png>
@@ -3114,10 +3073,28 @@ Overfull \hbox (4.54018pt too wide) in paragraph at lines 47--49
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [58]))
-[59] [60
+[59] (C:\Users\ankar5\Documents\thesis\appendix/csvraw.tex [60
 
 
-] (C:\Users\ankar5\Documents\thesis\main.bbl
+
+]
+Appendix C.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--13
+
+ []
+
+
+LaTeX Warning: Float too large for page by 1928.31013pt on input line 228.
+
+) [61] [62]
+No file appendix/sensorrec.tex.
+(C:\Users\ankar5\Documents\thesis\main.bbl
 (C:\Users\ankar5\Documents\thesis\main.brf)
 \tf@brf=\write9
 
@@ -3138,7 +3115,11 @@ Underfull \hbox (badness 2735) in paragraph at lines 32--32
 t spec-i-fi-ca-tion.
  []
 
-[61
+[63
+
+
+
+
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 89--89
@@ -3158,114 +3139,114 @@ cameraid . pdf$[]\T1/jkpk/m/n/10 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
 $\T1/pcr/m/n/10 kionix . com / sites / default / files / AN012 % 20Acceleromete
 r %$
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 139--139
+Underfull \hbox (badness 1292) in paragraph at lines 143--143
 []\T1/jkpk/m/n/10 Yan Michalevsky, Dan Boneh, and Gabi Naki-bly.  Gy-ro-phone: 
 Rec-og-niz-
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 139--139
+Underfull \hbox (badness 2689) in paragraph at lines 143--143
 \T1/jkpk/m/n/10 ing speech from gy-ro-scope sig-nals.  In \T1/jkpk/m/sl/10 23rd
  USENIX Se-cu-rity Sym-
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 139--139
+Underfull \hbox (badness 2547) in paragraph at lines 143--143
 \T1/jkpk/m/sl/10 po-sium (USENIX Se-cu-rity 14)\T1/jkpk/m/n/10 , pages 1053--10
 67, San Diego, CA, Au-
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 139--139
+Underfull \hbox (badness 5036) in paragraph at lines 143--143
 \T1/jkpk/m/n/10 gust 2014a. USENIX As-so-ci-a-tion.  ISBN 978-1-931971-15-7.  U
 RL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 []$\T1/pcr/m/n/10 https : / / www . usenix . org / conference / usenixsecurity1
 4 /$
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 139--139
+Underfull \hbox (badness 1509) in paragraph at lines 143--143
 $\T1/pcr/m/n/10 technical-[]sessions / presentation / michalevsky$[]\T1/jkpk/m/
 n/10 .  Cited on page
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 149--149
+Underfull \hbox (badness 1292) in paragraph at lines 153--153
 []\T1/jkpk/m/n/10 Yan Michalevsky, Dan Boneh, and Gabi Naki-bly.  Gy-ro-phone: 
 Rec-og-niz-
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 149--149
+Underfull \hbox (badness 2689) in paragraph at lines 153--153
 \T1/jkpk/m/n/10 ing speech from gy-ro-scope sig-nals.  In \T1/jkpk/m/sl/10 23rd
  USENIX Se-cu-rity Sym-
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 149--149
+Underfull \hbox (badness 2547) in paragraph at lines 153--153
 \T1/jkpk/m/sl/10 po-sium (USENIX Se-cu-rity 14)\T1/jkpk/m/n/10 , pages 1053--10
 67, San Diego, CA, Au-
  []
 
 
-Underfull \hbox (badness 4859) in paragraph at lines 149--149
+Underfull \hbox (badness 4859) in paragraph at lines 153--153
 \T1/jkpk/m/n/10 gust 2014b. USENIX As-so-ci-a-tion.  ISBN 978-1-931971-15-7.  U
 RL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
 []$\T1/pcr/m/n/10 https : / / www . usenix . org / conference / usenixsecurity1
 4 /$
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 149--149
+Underfull \hbox (badness 1509) in paragraph at lines 153--153
 $\T1/pcr/m/n/10 technical-[]sessions / presentation / michalevsky$[]\T1/jkpk/m/
 n/10 .  Cited on page
  []
 
-[62]
-Underfull \hbox (badness 1603) in paragraph at lines 164--164
+[64]
+Underfull \hbox (badness 1603) in paragraph at lines 168--168
 $\T1/pcr/m/n/10 2014 / understand-[]the-[]difference-[]between-[]iot-[]and-[]m2
 m/$[]\T1/jkpk/m/n/10 .  [On-
  []
 
-) (C:\Users\ankar5\Documents\thesis\main.ind [63]
-Overfull \hbox (7.09201pt too wide) in paragraph at lines 61--62
+) (C:\Users\ankar5\Documents\thesis\main.ind [65]
+Overfull \hbox (7.09201pt too wide) in paragraph at lines 68--69
 []\T1/jkpk/m/n/10 photo-response non-uniformity noise, []15[] 
  []
 
-[64
+[66
 
-]) <fig/LinkUniv_sv_vert_col.pdf, id=1519, 259.31279pt x 172.23546pt>
+]) <fig/LinkUniv_sv_vert_col.pdf, id=1557, 259.31279pt x 172.23546pt>
 File: fig/LinkUniv_sv_vert_col.pdf Graphic file (type pdf)
 
 <use fig/LinkUniv_sv_vert_col.pdf>
-Package pdftex.def Info: fig/LinkUniv_sv_vert_col.pdf used on input line 59.
+Package pdftex.def Info: fig/LinkUniv_sv_vert_col.pdf used on input line 61.
 (pdftex.def)             Requested size: 77.10594pt x 51.21495pt.
 
-Overfull \hbox (0.16193pt too wide) in paragraph at lines 59--59
+Overfull \hbox (0.16193pt too wide) in paragraph at lines 61--61
 \T1/jkpk/m/n/10 and its pro-ce-dures for pub-li-ca-tion and for as-sur-ance of 
 doc-u-ment in-tegrity, please
  []
 
-[65
+[67
 
 
  <C:/Users/ankar5/Documents/thesis/fig/LinkUniv_sv_vert_col.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
 
 (C:\Users\ankar5\Documents\thesis\main.aux
 (C:\Users\ankar5\Documents\thesis\content/0-3-tack.aux)
@@ -3278,27 +3259,25 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
 (C:\Users\ankar5\Documents\thesis\content/6-discussion.aux)
 (C:\Users\ankar5\Documents\thesis\content/7-conclusions.aux)
 (C:\Users\ankar5\Documents\thesis\appendix/accFeaturesScatters.aux)
-(C:\Users\ankar5\Documents\thesis\appendix/fingerprintMatlab.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
+(C:\Users\ankar5\Documents\thesis\appendix/fingerprintMatlab.aux)
+(C:\Users\ankar5\Documents\thesis\appendix/csvraw.aux)
+(C:\Users\ankar5\Documents\thesis\appendix/sensorrec.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 887D1CD2ABFD440CD868C256BC86A304;5165.
+(rerunfilecheck)             Checksum: ED97DAF6BAD8CA01C46A76D2737864BA;5276.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 44647877A33D2FCA60A98F482DD04F18;4064.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
+(rerunfilecheck)             Checksum: 90E8BF9C34E90E7CDF1FD2CD6B9B6E20;4162.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) 
 Here is how much of TeX's memory you used:
- 27580 strings out of 495320
- 485944 string characters out of 3181654
- 638891 words of memory out of 3000000
- 29528 multiletter control sequences out of 15000+200000
+ 27609 strings out of 495320
+ 486727 string characters out of 3181654
+ 655889 words of memory out of 3000000
+ 29540 multiletter control sequences out of 15000+200000
  234813 words of font info for 216 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,15n,80p,1626b,2485s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,15n,80p,1207b,2489s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/ankar5/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/kpfonts/kpfonts-e
 xpert.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{C
 :/Users/ankar5/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/kpfonts/kpfonts-large
@@ -3323,9 +3302,9 @@ es (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/urw/courier/ucrro8a.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/urw/helvetic/uhvbo8a.pfb>
-Output written on main.pdf (85 pages, 12076849 bytes).
+Output written on main.pdf (87 pages, 12085121 bytes).
 PDF statistics:
- 1727 PDF objects out of 1728 (max. 8388607)
- 409 named destinations out of 1000 (max. 500000)
- 19194 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 1764 PDF objects out of 2073 (max. 8388607)
+ 414 named destinations out of 1000 (max. 500000)
+ 19202 words of extra memory for PDF output out of 20736 (max. 10000000)
 

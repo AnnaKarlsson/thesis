@@ -1,4 +1,4 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{27}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -107,6 +107,10 @@ Neil Jenkins.
   November 2009.
 \newblock URL
   \url{https://www.cl.cam.ac.uk/teaching/0910/R08/work/essay-nmj27-cameraid.pdf}.
+
+\bibitem[Karlsson()]{sensorrec}
+Anna Karlsson.
+\newblock Source code of motion measurements.
 
 \bibitem[Kionix(2007)]{acc:kionixerr}
 Kionix.

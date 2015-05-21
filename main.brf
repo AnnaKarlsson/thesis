@@ -36,8 +36,8 @@
 \backcite {sensor:accelPrint}{{17}{3.5}{section*.16}}
 \backcite {sensor:micSpeak}{{17}{3.5}{section*.17}}
 \backcite {sensor:micSpeak}{{17}{3.5}{section*.17}}
-\backcite {sensor:camera:blind}{{17}{\caption@xref {earlier:camera}{ on input line 98}}{section*.19}}
-\backcite {sensor:camera:DCIdent}{{17}{\caption@xref {earlier:camera}{ on input line 99}}{section*.19}}
+\backcite {sensor:camera:blind}{{17}{\caption@xref {??}{ on input line 97}}{table.caption.19}}
+\backcite {sensor:camera:DCIdent}{{17}{\caption@xref {??}{ on input line 98}}{table.caption.19}}
 \backcite {sensor:camera:blind}{{17}{3.5}{section*.20}}
 \backcite {sensor:camera:blind}{{17}{3.5}{section*.20}}
 \backcite {sensor:camera:DCIdent}{{18}{3.5}{section*.21}}
@@ -50,21 +50,23 @@
 \backcite {sensor:camera:DCIdent}{{23}{1}{Item.22}}
 \backcite {sensor:camera:DCIdent}{{24}{2}{Item.23}}
 \backcite {sensor:camera:DCIdent}{{25}{4.4}{figure.caption.27}}
-\backcite {sensor:accelPrint}{{33}{5.3.2}{subsection.5.3.2}}
-\backcite {sensor:accelPrint}{{34}{5.11}{figure.caption.38}}
-\backcite {sensor:camera:DCIdent}{{38}{5.4}{section.5.4}}
-\backcite {sensor:camera:DCIdent}{{40}{5.4.1}{lstnumber.5.2.13}}
-\backcite {sensor:camera:DCIdent}{{40}{5.4.2}{subsection.5.4.2}}
-\backcite {acc:kionixerr}{{41}{6.1.1}{subsection.6.1.1}}
-\backcite {android:sensorEvent}{{41}{6.1.1}{subsection.6.1.1}}
-\backcite {sensor:W3Cspec}{{41}{6.1.1}{subsection.6.1.1}}
-\backcite {sensor:accIncludingGravity}{{41}{6.1.1}{subsection.6.1.1}}
-\backcite {android:sensorEvent}{{42}{6.2.1}{subsection.6.2.1}}
-\backcite {android:API18}{{42}{6.2.1}{subsection.6.2.1}}
-\backcite {android:API3}{{42}{6.2.1}{subsection.6.2.1}}
-\backcite {android:API18}{{43}{6.2.2}{subsection.6.2.2}}
-\backcite {sensor:camera:DCIdent}{{43}{6.3.1}{subsection.6.3.1}}
-\backcite {gbg:kamera}{{43}{6.3.1}{subsection.6.3.1}}
+\backcite {sensor:camera:DCIdent}{{25}{4.4}{figure.caption.27}}
+\backcite {sensor:accelPrint}{{29}{5.3.2}{subsection.5.3.2}}
+\backcite {sensor:camera:DCIdent}{{35}{5.4}{section.5.4}}
+\backcite {sensor:accelPrint}{{37}{5.11}{figure.caption.38}}
+\backcite {sensor:camera:DCIdent}{{38}{5.4.1}{lstnumber.5.2.13}}
+\backcite {sensor:camera:DCIdent}{{38}{5.4.2}{subsection.5.4.2}}
+\backcite {acc:kionixerr}{{39}{6.1.1}{subsection.6.1.1}}
+\backcite {android:sensorEvent}{{39}{6.1.1}{subsection.6.1.1}}
+\backcite {sensor:W3Cspec}{{40}{6.1.1}{subsection.6.1.1}}
+\backcite {sensor:accIncludingGravity}{{40}{6.1.1}{subsection.6.1.1}}
+\backcite {android:sensorEvent}{{41}{6.2.1}{subsection.6.2.1}}
+\backcite {android:API18}{{41}{6.2.1}{subsection.6.2.1}}
+\backcite {android:API3}{{41}{6.2.1}{subsection.6.2.1}}
+\backcite {android:API18}{{42}{6.2.2}{subsection.6.2.2}}
+\backcite {sensor:camera:DCIdent}{{42}{6.3.1}{subsection.6.3.1}}
+\backcite {gbg:kamera}{{42}{6.3.1}{subsection.6.3.1}}
+\backcite {sensorrec}{{45}{7.1}{section*.44}}
 \backcite {sensor:camera:blind}{{46}{7.1}{section*.45}}
 \backcite {sensor:accelPrint}{{46}{7.1}{section*.46}}
 \backcite {sensor:camera:DCIdent}{{46}{7.1}{section*.46}}

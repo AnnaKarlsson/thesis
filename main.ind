@@ -1,8 +1,15 @@
 \begin{theindex}
 
   \item accelerometer, \hyperpage{14}
-  \item allan variance, \hyperpage{16}
+  \item acceptability, \hyperpage{11}
+  \item Allan variance, \hyperpage{16}
   \item authentication, \hyperpage{5}
+
+  \indexspace
+
+  \item biometric authentication, \hyperpage{10}
+  \item biometric design cycle, \hyperpage{12}
+  \item biometric process, \hyperpage{9}
 
   \indexspace
 
@@ -10,6 +17,7 @@
   \item camera fingerprinting, \hyperpage{15}
   \item challenge-response, \hyperpage{6}
   \item characteristics, \hyperpage{13}
+  \item circumvention, \hyperpage{11}
   \item constant bias, \hyperpage{15}
 
   \indexspace
@@ -23,33 +31,30 @@
   \item fixed pattern noise, \hyperpage{15}
   \item FRR, \hyperpage{10}
     \subitem abbreviation, \hyperpage{xv}
-  \item FTE
+  \item FTE, \hyperpage{11}
     \subitem abbreviation, \hyperpage{xv}
 
   \indexspace
 
-  \item G
-    \subitem abbreviation, \hyperpage{xv}
   \item gyroscope, \hyperpage{14}
 
   \indexspace
 
-  \item ICT
+  \item IoT, \hyperpage{7, 8}
     \subitem abbreviation, \hyperpage{xv}
-  \item IoT
-    \subitem abbreviation, \hyperpage{xv}
+
+  \indexspace
+
+  \item JavaScript, \hyperpage{20}
 
   \indexspace
 
   \item M2M, \hyperpage{7}
     \subitem abbreviation, \hyperpage{xv}
-  \item MEMS
+  \item M2M authentication, \hyperpage{8}
+  \item measurability, \hyperpage{11}
+  \item MEMS, \hyperpage{14}
     \subitem abbreviation, \hyperpage{xv}
-
-  \indexspace
-
-  \item NIC
-    \subitem abberviation, \hyperpage{xv}
 
   \indexspace
 
@@ -58,6 +63,8 @@
 
   \indexspace
 
+  \item performance, \hyperpage{11}
+  \item permanence, \hyperpage{11}
   \item photo-response non-uniformity noise, \hyperpage{15}
   \item PRNU, \hyperpage{15}
     \subitem abberviation, \hyperpage{xv}
@@ -70,11 +77,16 @@
   \indexspace
 
   \item shot noise, \hyperpage{15}
-  \item SVM
+  \item SVM, \hyperpage{17}
     \subitem abberviation, \hyperpage{xv}
 
   \indexspace
 
   \item two factor authentication, \hyperpage{5}
+
+  \indexspace
+
+  \item uniqueness, \hyperpage{11}
+  \item universality, \hyperpage{11}
 
 \end{theindex}

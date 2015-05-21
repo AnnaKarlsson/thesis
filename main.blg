@@ -11,6 +11,8 @@ A level-1 auxiliary file: content/6-discussion.aux
 A level-1 auxiliary file: content/7-conclusions.aux
 A level-1 auxiliary file: appendix/accFeaturesScatters.aux
 A level-1 auxiliary file: appendix/fingerprintMatlab.aux
+A level-1 auxiliary file: appendix/csvraw.aux
+A level-1 auxiliary file: appendix/sensorrec.aux
 Database file #1: myrefs.bib
 You're missing a field name---line 44 of file myrefs.bib
  :    
@@ -72,52 +74,57 @@ You're missing a field name---line 392 of file myrefs.bib
  :     %number   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 417 of file myrefs.bib
+You're missing a field name---line 414 of file myrefs.bib
+ :     
+ :     %howpublished = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 426 of file myrefs.bib
  :     
  :     %type     = "diploma thesis",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 428 of file myrefs.bib
+You're missing a field name---line 437 of file myrefs.bib
  :  
  :  %address = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 436 of file myrefs.bib
+You're missing a field name---line 445 of file myrefs.bib
  :     
  :     %author    = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 448 of file myrefs.bib
+You're missing a field name---line 457 of file myrefs.bib
  :     
  :     %type     = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 460 of file myrefs.bib
+You're missing a field name---line 469 of file myrefs.bib
  :  
  :  %editor  = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 479 of file myrefs.bib
+You're missing a field name---line 488 of file myrefs.bib
  :  
  :  %editor = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 500 of file myrefs.bib
+You're missing a field name---line 509 of file myrefs.bib
  :  
  :  %volume = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 512 of file myrefs.bib
+You're missing a field name---line 521 of file myrefs.bib
  :     
  :     %author   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 525 of file myrefs.bib
+You're missing a field name---line 534 of file myrefs.bib
  :     
  :     %volume   = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 539 of file myrefs.bib
+You're missing a field name---line 548 of file myrefs.bib
  :     
  :     %volume   = "",
 (Error may have been on previous line)
@@ -125,10 +132,11 @@ I'm skipping whatever remains of this entry
 Warning--empty year in allan
 Warning--empty year in allan
 Warning--empty journal in gbg:kamera
+Warning--empty year in sensorrec
 Warning--empty journal in acc:kionixerr
 Warning--there's a number but no volume in acc:kionixerr
 Warning--empty year in allanGyro2
 Warning--empty year in allanGyro2
 Warning--empty journal in android:API18
 Warning--empty year in allanGyro1
-(There were 22 error messages)
+(There were 23 error messages)

@@ -1,5 +1,5 @@
 \chapter{CHARACTERISTICS OF A MOBILE DEVICE} \label{cha:character}\index{characteristics}
-Compared to the biometric design is this a part of \textit{Choose biometric characteristics}\\
+Compared to the biometric design is this is also a part of \textit{Understand nature of application}.\\
 \\
 In the hardware of a device there are some features that can be used to distinguish devices from each other. In most cases it is not called features rather error sources, noise or bias. In the aim of this thesis it is feature characteristics that can be seen as a uniqueness of an mobile device. \textit{Device fingerprint(ing)}\index{device fingerprint} is the term used for this feature characteristics and the pyramid seen in~\figureref{fig:pyramid} from ~\cite[]{sensor:acoustic} shows the different types of sources of device fingerprint. This thesis will focus on the top of quarter of that pyramid that is the sensors. All error sources of sensors comes in form of bias and the bias from each sensor covered by the thesis is further explained in this chapter. There is also an explanation on how the sensors is measured in JavaScript that is used for measurements described in~\chapterref{cha:measurements}. \\
 
@@ -9,12 +9,12 @@ In the hardware of a device there are some features that can be used to distingu
 	\caption{\label{fig:pyramid} The pyramid of features in a mobile device that can be used for fingerprinting.\cite[]{sensor:acoustic}}
 \end{figure}
 
-As seen above in~\figureref{fig:pyramid} are sensors an untapped source of fingerprints in mobile devices and example of sensors are microphone, accelerometer, barometer, speakers and gyroscope. The sensors investigated in this work is the accelerometer-, gyroscope-, and camera- sensors. All of them are common sensors in most of the mobile devices used today.
+As seen above in~\figureref{fig:pyramid} are sensors an untapped source of fingerprints in mobile devices and example of sensors are microphone, accelerometer, barometer, speakers and gyroscope. The sensors investigated in this work is the accelerometer, gyroscope, and camera sensors. All of them are common sensors in most of the mobile devices used today.
 
 
 \section{Accelerometer\index{accelerometer}}\label{sec:accelerometer}
-The accelerometer is the sensor that detect movement on a mobile device, like when you changing orientation on your device. Acceleration is measured by sensing how much pressure the device has in terms of force. The type of accelerometer sensor found in a mobile device is a micro-electromechanical systems known as MEMS sensor. \cite[]{sensors:fusion}
-\subsection{Fingerprinting feature / Bias}
+The accelerometer is the sensor that detect movement on a mobile device, like when you changing orientation on your device. Acceleration is measured by sensing how much pressure the device has in terms of force. The type of accelerometer sensor found in a mobile device is a micro-electromechanical systems known as MEMS\index{MEMS} sensor. \cite[]{sensors:fusion}
+\subsection{Fingerprinting characteristics / Bias}
 Measure the characteristics from the accelerometer is done by taking the long term average of the output when the accelerometer is in rest. That is the biggest error source in the accelerometer and it grows quadratic over time, but when the accelerometer is in rest the error $\epsilon$ can be calculated as a function of time $t$;
 \begin{equation} \label{eq:AccBias}
 s(t)=\epsilon * \frac{t^2}{2} 
@@ -27,7 +27,7 @@ The gyroscope is sensing how the device is moving in terms of angles, for mainta
 $$\boldsymbol{ F}_C = -2 \, m \, (\omega *  v)$$
 Where $m$ is the mass of the particle, $\omega$ the angular velocity and $v$ the velocity of the particle in the rotating system. 
 \cite[]{sensor:inertialNav}
-\subsection{Fingerprinting feature / Bias}
+\subsection{Fingerprinting characteristics / Bias}
 The gyroscope has some error characteristics like constant bias, white noise, bias instability, and calibration error and temperature effects. One of these error characteristics that can be tested by reading the output from a gyroscope in rest is the \textit{constant bias}\index{constant bias}. That is bias of the gyroscope output when not having any rotation on it. This constant error $\epsilon$ of the bias over time $t$ leads to an angular error that grows linear; 
 \begin{equation} \label{eq:gyroBias}
 \theta (t)= \epsilon * t
@@ -48,10 +48,10 @@ The three types of bias can be described as a mathematical model for getting the
 $$y_{ij}=f_{ij}(x_{ij}+\eta_{ij})+c_{ij}+\epsilon_{ij}$$
 where $f_{ij}$ is a multiple factor close to one that captures PRNU, $x_{ij}$ is the number of photons hitting the sensor, $\eta_{ij}$ the shot noise, $c_{ij}$ the dark current and $\epsilon_{ij}$ the additive random bias. The key for a unique fingerprint of the camera (in the mobile device) is to finding $f$.~\cite[]{sensor:camera:DCIdent}
 
-\subsection{Fingerprinting feature / Bias}
+\subsection{Fingerprinting characteristics / Bias}
 In this work the PRNU will be used as bias as in the research by~\cite{sensor:camera:DCIdent}. PRNU is the average of multiple pictures used and substantially an approximation of \textit{f}. The first step is to remove the pictures-content which leaves the noise, which is done using a denoising filter. 
 
-\section{Allan variance}\label{char:allan}\index{allan variance}
+\section{Allan variance}\label{char:allan}\index{Allan variance}
 In clocks, oscillators and amplifiers there is a measure of stability known as Allan variance. This variance is a estimation of bias processes and not imperfections that temperature effects and frequency drift.~\cite[]{allan}\\ 
 This is also a common variance to use when calibrating gyroscope.~\cite[]{allanGyro1}~\cite[]{allanGyro2}
 
@@ -101,7 +101,7 @@ Since the research is in such different sizes they are difficult to compare it m
 \caption{Comparing previous studies of camera fingerprinting} \label{table:prevCamera}
 \end{table}
 
-\subsubsection*{\cite{sensor:camera:blind}: \textit{Blind Identification of Source Cell-Phone Model}}
+\subsubsection*{\cite{sensor:camera:blind}: \textit{Blind Identification of Source Cell-Phone Model}}\index{SVM}
 Using a probabilistic SVM classifier based on different features they manage to get good result (success rate on 95.1\%) even on images that are manipulated such cropped, resized or rotated. This however is a small scale experiment with more advanced techniques that not can be applied in authentication purposes rather in forensics. The thing to notice here is that the experiment is performed on cell-phones from 2008 when the pictures had less quality than today’s smart-phones.
 ~\cite[]{sensor:camera:blind}
 

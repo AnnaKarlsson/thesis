@@ -1,12 +1,9 @@
-\indexentry {G!abbreviation|hyperpage}{xv}
 \indexentry {FAR!abbreviation|hyperpage}{xv}
 \indexentry {FRR@!abbreviation|hyperpage}{xv}
 \indexentry {FTE!abbreviation|hyperpage}{xv}
-\indexentry {ICT@!abbreviation|hyperpage}{xv}
 \indexentry {IoT@!abbreviation|hyperpage}{xv}
 \indexentry {M2M!abbreviation|hyperpage}{xv}
 \indexentry {MEMS!abbreviation|hyperpage}{xv}
-\indexentry {NIC!abberviation|hyperpage}{xv}
 \indexentry {OS!abberviation|hyperpage}{xv}
 \indexentry {PRNU!abberviation|hyperpage}{xv}
 \indexentry {RMS!abberviation|hyperpage}{xv}
@@ -15,11 +12,26 @@
 \indexentry {two factor authentication|hyperpage}{5}
 \indexentry {challenge-response|hyperpage}{6}
 \indexentry {M2M|hyperpage}{7}
+\indexentry {IoT|hyperpage}{7}
+\indexentry {IoT|hyperpage}{8}
+\indexentry {M2M authentication|hyperpage}{8}
+\indexentry {biometric process|hyperpage}{9}
+\indexentry {biometric authentication|hyperpage}{10}
 \indexentry {FRR|hyperpage}{10}
 \indexentry {FAR|hyperpage}{10}
+\indexentry {FTE|hyperpage}{11}
+\indexentry {universality|hyperpage}{11}
+\indexentry {uniqueness|hyperpage}{11}
+\indexentry {permanence|hyperpage}{11}
+\indexentry {measurability|hyperpage}{11}
+\indexentry {performance|hyperpage}{11}
+\indexentry {acceptability|hyperpage}{11}
+\indexentry {circumvention|hyperpage}{11}
+\indexentry {biometric design cycle|hyperpage}{12}
 \indexentry {characteristics|hyperpage}{13}
 \indexentry {device fingerprint|hyperpage}{13}
 \indexentry {accelerometer|hyperpage}{14}
+\indexentry {MEMS|hyperpage}{14}
 \indexentry {gyroscope|hyperpage}{14}
 \indexentry {constant bias|hyperpage}{15}
 \indexentry {camera fingerprinting|hyperpage}{15}
@@ -28,4 +40,6 @@
 \indexentry {fixed pattern noise|hyperpage}{15}
 \indexentry {photo-response non-uniformity noise|hyperpage}{15}
 \indexentry {PRNU|hyperpage}{15}
-\indexentry {allan variance|hyperpage}{16}
+\indexentry {Allan variance|hyperpage}{16}
+\indexentry {SVM|hyperpage}{17}
+\indexentry {JavaScript|hyperpage}{20}
