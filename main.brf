@@ -13,18 +13,17 @@
 \backcite {introbio}{{9}{2.4.1}{subsection.2.4.1}}
 \backcite {introbio}{{10}{2.4.2}{Item.8}}
 \backcite {introbio}{{10}{2.4.3}{subsection.2.4.3}}
-\backcite {introbio}{{11}{2.4.4}{subsection.2.4.4}}
-\backcite {introbio}{{11}{2.4.5}{subsection.2.4.5}}
+\backcite {introbio}{{10}{2.4.4}{subsection.2.4.4}}
 \backcite {introbio}{{12}{2.4.5}{Item.15}}
 \backcite {sensor:acoustic}{{13}{3}{chapter.3}}
-\backcite {sensor:acoustic}{{13}{3.1}{figure.caption.13}}
+\backcite {sensor:acoustic}{{14}{3.1}{figure.caption.13}}
 \backcite {sensors:fusion}{{14}{3.1}{section.3.1}}
 \backcite {sensor:inertialNav}{{14}{3.1.1}{equation.3.1.1}}
 \backcite {sensors:fusion}{{14}{3.1.1}{equation.3.1.1}}
 \backcite {sensor:inertialNav}{{14}{3.2}{section.3.2}}
 \backcite {sensors:fusion}{{15}{3.2.1}{equation.3.2.2}}
 \backcite {sensor:camera:DCIdent}{{15}{3.3}{section.3.3}}
-\backcite {sensor:camera:DCIdent}{{15}{3.3.1}{subsection.3.3.1}}
+\backcite {sensor:camera:DCIdent}{{16}{3.3.1}{subsection.3.3.1}}
 \backcite {allan}{{16}{3.4}{section.3.4}}
 \backcite {allanGyro1}{{16}{3.4}{section.3.4}}
 \backcite {allanGyro2}{{16}{3.4}{section.3.4}}
@@ -32,14 +31,14 @@
 \backcite {sensor:speechGyro}{{16}{3.5}{section.3.5}}
 \backcite {sensor:accelPrint}{{16}{\caption@xref {??}{ on input line 76}}{section*.15}}
 \backcite {sensor:micSpeak}{{16}{\caption@xref {??}{ on input line 77}}{section*.15}}
-\backcite {sensor:accelPrint}{{16}{3.5}{section*.16}}
+\backcite {sensor:accelPrint}{{17}{3.5}{section*.16}}
 \backcite {sensor:accelPrint}{{17}{3.5}{section*.16}}
 \backcite {sensor:micSpeak}{{17}{3.5}{section*.17}}
 \backcite {sensor:micSpeak}{{17}{3.5}{section*.17}}
 \backcite {sensor:camera:blind}{{17}{\caption@xref {??}{ on input line 97}}{table.caption.19}}
 \backcite {sensor:camera:DCIdent}{{17}{\caption@xref {??}{ on input line 98}}{table.caption.19}}
-\backcite {sensor:camera:blind}{{17}{3.5}{section*.20}}
-\backcite {sensor:camera:blind}{{17}{3.5}{section*.20}}
+\backcite {sensor:camera:blind}{{18}{3.5}{section*.20}}
+\backcite {sensor:camera:blind}{{18}{3.5}{section*.20}}
 \backcite {sensor:camera:DCIdent}{{18}{3.5}{section*.21}}
 \backcite {sensor:camera:DCIdent}{{18}{3.5}{section*.21}}
 \backcite {sensor:W3C}{{20}{4.1}{figure.caption.22}}

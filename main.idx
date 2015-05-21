@@ -12,7 +12,6 @@
 \indexentry {two factor authentication|hyperpage}{5}
 \indexentry {challenge-response|hyperpage}{6}
 \indexentry {M2M|hyperpage}{7}
-\indexentry {IoT|hyperpage}{7}
 \indexentry {IoT|hyperpage}{8}
 \indexentry {M2M authentication|hyperpage}{8}
 \indexentry {biometric process|hyperpage}{9}
@@ -30,7 +29,7 @@
 \indexentry {biometric design cycle|hyperpage}{12}
 \indexentry {characteristics|hyperpage}{13}
 \indexentry {device fingerprint|hyperpage}{13}
-\indexentry {accelerometer|hyperpage}{14}
+\indexentry {accelerometer|hyperpage}{13}
 \indexentry {MEMS|hyperpage}{14}
 \indexentry {gyroscope|hyperpage}{14}
 \indexentry {constant bias|hyperpage}{15}
@@ -41,5 +40,5 @@
 \indexentry {photo-response non-uniformity noise|hyperpage}{15}
 \indexentry {PRNU|hyperpage}{15}
 \indexentry {Allan variance|hyperpage}{16}
-\indexentry {SVM|hyperpage}{17}
+\indexentry {SVM|hyperpage}{18}
 \indexentry {JavaScript|hyperpage}{20}

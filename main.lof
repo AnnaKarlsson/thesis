@@ -12,7 +12,7 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Challenge-response authentication with bank card reader\relax }}{7}{figure.caption.11}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces The design cycle of a biometric system\relax }}{12}{figure.caption.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces The pyramid of features in a mobile device that can be used for fingerprinting.\cite []{sensor:acoustic}\relax }}{13}{figure.caption.13}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The pyramid of features in a mobile device that can be used for fingerprinting.\cite []{sensor:acoustic}\relax }}{14}{figure.caption.13}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces The coordinate system used in JavaScript\cite []{sensor:W3C}\relax }}{20}{figure.caption.22}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces The device rotation axes for the JavaScript \texttt {DeviceOrientation}\relax }}{21}{figure.caption.23}
