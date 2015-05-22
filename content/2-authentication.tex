@@ -11,15 +11,15 @@ There are more ways to authenticate a user than password, however it is the most
 	\item Something the authenticator \textit{is}, known as biometrics such as fingerprint or iris pattern
 \end{itemize}
 \cite[p.~31]{rosssec} \\
-Authentication in two factor means a combination of two of the three types of authentication above. An example can be the use of a credit card (you have) in combination with a PIN-code (you know) to collect the money from an ATM. Something the authenticator has and knows is the most common combination. The biggest reason for that biometrics isn't that common yet is due to costs.
+Authentication in two factor means a combination of two of the three types of authentication above. An example can be the use of a credit card (you have) in combination with a PIN-code (you know) to collect the money from an ATM. Something the authenticator has and knows is the most common combination. The biggest reason for that biometrics is not that common yet is due to costs.
 \cite[p.~47]{rosssec}
 
 \section{Challenge-Response authentication}\label{sec:challResp} \index{challenge-response}
 The challenge-response protocol is built upon the idea that the user of a system first must complete a challenge decided by the system in order to access the system. An example is modern car keys when trying to start the engine, the engine controller gives the key a challenge consisting of a random $n$-bit number. The key encrypts the challenge and responds. \\
 The problem challenge-response protocols faces is often to achieve good randomness, thus if the challenge is not random enough there is a risk for a malicious user to calculate the $n$-bit number. \\
-There are other applications than locks, like the HTTP Digest Authentication. That uses the authentication process where a web server challenges a client or a proxy with the common secret of a password. The server sends nonce to the client or proxy, that hash the nonce with the password and the requested URI. (Nonce is an arbitrary number that only can be used once, often generated as random or pseudo-random.)This authentication mechanism is not vulnerable to password snooping and is used in cases like client-server-authentication in SIP or the protocol for Voice-Over-IP telephony. This protocol is vulnerable to man-in-the-middle attacks. \\
+There are other applications than locks, like the HTTP Digest Authentication. That uses the authentication process where a web server challenges a client or a proxy with the common secret of a password. The server sends nonce to the client or proxy, that hash the nonce with the password and the requested URI. (Nonce is an arbitrary number that only can be used once, often generated as random or pseudo-random.) This authentication mechanism is not vulnerable to password snooping and is used in cases like client-server-authentication in SIP or the protocol for Voice-Over-IP telephony. This protocol is vulnerable to man-in-the-middle attacks. \\
 \\
-Ross states that a much more common use of challenge response is in \textit{two-factor authentication} (~\sectionref{sec:2fauth}). An example of use is if you have a bank card reader when accessing your bank on the Internet. When you want to log in there are a random set of $n$ numbers displayed in the screen. You put these numbers together with a PIN into your bank card reader. The reader encrypts these numbers (pin + $n$ numbers) using a secret key shard with the server of the bank. The first $n$ numbers of the encryption is displayed on the card reader and you enter this in the login screen as a password.
+Ross states that a much more common use of challenge response is in \textit{two-factor authentication} (\sectionref{sec:2fauth}). An example of use is if you have a bank card reader when accessing your bank on the Internet. When you want to log in there are a random set of $n$ numbers displayed in the screen. You put these numbers together with a PIN into your bank card reader. The reader encrypts these numbers (pin + $n$ numbers) using a secret key shard with the server of the bank. The first $n$ numbers of the encryption is displayed on the card reader and you enter this in the login screen as a password.
 \newpage
 \begin{figure}[h]
 	\centering
@@ -53,35 +53,36 @@ All these devices with no human control is like told above very different, but m
 \cite[p.~2-4]{m2mComm}
 
 \subsection{Difference between M2M and IoT}\index{IoT}
-The term Internet-of-Things meaning everything that is connected to the Internet. IoT are now in its starting pits and ready to start the race. Machine-to-machine communication is a part of that, but it also covers other areas and IoT some that M2M doesn't. 
+The term Internet-of-Things meaning everything that is connected to the Internet. IoT are now in its starting pits and ready to start the race. Machine-to-machine communication is a part of that, but it also covers other areas and IoT some that M2M does not. 
 % Måla en fin graf med två ringar som sitter ihop om du vill förklara.
 The common denominator is according to Polsonetti the \textit{remote device access}, where the embedded hardware modules in a machine that communicate wireless or not is M2M applications. Remote device access for IoT has a wider perspective that not only including same device communication but also passive and other low-power sensors that not can be motivated as a M2M hardware module.
 \cite[]{cpM2MIoT}
 
 \subsection{M2M authentication}\index{M2M authentication}
-There is no standardized way of authentication in M2M, but effort is done in the area. An example is authentication based on a machines fingerprint. (This fingerprint isn't of the same character as the one this thesis.)  The fingerprint in the example  consist of hardware message of computers, such serial number of CPU, MAC address of network card, Machine ID etc. \cite[]{auth:M2M} \\
+There is no standardized way of authentication in M2M, but effort is done in the area. An example is authentication based on a machines fingerprint. (This fingerprint is not of the same character as the one this thesis.)  The fingerprint in the example  consist of hardware message of computers, such serial number of CPU, MAC address of network card, Machine ID etc. \cite[]{auth:M2M} \\
 These things have through the years been proven to be pretty easy to spoof. There are hundreds of blog-articles and forum topics of how to do that in many platforms like mobile devices. \\
 \\
 Quote about M2M authentication:
 \begin{center} 
 \textit{``\dots traditional methods such as “what you know and who you are” may not be applied''.}
 \end{center}
-\cite[]{auth:M2Mcom}
+  \begin{flushright}\cite[]{auth:M2Mcom}\end{flushright}
+
 This quote states pretty well the aim of this thesis (section~\ref{sec:aim}). That is to use what the device is with biometric authentication that is more  tried and tested.
 
 
 \section{The biometric process}\label{sec:biometric}\index{biometric process}
-\begin{center}\textit{``A biometric system measures one or more behavioral characteristics...information of an individual to determine or verify his identity.''} \cite[p.~3]{introbio}\end{center}
+\begin{center}\textit{``A biometric system measures one or more behavioral characteristics...information of an individual to determine or verify his identity.''} \end{center}\begin{flushright}\cite[p.~3]{introbio}\end{flushright}
 
 \subsection{Recognition}
-As said before is biometric something you \textit{are} and the person who wants to be recognized to the system. Buy, showing his or her biometric identifier (fingerprint, iris, DNA, etc.) to the biometric system, thus seen as a \textit{user} of the system. The strength in biometrics is also the fact that it knows if a user is known to the system even if the user denies it. \cite[ch.~1]{introbio}
+As said before is biometric something you \textit{are} and the person who wants to be recognised to the system. Buy, showing his or her biometric identifier (fingerprint, iris, DNA, etc.) to the biometric system, therefore seen as a \textit{user} of the system. The strength in biometrics is also the fact that it knows if a user is known to the system even if the user denies it. \cite[ch.~1]{introbio}
 
 \subsection{Biometric systems}\label{sec:bioSys}
 There are some blocks for building a biometric systems, which can measure characteristics of a user. In biometrics these characteristics are called \textit{traits, indicators, identifiers, or modalities}, but in thesis it will still be called characteristics.\\
 \\
 The first step of biometric authentication is to collect biometric data and store it in a database with the user’s identity. The recognition is then done by again collecting biometric data from the user and compare to the database. This is the so called \textit{enrollment and recognition phase}. The raw biometric data is often destroyed after enrollment and the recognition is all about pattern matching. This matching is done in four steps;
 \begin{enumerate}
-	\item \textit{Sensor -} to collect the raw biometric samples, that can be an image, amplitude signal, online signature, odor or chemical-based.
+	\item \textit{Sensor -} to collect the raw biometric samples, that can be an image, amplitude signal, online signature, odour or chemical-based.
 	\item \textit{Feature extractor -} Makes the raw biometric samples comparable, mostly done in three pre-process operations; 
 	\begin{itemize}
     	\item Quality assessment - Checks if the sample is good enough.
@@ -89,7 +90,7 @@ The first step of biometric authentication is to collect biometric data and stor
 		\item Enhancement - Uses an algorithm to improve characteristic features of the sample.
     \end{itemize}
 	\item \textit{Database -} that has the data from the enrollment phase together with some identity data (like name or ID). This database should having an access control mechanism for security reasons.
-	\item \textit{Matcher -} where the sample from the enrollment is compared with the sample in recognition, to see if it's a match or not. This is done by having a match score to decide how close the enrolled and recognition sample is. The score is counted in different way depending on the characteristics that is used in the system. 
+	\item \textit{Matcher -} where the sample from the enrollment is compared with the sample in recognition, to see if it is a match or not. This is done by having a match score to decide how close the enrolled and recognition sample is. The score is counted in different way depending on the characteristics that is used in the system. 
 \end{enumerate}
 \cite[ch.~1]{introbio}
 
@@ -104,7 +105,7 @@ $$ FRR(\eta) = p(s\geq \eta | \omega_{1}) = \int_{-\infty}^{\eta} p(s | \omega_{
 where $p(s\geq \eta | \omega_{x})$ us the probability density function of the authentic respective impostor score. 
 \cite[p.~18]{introbio}
 
-\subsection{Design a biometric system}
+\subsection{The design of a biometric system}
 When designing a biometric system it is done in an activity cycle of five steps. Depending on the outcome of one activity, the next step could be forward or redoing earlier activity. These five steps are explained below followed by an flow-chart of the design cycle.\\
 \\
 \textbf{Understand nature of application}\\
@@ -123,7 +124,7 @@ This choice is based on seven different factors. The disadvantages of biometrics
 	\item User should have a high \textit{acceptability} when presenting their characteristics to the system.\index{acceptability}
 	\item \textit{Circumvention}, in terms of how easy it is to maliciously fake the characteristics.\index{circumvention}
 \end{enumerate} 
-
+\\
 \textbf{Collect biometric data}\\ 
 Apart from the collecting also includes factors of time, cost and size of the equipment.\\
 \\

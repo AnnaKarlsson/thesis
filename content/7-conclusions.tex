@@ -1,41 +1,41 @@
 \chapter{CONCLUSIONS}\label{cha:conculsions}
-This chapter will reconnect to the aim and objectives of the thesis. In comparison to designing a biometric system this would be the part of~\textit{choosing feature and matching algorithm}.
+This chapter will reconnect to the aim and objectives of the thesis. In comparison to designing a biometric system this would be the part final of~\textit{choosing feature and matching algorithm}.
 
 \section{Choose of characteristics}\label{sec:concl:choose}
-In the selection of characteristics, there are seven different factors that must be considered (described in section~\ref{auth:bio:character}. The sensors of the thesis are compared to conclude which sensor\textit{(/s)} that is best suitable as a second factor in authentication between devices.
+In the selection of characteristics, there are seven different factors that must be considered (described in section~\ref{auth:bio:character}). The sensors of the thesis are compared to decide which sensor\textit{(/s)} that is best suitable as a second factor in authentication between devices.
 
 \subsection*{Universality}
-The first factor regarding universality, thus low FTE of the accelerometer and gyroscope is quite low, around 4\% which could be lower if more tests and adjustments is done in the JavaScript. Since one of the conditions when doing the measurements were that the device should be still on a flat surface there is are conditions to decide if the device is still or not (code on GitHub~\cite[]{sensorrec}). This conditions together with some additional checks for valid sensor-measurements should lower the FTE.  The camera is also good in terms of universality due to that is almost impossible to find a mobile device without camera today.\\
+The first factor regarding universality. The FTE of the accelerometer and gyroscope is quite low, around 4\% which could be lower if more tests and adjustments are done in the code. Since one of the conditions when doing the measurements was that the device should lay still on a flat surface there are conditions to decide if the device is still or not (code on GitHub~\cite[]{sensorrec}). This conditions together with some additional checks for valid sensor-measurements should lower the FTE.  The camera is also good in terms of universality because it is almost impossible to find a mobile device without camera today.\\
 
 \subsection*{Uniqueness}
-As shown in the result the accelerometer was the best choice if uniqueness since the FAR is only VALUE!!. The FRR were that low on the other sensor that no calculations on the FAR were made. But there are other methods used of identify the camera as in~\cite{sensor:camera:blind} that shows good uniqueness.
+As shown in the result the accelerometer was the best choice of uniqueness since the FAR is zero when both threshold values is set to one. The FRR were that high on the other sensor that no calculations on FAR were made. But there are other methods used of identify the camera as in previous research that shows high uniqueness.~\cite[]{sensor:camera:blind}
 
 \subsection*{Permanence}
-What also was shown in the result is that the permanence of the accelerometer is good compared to the gyroscope. But if considered using accelerometer in a system were an authentication is done less than once a month further testing is recommended. Also some kind of machine learning of the drift of bias would be preferable as used by~\cite{sensor:accelPrint}. \\
-The permanence of the camera was not tested but it seems likely that it has a good value of permanence since the result of the research in~\cite{sensor:camera:DCIdent} tested a random pick of images from portfolios that had been taken at different time and various environments. 
+What was also shown in the result is that the permanence of the accelerometer is better than compared to the gyroscope. If considered using accelerometer in a system were an authentication is done less than once a month further testing is recommended. Also some kind of machine learning of the drift of bias would be preferable as used by~\cite[]{sensor:accelPrint}. \\
+The permanence of the camera was not tested but it seems likely that it has a good value of permanence since the result in previous research has tested a random pick of images from portfolios that had been taken at different time and various environments.~\cite[]{sensor:camera:DCIdent}
 
 \subsection*{Measurability}
-When it comes to measurability is the accelerometer and gyroscope a good choice since it seems to work quite well when only 600 samples is used as in the MATLAB simulation which is just a few seconds depending on the device and sampling rate to send the result also is quite quick since the data send is about 57 KB. To take a picture and send takes some longer time considered the size of a picture of a mobile device is between 0.5 and 1.3 MB. 
+When it comes to measurability, the accelerometer and gyroscope are good choices since they seems to work quite well when only 600 samples are used as in the MATLAB simulation which is just a few seconds depending on the device and sampling rate. Furthermore is it quite quick since the data to send is about 57 KB. To take a picture and send takes longer time considered the size of a picture of a mobile device is between 0.5 and 1.3 MB. 
 
 \subsection*{Performance}
-The time of authenticate the accelerometer is just a fraction compared to the camera. The accelerometer simulation in MATLAB takes around five seconds with sixty devices and the camera took 25-46 seconds when only ten devices were compared.
+The time to authenticate the accelerometer is just a fraction compared to the camera authentication method. The accelerometer simulation in MATLAB takes around five seconds with sixty devices and the camera took 25-46 seconds when only ten devices were compared.
 
 \subsection*{Acceptability}
-As discussed in section~\ref{sec:ethical} about the ethical aspects regarding information of sensors noise. Today not many of us don't care to sending sensor information since we don't think it is being used to anything else than what the application aims to do (e.g. if rotating the device or uploading a picture to a social media site). This time is a gray area if this type of sensor reading, especially when you read research as with the title:
+The ethical aspects discussed in section~\ref{sec:ethical} regarding information of sensors noise is a part of the acceptability. Today do not many of us care sending sensor information, since we do not think it is (or can) be used to anything else than what the application aims to do (e.g. rotating the device or uploading a picture to a social media site). Today is a gray area for this type of sensor reading, especially when you read research as with the title:
 \begin{center}
 \textit{`'Gyrophone: Recognizing Speech From Gyroscope Signals`'}
 \end{center}
-That is a Stanford security research proving that it is possible to do exactly as the title implies, thus gyroscopes in smart phones is capable of measure acoustic signals that can recognize speech.~\cite[]{stanGyro}\\
-The conclusion here is that it is acceptable by the majority of people today but it maybe should be the case with more knowledge in the area.\\Since number of uploaded pictures today in social media etc. is growing, it is hard to think the use of pictures in a authentication system wouldn't be acceptable. \\
-To conclude this is all the sensors probably social accepted to use for authentication the question is what could happen in a near future when the sensor data could be used as speech recognition or tracking.
+That is a Stanford security research proving that it is possible to do exactly as the title implies, gyroscopes in smart phones are capable of measuring acoustic signals that can recognize speech.~\cite[]{stanGyro}\\
+The conclusion is that it is acceptable of the majority of people today but may be would not be the case with more knowledge in the area.\\
+Since the number of uploaded pictures today in social media etc. is growing, it is hard to believe the use of pictures in a authentication system would not be acceptable. \\
+To conclude this all the sensors is probably social accepted to use for authentication today. The question is what could happen in the near future when the sensor data could be used as speech recognition or tracking.
 
 \subsection*{Circumvention}
-This factor is not in the area of the thesis since this is a question of how to implementing the authentication system and the security of that. The reason for having a section on challenge-response (section~\ref{sec:challResp}) in the authentication-chapter is that it would be a protocol to considered that will make it harder to malicious fake sensor noise. Ways to do this with the accelerometer is discussed in further work.
+Circumvention is not in the area of the thesis since this is a question of how to implement the authentication system and the security of that. The reason for having a section on challenge-response (section~\ref{sec:challResp}) in the authentication-chapter is that it would be a protocol to consider that would make it harder to malicious fake sensor noise. Ways to do this with the accelerometer is discussed later in this chapter (section~\ref{sec:further}).
 
 
 \subsection*{Summary of characteristics}
-The table~\ref{tab:charConc} summarize the conclusions made about the different characteristics to make an summarized answer to the question asked in the aims and objectives of the thesis (section~\ref{sec:aim}). \\
-\textbf{===OBS!! Tycker ni att jag ska svara kort på frågorna här? för jag tycker att texten innan i detta kapitlet svara på det o känns lite löjligt att svara på en frågeställning i ett par meningar.}
+The table~\ref{tab:charConc} summarizes the conclusions made about the different characteristics to make a summarized answer to the question asked in the aims and objectives of the thesis (section~\ref{sec:aim}). \\
 % Table generated by Excel2LaTeX from sheet 'Sheet1'
 \begin{table}[htbp]
   \centering
@@ -57,8 +57,8 @@ The table~\ref{tab:charConc} summarize the conclusions made about the different 
 \end{table}%
 
 
-\section{Further work}
-When talking this work to the next step that would be to further evaluate and test the accelerometer since that is the only of the sensors that seems like a promising second factor to use in M2M authentication. This work would contain more devices, thus check the scalability of using an accelerometer. What is the maximum number of devices to have in this kind of authentication before the FAR and FRR grows to unacceptable numbers. Another thing to explore is the possibility of including the challenge-response protocol in the authentication to make it harder of a malicious device to authenticate. Not knowing of any malicious devices jet, thus meaning a malicious human using a device or pretend to be a device. The challenge could be things like vibrating a pattern or moving the accelerometer in a certain way.\\
+\section{Further work}\label{sec:further}
+When taking this work to the next step that could be to further evaluate and test the accelerometer since that is the only one of the sensors that seems like a promising second factor to use in M2M authentication. This work would contain more devices, and therefore check the scalability of using an accelerometer. What is the maximum number of devices to have in this kind of authentication before the FAR and FRR grows to unacceptable numbers. Another thing to explore is the possibility of including the challenge-response protocol in the authentication to make it harder of a malicious device to authenticate. Not knowing of any malicious devices today, and therefore meaning a malicious human using a device or pretend to be a device. The challenge could be things like vibrating a pattern or moving the accelerometer in a certain way.\\
 If continuing with the accelerometer other features of extracting the constant noise would be a area to explore and evaluate if they have lower rates of FAR and FRR or is more scalable in the number of devices that can be used. \\
 \\
 Another thing to explore is other sensors than the one presented in this thesis as the microphone, speaker, magnetometer or even the barometer. The most important factors to explore is the scalability and uniqueness because without neither of them the sensor would not be suitable in the aim as characteristics in a M2M authentication system. Also before saying that the gyroscope has bad uniqueness and permanence the data could be collected from an application were the data may be less calibrated.

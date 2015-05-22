@@ -1,15 +1,15 @@
 \chapter{CHARACTERISTICS OF A MOBILE DEVICE} \label{cha:character}\index{characteristics}
-Compared to the biometric design is this is also a part of \textit{Understand nature of application}.\\
+Compared to the biometric design is this also a part of \textit{understand nature of application}.\\
 \\
-In the hardware of a device there are some features that can be used to distinguish devices from each other. In most cases it is not called features rather error sources, noise or bias. In the aim of this thesis it is feature characteristics that can be seen as a uniqueness of an mobile device. \textit{Device fingerprint(ing)}\index{device fingerprint} is the term used for this feature characteristics and the pyramid seen in~\figureref{fig:pyramid} from ~\cite[]{sensor:acoustic} shows the different types of sources of device fingerprint. This thesis will focus on the top of quarter of that pyramid that is the sensors. All error sources of sensors comes in form of bias and the bias from each sensor covered by the thesis is further explained in this chapter. There is also an explanation on how the sensors is measured in JavaScript that is used for measurements described in~\chapterref{cha:measurements}. \\
+In the hardware of a device there are some features that can be used to distinguish devices from each other. In most cases it is not called features rather error sources, noise or bias. In the aim of this thesis it is feature characteristics that can be seen as a uniqueness of an mobile device. \textit{Device fingerprint(ing)}\index{device fingerprint} is the term used for this feature characteristics and the pyramid seen in~\figureref{fig:pyramid} shows the different types of sources of device fingerprint. This thesis will focus on the top of that pyramid that is the sensors. All error sources of sensors comes in form of bias and the bias from each sensor covered by the thesis is further explained in this chapter. There is also an explanation on how the sensors is measured in JavaScript that are used for measurements described in~\chapterref{cha:measurements}. \\
 
 
-\begin{figure}[!h]
+\begin{figure}[!htb]
 	\input{fig/3-featurePyramid.tex}
 	\caption{\label{fig:pyramid} The pyramid of features in a mobile device that can be used for fingerprinting.\cite[]{sensor:acoustic}}
 \end{figure}
 
-As seen above in~\figureref{fig:pyramid} are sensors an untapped source of fingerprints in mobile devices and example of sensors are microphone, accelerometer, barometer, speakers and gyroscope. The sensors investigated in this work is the accelerometer, gyroscope, and camera sensors. All of them are common sensors in most of the mobile devices used today.
+As seen in~\figureref{fig:pyramid} are sensors an untapped source of fingerprints in mobile devices and example of sensors are microphone, accelerometer, barometer, speakers and gyroscope. The sensors investigated in this work is the accelerometer, gyroscope, and camera sensors. All of them are common sensors in most of the mobile devices used today.
 
 
 \section{Accelerometer\index{accelerometer}}\label{sec:accelerometer}
@@ -38,11 +38,11 @@ If take the long term average output from the gyro in rest, the constant error o
 \section{Camera}\label{sec:char:camera}\index{camera fingerprinting}\index{camera}
 \textit{Note that normally bias in a camera sensor is called \textbf{noise} but for uniformity reason of this report it will be referenced to \textbf{bias}.}\\
 \\
-The digital camera of a mobile device also includes sensors and other hardware that can be used as fingerprinting characteristics. The basic is that light travels through a lens and hits a imaging sensor which contains pixels that has a filter array in front. The filter is for gives each pixel a detected color. The pixels is then put together again to a resulting signal which is send to some final post processing (color correction, white balance, etc.) steps before the image is written to the memory card. In this process there are different kind of bias that effects the image;
+The digital camera of a mobile device also includes sensors and other hardware that can be used as fingerprinting characteristics. The basic is that light travels through a lens and hits a imaging sensor which contains pixels that has a filter array in front. The filter is for gives each pixel a detected color. The pixels is then put together again to a resulting signal which is send to some final post processing (color correction, white balance, etc.) steps before the image is written to the memory card. In this process there are different kind of bias that effects the picture:
 \begin{itemize}
-	\item[] \textit{\index{shot noise}Shot noise -} the amount of photons hitting the sensor and each pixel varies a random amount
-	\item[] \textit{\index{fixed pattern noise}Fixed pattern noise - }there is a small electric current that leaks from photo-diodes in each pixel, caused by dark current
-	\item[] \textit{\index{photo-response non-uniformity noise}\index{PRNU}Photo-response non-uniformity noise (PRNU) -} is a bias that is not affected by temperature or humidity. When manufacturing sensors the silicon gets imperfection which causes that pixels aren't equally sensitive to light. This is the main source of pattern bias and makes it really unlikely for two cameras to have the same pattern.
+	\item \textit{\index{shot noise}Shot noise -} the amount of photons hitting the sensor and each pixel varies a random amount
+	\item \textit{\index{fixed pattern noise}Fixed pattern noise - }there is a small electric current that leaks from photo-diodes in each pixel, caused by dark current
+	\item \textit{\index{photo-response non-uniformity noise}\index{PRNU}Photo-response non-uniformity noise (PRNU) -} is a bias that is not affected by temperature or humidity. When manufacturing sensors the silicon gets imperfection which causes that pixels are not equally sensitive to light. This is the main source of pattern bias and makes it really unlikely for two cameras to have the same pattern.
 \end{itemize}
 The three types of bias can be described as a mathematical model for getting the output of the sensor $y_{ij}$:
 $$y_{ij}=f_{ij}(x_{ij}+\eta_{ij})+c_{ij}+\epsilon_{ij}$$
@@ -64,7 +64,7 @@ $$\sigma_y(\tau) = \sqrt{\sigma_y^2(\tau)} \, $$
 
 
 \section{Previous work of device sensor fingerprinting}
-Accelerometer fingerprinting is a recent field of studies compared to the camera fingerprint that had been around for a longer time. The camera has for a long time been an object of identification in forensic purposes and therefor many research has been made and are applied today. Most of them uses advanced algorithm to extract the fingerprint and time of extracting hasn't been a concern. However in the aim of authentication the process can't be to time-consuming. In the~\tableref{table:prevAcc} and~\tableref{table:prevCamera} previous studies is presented in brief, followed by a longer presentation. Studies of gyroscope fingerprinting haven't been found. The majority of recent studies regarding the gyroscope have been about speech recognition.  \cite[]{sensor:speechGyro} 
+Accelerometer fingerprinting is a recent field of studies compared to the camera fingerprint that had been around for a longer time. The camera has for a long time been an object of identification in forensic purposes and therefor many research has been made and are applied today. Most of them uses advanced algorithm to extract the fingerprint and time of extracting has not been a concern. However in the aim of authentication the process ca not be to time-consuming. In the~\tableref{table:prevAcc} and~\tableref{table:prevCamera} previous studies is presented in brief, followed by a longer presentation. Studies of gyroscope fingerprinting have not been found. The majority of recent studies regarding the gyroscope have been about speech recognition.  \cite[]{sensor:speechGyro} 
 
 
 
@@ -80,13 +80,13 @@ Accelerometer fingerprinting is a recent field of studies compared to the camera
 \caption{Comparing previous studies of accelerometer fingerprinting} \label{table:prevAcc}
 \end{table}
 
-\subsubsection*{\cite{sensor:accelPrint}: \textit{AccelPrint: Imperfections of Accelerometers Make Smartphones Trackable}}
+\subsubsection*{\cite[]{sensor:accelPrint}: \textit{AccelPrint: Imperfections of Accelerometers Make Smartphones Trackable}}
 This research shows that the accelerometer can be used in identification and tracking purposes of the device. It is performed on android devices with an android application and on standalone accelerometer chips. Their fingerprint consists of statistics values of the recordings such mean, standard deviation, skewness, min and max-values in both time and frequency domain. The research makes recordings with and without vibrations and in different circumstances; in car, running, walking, standing still. Their test environment uses machine learning that uses the statistics to build a fingerprint.\\
 The result is an accuracy on 98\% when having alien devices among the already known devices which. Alien devices means that they are not previous known for the system, e.g. separate new users from already register users. \\
 The research also states that the time needed for identifying a device is 30 seconds and that CPU-load less than 40\% is not affecting the result. Another important thing to notice is that since the also used standalone accelerometer in different OS it rule out the possibility of that an OS can affect the output from the accelerometer.~\cite[]{sensor:accelPrint}
 
-\subsubsection*{\cite{sensor:micSpeak}: \textit{Mobile Device Identification via Sensor Fingerprinting}}
-This research shows a much larger scale experiments of 3583 devices. Experiments are performed using JavaScript in a web-page. The fingerprint consists of calculating the bias offset on the accelerometer data. The result however isn't as good as the previous with successful identification on 15.1\%. To improve the result UserAgent-data were added and success rate rises to 58.7\% but that is software-based identification that more easily can be modified at the client side.~\cite[]{sensor:micSpeak}\\
+\subsubsection*{\cite[]{sensor:micSpeak}: \textit{Mobile Device Identification via Sensor Fingerprinting}}
+This research shows a much larger scale experiments of 3583 devices. Experiments are performed using JavaScript in a web-page. The fingerprint consists of calculating the bias offset on the accelerometer data. The result however is not as good as the previous with successful identification on 15.1\%. To improve the result UserAgent-data were added and success rate rises to 58.7\% but that is software-based identification that more easily can be modified at the client side.~\cite[]{sensor:micSpeak}\\
 \\
 Since the research is in such different sizes they are difficult to compare it may be the case that \textit{AccelPrint} gets similar success rate if scaling it up and vice versa. \\
 \subsubsection*{Camera}\label{earlier:camera}
@@ -101,10 +101,10 @@ Since the research is in such different sizes they are difficult to compare it m
 \caption{Comparing previous studies of camera fingerprinting} \label{table:prevCamera}
 \end{table}
 
-\subsubsection*{\cite{sensor:camera:blind}: \textit{Blind Identification of Source Cell-Phone Model}}\index{SVM}
+\subsubsection*{\cite[]{sensor:camera:blind}: \textit{Blind Identification of Source Cell-Phone Model}}\index{SVM}
 Using a probabilistic SVM classifier based on different features they manage to get good result (success rate on 95.1\%) even on images that are manipulated such cropped, resized or rotated. This however is a small scale experiment with more advanced techniques that not can be applied in authentication purposes rather in forensics. The thing to notice here is that the experiment is performed on cell-phones from 2008 when the pictures had less quality than today’s smart-phones.
 ~\cite[]{sensor:camera:blind}
 
-\subsubsection*{\cite{sensor:camera:DCIdent}: \textit{Digital Camera Identification}}
+\subsubsection*{\cite[]{sensor:camera:DCIdent}: \textit{Digital Camera Identification}}
 One of the experiments performed in this research included 150 devices with images that had random motives, zoom and other post-processing. The fingerprint consisted of the PRNU correlation and resulted in a false reject rate on 2.4\% and a false acceptance rate on 0.043\%. The difference to this work is the use of camera of a mobile device instead of a digital camera.
 ~\cite[]{sensor:camera:DCIdent}.

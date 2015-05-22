@@ -1,15 +1,15 @@
 \chapter{METHOD OF COLLECTING DATA}\label{cha:measurements}
-As the title of the chapter implies is this the part of~\textit{collect biometric data} in the biometric design cycle.\\
+As the title of the chapter implies this is the part of~\textit{collect biometric data} compared to the biometric design cycle. Can also be seen as a part of \textit{choose biometric characteristics}.\\
+This chapter describes the different measurements methods used for collecting the sensor data.\\
 \\
-In this chapter the methods used for testing the mobile devices for different characteristics is described in~\chapterref{cha:character}. Different test where performed to get sensor data to analyze for bias and characteristics. \\
+Overview of the tests performed:\\
+\textbf{Measurement I - Motion:} Collected accelerometer and gyroscope data by using a JavaScript web-page. The purpose to find out which of\\ \texttt{accelerationIncludingGravity} and \texttt{acceleration} is better in purpose of extract unique device characteristics.\\
 \\
-Overview of the tests performed:
-\begin{itemize}
-  \item[] \textbf{Measurement I - Motion:} Collected accelerometer and gyroscope data by using a JavaScript web-page. The purpose to find out which of \texttt{accelerationIncludingGravity} and \texttt{acceleration} is better in purpose of extract unique device characteristics.
-  \item[] \textbf{Measurement II - Motion:} Collected accelerometer and gyroscope data by using a JavaScript web-page. The purpose to find unique device characteristics from the sensors. 
-  \item[] \textbf{Measurement II - Camera:} Collect one video from each device and extract pictures frames from the video. Calculate and compare the PRNU of the extracted pictures. (The videos where collected in the same process as test II above).
-  \item[] \textbf{Measurement III - Camera:} Collected ten pictures instead of video from the device. 
-\end{itemize}
+\textbf{Measurement II - Motion:} Collected accelerometer and gyroscope data by using a JavaScript web-page. The purpose to find unique device characteristics from the sensors. \\
+\\
+\textbf{Measurement II - Camera:} Collect one video from each device and extract pictures frames from the video. Calculate and compare the PRNU of the extracted pictures. (The videos where collected by the same process as test II above).\\
+\\
+\textbf{Measurement III - Camera:} Collected ten pictures instead of a video from the device. 
 
 \section{Measurements of motion sensors in JavaScript}\label{sec:charMeasureSensor}\index{JavaScript}
 Measurements of sensors from mobile devices can be gather in different ways. In the work of this thesis a browser application in JavaScript is used for the data collection. \\
@@ -23,9 +23,9 @@ JavaScript has since the use of mobile devices adapted a lot of new features, wh
 \end{figure}
 
 \subsection{Accelerometer in JavaScript}\label{subsec:accJS}
-To get measurements from the accelerometer an event listener called \texttt{devicemotion} is added. The output from measurements is the acceleration force in $m/s^2$ according to x-, y- and z-axes as in~\figureref{fig:device-axes}. \\
+To get measurements from the accelerometer an event listener called\\\texttt{devicemotion} is added. The output from measurements is the acceleration force in $m/s^2$ according to x-, y- and z-axes as in~\figureref{fig:device-axes}. \\
 \\
-There are two types of accelerometer output in JavaScript, \texttt{accelerationIncludingGravity} and \texttt{acceleration}. The \texttt{accelerationIncludingGravity} is acceleration made by the device. In context to \texttt{acceleration} not depending on influence of gravity only by the acceleration made on the device. What this actually means is that if a device lies still with the screen facing upwards the \texttt{acceleration} output will be zero in x, y and z-axes but the \texttt{accelerationIncludingGravity} will be zero along x and y-axes, the z-axis will be equal to G. If you put the device in free fall with the screen facing upwards the acceleration is zero with \texttt{accelerationIncludingGravity} and x=0,y=0 and z=-G for the \texttt{acceleration}. \cite[]{sensor:W3Cspec} \\
+There are two types of accelerometer output in JavaScript,\\ \texttt{accelerationIncludingGravity} and \texttt{acceleration}. The acceleration including gravity is acceleration made by the device. In context to \texttt{acceleration} not depending on influence of gravity only by the acceleration made on the device. What this actually means is that if a device lies still with the screen facing upwards the \texttt{acceleration} output will be zero in x, y and z-axes but the \texttt{accelerationIncludingGravity} will be zero along x and y-axes, the z-axis will be equal to G. If you put the device in free fall with the screen facing upwards the acceleration is zero with \texttt{accelerationIncludingGravity} and x=0,y=0 and z=-G for the \texttt{acceleration}. \cite[]{sensor:W3Cspec} \\
 The rotation rate of the device is also available from the \texttt{devicemotion}, that is the acceleration ($m/s^2$) around the axes as seen in \figureref{fig:device-rot}. \\
 \\
 The JavaScript for measurements of the accelerometer:
@@ -34,7 +34,7 @@ The JavaScript for measurements of the accelerometer:
 
 
 \subsection{Gyroscope in JavaScript}\label{subsec:gyroJS}
-A listener is implemented in the same way as for the accelerometer, this listener is called \texttt{deviceorientation}. The output from this listener is made in degrees of rotation angle. JavaScript has named this rotations as the~\figureref{fig:device-rot} below.
+A listener is implemented in the same way as for the accelerometer. This listener is called \texttt{deviceorientation}. The output from this listener is given in degrees of the rotation angle. JavaScript has named these rotations as the~\figureref{fig:device-rot}.
 \begin{figure}[H]
   \hspace{-1cm}
   \centering
@@ -56,19 +56,17 @@ A listener is implemented in the same way as for the accelerometer, this listene
   \caption{The device rotation axes for the JavaScript \texttt{DeviceOrientation}}
   \label{fig:device-rot}
 \end{figure}
-Alpha is measured in the range of 0\degree to 360\degree around the z-axis, beta in in the range of -180\degree to 180\degree around x-axis and gamma in the range of -90\degree to 90\degree around y-axis.\\
-\\
-The JavaScript for measurements of the gyroscope:
-\lstinputlisting{code/gyro-listener.js}
-\cite[]{sensor:W3C}
+Alpha is measured in the range of 0\degree to 360\degree around the z-axis, beta in in the range of -180\degree to 180\degree around x-axis and gamma in the range of -90\degree to 90\degree around y-axis.\cite[]{sensor:W3C}
+\lstinputlisting[caption={JavaScript measurement of the gyroscope},label={code:JSgyro},language=JavaScript]{code/gyro-listener.js}
+
 
 \section{Measurement I - Motion}\label{sec:measurementI}
-The first measurement had the purpose to test the accelerometer with and without the impact of gravity. This with the purpose to see if any of them where a better choice in terms of characteristics uniqueness in the devices.\\
-The data were collected by developing a JavaScript web-page that used the listeners described in~\sectionref{subsec:accJS}. The test where completely diverse in sense of device platform and only required a browser installed and Internet connection. 
+The first measurement had the purpose to test the accelerometer with and without the impact of gravity. The purpose was to see if any of them was a better choice in terms of characteristics uniqueness in the devices.\\
+The data was collected by developing a JavaScript web-page that used the listeners described in~\sectionref{subsec:accJS}. The test where completely diverse in sense of device platform and only required a browser installed and Internet connection. 
 This only require that the measured device has Internet connection and a browser installed, no additional installations and completely cross-platform.\\
 \\
 The measurements required that the device where still on a flat surface, then started by pressed a button. It gathered 1000 samples of accelerometer data that where saved as a CSV-file for further analyzing. It also collected gyroscope data as well for possible future analyzing purposes. The screen-shots below shows the web-page while measuring and the right one when finished and ready to send. 
-\begin{figure}[H]
+\begin{figure}[!htb]
   \hspace{-2cm}
   \centering
   \begin{minipage}[c]{.23\textwidth}
@@ -89,13 +87,13 @@ The second measurements were also performed from a web-page using JavaScript to 
 \begin{enumerate}
   \item Adding time-stamp to every recording sample to know exactly recording frequency to enable further analyzing.
   \item Time based recording on 30 seconds instead of taking 1000 samples as in the first test (~\sectionref{sec:measurementI}).
-  \item It's also sampling at a lower rate of at least 10 ms instead of as fast as it could before to reduce the effect of other processes that may are in use on the device.
+  \item It is also sampling at a lower rate of at least 10 ms instead of as fast as it could before to reduce the effect of other processes that may are in use on the device.
   \item Accelerometer listener used is only \texttt{accelerationIncludingGravity}, due to results described in ~\sectionref{res:testI}.
   \item Added a listener for the gyroscope, ~\sectionref{subsec:gyroJS}.
   \item Collecting camera sensor by a five seconds black video, ~\sectionref{sec:measurement:camera}.
 \end{enumerate}
 
-\begin{figure}[H]
+\begin{figure}[!htb]
   \hspace{-2cm}
   \centering
   \begin{minipage}[c]{.23\textwidth}
@@ -112,16 +110,19 @@ The second measurements were also performed from a web-page using JavaScript to 
 \end{figure}
 
 \section{Camera measurements}\label{sec:measurement:camera}
-As most of the camera fingerprinting articles (REFERENSER!!) has mostly been in forensic purposes and not focusing on the measurability or integrity of the pictures. That is why some limitations has been made in these measurements. The black motive is used due to integrity, thus no information that could reveal the environment surrounding the camera is sent. Because of measurability (~\sectionref{auth:bio:character})) limited number of pictures that can be taken in a enrollment phase of a device fingerprinting authentication system.\\
-
-To measure the camera two measurements where gathered in both cases where the device on a flat surface which makes the camera result black. Both of this measurements is analysed by the PRNU-method used in~\cite[]{sensor:camera:DCIdent} described in~\sectionref{sec:ResCam}.
-\begin{enumerate}
-  \item \textbf{Black video:} The recommended number of pictures for camera fingerprinting is 50 ~\cite[]{sensor:camera:DCIdent}. But that is not a convenient gathering purposes, thus to ask someone to take 50 black photos and send will not make many answers. That’s why the first test asked for recording a 5 seconds video-recording with the camera towards a flat surface. This video is then shuttered into picture frames, 5 seconds generate 100-200 pictures depending on the recording rate of fps (frames per second).
-  \item \textbf{10 black pictures:} Simple as taking 10 pictures, also with the camera pointing down on a flat surface. Since~\cite[]{sensor:camera:DCIdent} where using pictures of diverse motive this aims to investigate if there may be enough with 10 pictures when the motive is the same.
-\end{enumerate}
+The research found on identifying a camera based on pictures has been in forensic purposes. The difference with forensics and to be used in an authentication to a system or application is that there are tighter limits to the time of an identification. Integrity is also a factor that comes into play for the system should be socially acceptable. \\
+That is why some limitations has been made in these measurements. The black motive is used due to integrity, thus no information that could reveal the environment surrounding the camera is sent. Because of having a socially acceptable system there are limited number of pictures that can be taken in an enrollment phase.\\
+\\
+To measure the camera two measurements where gathered. In both cases was the device put on a flat surface which makes the camera result black. Both of this measurements are analysed by the PRNU-method used in~\cite[]{sensor:camera:DCIdent} described in~\sectionref{sec:ResCam}.\\
+\\
+\textbf{Collecting I - Black video:}\\ 
+The recommended number of pictures for camera fingerprinting is 50 ~\cite[]{sensor:camera:DCIdent}. That is not a convenient gathering purposes, thus not many users would send 50 pictures in order to access a system or application. That is why the first test asked for recording a 5 seconds video-recording with the camera towards a flat surface. This video is then shuttered into picture frames, 5 seconds generate 100-200 pictures depending on the recording rate of fps (frames per second).\\
+\\
+\textbf{Collecting II - 10 black pictures:} \\
+Simple as taking 10 pictures, also with the camera pointing down on a flat surface. Since~\cite[]{sensor:camera:DCIdent} were using pictures of diverse motive this aims to investigate if there may be enough with 10 pictures when the motive is the same.
 
 Screen-shots from the camera-page of the second measurements:
-\begin{figure}[h!]
+\begin{figure}[!htb]
   \hspace{-2cm}
   \centering
   \begin{minipage}[c]{.23\textwidth}
@@ -142,10 +143,11 @@ For calculating the bias the MATLAB \texttt{medfilt2} is used, which is a 2-D me
   \input{fig/4-medfilt2.tex}
   \caption{\label{fig:medfilt2} the MATLAB \texttt{medfilt2} outputs the median of each pixel by its 3-by-3 neighbors}
 \end{figure}
-From the \texttt{medfilt2} is a picture gained without noise which is then subtracted from the original to get the noise. This technique works best if there are no features on the pictures such auto-fix, black and white etc. The more images used for the average value the better noise is, thus the amount random noise is less and the fixed noise is more. \cite[]{sensor:camera:DCIdent} recommend a minimum of 50 images. This is then seen as the reference pattern used for correlating the noise from another pictures. This correlation is calculated like:
+From the \texttt{medfilt2} is a picture gained without bias which is subtracted from the original. In this case the pictures without bias is removed from the original to obtain the bias. This technique works best if there are no features on the pictures such auto-fix, black and white etc. The more images used for the average value the more constant the bias gets and more of the random bias is removed. For calculating the PRNU there is a recommendation minimum of 50 picures. This is then seen as the reference pattern used for correlating the noise from another picture. This correlation is calculated like:
 $$
 corr(\boldsymbol{n},\boldsymbol{r}) = 
 \frac{(\boldsymbol{n} - \bar{\boldsymbol{n}})(\boldsymbol{r} - \bar{\boldsymbol{r}})}
 {\|\boldsymbol{n} - \bar{\boldsymbol{n}}\| \|\boldsymbol{r} - \bar{\boldsymbol{r}}\|}
 $$
+where $\boldsymbol{n}$ is the reference pattern and $\boldsymbol{r}$ the noise from another picture. 
 \cite[]{sensor:camera:DCIdent}
