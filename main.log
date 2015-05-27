@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.19)  27 FEB 2015 09:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.19)  26 MAY 2015 09:03
 entering extended mode
 **C:/Users/ankar5/Documents/thesis/main.tex
 (C:/Users/ankar5/Documents/thesis/main.tex
@@ -2726,7 +2726,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
 Here is how much of TeX's memory you used:
  26805 strings out of 495320
  471671 string characters out of 3181654
- 611004 words of memory out of 3000000
+ 610992 words of memory out of 3000000
  29082 multiletter control sequences out of 15000+200000
  225194 words of font info for 207 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -2754,7 +2754,7 @@ a/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpsya.pfb><C:/Program Files (x
 X 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
 ts/type1/urw/courier/ucrro8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (51 pages, 9821556 bytes).
+Output written on main.pdf (51 pages, 9823843 bytes).
 PDF statistics:
  991 PDF objects out of 1000 (max. 8388607)
  164 named destinations out of 1000 (max. 500000)
